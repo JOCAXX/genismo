@@ -1,0 +1,992 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head> <title>Genismo - Lógica</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<table width="751" height="1216" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="751" height="1216" valign="top"> 
+      <blockquote> 
+        <p align="center" class="MsoNormal"><img src="titutogenismo.gif" width="691" height="55"><font color="#0000FF" size="5" face="Arial, Helvetica, sans-serif"> 
+          <br>
+          Tudo é um Jogo<br>
+        </font><font face="Arial" size="3">da revista superinteresante</font><font color="#0000FF" size="5" face="Arial, Helvetica, sans-serif"> 
+          <br>
+        </font> </p>
+        <blockquote>
+          <p class="MsoNormal"><font face="Arial" size="3"><O>
+          </O>
+          </font></p>
+          <p class="MsoNormal"><font face="Arial" size="3">— Você está
+          estacionando o carro e... — crassshh — amassa o paralama daquele
+          reluzente BMW ao lado. Ninguém viu. Você, um cara decente, pensa em
+          deixar um bilhete se identificando e assumindo a responsabilidade.
+          Mas, espera aí. É um BMW. O dono certamente tem dinheiro, e não
+          estaria dirigindo um carro desses por aí se não tivesse seguro. Essa
+          batidinha para ele não será nada, mas para você.….</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">— Já é tarde da
+          noite e você está na estação do metrô. Ninguém por perto. Por
+          que não saltar a roleta e viajar sem pagar? É claro que a companhia
+          do metrô não vai quebrar se você fizer isso. Os trens circulam com
+          ou sem passageiros. Por que não saltar a roleta?</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Há uma infinidade de
+          situações em que o interesse individual se choca com o coletivo. No
+          caso do carro em que você bateu, o seguro paga e repassa o custo para
+          os prêmios que cobra. Não assumindo o prejuízo, você acaba
+          penalizando gente que nada tem a ver com isso. O caso do metrô é idêntico:
+          engrossando as estatísticas dos que não pagam, você contribui para
+          o aumento das passagens dos que pagam.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Esse é um dilema
+          freqüente nas organizações — na família, na empresas, entre nações.
+          Ele surge de um impulso com o qual todo mundo lida em inúmeras
+          circunstâncias: a tendência a satisfazer o interesse individual
+          agindo de uma forma que, se todos imitassem, seria catastrófica para
+          todos.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Que jogos são esses?</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Esse tema é tão
+          recorrente, que há mais de cinquenta anos vem merecendo a atenção
+          de cientistas. John Nash — o matemático interpretado por Russel
+          Crowe no filme &quot;Uma Mente Brilhante&quot; — ganhou o prêmio
+          Nobel de economia, por ter ajudado a desvendar parte da dinâmica
+          desse tipo de situação, usando um ramo da matemática aplicada
+          chamado teoria dos jogos. O filme, aliás, não dá qualquer dica
+          sobre a originalidade e ousadia de seu trabalho-o cara existiu
+          (existe, está vivo), superou a esquizofrenia e ganhou mesmo o Nobel,
+          mas o resto (como em Titanic e outros) — é puro cinema.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">O objetivo da teoria
+          dos jogos é lançar luz sobre conflitos de interesse e ajudar a
+          responder ao seguinte: o que é preciso para haver colaboração? Em
+          quais circunstâncias o mais racional é não colaborar? Que políticas
+          devem ser adotadas para garantir a colaboração?</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Pense em alguma polêmica
+          atual — Alca, Protocolo de Kyoto, as cotas americanas para o aço...
+          Todas são situações em que conflitos de interesses têm de ser
+          equacionados. Jogos assim, são profundamente ligados à vida em
+          sociedade. Sempre foram, mas hoje, num mundo hiper-conectado, são
+          mais.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Nem precisamos ir tão
+          longe, os insights que se obtêm da teoria dos jogos podem nos ajudar
+          a entender vários casos brasileiros atuais: o quase-apagão, o que
+          está acontecendo na campanha eleitoral, e até no Big Brother/Casa
+          dos Artistas.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">A teoria dos jogos
+          constata que conflitos de interesse acontecem por que a regra geral é
+          maximizar, prioritariamente, o ganho individual. Esse é seu ponto de
+          partida, mas não vá pensar que se trata de falta de solidariedade ou
+          civismo. É mais fundamental que isso. Nem as mais civilizadas
+          sociedades conseguiram resolver esse dilema. É claro que se todos se
+          comportassem de forma altruísta (pelo bem do grupo) não haveria
+          dilema algum, mas a vida real não é assim.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3"><O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">A teoria dos jogos é
+          um arcabouço matemático que trata das estratégias que se usa quando
+          há &quot;alguém&quot; em conflito de interesses com outro &quot;alguém&quot;.
+          Não tem nada a ver com moralidade, com &quot;bem ou mal&quot;, ou com
+          &quot;certo e errado&quot;. Tem a ver só com matemática . Ela trata,
+          simplesmente, de jogadores fazendo de tudo para maximizar as chances
+          de um certo resultado. Voltarei logo a isso.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Jogos de amigos.
+          Amigos?</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Empresas, países,
+          organizações, pessoas, envolvem-se o tempo todo em situações
+          potencialmente conflituosas. Jogos.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Se você vai jantar
+          com três amigos, e combinam com antecedência rachar a conta, você
+          vai, muito provavelmente, gastar o mesmo que gastaria se cada um
+          pagasse só o que consumiu. Há um acordo implícito para isso.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Como você sabe que
+          vai arcar com 25% da conta, e como quer manter uma relação de
+          confiança com seus amigos, você escolhe pratos que custem mais ou
+          menos o mesmo que os que seus colegas pediram (se um &quot;amigo&quot;
+          mais malandro resolve pedir lagosta ao forno, depois que todo mundo
+          pediu pizza, ele será considerado não confiável, e perderá a condição
+          de amigo).</font></p>
+          <p class="MsoNormal"><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Já no almoço de fim
+          de ano do escritório com umas 30 pessoas — a coisa é diferente.
+          Você, que está meio duro, pensa em pedir um cheeseburguer, mas os
+          primeiros a pedir escolhem filé mingnon e camarões gratinados.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Você sabe que vai
+          pagar só 3% da conta, independente do que comer, e muda rapidinho —
+          &quot;Vitela especial para mim, seu garçon&quot;. O custo incremental
+          para seus colegas vai ser mínimo, e você vai ter uma refeição
+          muito melhor. Mas, como todo mundo pensa assim, o grupo acaba por
+          gastar muito mais do que teria gasto se cada um pagasse
+          individualmente pelo que consumisse, ou se o grupo tivesse se dividido
+          por várias mesas menores. Não foi culpa de ninguém. As coisas
+          simplesmente aconteceram assim. O grupo explorou a si mesmo. A decisão
+          racional de cada indivíduo, leva a um resultado irracional (negativo)
+          para o grupo.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Tecnicamente, por razões
+          históricas, chamam esse tipo de jogo de &quot;tragédia dos
+          comuns&quot; .Exploração de recursos coletivos sempre leva a tragédias
+          dos comuns, e elas só podem ser evitadas introduzindo-se regras para
+          que os participantes sejam recompensados por agir de forma altruísta.
+          Quer dizer, o altruísmo é &quot;comprado&quot;, de certa forma.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">É isso que a teoria
+          dos jogos mostra, e é isso que a história confirma.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Imagine vários
+          fazendeiros cujas vacas pastam no mesmo pasto. Se não há regras,
+          cada um deles vai tentar colocar o maior número possível de cabeças
+          de gado ali, o que levará à destruição do pasto e à morte dos
+          animais. A atitude predominante é: &quot;deixa eu botar mais uma
+          vaquinha aqui, por que se eu não o fizer, alguém fará&quot;.
+          Perfeitamente racional, claro; mas…</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">A maneira certa de
+          evitar essa tragédia dos comuns, é dividir o pasto — que é um
+          recurso coletivo — entre os fazendeiros, de modo que cada um deles
+          tenha uma área definida para suas vacas, e não apenas colha os benefícios,
+          mas também arque com os custos de sua preservação. Ou seja: a solução
+          é privatizar o pasto. Essa é a razão pela qual as terras das
+          fazendas são cercadas. Mares, rios, o ar que respiramos, as
+          florestas.. tudo isso é recurso coletivo. Você já sabe o que
+          acontece se não houverem regras que impliquem em incentivo (ou punição
+          , dá no mesmo) à sua preservação.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Jogos de brasileiros</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Foi precisamente esse
+          o jogo no episódio do racionamento de energia.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Ameaçando com
+          sobretaxas individuais e cortes de fornecimento idem, o governo
+          transferiu para cada cidadão a responsabilidade por algo que até então
+          era percebido como sendo de todo mundo. &quot;Cercou o pasto&quot; da
+          energia elétrica. Usou a solução clássica para tragédias dos
+          comuns, e deu sorte também: foi muito ajudado não só pelas chuvas,
+          mas por algo de cuja importância até então não se tinha idéia:
+          cada &quot;Zé&quot; individual, percebeu que poderia deixar de gastar
+          uma boa grana — sem tornar a vida especialmente miseráve — se
+          cooperasse. Isto é: descobrimos que era do nosso interesse colaborar.
+          John Nash diria que governo e sociedade atingiram uma &quot;estratégia
+          de equilíbrio&quot;. Nesse caso, os interesses deixam de ser
+          conflitantes, por que é vantajoso cooperar.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Examine os jornais de
+          hoje. Aposto que boa parte do que é notícia, pode ter sua dinâmica
+          esclarecida pela teoria dos jogos. Conflito de interesses, afinal, é
+          o que há, certo? Por exemplo: de meados de fevereiro aos primeiros
+          dias de março, o que foi notícia no Brasil? O fim do racionamento de
+          energia, a aliança PT-PL , a reação do PFL na crise gerada pela
+          invasão do escritório do marido da Roseana, e, claro, quem vai ser
+          eliminado no Big Brother e Casa dos Artistas. Pratos cheios
+          (transbordantes) de conflitos de interesse. No caso do nosso
+          quase-apagão, já vimos, os jogadores acabaram cooperando. O
+          incentivo econômico para isso foi muito forte.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Qual a utilidade do
+          jogo?</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Ok, incentivo econômico
+          é um termo vago. John Von Neumann inventou, e John Nash, depois,
+          usou, uma formulação que vai além: utilidade ou função utilidade
+          como dizem os matemáticos. Jogadores sempre buscam certos resultados
+          em detrimento de outros. Essas preferências são chamadas de
+          utilidade. Utilidade é o que os jogadores querem no fundo de suas
+          almas. Aquilo que &quot;tanto mais eu tiver melhor&quot;. A utilidade
+          que você atribui a um certo resultado é que determina sua estratégia
+          no jogo. Agir racionalmente (no contexto da teoria dos jogos),
+          significa agir de modo a maximizar a utilidade.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Pense na utilidade
+          como sendo pontos que você quer acumular. Se você joga pôquer
+          valendo palitos de fósforos, então a utilidade é a quantidade de
+          palitos que você junta. Quando se joga por dinheiro, ele é a
+          utilidade. A utilidade para os políticos é sempre o poder.</font></p>
+          <p class="MsoNormal"><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Jogos eleitorais</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Veja o PT na campanha
+          presidencial - um jogo que até agora (escrevo no início de março de
+          2002) sinaliza um desfecho desfavorável para o partido. O PT não tem
+          consenso sobre como maximizar a utilidade(votos) do jogo. Sem consenso
+          sobre isso, não há como montar uma estratégia, e sem estratégia só
+          se vence por sorte. Em fevereiro, a direção do PT articulara uma
+          aliança com o PL. Alianças são muito racionais em eleições, e é
+          por isso que são feitas. Boa parte do partido, porém, não admite
+          que ganhar votos seja &quot;só o que conta numa eleição&quot;, e
+          botou a boca no mundo.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">O PFL, por seu lado,
+          é o oposto. Seus políticos são chamados de
+          &quot;profissionais&quot; exatamente porque admitem sem escrúpulos o
+          que querem maximizar: votos. Estão nas esferas mais altas do poder há
+          mais tempo do que qualquer outro partido. Quando as primeiras
+          pesquisas sinalizaram que Roseana podia ter chances, o PFL foi logo
+          avisando que seu apoio ao candidato do governo poderia ficar para o
+          segundo turno — iria tentar ganhar liderando a chapa, não fazendo só
+          o vice. Fez beicinho no episódio da invasão do escritório do Jorge
+          (&quot;querida, encolhi suas chances&quot;) Murad, saiu do governo,
+          mas é pragmático demais — deixou a porta aberta para alianças no
+          segundo turno. Não têm dúvida sobre o que quer: o poder.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Tipos de jogos</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">O inventor da teoria
+          dos jogos foi o húngaro radicado nos EUA — John Von Neumann na década
+          de 1940 Sua grande contribuição foi nos chamados jogos de soma zero.
+          É quando a vitória de um ,significa, necessariamente, a derrota de
+          outro — como no xadrez ou no jogo da velha. Em jogos de soma zero, não
+          há possibilidade de colaboração. Nessas circunstâncias, Von
+          Neumann provou que há sempre um curso racional de ação para cada
+          jogador.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">John Nash, por seu
+          lado, tratou de situações em que o mais racional é colaborar. A única
+          menção a isso em &quot;Uma mente brilhante&quot; é uma cena, num
+          bar, em que ele convence seus ultra-competitivos colegas, a não
+          tentarem conquistar todos a mesma moça. O mais racional seria
+          distribuirem seus esforços escolhendo alvos diferentes. Não se
+          tratava de um jogo de soma zero, afinal.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Von Neumnan não
+          estava interessado em xadrez porque &quot;esse tipo de jogo nada tem a
+          ver com a vida real&quot;, segundo ele. Pôquer era algo mais próximo
+          do que ele queria tratar, porque, no pôquer, o blefe é mais
+          fundamental. Ele estava interessado na trapaça, no blefe, nas
+          pequenas táticas de dissimulação, na desconfiança, na traição.
+          Falei em campanha eleitoral? Casa dos Artistas e Big Brother? É isso
+          aí.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Sua genialidade foi
+          perceber que a dissimulação não só é algo racional em jogos de
+          soma-zero, mas também que ela é tratável matematicamente. Sua
+          teoria dos jogos lida com seres racionais e desconfiados querendo
+          &quot;se dar bem&quot; a todo custo. Pense no jogo particular que um
+          goleiro joga contra um batedor de penalty. O batedor tem todo
+          interesse em que o goleiro pense que ele vai chutar num certo canto, e
+          então, chuta no outro. Dissimular é uma estratégia racional para o
+          batedor. O mesmo vale para o goleiro, que tentará fazer com que o
+          batedor acredite que ele se atirará para um certo lado. Dissimulação
+          e fingimento são parte do talento que eles têm que ter. Em jogos de
+          soma zero, jogadores racionais têm que blefar.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Jogos de família</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Na verdade, a teoria
+          dos jogos é sobre estratégias, ou seja: sobre o quê fazer para
+          obter certos resultados. Nem sempre é preciso matemática para
+          descobrir, e nem sempre, quando a matemática descobre, a gente
+          consegue fazer o que ela manda. É aí que a coisa fica interessante;
+          vamos ver… Uma viúva tinha duas filhas. Todo dia, ao voltar para
+          casa, trazia um pedaço de bolo, e se esforçava para dividi-lo em
+          duas fatias exatamente iguais. Cada filha, porém, sempre achava que a
+          mãe dera o maior pedaço à outra. A mãe sofria. As duas – com
+          aquele maquiavelismo típico de crianças que percebem que os pais são
+          manipuláveis – atormentavam a pobre mulher. Era um jogo. Um jogo fácil
+          de resolver através da lógica: bastaria pedir a uma das filhas que
+          dividisse o bolo, e que a outra fizesse a escolha primeiro. Pronto.
+          Fim da chantagem sentimental. Ninguém poderia reclamar de ninguém.
+          Realmente há casos em que a fria lógica é melhor, mas será sempre?
+          Infelizmente não. Indiana Jones que o diga.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Jogos do Indiana
+          Jones</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Você se lembra do
+          filme &quot;Indiana Jones e a última Cruzada &quot;?</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Nosso herói Indiana
+          junto com seu pai, mais um bando de nazistas (como o cinema criaria
+          seus vilões sem nazistas?) chegam ao local onde está escondido o
+          Santo Graal. O velho Indiana tinha levado um tiro e sangrava um
+          bocado. Só o poder de cura do cálice sagrado poderia salvá-lo da
+          morte. Num clima de alta tensão, os dois Jones e os nazistas disputam
+          palmo a palmo a primazia de chegar a ele.</font></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Mas há um desafio
+          final: há vários cálices, e só o cálice certo dá a vida eterna,
+          qualquer escolha errada conduz à morte. O nazistão chega primeiro.
+          Escolhe um lindo cálice de ouro cravejado de brilhantes, bebe a
+          &quot;água santa&quot; e morre &quot;aquela morte cinematográfica
+          que é conseqüência das escolhas erradas&quot; - como dizem os
+          autores do livro de onde tirei esse exemplo. Indiana escolhe um tosco
+          cálice de madeira, mas hesita: &quot;só há um jeito de saber&quot;,
+          diz ele. Mergulha o cálice na fonte, bebe, e …acerta! Indiana leva
+          o cálice ao velho (esses velhos de hoje, demoram muito para morrer,
+          viu leitor?) e cura suas feridas mortais. Cenas excitantes, mas,
+          lamento dizer, Indiana usou a estratégia errada. Ele deveria ter
+          levado primeiro o cálice ao pai, sem prová-lo antes. Se tivesse
+          escolhido o cálice certo, seu pai estaria salvo de qualquer forma; se
+          tivesse escolhido errado, bem... o velho morreria mas ele se salvaria.
+          Do jeito que agiu, se tivesse escolhido o cálice errado, não haveria
+          segunda chance — Indiana morreria por causa do cálice e seu pai por
+          causa de seus ferimentos.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Agora, imagine algo
+          que não está no filme mas poderia estar na vida real. Indiana faz a
+          opção racional. Escolhe, leva o cálice primeiro ao pai ferido, e
+          ...esse morre. &quot;Bem&quot; , pensaria ele, &quot;eu tentei. De
+          nada adiantaria ter bebido primeiro por que agora eu e meu pai estaríamos
+          mortos. Tenho certeza de que o velho aprovaria o que fiz. Foi a
+          escolha lógica&quot;. Indiana tenta racionalizar a situação, mas o
+          ser humano que nós conhecemos comportar-se assim? Analisa
+          racionalmente vários cursos de ação e escolher – friamente – o
+          mais adequado? A culpa começa a perseguir nosso herói. Ele sonha
+          toda noite com o velho estrebuchando diante dele. Acorda encharcado de
+          suor. Não consegue convencer-se de que fez realmente a melhor
+          escolha. Entra em depressão. Fica impotente (sem um certo exagero
+          dramático essas histórias não têm graça). Começa a beber. A
+          mulher o abandona (ninguém agüenta heróis deprimidos). Procura
+          terapias alternativas. Lê livros de auto-ajuda…coitado do Indiana.
+          A racionalidade, a escolha lógica, nem sempre resolvem.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">A matemática da
+          teoria dos jogos trata rigorosamente de conflitos reais, mas não dá
+          garantia de sucesso, só dá a garantia da lógica. Infelizmente,
+          sucesso e lógica não andam necessariamente juntos. Levar em conta o
+          ser humano como ele realmente é, implica em levar em conta sua emoção.
+          Ela tem que ser parte do jogo, e é. Continue lendo...</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">O jogo que explica os
+          jogos</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Eu disse no início,
+          que a raiz dos conflitos de interesse é a tendência de se maximizar
+          o ganho individual, mas, tem de haver algo além da pura racionalidade
+          auto-interesseira, se não, a vida em sociedade seria impossível.
+          Essa questão é muito bem captada por um jogo que se chama &quot;O
+          dilema do prisioneiro&quot; — formulado e estudado na década de
+          1950 por matemáticos de Princeton, a mesma universidade de Einstein,
+          Von Neumann e Nash. É assim: dois criminosos praticam um crime
+          juntos. São presos e interrogados separadamente. A polícia não tem
+          provas contra eles, e a única forma de condená-los é um acusar o
+          outro. Cada prisioneiro tem uma escolha: calar ou acusar o
+          companheiro. Se os dois permanecerem calados, ambos serão postos em
+          liberdade. A polícia, querendo uma solução rápida para se livrar
+          da pressão da opinião pública, fornece alguns incentivos: o
+          prisioneiro que denunciar o outro ganha a liberdade, e ainda por cima
+          leva um prêmio em dinheiro. O outro pegará prisão perpétua, e
+          ainda terá de pagar o prêmio ao delator. Se os dois acusarem-se
+          mutuamente, os dois serão condenados. Qual a escolha lógica? Ambos
+          começam a pensar. O melhor a fazer é calar, pois ambos serão
+          soltos. Mas o prisioneiro A sabe que B está pensando a mesma coisa, e
+          sabendo que não pode confiar no colega, percebe que o menos arriscado
+          é denunciar B. Sim, pois se esse calar, A ainda assim estará livre
+          (e com o dinheiro da recompensa). Se o outro igualmente denunciá-lo,
+          bem.... A teria de cumprir pena de qualquer forma- pelo menos não
+          ficará com cara de bobo na prisão.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Acontece que B pensa
+          exatamente da mesma maneira. Resultado: ambos são levados pela fria lógica,
+          para o pior resultado possível: traição mútua e prisão. Lembra
+          daqueles exemplos de pessoas rachando a conta no restaurante? São
+          dilemas do prisioneiro jogados por grupos de mais de duas pessoas. O
+          racional é eu pedir lagosta (trair) depois que os outros pediram
+          pizza (cooperaram). Por quê não agimos (racionalmente) assim? Um
+          cientista chamado Robert Axelrod descobriu. Para investigar o dilema
+          do prisioneiro mais a fundo, ele promoveu um torneio em que os
+          participantes apresentariam programas de computador representando os
+          prisioneiros. Os vários programas seriam confrontados aos pares, e
+          cada um deles escolheria trair (dedurar) ou cooperar (calar )em cada
+          encontro.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Havia um detalhe porém:
+          em vez de jogar uma única vez , cada par de programas jogaria um
+          contra o outro duzentas vezes seguidas. Essa seria uma maneira mais
+          realista de representar o tipo de relacionamento continuado a que
+          estamos acostumados na vida real. Note que num dilema do prisioneiro,
+          o melhor para cada jogador é trair enquanto o oponente coopera (a
+          tentação de trair tem que ser grande). O pior para cada jogador é
+          quando ele coopera enquanto o outro trai. Finalmente, a recompensa
+          pela cooperação mútua tem que ser maior que a punição pela traição
+          mútua.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Axelrod atribuiu
+          pontos a cada situação dessas. Venceria o programa que acumulasse
+          mais pontos depois de enfrentar cada adversário duzentas vezes
+          seguidas. Todos os tipos de estratégia poderiam ser representados:
+          por exemplo, um programa adotando uma estratégia &quot;generosa&quot;
+          que sempre perdoasse as traições do outro. Uma estratégia &quot;cínica&quot;,
+          que perdoasse traições até um certo confronto (até a centésima
+          partida, digamos), dando a impressão de ser boazinha, e, depois, traísse
+          sistematicamente até o fim. Uma que sempre traisse. Uma que traisse e
+          perdoasse alternadamente. Enfim, as possibilidades eram infinitas. Que
+          estratégia acumulou mais pontos?</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">A regra do jogo</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">De todos os programas
+          participantes, alguns continham estratégias muito complexas, mas o
+          vencedor, para surpresa geral, foi um que adotava uma estratégia
+          muito simples chamada TIT FOR TAT, que em tradução livre significa
+          &quot;olho por olho&quot;. TIT FOR TAT é um programa de apenas quatro
+          linhas. Sempre começa cooperando, e depois faz exatamente o que o
+          oponente tiver feito no lance anterior : trai, se tiver sido traída,
+          e coopera caso tenha obtido cooperação. TIT FOR TAT tem quatro
+          características (entre parêntesis está a terminologia usada no
+          trabalho original em inglês):<span>&nbsp;&nbsp;</span></font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">1 — É
+          &quot;bacana&quot; (nice) — nunca trai primeiro;</font></p>
+          <p class="MsoNormal"><font face="Arial" size="3">2 — É &quot;
+          vingativa&quot; (tough) — nunca deixa passar uma traição sem
+          retaliar na mesma moeda no lance seguinte.</font></p>
+          <p class="MsoNormal"><font face="Arial" size="3">3 — É
+          &quot;generosa&quot; (forgiving). Se após a traição e conseqüente
+          retaliação, o oponente passar a se comportar bem, TITFOR TAT esquece
+          o passado e se engaja num comportamento cooperativo</font></p>
+          <p class="MsoNormal"><font face="Arial" size="3">4 — É
+          &quot;transparente&quot; (clear). É uma estratégia simples o
+          suficiente para permitir ao oponente notar de imediato com que tipo de
+          comportamento está lidando. Não há truque, nem &quot;jogada&quot;.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Depois que apareceu
+          como vencedora, TIT FOR TAT foi desafiada e venceu mesmo em torneios
+          em que os demais competidores apresentaram programas desenhados
+          especificamente para batê-la. Com toda sua simplicidade, TIT FOR TAT
+          pode realmente levar à cooperação em uma grande variedade de situações,
+          algumas muito improváveis. Por exemplo, a estratégia &quot;viva e
+          deixe viver&quot; (live and let live) que apareceu espontaneamente nas
+          tricheiras na primeira guerra mundial: unidades inimigas, frente a
+          frente por meses a fio, evitavam dar o primeiro tiro. Apesar de não
+          haver comunicação formal, e de serem inimigas, o compromisso tácito
+          que surgiu foi: &quot;se você não atirar eu não atiro&quot;. O fato
+          de os mesmos soldados estarem convivendo na mesma situação por vários
+          meses, levou ao acordo para a cooperação.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Jogos de morcegos</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Mesmo quando não há
+          comportamento consciente envolvido, TIT FOR TAT (daqui para a frente
+          TFT) pode ser adotada. Certas espécies de morcegos vampiros saem em
+          bandos à noite para sugar sangue de cavalos, ovelhas... Nem todos
+          conseguem. É comum alguns morcegos que conseguiram mais do que
+          necessitavam, regurgitarem o excesso de sangue para algum colega que não
+          conseguiu nada. O colega, dias depois, retribui o favor. Eles se
+          reconhecem na multidão de morcegos. Reputação conta e muito. TFT é
+          isso. Como há um lapso de tempo entre a boa ação e a retribuição
+          a ela, esses morcegos têm que ter boa memória. Há dezenas de
+          exemplos análogos. Colabore comigo hoje, que eu retribuo amanhã.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3"><span>&nbsp;</span>Jogos
+          de guerra</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Os soldados na
+          trincheira e os morcegos cooperativos ilustram algo importantíssimo.
+          Para que TFT possa se instaurar, a relação entre os jogadores tem
+          que ter uma perspectiva concreta de durar muito tempo. Tem que haver
+          uma grande probabilidade de haver novos encontros no futuro. A sombra
+          do futuro tem que ser longa, como dizem os especialistas. Se não
+          for... bem se não for você já sabe-o racional é trair. Lembre-se
+          dos soldados na trincheira. Lembre-se de quando você amassou aquele
+          BMW no início. Claro, você saiu de fininho. Nunca mais iria ver o
+          proprietário mesmo...</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Jogos de bactérias</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Bactérias são outro
+          exemplo. Bactérias não têm cérebro. De um ponto de vista
+          darwiniano, elas são os seres vivos mais bem sucedidos que há.
+          Existem há bilhões de anos, e têm uma capacidade de replicação
+          incrível. Você, leitor, hospeda em suas entranhas bilhões delas. Há
+          mais bactérias vivendo dentro de você do que há seres humanos na
+          Terra.</font></p>
+          <p class="MsoNormal"><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Nas palavras do biólogo
+          inglês, Richard Dawkins, elas estão: provavelmente envolvidas em
+          dilemas do prisioneiro com os organismos que as hospedam.....Bactérias
+          que normalmente são inofensivas, e mesmo benéficas, podem tornar-se
+          malignas e até provocar septicemias letais numa pessoa ferida. Um médico
+          diria que a &quot;resistência natural&quot; da pessoa ferida diminuiu
+          por causa do ferimento, mas talvez a causa real tenha a ver com jogos
+          tipo dilema do prisioneiro.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Será que não
+          poderemos ver as bactérias que hospedamos como seres que normalmente
+          têm algo a ganhar, mas preferem se conter? No jogo entre bactérias e
+          seres humanos, a &quot;sombra do futuro&quot; é normalmente longa,
+          pois, tipicamente se espera que uma pessoa viva muito tempo. Porém,
+          alguém seriamente ferido está sinalizando que potencialmente a
+          sombra do futuro para a relação com a bactéria, encolheu. A tentação
+          de trair começa a aparecer (para as bactérias) como uma opção mais
+          atraente que a recompensa pela cooperação mútua. Não é que as
+          bactérias &quot; imaginem&quot; tudo isso em suas cabeças maldosas!
+          A seleção natural atuando em cima de várias gerações de bactérias
+          embutiu nelas uma regra prática, inconsciente, que opera através de
+          meios puramente bioquímicos</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Resumindo: de alguma
+          forma as bactérias ficam sensíveis ao fato de que a &quot;sombra do
+          futuro&quot; diminuiu. A relação pode acabar mais cedo do que o
+          esperado. O ferimento no organismo hospedeiro fez com que ele emitisse
+          alguns sinais (químicos). As bactérias decodificam esses sinais que
+          estão dizendo simplesmente: &quot;estou ferido; posso vir a
+          morrer&quot;. E você sabe, leitor, se a relação tem data para
+          terminar, o &quot;racional é trair&quot;. É isso que as bactérias
+          fazem.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Jogos no fundo do mar</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Uma maneira de forçar
+          a colaboração é alongar a &quot;sombra do futuro&quot;. Isso se faz
+          , por exemplo, aumentando aos poucos a freqüência da interação
+          entre os jogadores, fazendo-os levar em conta que &quot;logo vou
+          encontrar esse cara de novo&quot; . Nos bancos de coral do Panamá
+          vive um tipo de peixe em que não há distinção sexual. É uma espécie
+          hermafrodita. Todos os membros são macho/fêmea e alternam
+          periodicamente seus papéis sexuais. Durante a fase inicial do
+          acasalamento, cada peixe do par faz o papel de fêmea, e o outro o de
+          macho. Mas cada &quot;fêmea&quot; põe apenas um pequeno número de
+          ovos de cada vez, até que, através da relação continuada, o
+          &quot;macho&quot; demonstre que não vai cair fora depois de os ter
+          fertilizado. Assim ele está dando garantias de que vai fazer o papel
+          de fêmea quando chegar sua vez. Só à medida em que cresce a confiança
+          entre os membros do par é que ambos os peixes começam a pôr
+          quantidades maiores de ovos, confiando cada vez mais que não serão
+          traídos.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">O padrão de
+          comportamento de seqüestradores e vítimas que, após longo tempo em
+          contato, acabam desenvolvendo formas de simpatia (colaboração) mútua
+          — a chamada síndrome de Estocolmo — talvez tenha a ver com essa
+          influência da &quot;sombra do futuro&quot;. Quem sabe algum psicólogo
+          se interessa por investigar esse fenômeno à luz da teoria dos jogos?</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Jogos do poder</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Depois das bactérias,
+          vejamos os políticos (admito: alguns têm cérebro). Ninguém faz
+          acordo com um político sem chance de se reeleger pois não haveria
+          chance para a retribuição no futuro. A cooperação de TFT só
+          existe com base na perspectiva de retribuição, sem isso nada feito.
+          Depois que o Collor mostrou que tinha condições de ganhar em 1990,
+          choveram empresários interessados em contribuir para a campanha; mas
+          só depois. Quando um executivo cai em desgraça não há acordos possíveis
+          com seus colegas, pois seu poder tem data marcada para acabar.
+          Empresas em má situação não conseguem negociar prazos ou créditos
+          com fornecedores. Casais que já decidiram se separar mergulham freqüentemente
+          num mar de mesquinharias. Escondem migalhas um do outro; brigam até
+          por guardanapos. Quando a relação tem data marcada para acabar —
+          quando a &quot;sombra do futuro&quot; é curta — a traição é o
+          racional. A tentação de trair (não cooperar) fica irresistível.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Jogos de humanos</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">TFT porém tem um
+          grave problema: se ela tivesse sido a estratégia preferencial da
+          evolução, nós humanos não teríamos aparecido como produto dela. Não
+          do jeito que somos. TFT não é capaz de perceber quando alguém erra
+          involuntariamente - é fria demais. Se calhar de dois jogadores TFT
+          entrarem em sintonia, tudo bem, começa o jogo da reciprocidade; mas,
+          se por acidente ou engano, um deles trai, tem início uma série
+          infinita de traições mútuas da qual não se escapa. Lembre-se que o
+          resultado da traição mútua é o pior possível para os jogadores.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">O animal humano em
+          suas interações sociais é complexo e sutil. Não é um traidor
+          inveterado. Pelo contrário, busca a cooperação porque de alguma
+          forma percebe que isso é melhor a longo prazo. Damos gorjetas a garçons
+          que nunca mais veremos. Votamos em eleições. Doamos sangue.</font></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Cumprimentamos
+          estranhos com sorrisos. Todas essas ações são perfeitamente
+          irracionais no sentido da teoria dos jogos. Tentamos ao máximo
+          parecer confiáveis, simpáticos, compreensivos, assim como quem diz:
+          &quot;pode jogar comigo, sou confiável&quot;. Por que fazemos isso?
+          Talvez, porque busquemos reciprocidade fazendo essas coisas. Através
+          delas pode-se tirar o máximo proveito da vida em sociedade
+          colaborando nos dilemas do prisioneiro que surgem a toda hora.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Jogos da emoção</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">TFT pode ter sido o
+          início, o &quot;pé na porta&quot;, mas depois deve ter evoluído
+          para algo que permita distinguir o erro involuntário da má-fé
+          premeditada, levando-nos a perdoar o erro e só retaliar a
+          malandragem. Como a evolução fez isso? Uma hipótese bacana diz que
+          foi embutindo emoção no equipamento mental dos humanos.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Você se lembra de
+          TFT nas trincheiras da primeira guerra. Ingleses e alemães, frente a
+          frente, mantinham tacitamente um cessar-fogo. Axelrod relata um episódio
+          em que, por engano, a trégua foi rompida por tiros vindos do lado dos
+          alemães. Era uma traição clara, e como bons jogadores TFT os
+          ingleses estavam prontos para retaliar. Mas aí veio um emocionado e
+          imediato pedido de desculpas de um soldado alemão, que, aos gritos
+          dizia: &quot;sentirmos muito, a culpa pelos disparos não é nossa, é
+          de soldados de outra unidade- aqueles miseráveis artilheiros
+          prussianos&quot;. Isso fez com que a trégua fosse mantida. Naquele
+          momento, o que restaurou o equilíbrio na trincheira foi a reafirmação
+          dos alemães do compromisso de continuar jogando o jogo como antes. O
+          que levou os ingleses a acreditarem? Foi a forma pela qual o pedido de
+          desculpas foi feito. A emoção fez com que o compromisso anunciado
+          ficasse crível. Naquele momento os ingleses estavam superando TFT.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Para o economista
+          Robert Frank, da Cornell University, emoção é algo que surgiu no
+          processo evolucionário para nos habilitar a jogar o jogo social,
+          garantindo credibilidade a nossos compromissos. Através das emoções,
+          provamos — para além das palavras — que somos jogadores confiáveis:
+          jogue comigo, eu não trapaceio. Você já notou como juramentos estão
+          presentes em nossas vidas? Eles são indispensáveis em interações
+          sociais em todos os níveis. Um especialista comenta que juramentos
+          existem &quot;em todos os povos e em todas as culturas. São indispensáveis
+          no nível econômico, no jurídico, no privado, no público, no
+          intra-tribal , no internacional... Nenhum tratado, nenhum contrato,
+          nenhuma forma de administração da justiça se dá sem um juramento.
+          Juramentos são fenômenos da linguagem; eles existem exatamente
+          porque a linguagem é insuficiente [para garantir credibilidade]. A
+          fraqueza da linguagem é a possibilidade — a probabilidade — da
+          mentira, da fraude, dos truques sujos nos jogos sociais. Chimpanzés a
+          quem se ensina a linguagem dos símbolos, imediatamente tentam enganar
+          seus treinadores, mentindo. É seguro concluir que nos primórdios da
+          civilização, mentira e linguagem surgiram juntas e andavam
+          juntas...Mas colaboração e troca em sociedade exigem confiança;
+          meios para se evitar a trapaça, para possibilitar que as ações dos
+          companheiros sejam previsíveis, para dar estabilidade a um mundo de
+          valores comuns... O objetivo do juramento sempre foi excluir a
+          mentira...&quot;dizendo a verdade, somente a verdade nada mais que a
+          verdade&quot;.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Legal. Mas jurar
+          resolve? Se resolvesse, testemunhas não mentiriam no tribunal, médicos
+          nunca trairiam o juramento de Hipócrates, padres não desrespeitariam
+          os juramentos de pobreza, castidade e obediência...</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Não. Para que os
+          jogos básicos do convívio social pudessem se instaurar, a garantia
+          do compromisso teria de ser dada de outra forma Temos mecanismos
+          instintivos em nossos cérebros-emoções - para demonstrar nossa
+          sinceridade, independentemente do que possamos dizer. Emoções são
+          muito difíceis de camuflar. Acabamos revelando através delas, o que
+          de fato estamos sentindo. As dezenas de músculos em nosso rosto
+          deixam transparecer o que realmente vai lá dentro. O que dizemos é,
+          em si, tão vazio que podemos usar até máquinas — detetores de
+          mentiras — para flagrar mentirosos.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Jogos do sexo</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Pense na ereção num
+          macho. Por quê será que a evolução escolheu um mecanismo tão
+          trabalhoso para que um pênis fique em condições de penetrar uma fêmea?
+          Por quê não um osso, em vez do complicado processo hidráulico, com
+          sangue tendo de ser bombeado à alta pressão? Vários mamíferos têm
+          ossos no pênis para ajudar na ereção, incluindo nossos
+          &quot;parentes&quot; primatas. Nosso antecessores diretos- os chimpanzés-
+          idem, apesar de serem ossos pequenos. Por quê somos diferentes? A
+          utilidade para os seres vivos é a propagação de seus genes.</font></p>
+          <p class="MsoNormal"><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></p>
+          <p class="MsoNormal"><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Machos em todos os
+          contextos biológicos têm uma inclinação maior para trapacear no
+          jogo do sexo, por uma questão de economia: óvulos são raros,
+          espermatozóides são abundantes. Machos simplesmente não perdem nada
+          — ou perdem muito pouco — sendo promíscuos: copulando com o maior
+          número possível de fêmeas, eles maximizam as chances de propagar
+          seus genes. Esperma gasto é rapidamente subtituído. Fêmeas, ao
+          contrário, têm muito a perder se entregam seus preciosos óvulos
+          para qualquer um fecundar.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Perdem tempo e
+          energia (se gerarem crias doentes por exemplo), e perdem também a
+          possibilidade de gerar outras crias no período da gestação. O
+          conflito de interesses é evidente no jogo do sexo. Uma história que
+          faz sentido é a seguinte: enquanto os machos iam aprendendo formas
+          mais elaboradas de &quot;propaganda enganosa&quot; — (prometer e não
+          cumprir; aparentar sem ser) — as fêmeas respondiam tornando-se
+          progressivamente melhores na detecção dessas fraudes, e reagiam
+          utilizando sua arma mais letal: negando a cópula. Isso forçava a
+          mudança de comportamento do macho. Para fugir da trapaça, a seleção
+          natural embutiu nas fêmeas um instinto que atua como se ela estivesse
+          dizendo: &quot;não me venha com conversa fiada, você diz isso para
+          todas. Prove, se não, não dou&quot;. Através da ereção o macho
+          está demonstrando: &quot;pode copular comigo, eu sou saudável. Não
+          corro risco de gerar crias doentes. Machos doentes não têm ereção&quot;.
+          Trapacear, fazendo um pênis flácido passar por ereto, é impossível.
+          A ereção hidráulica (hmmm...) pode ter sido a prova decisiva para
+          garantir as fêmeas contra a propaganda enganosa. É essa também, a
+          razão do exibicionismo da cauda do pavão- ele está dando uma prova
+          de saúde `a fêmea. Sem isso, adeus cópula.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Fidelidade, família
+          monogâmica, os atributos psicológicos do macho e fêmea humanos,
+          podem ter se originado como conseqüência desse tipo de jogo, jogado
+          através da imensidão do tempo. A busca da reciprocidade nos jogos
+          macho-fêmea, deve ter implicado muito conflito, muita tentativa e
+          erro, mas, quando ela (reciprocidade) se instaurou, pode ter gerado
+          como sub produto os sentimentos e vínculos que nos são mais caros.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">O grande jogo</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Poucas são as
+          pessoas que conseguem camuflar suas emoções mais sinceras. Ficamos
+          ruborizados, não dá para fingir. É comum não controlarmos o riso
+          ou o choro. Dizemos &quot;eu te amo&quot; emocionadamente, para não
+          deixar dúvidas sobre o compromisso. Conflito de interesse. Instinto.
+          Tentação da trapaça. Jogo. Emoção… Começamos com as especulações
+          matemáticas de um cientista hiper-racional no início da guerra fria.
+          Quem imaginaria que chegaríamos `a emoção como elemento central dos
+          jogos que os humanos jogam? Se a evolução não tivesse embutido em
+          nossos cérebros essa capacidade de discriminar, escolhendo parceiros
+          confiáveis nos jogos em que nos envolvemos, não estaríamos aqui. As
+          emoções são essenciais para validar nosso comprometimento com a
+          cooperação e buscar reciprocidade. Por meio delas superamos a
+          racionalidade auto-destrutiva dos dilemas do prisioneiro, evitamos
+          jogos de soma zero, inventamos nosso jeito &quot;hidráulico&quot; de
+          fazer sexo e, talvez, tenhamos inventado até o amor. E olha, não é
+          Freud que explica — é a teoria dos jogos .</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">Para ler mais:</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">a — William
+          Poudstone. Prisoner’s Dilemma - John Von Neumann, Game Theory and
+          the Puzzle of the Bomb. Anchor Books,1992.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">b — Richard
+          Dawkins. God´s Utility Function.Scientific American, November 1995.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">c — Richard
+          Dawkins. O rio que saía do Éden-uma visão darwiniana da vida.
+          Rocco, 1994.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">d — Richard
+          Dawkins. The Selfish Gene. Oxford University Press,1989.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">e — Matt Ridley. As
+          origens da virtude-um estudo biológico da solidariedade. Record,
+          2000.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">f — Avinash K
+          Dixit. e Barry J Nalebuff. Pensando Estrategicamente. Atlas,1994.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">g —Robert Axelrod.
+          The Evolution of Cooperation. Basic Books,1984.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">h — Martin Nowak;
+          Robert May; Karl Sigmund. The Arithmetics of Mutual Help. Scientific
+          American, June 1995</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">i — Robert Wright
+          .Non Zero-The logic of human destiny. Pantheon Books,1999.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">j — Robert Frank,.
+          Passions Within Reason- The Strategic Role of Emotions.Norton,1988</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">k — Jared Diamond.
+          Por que o sexo é divertido. Rocco,1999.</font></p>
+          <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+          </O>
+          </font></span></p>
+          <p class="MsoNormal"><font face="Arial" size="3">l — Clemente
+          Nobrega.O Glorioso Acidente. Objetiva,1998. m-Para jogar o dilema do
+          prisioneiro interativamente via Internet :</font></p>
+          <p class="MsoNormal"><span>&nbsp;<O>
+          </O>
+          </span></p>
+        </blockquote>
+        <p align="right"><a href="javascript:history.back();"><img src="spacer.gif" width="50" height="22" border="0"></a> 
+        </p>
+      </blockquote>
+    </td>
+  </tr>
+<TR><td height="19" colspan="7"> <div align="right"><em><font size="2" face="Arial, Helvetica, sans-serif"> <strong><a href="index.htm">home</a> : : <a href="javascript:history.back();">voltar</a></strong></font> </em></div> </td></TR></table>
+<center><div id="google_translate_element"></div><script type="text/javascript">function googleTranslateElementInit() {  new google.translate.TranslateElement({pageLanguage: 'pt', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');}</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></center>
+</body>
+</html>

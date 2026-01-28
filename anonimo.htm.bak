@@ -1,0 +1,678 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List href="anonimo_arquivos/filelist.xml">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>João Carlos Holland de Barcellos</o:Author>
+  <o:LastAuthor>João Carlos Holland de Barcellos</o:LastAuthor>
+  <o:Revision>9</o:Revision>
+  <o:TotalTime>10</o:TotalTime>
+  <o:Created>2019-04-09T16:36:00Z</o:Created>
+  <o:LastSaved>2019-04-09T16:49:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>1073</o:Words>
+  <o:Characters>5797</o:Characters>
+  <o:Lines>48</o:Lines>
+  <o:Paragraphs>13</o:Paragraphs>
+  <o:CharactersWithSpaces>6857</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="anonimo_arquivos/themedata.thmx">
+<link rel=colorSchemeMapping href="anonimo_arquivos/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>PT-BR</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536859905 -1073711037 9 0 511 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:inherit;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-alt:"Times New Roman";
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:auto;
+	mso-font-signature:0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabela normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-fareast-language:EN-US;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=PT-BR link=blue vlink=purple style='tab-interval:35.4pt'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;line-height:115%;font-family:"inherit","serif";
+mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'>Posição Jocaxiana
+sobre anonimato do doador </span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt;line-height:115%;font-family:"inherit","serif";
+mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'>(=pai
+biológico ou genitor)</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;line-height:115%;font-family:"inherit","serif";
+mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'>.</span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:
+115%;font-family:"Helvetica","sans-serif";color:#1C1E21;background:#F2F3F5'><br>
+</span></b><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;
+line-height:115%;font-family:"inherit","serif";mso-bidi-font-family:Helvetica;
+color:#1C1E21;background:#F2F3F5'>Por Jocax: abril/2019</span><br
+style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></b><span style='font-size:10.0pt;line-height:115%;font-family:"inherit","serif";
+mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><span
+style='font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
+widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;
+text-decoration-color: initial;word-spacing:0px'><o:p></o:p></span></p>
+
+</span>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><span
+style='font-size:9.0pt;line-height:115%;font-family:"inherit","serif";
+mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'>“<b
+style='mso-bidi-font-weight:normal'>A Tentante pode ser anônima para o doador, mas
+o doador não deve ser anônimo para a Tentante</b>”(jocax)<o:p></o:p></span></i></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><br>
+Vou deixar claro aqui minha posição sobre o anonimato da doação de sêmen:&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><br>
+Existem muitos casos e possibilidades sobre o assunto que podemos resumir<br>
+nos seguintes ítens:&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><br>
+1-A mãe não sabe a identidade do doador&nbsp;<br>
+<span style='mso-spacerun:yes'>  </span><span style='mso-spacerun:yes'> </span>1.1-
+Ela fez esta escolha de semen anônimo pois não havia outra possibilidade.<br>
+<span style='mso-spacerun:yes'>      </span><span
+style='mso-spacerun:yes'> </span>É o caso da FIV por motivos médicos, feita em
+clínicas de fertilização.&nbsp;<br>
+<span style='mso-spacerun:yes'>  </span><span style='mso-spacerun:yes'> </span>1.3-
+Ela fez esta escolha pois era medicamente mais segura.<br>
+<span style='mso-spacerun:yes'>  </span><span style='mso-spacerun:yes'> </span>1.2-
+Ela fez esta escolha porque não queria que o filho/a soubesse quem era o
+doador.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><br>
+<br style='content: ""'>
+2- A mãe sabe da identidade do doador e:&nbsp;<br>
+<span style='mso-spacerun:yes'>  </span><span style='mso-spacerun:yes'> </span>2.1-
+Não vai e nem pretende nunca falar quem era o ao filho/a.<br>
+<span style='mso-spacerun:yes'>  </span><span style='mso-spacerun:yes'> </span>2.2-
+A mãe pretende informar a seu filho/a quando achar o momento oportuno.<br
+style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><br>
+Minha posição é a seguinte:&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><br>
+<br style='content: ""'>
+-Acredito que um filho é muito mais que um brinquedo para a felicidade da(s) mãe(s).<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><br>
+-Um filho é um ser humano que possui desejos, necessidades e direitos.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><br>
+-O desejo ou necessidade da criança ( ou fututramente adulto )de&nbsp;<br>
+conhecer o seu genitor faz parte da imensa maioria dos filhos que vieram ao mundo
+por doação de sêmen<br>
+e querem ter sua necessidade de saber sua origem biológica satisfeita.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><br>
+-Essa necessidade pode ser muito grande e pode fazer a criança passar boa parte
+de sua<br>
+vida a procura de seu pai-biológico.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'>Ja
+vi vários casos a respeito. Vejamos um dos casos que uma amiga postou:&nbsp;<br>
+&quot; Uma prima soube ser adotada ja adulta (ilegalmente sem informações por
+sua mãe adotiva ja falecida) e ela passou cinco anos fazendo investigações e
+exames de dna ate achar a família biológica. Todos (inclusive eu) dizíamos que
+ela desistisse, que ela tinha marido, filhos, que eles eram a sua familia, e
+ela descrevia não ter mais paz interna, sentir-se torturada por nao saber de
+onde veio, quem lhe deu a vida, nem dormia mais, e ela so voltou a ter uma vida
+normal e ser psicologicamente saudável depois que conseguiu achar a família
+biológica. Ela se descrevia exatamente como tu disse, torturada.&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'>Claro
+que podem existir pessoas que não se importam *muito* sobre suas origens biológicas
+mas a maioria sim quer saber e acha importante isso para ela.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'>Para
+a maioria é importante ter a informação da identidade do seu doador.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'>NÃO
+estou dizendo aqui que isso DEVA levar a algum tipo de contacto entre o filho/a
+e o doador.<br>
+Tal contacto, obviamente pode acontecer, mas o filho pode e deve saber que seu
+doador pode não querer contacto nenhum.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><br>
+Estou dizendo afirmando e reafirmando que o desejo da pessoa de conhecer as suas
+origens<br>
+pode suplantar em muitas vezes o desejo da mãe de não querer que o filho saiba.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><br>
+Assim , nos casos : 1.2 e 2.1 :<br>
+Se a mãe está desinformada e não sabe dessa necessidade e acha q é &quot;coisa pouca&quot;
+da cabeça da criança,<br>
+ela deveria se informar melhor, mas pode causar, sem saber, um 'buraco' na vida
+de seu filho que poderia ser evitado.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><br>
+Se a mãe sabe da futura necessidade de seu filho e mesmo assim prefere esconder:&nbsp;<br>
+NESSE CASO eu acho q seria uma mãe EGOÍSTA que pensa mais em si mesma que na felicidade
+de seu filho.<br>
+Nesses casos espeo que seus filhos não sintam, como a maioria, esse 'buraco' em
+suas vidas e prossigam felizes.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><br>
+Vejamos algumas referências sobre esse assunto:&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><br>
+<br style='content: ""'>
+1)Na Alemanha, filho de doador de sêmen ganha direito de conhecer pai biológico<br>
+<a
+href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.dw.com%2Fpt-br%2Fna-alemanha-filho-de-doador-de-s%25C3%25AAmen-ganha-direito-de-conhecer-pai-biol%25C3%25B3gico%2Fa-16579606%3Ffbclid%3DIwAR2Avt8HwV0ka3BPNHfGHlnA4Qvl-rhNJGe7MQY4KDwiGRUCiFO2sXBacbE&amp;h=AT0csMC7tu4F7tZx6RW4COX3byo1AWsyF085SIcvHcIlXMZrgyBEgSR0BhitF02WSKVn9staNQymUI-dbDXyedbsdnT6oID3vcZbTCNbG7pCvw7yQ7sCxyTSW-CXXHyv"
+target="_blank" data-lynx-mode=asynclazy style='cursor:pointer'><span
+style='color:#365899;text-decoration:none;text-underline:none'>https://www.dw.com/.../na-alemanha-filho-de.../a-16579606</span></a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'>2)Lei
+garante a filho de doador de sêmen saber quem é o pai<br>
+<a
+href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww1.folha.uol.com.br%2Ffsp%2Fcotidian%2Fff08089815.htm%3Ffbclid%3DIwAR29iwCCz-yaavcKQnBymSe1wZ5TQ3synIZSveRzUq_prWtJc7EemxYsREQ&amp;h=AT2hj-NoPQSSfwTjVVqb4_9tCUAC8MjoZnaGJAvQM6yhSG2tI2fghTRxOhKIQTeRfSsdYPzhkuQtI9ixoy0jQbUIQGJcoais6xeo9aQsY0j4tYQWRREq-HEnGw5N-YxU"
+target="_blank" data-lynx-mode=asynclazy style='cursor:pointer'><span
+style='color:#365899;text-decoration:none;text-underline:none'>https://www1.folha.uol.com.br/fsp/cotidian/ff08089815.htm</span></a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><br>
+3)Lei que deu a filho adotivo direito de conhecer origem biológica melhora adaptação<br>
+<a
+href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.em.com.br%2Fapp%2Fnoticia%2Fgerais%2F2012%2F02%2F27%2Finterna_gerais%2C280120%2Flei-que-deu-a-filho-adotivo-direito-de-conhecer-origem-biologica-melhora-adaptacao.shtml%3Ffbclid%3DIwAR1QLq6I1FQqWe7gznkDoor0XaKq_w_zdJlFZdh-u7SYFeOAmSRRugw83vs&amp;h=AT3ChL_FdIGDmXb7vGvnggIxWW2xoAOQvlLzVre3wlFK6nkuSuPhxVImDnWhNxKkmJ33rQ8ahH7EENnhAt6Dija2LeW7Bcd2aUQNgQTQJV5Ix6kmCrjHculgyA-KZyoj"
+target="_blank" data-lynx-mode=asynclazy style='cursor:pointer'><span
+style='color:#365899;text-decoration:none;text-underline:none'>https://www.em.com.br/.../lei-que-deu-a-filho-adotivo...</span></a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'>4)Judiciário
+não pode impedir busca por pai biológico<br>
+<a
+href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.conjur.com.br%2F2012-mar-26%2Fjustica-nao-impedir-busca-pai-biologico-mesmo-havendo-registral%3Ffbclid%3DIwAR3FmS422iEeB58Vu2ok2MXeq8SH9r0Pdyj0ip-LfViiycdqR836e1LHG1I&amp;h=AT0xAh4gjVm1Q60hVzP3NQAwA-rcKTNbKFfEYPSH5ZYPVVWRqcAOzjBk180yC5EkJpRqPTJsH437ie0s1xR1xHL2gzNwKmatgE6kqsuK3WX8pZ1hRZ8a9prBV9tfiMmi"
+target="_blank" data-lynx-mode=asynclazy style='cursor:pointer'><span
+style='color:#365899;text-decoration:none;text-underline:none'>https://www.conjur.com.br/.../justica-nao-impedir-busca...</span></a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'>5)Projeto
+facilita acesso da criança ao direito de saber quem é o pai biológico<br>
+<a
+href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww2.camara.leg.br%2Fcamaranoticias%2Fradio%2Fmaterias%2FRADIOAGENCIA%2F498796-PROJETO-FACILITA-ACESSO-DA-CRIANCA-AO-DIREITO-DE-SABER-QUEM-E-O-PAI-BIOLOGICO.html%3Ffbclid%3DIwAR3gcc0867iEIOO2UDFwish-wATSRw0JIZP4CFnzujz6bv-mq-okzevlK7s&amp;h=AT2oW15lHR_0zv7L8eQ6sA0K7PPDCDkw7GMt7_cGYV2WAI3gKvjEz8VwukV_g1Mk7qRzw3LITQcvQ_TLk-SwKUzC8cQYlW94_ZaCsjGF-5MGr5SK1GcpB0ngCL2B2Rzd"
+target="_blank" data-lynx-mode=asynclazy style='cursor:pointer'><span
+style='color:#365899;text-decoration:none;text-underline:none'>https://www2.camara.leg.br/.../498796-PROJETO-FACILITA...</span></a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'><br>
+6)Decisão do STF pode colocar em xeque doações de gametas<br>
+<a
+href="https://l.facebook.com/l.php?u=https%3A%2F%2Fjuristas.com.br%2F2017%2F03%2F14%2Fdecisao-stf-pode-colocar-em-xeque-doacoes-de-gametas%2F%3Ffbclid%3DIwAR3GTfrbWkEuimD9pj3cIKxNvt1pSGBzF9edPfsLv5ILuvJjqycpqtklGD0&amp;h=AT35Ixu1PxWQ2-88nTDmmwN_W7Nfdn3ZKoRSzUc6V4kkKu5jPChuE9X453pFu_0JHZvtyoW_viIacOr2DlOk9oP3hpeyJlcRftyskAfx3bOAY_YvXNWdB0S37fmP9Fg2"
+target="_blank" data-lynx-mode=asynclazy style='cursor:pointer'><span
+style='color:#365899;text-decoration:none;text-underline:none'>https://juristas.com.br/.../decisao-stf-pode-colocar.../...</span></a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'>Diante
+do exposto considero que a IC é muito superior e melhor que a Inseminação em
+clínicas que necessariamente IMPÕE o anonimato aos filhos provindos desta
+forma.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'>Então
+a tentante deve, no meu ponto de vista, perguntar ao doador se futuramente seu
+filho/a poderá ou não conhece-lo e isso deverá ser um dos critérios de seleção
+do doador.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"inherit","serif";mso-bidi-font-family:Helvetica;color:#1C1E21;background:#F2F3F5'>--------
+// ----------<o:p></o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>

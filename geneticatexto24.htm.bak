@@ -1,0 +1,396 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head> <title>Genismo - Genética</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<table width="751" height="" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="751" height="" valign="top"> 
+      <blockquote> 
+        <p align="center"><img src="titutogenismo.gif" width="691" height="55"><br>
+        <br>
+        <font color="#0000FF" size="5" face="Arial">Genética de Populações</font><br>
+        <font face="Arial" size="3">Por : Joao Carlos Holland de Barcellos</font></p>
+        <p align="justify"><font face="Arial" size="3">Na teoria sintética, a
+        evolução é definida como a alteração na freqüência de genes da
+        população. Se no &quot;pool&quot; genético a freqüência dos alelos
+        não se alteram então podemos dizer que esta população também não
+        evolui.</font></p>
+        <p align="justify"><font face="Arial" size="3">Vemos então que é
+        crucial, para o estudo da evolução, instrumentos conceituais que
+        possam avaliar estas freqüências. A parte da genética que estuda as
+        relações entre as freqüências gênicas, genotípicas e fenotípicas
+        é conhecida como &quot;Genética de Populações&quot;.</font></p>
+        <p align="justify"><font face="Arial" size="3">O estudo das doenças
+        hereditárias, uma importante área da medicina, também se beneficiou
+        muito dos avanços teóricos desta área pois, a partir da freqüência
+        fenotípica podemos calcular as freqüências genotípicas e destas as
+        freqüência gênicas com o qual se faz aconselhamento genético.</font></p>
+        <p align="justify"><font face="Arial" size="3">Consideremos um gene com
+        dois tipos de alelos : O alelo 'A' e o alelo 'a' . No caso de haver mais
+        de um alelo, para o gene em estudo, poderemos separar estes alelos em
+        dois grupos ( 'A' e 'a' ) e proceder da mesma maneira.</font></p>
+        <p align="justify"><font face="Arial" size="3">Considere uma população
+        sexuada com a seguinte distribuição genotípica em relação aos
+        alelos 'A' e 'a':</font></p>
+        <p align="center"><center>
+        <table cellPadding="4" width="500" border="1">
+          <tbody>
+            <tr>
+              <td vAlign="top" width="23%">
+                <p align="center"><font face="Arial" size="3">GENÓTIPO</font></p>
+              </td>
+              <td vAlign="top" width="32%">
+                <p align="center"><font face="Arial" size="3">Número de Pessoas</font></p>
+              </td>
+              <td vAlign="top" width="45%">
+                <p align="center"><font face="Arial" size="3">Freqüência Genotípica</font></p>
+              </td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="23%">
+                <p align="center"><font face="Arial" size="3">'AA'</font></p>
+              </td>
+              <td vAlign="top" width="32%">
+                <p align="center"><font face="Arial" size="3">100</font></p>
+              </td>
+              <td vAlign="top" width="45%">
+                <p align="center"><font face="Arial" size="3">48% ( =100/210 )</font></p>
+              </td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="23%">
+                <p align="center"><font face="Arial" size="3">'Aa'</font></p>
+              </td>
+              <td vAlign="top" width="32%">
+                <p align="center"><font face="Arial" size="3">60</font></p>
+              </td>
+              <td vAlign="top" width="45%">
+                <p align="center"><font face="Arial" size="3">28% ( =60/210 )</font></p>
+              </td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="23%">
+                <p align="center"><font face="Arial" size="3">'aA'</font></p>
+              </td>
+              <td vAlign="top" width="32%">
+                <p align="center"><font face="Arial" size="3">40</font></p>
+              </td>
+              <td vAlign="top" width="45%">
+                <p align="center"><font face="Arial" size="3">19% ( =40/210 )</font></p>
+              </td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="23%">
+                <p align="center"><font face="Arial" size="3">'aa'</font></p>
+              </td>
+              <td vAlign="top" width="32%">
+                <p align="center"><font face="Arial" size="3">10</font></p>
+              </td>
+              <td vAlign="top" width="45%">
+                <p align="center"><font face="Arial" size="3">5% ( = 10/210 )</font></p>
+              </td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="23%">
+                <p align="center"><font face="Arial" size="3">Total</font></p>
+              </td>
+              <td vAlign="top" width="32%">
+                <p align="center"><font face="Arial" size="3">210</font></p>
+              </td>
+              <td vAlign="top" width="45%">
+                <p align="center"><font face="Arial" size="3">100%</font></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </center>
+        <p align="justify"><font face="Arial" size="3">Dada a Freqüência genotípica
+        (F) poderemos calcular a freqüência gênica correspondente considerando-se
+        que :</font></p>
+        <ul>
+          <p align="justify">
+          <li><font face="Arial" size="3">Os portadores do genótipo 'AA'
+            (homozigotos) carregam o alelo 'A' em duplicidade e os portadores do
+            alelo 'aa' carregam o alelo 'a' em duplicidade.</font></li>
+        </ul>
+        <ul>
+          <p align="justify">
+          <li><font face="Arial" size="3">Os portadores do genótipo 'Aa' e 'aA'
+            (heterozigotos ) carregam um alelo de cada tipo.</font></li>
+        </ul>
+        <p align="justify"><font face="Arial" size="3">Com base nestas informações
+        poderemos calcular a freqüência genica desta populacao.</font></p>
+        <p align="justify"><font face="Arial" size="3">O número de alelos 'A' será
+        então 2*100 + 60 + 40 = 300 , e o número de alelos 'a' será 2*10 + 60
+        + 40 = 120, e o Total de alelos será = 300+120 = 420</font></p>
+        <p align="center"><center>
+        <table cellPadding="4" width="500" border="1">
+          <tbody>
+            <tr>
+              <td vAlign="top" width="23%">
+                <p align="center"><font face="Arial" size="3">ALELO</font></p>
+              </td>
+              <td vAlign="top" width="32%">
+                <p align="center"><font face="Arial" size="3">Quantidade</font></p>
+              </td>
+              <td vAlign="top" width="45%">
+                <p align="center"><font face="Arial" size="3">Freqüência Gênica</font></p>
+              </td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="23%">
+                <p align="center"><font face="Arial" size="3">'A'</font></p>
+              </td>
+              <td vAlign="top" width="32%">
+                <p align="center"><font face="Arial" size="3">300</font></p>
+              </td>
+              <td vAlign="top" width="45%">
+                <p align="center"><font face="Arial" size="3">71% ( =300/420 )</font></p>
+              </td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="23%">
+                <p align="center"><font face="Arial" size="3">'a'</font></p>
+              </td>
+              <td vAlign="top" width="32%">
+                <p align="center"><font face="Arial" size="3">120</font></p>
+              </td>
+              <td vAlign="top" width="45%">
+                <p align="center"><font face="Arial" size="3">29% ( =120/420 )</font></p>
+              </td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="23%">
+                <p align="center"><font face="Arial" size="3">Total</font></p>
+              </td>
+              <td vAlign="top" width="32%">
+                <p align="center"><font face="Arial" size="3">420</font></p>
+              </td>
+              <td vAlign="top" width="45%">
+                <p align="center"><font face="Arial" size="3">100%</font></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </center><b><font size="4">
+        <p align="justify">&nbsp;</p>
+        </font></b>
+        <p align="justify"><font face="Arial" size="3">A Lei de Hardy-Weimberg</font></p>
+        <p align="justify"><font face="Arial" size="3">Agora que temos a freqüência
+        dos alelos na população poderemos calcular a freqüência em que eles
+        estarão na próxima geração. Para efetuarmos este cálculo
+        precisaremos assumir algumas hipóteses, são elas:</font></p>
+        <font size="4">
+        <ul>
+          <p align="justify">&nbsp;</font>
+        <li><font face="Arial" size="3">Os cruzamentos ocorrerão ao acaso.</font>
+        <li><font face="Arial" size="3">A população é grande.</font>
+        <li><font face="Arial" size="3">Não haverá efeitos de fatores
+          evolutivos ( migração, mutação, seleção, deriva ).</font></li>
+        <li><font face="Arial" size="3">A freqüência gênica de machos e fêmeas
+          é a mesma.</font><font size="4">
+          <li>&nbsp;</li>
+        </ul>
+        </font>
+        <p align="justify"><font face="Arial" size="3">Com estas hipóteses poderemos
+        calcular a freqüência genotípica da próxima geração. Para isso
+        vamos calcular a probabilidade de haver um encontro de um gameta com um
+        dado alelo com outro gameta do sexo oposto contendo outro alelo. O problema
+        é equivalente ao de uma urna onde pegamos uma bola ( um gameta ) e depois
+        uma outra bola ( outro gameta ) e juntamos as duas ( formando o zigoto
+        que dará origem ao novo indivíduo ).</font></p>
+        <p align="justify"><font face="Arial" size="3">Note que um gameta (
+        espermatozóide ou óvulo ) é haplóide , isto é , carrega apenas um dos
+        alelos ( 'A' ou 'a') que, unindo ao outro gameta, formará um ovo diplóide.</font></p>
+        <p align="justify"><font face="Arial" size="3">Assim, a probabilidade de
+        escolhermos um gameta contendo um dado alelo é a mesma que a freqüência
+        gênica deste alelo. Por exemplo, se temos 1 gameta com o alelo 'A' em 100
+        gametas, então a probabilidade de o escolhermos será de 1% que é o
+        mesmo de sua freqüência gênica. Então, para calcularmos a
+        probabilidade de termos um ovo formado por dois gametas basta
+        multiplicar a probabilidade de cada um ( ou seja, sua freqüência ) uma
+        vez que a escolha de cada gameta formam eventos independentes ( por isso
+        a necessidade de que a população seja suficientemente grande pois a
+        escolha é , na verdade, sem repetição, mas o cálculo é feito como
+        se os gametas ( e os individuos ) pudessem ser repetidos ).</font></p>
+        <p align="justify"><font face="Arial" size="3">Se chamarmos de F('A') a
+        freqüência do gameta que contém o alelo 'A' e F('a') a freqüência
+        do alelo 'a' teremos :</font></p>
+        <p align="center"><font face="Arial" size="3">Freqüência da Próxima
+        geração</font></p>
+        <font size="4">
+        <p align="left"></font>
+        <table cellPadding="4" width="491" border="1">
+          <tbody>
+            <tr>
+              <td vAlign="top" width="19%">
+                <p align="center"><font face="Arial" size="3">PAI \ MÃE</font></p>
+              </td>
+              <td vAlign="top" width="40%">
+                <p align="center"><font face="Arial" size="3">'a'</font></p>
+              </td>
+              <td vAlign="top" width="40%">
+                <p align="center"><font face="Arial" size="3">'A'</font></p>
+              </td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="19%">
+                <p align="center"><font face="Arial" size="3">'a'</font></p>
+              </td>
+              <td vAlign="top" width="40%">
+                <p align="center"><font face="Arial" size="3">F(a)F(a)</font></p>
+              </td>
+              <td vAlign="top" width="40%">
+                <p align="center"><font face="Arial" size="3">F(a)F(A)</font></p>
+              </td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="19%">
+                <p align="center"><font face="Arial" size="3">'A'</font></p>
+              </td>
+              <td vAlign="top" width="40%">
+                <p align="center"><font face="Arial" size="3">F(A)F(a)</font></p>
+              </td>
+              <td vAlign="top" width="40%">
+                <p align="center"><font face="Arial" size="3">F(A)F(A)</font></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p align="center"><font face="Arial" size="3">&nbsp;</font></p>
+        <p align="justify"><font face="Arial" size="3">Devemos interpretar esta
+        tabela da seguinte forma : A freqüência da formação de um ovo do
+        tipo 'aA', provindo de um espermatozóide portador do alelo 'a' e de um
+        óvulo portador do alelo 'A', será F(a)*F(A) que é o produto da freqüência
+        do gameta 'a' com a freqüência do gameta 'A'. O mesmo raciocínio
+        servem para as outras células da tabela.</font></p>
+        <p align="justify"><font face="Arial" size="3">É importante notar que,
+        com esta tabela, temos a freqüência da geração seguinte para cada
+        genótipo da população. Se F(AA) era a freqüência do genotipo
+        inicial 'AA' então, na geração seguinte a freqüência será
+        F(A)F(A). Se F(aa) era a freqüência do genotipo 'aa', na geração
+        seguinte ela será F(a)F(a).</font></p>
+        <p align="justify"><font face="Arial" size="3">Em geral os genotipos
+        'aA' e 'Aa' produzem o mesmo fenótipo, ou seja, não importa se o alelo
+        veio do pai ou da mãe que o resultado no indivíduo é o mesmo. Então
+        normalmente não se diferencia os genótipos 'aA' e 'Aa', eles são
+        tratados como sendo idênticos e tratados indistintamente como , por
+        exemplo, 'aA' ou 'Aa' ou ainda como 'aA+Aa'. Então, para calcularmos a
+        freqüência dos heterozigotos ( 'aA+Aa' ) na próxima geração, basta
+        somar as freqüências de 'aA' com as de 'Aa' e teremos 2F(a)F(A).</font></p>
+        <p align="justify"><font face="Arial" size="3">Agora que temos os
+        valores de todas as freqüências genotípicas da próxima geração, em
+        termos das freqüências gênicas, podemos mudar a notação da freqüência
+        e utilizarmos a que se encontra na literatura especializada. Então
+        definimos : F(A) = p e F(a) = q . Note que p+q=1 pois representam freqüências
+        complementares.</font></p>
+        <p align="justify"><font face="Arial" size="3">Com esta nova notação
+        teremos :</font></p>
+        <table cellPadding="4" width="598" border="1">
+          <tbody>
+            <tr>
+              <td vAlign="top" width="50%">
+                <p align="center"><font face="Arial" size="3">Freqüência da
+                geração Anterior</font></p>
+              </td>
+              <td vAlign="top" width="50%">
+                <p align="center"><font face="Arial" size="3">Freqüência da
+                geração Seguinte</font></p>
+              </td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="50%">
+                <p align="center"><font face="Arial" size="3">F('AA')</font></p>
+              </td>
+              <td vAlign="top" width="50%">
+                <p align="center"><font face="Arial" size="3">p<sup>2</sup></font></p>
+              </td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="50%">
+                <p align="center"><font face="Arial" size="3">F('Aa'+'aA')</font></p>
+              </td>
+              <td vAlign="top" width="50%">
+                <p align="center"><font face="Arial" size="3">2pq</font></p>
+              </td>
+            </tr>
+            <tr>
+              <td vAlign="top" width="50%">
+                <p align="center"><font face="Arial" size="3">F('aa')</font></p>
+              </td>
+              <td vAlign="top" width="50%">
+                <p align="center"><font face="Arial" size="3">q<sup>2</sup></font></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p align="justify"><font face="Arial" size="3">&nbsp;A soma dos valores
+        destas colunas deverá produzir a unidade já que a tabela representa a
+        freqüência de todos os genótipos da população em estudo. Assim:</font></p>
+        <p align="justify"><font face="Arial" size="3">O importante vem agora.
+        Calculamos a freqüência genotípica da próxima geração de nossa
+        população com base na geração anterior. Para isso utilizamos algumas
+        hipóteses que simplificavam o nosso cálculo e chegamos a um resultado.
+        A pergunta que se faz é : &quot;Em que condições a nossa população
+        será estável ,ou seja, em que condições ela não evoluirá ?&quot;</font></p>
+        <p align="justify"><font face="Arial" size="3">A resposta é : A população
+        permanecerá em equilíbrio genético quando as freqüências genotípicas
+        das gerações consecutivas forem idênticas e isto acontecerá quando
+        as duas colunas da tabela anterior forem as mesmas, isto é as freqüências
+        da geração anterior e a consecutiva forem idênticas:</font></p>
+        <font size="4">
+        <p align="center"><center></font>
+        <table cellPadding="4" width="302" border="1">
+          <tbody>
+            <tr>
+              <td vAlign="top">
+                <p align="center"><font face="Arial" size="3">Condições de
+                Equilíbrio</font></p>
+              </td>
+            </tr>
+            <tr>
+              <td vAlign="top">
+                <p align="center"><font face="Arial" size="3">F('AA') = p<sup>2</sup></font></p>
+              </td>
+            </tr>
+            <tr>
+              <td vAlign="top">
+                <p align="center"><font face="Arial" size="3">F('Aa'+'aA') = 2pq</font></p>
+              </td>
+            </tr>
+            <tr>
+              <td vAlign="top">
+                <p align="center"><font face="Arial" size="3">F('aa') = q<sup>2</sup></font></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </center><font size="4"></font>
+        <p align="justify"><font face="Arial" size="3">Esta é a essência da
+        Lei de Hardy-Weimberg que pode ser traduzida em palavras como:</font></p>
+        <p align="justify"><font face="Arial" size="3">&quot;Em uma população
+        infinitamente grande, onde não há influência de fatores evolutivos e
+        os cruzamentos são feitos ao acaso, as freqüências genotípicas
+        permanecerão constantes&quot;.</font></p>
+        <p align="justify"><font face="Arial" size="3">Se houver algum fator
+        evolutivo que perturbe estas condições então a população não estará
+        em equilíbrio gênico e estará portanto evoluindo. Então poderemos
+        detectar , na prática, se uma população está evoluindo , ou não,
+        comparando, por exemplo, o quadrado da freqüência gênica ( F(A)<sup>2</sup>
+        ) com a freqüência do genótipo homozigoto (F('AA') ). Se estes
+        valores forem diferentes a população não estará em equilíbrio e ,
+        portanto, estará evoluindo. Se forem muito próximos então a população
+        estará em equilíbrio gênico para este gene.</font></p>
+        <p align="justify">&nbsp;</p>
+        <p align="right"> <a href="javascript:history.back();"><img src="spacer.gif" width="50" height="22" border="0"></a> 
+        </p>
+        </blockquote></td>
+  </tr>
+<TR><td height="19" colspan="7"> <div align="right"><em><font size="2" face="Arial, Helvetica, sans-serif"> <strong><a href="index.htm">home</a> : : <a href="javascript:history.back();">voltar</a></strong></font> </em></div> </td></TR>
+</table>
+<center><div id="google_translate_element"></div><script type="text/javascript">function googleTranslateElementInit() {  new google.translate.TranslateElement({pageLanguage: 'pt', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');}</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></center>
+</body>
+</html>

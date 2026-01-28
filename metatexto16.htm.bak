@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head> <title>Genismo - Meta-Ética-Científica</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<table width="751" height="100" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="751" height="952" valign="top"> 
+      <blockquote> 
+        <p align="center"><img src="titutogenismo.gif" width="691" height="55"><font color="#0000FF" size="5" face="Arial, Helvetica, sans-serif"><br>
+        Tamanho Ideal da População<br>
+        </font><font size="3" face="Arial">Por: Joao Carlos Holland de Barcellos
+        Dez/2003</font></p>
+        <font face="Arial">
+        <p><tt><font size="3" face="Arial"><br>
+        O genismo preve que o controle demografico estatal devera ser um mal
+        necessário: Eh um mal pq ninguem gosta de ter suas liberdades
+        controladas, e necessario pq, sem este controle, a explosao
+        populacional, inevitavelmente, faria suas consequencias nefastas.<br>
+        <br>
+        Mas se o tamanho da populacao precisa ser controlada entao uma questao
+        deve ser respondida : &quot;Qual deveria ser o tamanho da populacao
+        ideal ?&quot;<br>
+        <br>
+        Perceberemos que deve haver um tamanho otimo analisando a questao aa luz
+        da meta-etica-cientifica (MEC):<br>
+        <br>
+        Suponha uma populacao de tamanho N com um grau &quot;F&quot; de
+        felicidade individual media anual. Assim, a felicidade total anual (T1)
+        desta populacao seria, pela MEC :</font></tt></p>
+        <p align="center"><tt><font size="3" face="Arial">T1 = N * F</font></tt></p>
+        <p><tt><font size="3" face="Arial">Se mantivermos o mesmo padrao de vida
+        medio, isto é, se mantivermos a felicidade individual media anual em
+        &quot;F&quot; e, se a populacao crescer &quot;C&quot; vezes entao
+        teremos a nova felicidade total da populacao (T2) :</font></tt></p>
+        <p align="center"><tt><font size="3" face="Arial">T2 = C * N * F</font></tt></p>
+        <p align="left"><tt><font size="3" face="Arial">Como na nossa hipotese C
+        &gt; 1 entao T2 &gt; T1 ou seja a felicidade total do sistema aumentaria
+        e isso é bom e, portanto, algo que deveria ser feito.<br>
+        <br>
+        Mas ateh quando podemos aumentar a populacao?<br>
+        <br>
+        É fácil perceber que nao podemos aumentar indefinidamente a populacao
+        pq o indice medio de felicidade &quot;F&quot; eh funcao do tamanho da
+        população: F=F(N) .<br>
+        <br>
+        Claro que &quot;F&quot; tambem depende de muitos outros fatores como,
+        cultura , clima etc.. e principalmente, a quantidade de recursos
+        naturais disponiveis. Mas, por hora, podemos aglutinar estes fatores na
+        propria funcao &quot;F&quot; de modo que cada local tenha a sua propria
+        &quot;F&quot; específica, que retrataria, entre outras coisas, as
+        condicoes ambientais locais.<br>
+        <br>
+        Se a populacao crescer muito teremos uma queda no nivel medio
+        &quot;F&quot; de felicidade individual media anual fazendo com que a
+        Felicidade total do sistema tambem diminua.<br>
+        <br>
+        Assim, a populacao poderia ( e deveria ) ser aumentada ateh que a
+        felicidade total do sistema chegasse num máximo, alem do que, esta
+        felicidade total sempre diminuiria com o aumento da populacao.<br>
+        <br>
+        Do Calculo, sabemos que equacao que calcula o maximo de uma funcao, em
+        funcao de um parametro, eh conseguida atraves de uma operacao chamada
+        derivada. Os pontos de maximo ( ou minimo ) sao encontrados derivando-se
+        a funcao em relacao ao parametro e igualando-se o resultado a zero e
+        resolvendo a equacao neste parametro.<br>
+        <br>
+        Desta forma, o tamanho da populacao ideal poderia ser conseguida
+        resolvendo :</font></tt></p>
+        <p align="center"><tt><font size="3" face="Arial">Derivada(N) [ N * F(N)
+        ] = 0</font></tt></p>
+        <p align="left"><tt><font size="3" face="Arial">O que nos levaria a
+        equacao diferencial de 1. ordem :</font></tt></p>
+        <p align="center"><tt><font size="3" face="Arial">F(N) + N * F´(N) = 0</font></tt></p>
+        <p align="left"><tt><font size="3" face="Arial">Onde F´ eh a derivada
+        de F em relacao a N. A solucao desta equacao nos daria a população
+        ideal (N), aquela que maximizaria a felicidade do grupo nas condicoes<br>
+        ambientais embutidas em F.<br>
+        <br>
+        []s<br>
+        Jocax<br>
+        <br>
+        PS: A funcao F eh teorica e dificilima de se estimar. Um meio mais
+        pratico seria avaliar por uma pesquisa estatistica a felicidade
+        individual F e , conforme o resultado , os indices demograficos ideais
+        poderiam ser aumentados ou baixados.<br>
+        </font><br>
+<p align="left"><font face="Arial"><tt><br>
+          </tt></font></p>
+        <p align="right"><a href="javascript:history.back();"><img src="spacer.gif" width="50" height="22" border="0"></a> </p>
+              </tt></p></font>
+      </blockquote>
+    </td>
+  </tr>
+<TR><td height="19" colspan="7"> <div align="right"><em><font size="2" face="Arial, Helvetica, sans-serif"> <strong><a href="index.htm">home</a> : : <a href="javascript:history.back();">voltar</a></strong></font> </em></div> </td></TR></table>
+<center><div id="google_translate_element"></div><script type="text/javascript">function googleTranslateElementInit() {  new google.translate.TranslateElement({pageLanguage: 'pt', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');}</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></center>
+</body>
+</html>

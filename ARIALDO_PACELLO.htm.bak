@@ -1,0 +1,1455 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List href="ARIALDO_PACELLO_arquivos/filelist.xml">
+<link rel=Edit-Time-Data href="ARIALDO_PACELLO_arquivos/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>João Carlos Holland de Barcellos</o:Author>
+  <o:LastAuthor>João Carlos Holland de Barcellos</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>5</o:TotalTime>
+  <o:Created>2018-06-26T13:51:00Z</o:Created>
+  <o:LastSaved>2018-06-26T13:55:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>3384</o:Words>
+  <o:Characters>18279</o:Characters>
+  <o:Lines>152</o:Lines>
+  <o:Paragraphs>43</o:Paragraphs>
+  <o:CharactersWithSpaces>21620</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="ARIALDO_PACELLO_arquivos/themedata.thmx">
+<link rel=colorSchemeMapping
+href="ARIALDO_PACELLO_arquivos/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>PT-BR</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:DontUseIndentAsNumberingTabStop/>
+   <w:FELineBreak11/>
+   <w:WW11IndentRules/>
+   <w:DontAutofitConstrainedTables/>
+   <w:AutofitLikeWW11/>
+   <w:HangulWidthLikeWW11/>
+   <w:UseNormalStyleForList/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536859905 -1073732485 9 0 511 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Calibri;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabela normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-bidi-font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=PT-BR link=blue vlink=purple style='tab-interval:35.4pt'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:white'><b><span style='font-size:14.0pt;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Calibri;color:#222222;mso-fareast-language:
+PT-BR'>Coloco aqui TRECHOS de um Debate Com <span class=SpellE>Arialdo</span> <span
+class=SpellE>Pacello</span>:<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:white'><b><span style='font-size:14.0pt;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Calibri;color:#222222;mso-fareast-language:
+PT-BR'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:white'><b><span style='font-size:14.0pt;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Calibri;color:#222222;mso-fareast-language:
+PT-BR'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:white'><b><span style='font-size:14.0pt;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Calibri;color:#222222;mso-fareast-language:
+PT-BR'>De:</span></b><span style='font-size:14.0pt;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Calibri;color:#222222;mso-fareast-language:
+PT-BR'>&nbsp;<span class=SpellE>Arialdo</span> <span class=SpellE>Pacello</span>
+<b>Enviada em:</b>&nbsp;domingo, 22 de abril de 2018 <span class=GramE>20:29</span><br>
+<br>
+<b>Assunto:</b>&nbsp;RE: Pingo nos <span class=SpellE>iis</span> com <span
+class=SpellE>Arialdo</span> <span class=SpellE>Pacello</span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman";color:#222222;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:white'><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman";color:#222222;mso-fareast-language:
+PT-BR'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:white'><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman";color:#222222;mso-fareast-language:
+PT-BR'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:white'><span class=SpellE><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:#1F497D;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#1F497D;mso-fareast-language:PT-BR'>&nbsp;<b><i>-&nbsp;</i></b></span><b><i><u><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#222222;mso-fareast-language:PT-BR'>Certos</span></u></i></b><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#222222;mso-fareast-language:PT-BR'>&nbsp;militares (da ativa e
+da reserva) – não <span class=GramE>todos, claro</span>! – costumam apoiar as
+ideias&nbsp;<i>capitalistas</i>&nbsp;de&nbsp;<span class=SpellE><span
+class=GramE><i>SrX</i></span></span>, para perpetuar a continuidade da&nbsp;<b><u>in</u></b>justiça
+social no Brasil.</span><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman";color:#222222;mso-fareast-language:
+PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:white'><span style='font-size:14.0pt;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Calibri;color:#1F497D;mso-fareast-language:
+PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:white'><span class=SpellE><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:#1F497D;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#1F497D;mso-fareast-language:PT-BR'> -&nbsp;</span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#222222;mso-fareast-language:PT-BR'>Coisas típicas do
+neoliberalismo:&nbsp; riqueza exagerada para poucos, favelas, miséria, fome e
+falta de oportunidade para milhões. A brutal desigualdade social é o traço mais
+característico desse sistema. E com isso nosso país está entre os campeões do
+mundo em criminalidade!</span><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman";color:#222222;mso-fareast-language:
+PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:white'><span style='font-size:14.0pt;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Calibri;color:#222222;mso-fareast-language:
+PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:white'><span class=SpellE><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:#222222;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#1F497D;mso-fareast-language:PT-BR'>&nbsp;-&nbsp;</span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#222222;mso-fareast-language:PT-BR'>Um dos atuais defensores da
+ideia, atualmente, é o&nbsp;<i>Capitão Bolsonaro</i>, que foi, recentemente,
+beijar as mãos dos banqueiros de&nbsp;<i>Wall Street</i>&nbsp;e bater
+continência diante da bandeira&nbsp;<b><i>norte-americana</i></b>, e
+ajoelhar-se diante do “Mercado”. Para satisfazer sua ambição de ser presidente,
+o&nbsp;<i>Capitão</i>&nbsp;venderá sua alma ao Demônio, se necessário. Já
+deixou isso muito claro. Patriotismo não está entre seus apanágios. Ele está
+mais para o individualismo, para a ambição pessoal, para apoiar o estupro, a
+tortura e a difusão do racismo.</span><span style='font-size:12.0pt;font-family:
+"Times New Roman","serif";mso-fareast-font-family:"Times New Roman";color:#222222;
+mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:#222222;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#222222;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#1F497D;mso-fareast-language:PT-BR'>&nbsp;-&nbsp;</span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#222222;mso-fareast-language:PT-BR'>Mas vamos extrair quatro
+afirmativas “científicas” de&nbsp;<span class=SpellE><span class=GramE><i>SrX</i></span></span>&nbsp;para
+que ele possa nos explicar em quais fundamentos se apoiou para externar suas
+opiniões de que o “<i>comunismo está morto</i>”, e que o “<i>capitalismo</i>” é
+a solução:</span><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman";color:#222222;mso-fareast-language:
+PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:#222222;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#222222;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#1F497D;mso-fareast-language:PT-BR'>&nbsp;-&nbsp;</span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#222222;mso-fareast-language:PT-BR'>(1ª)-&nbsp; </span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>NOTA1:<span class=GramE> &nbsp;</span>Segundo
+minha visão, a URSS realmente se desmoronou por várias causas. Uma delas foi o
+“<i>autoritarismo e a centralização</i>”. Só que não se pode esquecer que a
+“revolução de 1917” durou cerca de 70 anos, e nesse período a URSS foi pioneira
+na corrida espacial, tendo enviado o primeiro satélite da história, o&nbsp;<span
+class=SpellE><i>Sputinik</i></span>, e colocado o primeiro homem no
+espaço,&nbsp;<i>Yuri <span class=SpellE>Gagarin</span></i>. Além disso, a
+educação melhorou exponencialmente, pois foram colocadas milhões de pessoas na
+Universidade e nas atividades de pesquisas. Mas a centralização e a burocracia
+tiveram impacto negativo no sistema econômico, consequências do egoísmo e da
+vaidade <span class=GramE>hum</span> <span class=SpellE>anas</span> (Fatos,
+aliás, sobejamente encontrados no capitalismo).</span><span style='font-size:
+12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman";
+color:#222222;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:black;mso-fareast-language:PT-BR'>Isto não quer dizer que as ideias
+fundamentais de&nbsp;<i>Marx</i>-<i>Engels</i>&nbsp;tenham morrido. A&nbsp;<i>fraternidade</i>,
+a&nbsp;<i>paz</i>, o&nbsp;<i>igualitarismo</i>, a&nbsp;<i>solidariedade</i>&nbsp;e
+a&nbsp;<i>partilha</i>&nbsp;são ideias cristãs, muito anteriores às ideias
+marxistas. Não morreram e não morrerão. Continuam sendo o maior sonho da
+humanidade.</span><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman";color:#222222;mso-fareast-language:
+PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:#222222;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#222222;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#1F497D;mso-fareast-language:PT-BR'>&nbsp;-&nbsp;</span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Por acaso a derrocada significa
+a vitória das ideias do capitalismo neoliberal? – Absolutamente não!&nbsp;<i>Noam
+Chomsky</i>&nbsp;nos conta em seu livro “O LUCRO OU AS PESSOAS” que:</span><span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman";color:#222222;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span class=GramE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>“...</span></span><i><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Uma pesquisa da UNICEF
+realizada em 1993 estimou um incremento, somente na Rússia, de meio milhão de
+mortes anuais como consequência das ‘<b>reformas’ neoliberais</b>, que tinham o
+apoio geral. O ministério russo da ação social estimou recentemente que 25 por
+cento da população caiu abaixo dos níveis mínimos de subsistência, ao passo que
+os novos dirigentes adquiriram enormes fortunas, outra vez o velho padrão das
+semicolônias ocidentais</span></i><span style='font-size:14.0pt;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Calibri;color:black;mso-fareast-language:
+PT-BR'>”.</span><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman";color:#222222;mso-fareast-language:
+PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:#222222;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:#222222;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#222222;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>&nbsp;- Quem sabe uma nova
+Revolução tenderá a acontecer.</span><span style='font-size:12.0pt;font-family:
+"Times New Roman","serif";mso-fareast-font-family:"Times New Roman";color:#222222;
+mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:#222222;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#222222;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#1F497D;mso-fareast-language:PT-BR'>&nbsp;-&nbsp;</span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Pergunta 1-1: O que está “vivo”
+é o&nbsp;<i>capitalismo neoliberal</i>, concentrador de riquezas e gerador de
+miséria e fome? O causador da crise internacional de 2008?</span><span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman";color:#222222;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:#222222;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#222222;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#1F497D;mso-fareast-language:PT-BR'>&nbsp;</span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Pergunta 2-1: Explique o “<i>desmoronamento</i>&nbsp;da
+China”. Pelo que <span class=GramE>sei,</span> a China, depois que se livrou do
+império ocidental, foi o país que mais cresceu econômica e socialmente. Teve o
+maior PIB dos últimos 20 anos, entre todos os países! Retirou dezenas e dezenas
+de milhões de pessoas da pobreza! Continua com mais de 100.000 empresas
+estatais. Continua com absoluto controle estatal do sistema financeiro. Uma
+coisa é abrir-se ao&nbsp;<i>Mercado</i>&nbsp;dando-lhe as cartas e o
+protagonismo (caso do desastre brasileiro). Outra coisa é abrir-se ao&nbsp;<i>Mercado</i>&nbsp;mantendo-o
+<span class=GramE>sob regulamentação</span> e controle, mas com o protagonismo
+do Estado (caso do sucesso do gigante asiático). Onde estaria o
+“desmoronamento” da China, citado por <span class=SpellE><span class=GramE>SrX</span></span>?
+– O que eles apregoam por lá, com suas 100.000 estatais e o controle pelo
+governo do sistema financeiro, é que eles praticam o “Socialismo à moda
+chinesa”, dando uma importante atribuição ao Mercado, mas sem que domine as
+cartas da economia.</span><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman";color:#222222;mso-fareast-language:
+PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:red;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:#222222;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;background:white'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#222222;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>&nbsp;- Pergunta 3-1: Como
+explicar o “sucesso” do&nbsp;<i>capitalismo</i>&nbsp;americano, se&nbsp;<span
+class=SpellE><i>Trump</i></span>&nbsp;está desesperado como o fato de a China
+aproximar-se, rapidamente dos EUA, a ponto de as previsões <span class=GramE>indicarem</span>
+que irá superá-lo dentro de poucos anos, e tornar-se o principal país em termos
+econômicos? Como explicar o “sucesso” do capitalismo se&nbsp;<span
+class=SpellE><i>Trump</i></span>&nbsp;acaba de impor cotas tarifárias extras
+aos produtos chineses, canadenses, japoneses, alemães e brasileiros importados,
+especialmente aço e alumínio? Como explicar o déficit da balança americana que
+já ultrapassa trilhões de dólares? <span class=GramE>“<b>Déficit comercial dos
+EUA atinge em janeiro o maior nível em nove anos</b>.</span>&nbsp;</span><i><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#222222;mso-fareast-language:PT-BR'>O déficit na balança
+comercial americana cresceu 5% em <span class=SpellE>relaç</span> <span
+class=SpellE>ão</span></span></i><span style='font-size:12.0pt;font-family:
+"Times New Roman","serif";mso-fareast-font-family:"Times New Roman";color:#222222;
+mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
+"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";color:#222222;
+background:white;mso-fareast-language:PT-BR'>...<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal'><span class=SpellE><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:#1F497D;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#1F497D;mso-fareast-language:PT-BR'>&nbsp;<b><i>-&nbsp;</i></b></span><b><i><u><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Certos</span></u></i></b><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>&nbsp;militares (da ativa e da
+reserva) – não <span class=GramE>todos, claro</span>! – costumam apoiar as
+ideias&nbsp;<i>capitalistas</i>&nbsp;de&nbsp;<span class=SpellE><span
+class=GramE><i>SrX</i></span></span>, para perpetuar a continuidade da&nbsp;<b><u>in</u></b>justiça
+social no Brasil.</span><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
+PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal'><span class=SpellE><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:#1F497D;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#1F497D;mso-fareast-language:PT-BR'> -&nbsp;</span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Coisas típicas do
+neoliberalismo:&nbsp; riqueza exagerada para poucos, favelas, miséria, fome e
+falta de oportunidade para milhões. A brutal desigualdade social é o traço mais
+característico desse sistema. E com isso nosso país está entre os campeões do
+mundo em criminalidade!</span><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
+PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal'><span class=SpellE><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:black;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#1F497D;mso-fareast-language:PT-BR'>&nbsp;-&nbsp;</span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Um dos atuais defensores da
+ideia, atualmente, é o&nbsp;<i>Capitão Bolsonaro</i>, que foi, recentemente,
+beijar as mãos dos banqueiros de&nbsp;<i>Wall Street</i>&nbsp;e bater
+continência diante da bandeira&nbsp;<b><i>norte-americana</i></b>, e
+ajoelhar-se diante do “Mercado”. Para satisfazer sua ambição de ser presidente,
+o&nbsp;<i>Capitão</i>&nbsp;venderá sua alma ao Demônio, se necessário. Já
+deixou isso muito claro. Patriotismo não está entre seus apanágios. Ele está
+mais para o individualismo, para a ambição pessoal, para apoiar o estupro, a tortura
+e a difusão do racismo.</span><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
+PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#1F497D;mso-fareast-language:PT-BR'>&nbsp;-&nbsp;</span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Mas vamos extrair quatro
+afirmativas “científicas” de&nbsp;<span class=SpellE><span class=GramE><i>SrX</i></span></span>&nbsp;para
+que ele possa nos explicar em quais fundamentos se apoiou para externar suas
+opiniões de que o “<i>comunismo está morto</i>”, e que o “<i>capitalismo</i>” é
+a solução:</span><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
+PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:black;mso-fareast-language:PT-BR'>NOTA1:<span class=GramE> &nbsp;</span>Segundo
+minha visão, a URSS realmente se desmoronou por várias causas. Uma delas foi o
+“<i>autoritarismo e a centralização</i>”. Só que não se pode esquecer que a
+“revolução de 1917” durou cerca de 70 anos, e nesse período a URSS foi pioneira
+na corrida espacial, tendo enviado o primeiro satélite da história, o&nbsp;<span
+class=SpellE><i>Sputinik</i></span>, e colocado o primeiro homem no
+espaço,&nbsp;<i>Yuri <span class=SpellE>Gagarin</span></i>. Além disso, a
+educação melhorou exponencialmente, pois foram colocadas milhões de pessoas na
+Universidade e nas atividades de pesquisas. Mas a centralização e a burocracia
+tiveram impacto negativo no sistema econômico, consequências do egoísmo e da
+vaidade <span class=GramE>hum</span> <span class=SpellE>anas</span> (Fatos,
+aliás, sobejamente encontrados no capitalismo).</span><span style='font-size:
+12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:black;mso-fareast-language:PT-BR'>Isto não quer dizer que as ideias
+fundamentais de&nbsp;<i>Marx</i>-<i>Engels</i>&nbsp;tenham morrido. A&nbsp;<i>fraternidade</i>,
+a&nbsp;<i>paz</i>, o&nbsp;<i>igualitarismo</i>, a&nbsp;<i>solidariedade</i>&nbsp;e
+a&nbsp;<i>partilha</i>&nbsp;são ideias cristãs, muito anteriores às ideias
+marxistas. Não morreram e não morrerão. Continuam sendo o maior sonho da
+humanidade.</span><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
+PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#1F497D;mso-fareast-language:PT-BR'>&nbsp;-&nbsp;</span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Por acaso a derrocada significa
+a vitória das ideias do capitalismo neoliberal? – Absolutamente não!&nbsp;<i>Noam
+Chomsky</i>&nbsp;nos conta em seu livro “O LUCRO OU AS PESSOAS” que:</span><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span class=GramE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>“...</span></span><i><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Uma pesquisa da UNICEF
+realizada em 1993 estimou um incremento, somente na Rússia, de meio milhão de
+mortes anuais como consequência das ‘<b>reformas’ neoliberais</b>, que tinham o
+apoio geral. O ministério russo da ação social estimou recentemente que 25 por
+cento da população caiu abaixo dos níveis mínimos de subsistência, ao passo que
+os novos dirigentes adquiriram enormes fortunas, outra vez o velho padrão das
+semicolônias ocidentais</span></i><span style='font-size:14.0pt;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Calibri;color:black;mso-fareast-language:
+PT-BR'>”.</span><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
+PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>&nbsp;- Quem sabe uma nova
+Revolução tenderá a acontecer.</span><span style='font-size:12.0pt;font-family:
+"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";color:black;
+mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#1F497D;mso-fareast-language:PT-BR'>&nbsp;-&nbsp;</span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Pergunta 1-1: O que está “vivo”
+é o&nbsp;<i>capitalismo neoliberal</i>, concentrador de riquezas e gerador de
+miséria e fome? O causador da crise internacional de 2008?</span><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:#1F497D;mso-fareast-language:PT-BR'>&nbsp;</span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Pergunta 2-1: Explique o “<i>desmoronamento</i>&nbsp;da
+China”. Pelo que <span class=GramE>sei,</span> a China, depois que se livrou do
+império ocidental, foi o país que mais cresceu econômica e socialmente. Teve o
+maior PIB dos últimos 20 anos, entre todos os países! Retirou dezenas e dezenas
+de milhões de pessoas da pobreza! Continua com mais de 100.000 empresas
+estatais. Continua com absoluto controle estatal do sistema financeiro. Uma
+coisa é abrir-se ao&nbsp;<i>Mercado</i>&nbsp;dando-lhe as cartas e o
+protagonismo (caso do desastre brasileiro). Outra coisa é abrir-se ao&nbsp;<i>Mercado</i>&nbsp;mantendo-o
+<span class=GramE>sob regulamentação</span> e controle, mas com o protagonismo
+do Estado (caso do sucesso do gigante asiático). Onde estaria o
+“desmoronamento” da China, citado por <span class=SpellE><span class=GramE>SrX</span></span>?
+– O que eles apregoam por lá, com suas 100.000 estatais e o controle pelo
+governo do sistema financeiro, é que eles praticam o “Socialismo à moda
+chinesa”, dando uma importante atribuição ao Mercado, mas sem que domine as
+cartas da economia.</span><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
+PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>&nbsp;- Pergunta 3-1: Como
+explicar o “sucesso” do&nbsp;<i>capitalismo</i>&nbsp;americano, se&nbsp;<span
+class=SpellE><i>Trump</i></span>&nbsp;está desesperado como o fato de a China
+aproximar-se, rapidamente dos EUA, a ponto de as previsões <span class=GramE>indicarem</span>
+que irá superá-lo dentro de poucos anos, e tornar-se o principal país em termos
+econômicos? Como explicar o “sucesso” do capitalismo se&nbsp;<span
+class=SpellE><i>Trump</i></span>&nbsp;acaba de impor cotas tarifárias extras
+aos produtos chineses, canadenses, japoneses, alemães e brasileiros importados,
+especialmente aço e alumínio? Como explicar o déficit da balança americana que
+já ultrapassa trilhões de dólares? “<b>Déficit comercial dos EUA atinge em
+janeiro o maior nível em nove anos</b>.&nbsp;<i>O déficit na balança comercial
+americana cresceu 5% em <span class=SpellE>relaç</span> <span class=SpellE>ão</span>
+ao mês anterior, para o valor sazonalmente ajustado de&nbsp;<b><a
+href="https://maps.google.com/?q=US$+56,6&amp;entry=gmail&amp;source=g"
+target="_blank"><span style='font-family:"Arial","sans-serif";color:#1155CC;
+text-decoration:none;text-underline:none'>US$ 56,6</span></a>&nbsp;bilhões em
+janeiro&nbsp;</b></i>[de 2018],&nbsp;<i>atingindo o maior patamar desde outubro
+de 2008, segundo o Departamento de Comércio...</i>&nbsp;<i>Já o déficit
+comercial geral dos EUA com a China atingiu em janeiro o maior patamar desde
+setembro de 2015, enquanto o déficit americano com o Canadá alcançou o maior
+nível desde o fim de 2014.”</i></span><span style='font-size:12.0pt;font-family:
+"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";color:black;
+mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>&nbsp;- Pergunta 4-1: Como
+explicar o “sucesso” do capitalismo se esse sistema conseguiu produzir, nos
+últimos anos, o fato indecente, denunciado pela OXFAM, de que apenas 8 pessoas
+detém a mesma riqueza que 3.500.000.000 de pessoas (metade da população
+mundial)? Como explicar que a mesma OXFAM relata que 6 empresários brasileiros
+mais ricos possuem o mesmo patrimônio que 100.000.000 de brasileiros (metade da
+população do Brasil)?</span><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
+PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>&nbsp;- (2ª)- SRX: <span
+class=GramE>“<i><span style='color:#1F497D'>Uma coisa é liquida e certa – Nos
+anos 60 o comunismo estava bem vivo e obviamente todos os países capitalistas
+tinham que combatê-lo.</span></i></span></span><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><i><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:#1F497D;mso-fareast-language:PT-BR'>No caso do Brasil a interferência
+americana se justificava em função disso e não devido ao “imperialismo
+norte-americano”.</span></i><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
+PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:black;mso-fareast-language:PT-BR'>&nbsp;</span><span style='font-size:
+12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:black;mso-fareast-language:PT-BR'>NOTA2:<span class=GramE> &nbsp;</span>Pergunta
+1-2:&nbsp; Qual o fundamento “científico” que “<i>justificava</i>” e justifica
+a “<i>interferência americana</i>” no Brasil (e no resto do mundo) Por que
+motivo “<i>os países capitalistas tinham que combater”</i>&nbsp;o comunismo,
+interferindo em outros países?</span><span style='font-size:12.0pt;font-family:
+"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";color:black;
+mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'> -- A razão “<i>científica</i>”
+era combater ditaduras? Ou o motivo real era o domínio geopolítico e econômico?
+Por que os EUA apoiaram o golpe militar no Chile, que depôs um governo
+legítimo, eleito das urnas pelo povo chileno –&nbsp;<i>Salvador Allende
+--&nbsp;</i>e deram total apoio ao golpista, ditador e sanguinário <span
+class=SpellE><span class=GramE>general<i>Augusto</i></span></span><i> Pinochet?</i></span><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'> -&nbsp;Ocorre que&nbsp;<i>Allende</i>,
+socialista, eleito democraticamente nas urnas, lutava pela soberania e
+independência do Chile, e queria livrar seu país dos predadores empresários
+privados americanos na exploração do cobre, mas foi deposto antes de terminar
+seu mandato pelo general&nbsp;<i>Pinochet</i>, com maciço e aberto apoio dos
+EUA, não só durante o golpe, mas durante os 16 anos de sua ditadura
+sanguinária. Submisso aos princípios neoliberais da&nbsp;<i>Escola de <span
+class=SpellE><span class=GramE>Chicago<span style='font-style:normal'>,</span></span>Pinochet</span></i>&nbsp;escancarou
+as portas do Chile aos especuladores internacionais para exploração das
+riquezas naturais chilenas, e com isso conseguiu perpetrar sua ditadura por 16
+anos, desde 1974 até 1990, com total e absoluto apoio dos governos
+imperialistas norte-americanos!</span><span style='font-size:12.0pt;font-family:
+"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";color:black;
+mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>&nbsp;- Os EUA vêm combatendo o
+“comunismo” desde o começo do século passado.&nbsp;<i>Chomsky</i>&nbsp;nos diz
+que <span class=GramE>“...</span><i>ameaças à ‘prosperidade do sistema
+capitalista mundial’&nbsp;<b>justificam</b>&nbsp;o uso do&nbsp;<b>terror</b>&nbsp;e
+da&nbsp;<b>subversão</b>&nbsp;para restauração da ‘estabilidade’. Uma das
+primeiras tarefas da CIA foi uma operação em larga escala para minar a
+democracia italiana em 1948, quando se temeu que o resultado eleitoral pudesse
+dar errado; planejou-se uma intervenção militar direta para o caso de falhar a
+subversão.”&nbsp;</i>Mais adiante o linguista e filósofo do MIT explica: “...<i>Washington
+precisava ‘<span class=SpellE>deses</span> <span class=SpellE>tabilizar</span>
+um governo marxista livremente eleito no Chile’, porque ‘estávamos determinados
+a buscar a estabilidade’. ...Henry Kissinger descreveu o Chile como um ‘vírus’
+capaz de enviar sinais equivocados sobre a possibilidade de mudanças sociais,
+contaminando países distantes... Os vírus têm de ser destruídos, e os demais
+países, protegidos da infecção...”</i></span><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:black;mso-fareast-language:PT-BR'>A ação da Grã-Bretanha não foi
+diferente: “<i>A Índia financiou 40 por cento do déficit comercial da
+Grã-Bretanha, <span class=GramE>ao mesmo tempo que</span> forneceu um mercado
+cativo para suas exportações de manufaturados, trabalhadores por empreitada
+para as possessões britânicas em substituição às antigas populações escravas, e
+o ópio, que foi o principal produto de exportação britânico para a China. O
+comércio do ópio foi imposto à China pela força e não pelo ‘livre mercado’</i>...”</span><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>&nbsp;- Voltando aos EUA,&nbsp;<i>Chomsky</i>&nbsp;relata:
+“<i>Na elogiadíssima americanização do Brasil, Gerard <span class=SpellE>Haines</span>
+diz que os Estados Unidos vêm usando o Brasil desde 1945 como ‘área de teste
+para os modernos métodos científicos de desenvolvimento industrial baseado no
+capitalismo intensivo’... Não é necessário explicar como foi que se
+beneficiaram [os EUA] ao tornar o Brasil ‘a menina dos olhos da comunidade
+internacional de negócios na América Latina’ sob o governo militar – nas
+palavras dos jornais de negócios --, enquanto o Banco Mundial relatava que dois
+terços da população não se alimentavam o bastante para suportar uma atividade
+física normal... Devemos lembrar de que o Brasil há muito é reconhecidamente um
+dos países<span class=GramE> &nbsp;</span>mais ricos do mundo, dotado de
+enormes vantagens, até mesmo meio século de influência e tutela dos Estados
+Unidos, que, com a melhor das intenções, por acaso estão uma vez mais a serviço
+do lucro da minoria, enquanto a maioria do povo é deixada na miséria.”</i></span><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:black;mso-fareast-language:PT-BR'>Eis, portanto, alguns exemplos da
+intervenção dos EUA (e do Reino Unido), não para defender a democracia, mas
+para defender o interesse dos monopólios internacionais, com sua voracidade
+pelo lucro, e sem qualquer preocupação com os problemas sociais, a miséria e a
+injustiça.</span><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
+PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:black;mso-fareast-language:PT-BR'>&nbsp;<span class=SpellE>Arialdo</span><b><i>&nbsp;-
+Reitero a pergunta</i></b>: qual o fundamento “científico” que autoriza os
+norte-americanos a combater o comunismo?</span><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:black;mso-fareast-language:PT-BR'>&nbsp;</span><span style='font-size:
+12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:black;mso-fareast-language:PT-BR'>NOTA3: Pergunta 1-3: Em que fundamento&nbsp;<b>moral</b>&nbsp;e&nbsp;<b>científico</b>&nbsp;<i>Mr.</i>&nbsp;<span
+class=SpellE><span class=GramE><i>SrX</i></span></span>&nbsp;se apoia para
+afirmar que “</span><i><span style='font-size:14.0pt;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Calibri;color:#1F497D;mso-fareast-language:
+PT-BR'>Todos os países capitalistas desenvolvidos tinham que de uma forma ou de
+outra combater o comunismo?”</span></i><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:black;mso-fareast-language:PT-BR'>Os EUA, por acaso, receberam alguma
+outorga de poderes para serem a polícia internacional? Que moral tem esse país,
+que já invadiu mais de uma centena de países, bombardeou, apoiou ditaduras
+sanguinárias, matou milhões de inocentes, só para defender os monopólios de
+seus empresários particulares?</span><span style='font-size:12.0pt;font-family:
+"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";color:black;
+mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:14.0pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Calibri;
+color:#1F497D;mso-fareast-language:PT-BR'><span
+style='mso-spacerun:yes'> </span>(4ª)- “<i>A vida é daqui pra frente, <span
+class=SpellE><span class=GramE>sr.</span></span> <span class=SpellE>Arialdo</span></i>.”</span><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span class=SpellE><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+Calibri;color:black;mso-fareast-language:PT-BR'>&nbsp;- NOTA4:<span
+class=GramE> &nbsp;</span>Não entendi esta proposição de&nbsp;<span
+class=SpellE><i>SrX</i></span><i>.</i>&nbsp;Será que ele quer dizer que devemos
+desprezar as experiências e as lições do passado? Desprezar a realidade da
+História? Não acredito que tenha sido esse o sentido da frase de&nbsp;<span
+class=SpellE><span class=GramE><i>SrX</i></span></span>!</span><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal'><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
+PT-BR'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal'><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
+PT-BR'>&nbsp;<o:p></o:p></span></p>
+
+<div class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal'><span style='font-size:12.0pt;font-family:
+"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";color:black;
+mso-fareast-language:PT-BR'>
+
+<hr size=2 width="100%" align=center>
+
+</span></div>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal'><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
+PT-BR'><br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal'><span style='mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:Calibri;color:#1F497D;mso-fareast-language:PT-BR'>&nbsp;</span><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><i><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'>Mr. <span class=SpellE><span
+class=GramE>SrX</span></span></span></i><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'>&nbsp;costuma repetir que “<i>o
+comunismo está morto</i>”. A mesma obsessão contra o “<i>comunismo</i>” é
+observada em certos militares (da reserva e da ativa) que não conseguiram se
+livrar da lavagem cerebral de que foram vítimas, praticada no Brasil pelo
+imperialismo norte-americano, principalmente a partir dos anos 1960. E entre os
+defensores do Mercado e do&nbsp;<i>laissez-faire</i>. Mas acredito que outros
+muitos não se deixaram iludir. Por isso, não gosto de generalizações, nem com
+os militares, nem com o judiciário, nem com as Igrejas, nem com outras
+instituições. O egoísmo e a solidariedade podem ser encontrados em todas elas
+-- menos entre os neoliberais, onde o individualismo é o fundamento.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><b><i><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'>&nbsp;Eu, particularmente</span></i></b><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black;mso-fareast-language:PT-BR'>,&nbsp;<u>não</u>&nbsp;sou
+comunista. Mas admiro&nbsp;<i>Karl Marx</i>, suas ideias brilhantes, seu
+trabalho e sua abnegação na defesa dos escravizados e explorados de seu tempo;
+sua descoberta de que a&nbsp;<i>luta de classes</i>&nbsp;tem sido o motor da
+História; admiro seu desprendimento, sua dedicação aos humildes, suas
+concepções revolucionárias, revoltadas contra a exploração do homem pelo homem,
+e contra a ganância e o egoísmo. Por seus ideais,&nbsp;<i>Marx</i>&nbsp;foi
+perseguido, perdeu empregos e foi exilado.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'>Mas&nbsp;<u>não</u>&nbsp;sou comunista
+no sentido&nbsp;<b>marxista</b>&nbsp;de&nbsp;<i>Marx</i>&nbsp;e&nbsp;<i>Engels</i>.
+Eles pregaram o&nbsp;<b>materialismo</b>, e eu defendo o&nbsp;<b>idealismo</b>;
+eles disseram que a&nbsp;<b>religião</b>&nbsp;é o ópio do povo. E eu defendo
+que a&nbsp;<b>religião</b>&nbsp;<u>não</u>&nbsp;é o ópio do povo. Concordo,
+porém, que muitos “religiosos” (inclusive dos tempos de&nbsp;<i>Marx-Engels</i>)
+<span class=GramE>eram (e continuam sendo), realmente, o ópio</span> do povo,
+assim como é o ópio do povo a&nbsp;<b>mídia</b>&nbsp;brasileira dominante,
+formada por um exército de “jornalistas” venais, mentirosos, mercenários e
+tendenciosos. Marx e Engels defenderam a “<b><i>ditadura do proletariado</i></b>”.
+Eu discordo, pois vejo o “<i>proletariado</i>” como uma “classe” de seres
+humanos <span class=SpellE>t&amp;atil</span> <span class=SpellE><span
+class=GramE>de;</span>o</span> humanos quanto são os empresários da FIESP e os
+rentistas: todos sujeitos às ideias do egoísmo, individualismo e ganância; ou
+defensores da partilha, da fraternidade e da solidariedade. Claro que, entre os
+banqueiros e os empresários da FIESP a ideia de partilha é raríssima. E entre
+os mais pobres ela pode ser mais abundante e encontradiça.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><b><i><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'>Mas o cristianismo original</span></i></b><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black;mso-fareast-language:PT-BR'>, de&nbsp;<i>João
+Batista</i>&nbsp;e&nbsp;<i>Jesus Cristo</i>&nbsp;e outros autênticos
+cristãos,&nbsp;<b>não</b>&nbsp;era o ópio do povo (tanto que eles foram
+degolados e crucificados por defenderem a paz, a partilha e a fraternidade);
+como&nbsp;<b>não</b>&nbsp;é o ópio do povo a religião pregada pelo&nbsp;<i>Papa
+Francisco</i>, por&nbsp;<i>Leonardo Boff</i>, por&nbsp;<i>Dom Hélder Câmara</i>&nbsp;e
+por&nbsp;<i>Dom Paulo Evaristo Arns,</i>&nbsp;entre tantos outros.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><b><i><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'>Ópio do povo</span></i></b><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black;mso-fareast-language:PT-BR'>&nbsp;é o que fazem
+os falsos pastores do PSC e os bispos da Igreja Universal e outras “Igrejas”
+ditas “evangélicas”, controladas por hipócritas, cujo único objetivo é
+extorquir e enganar fiéis ingênuos, e buscar enriquecimento pessoal. (Que não
+se confundam com os milhões de evangélicos reais, honestos e que lutam pela
+fraternidade.)&nbsp;<b><i>Ópio do povo&nbsp;</i></b>é a prática de certos
+padres e bispos católicos que ainda têm ideias inquisitórias e despidas do
+cristianismo verdadeiro e original. Por isso, eu defendo a&nbsp;<b>religião</b>&nbsp;e
+as <span class=SpellE>religi&amp;oti</span> <span class=SpellE><span
+class=GramE>lde;</span>es</span>. Mas abomino a deturpação da religião por
+certos “religiosos” avarentos, gananciosos, egoístas e materialistas, que <span
+class=SpellE>nad</span> a mais fazem que <span class=GramE>praticar</span> as
+ideias do&nbsp;<i>neoliberalismo</i>&nbsp;(ganância e individualismo).<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'>Acredito no processo&nbsp;<i>dialético
+hegeliano</i></span></b><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
+PT-BR'>: tudo vai se transformando, alternando e aperfeiçoando, na Terra, na
+sociedade, na civilização e nos conceitos. Sempre como altos e baixos;
+com&nbsp;<i>teses, antíteses e sínteses</i>... Mas, como já disse um dos papas,
+tudo caminha para Deus.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'>Faz sentido o que eu compilei do site
+da&nbsp;<span class=SpellE><b><i>Amazon</i></b></span><b><i>,&nbsp;</i></b>relacionado
+com o livro “<b><i>Manifesto do Partido Comunista</i></b>”, que transcrevo
+abaixo:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'>“<b><i>Mais de vinte anos após a queda
+do Muro de Berlim</i></b><i>&nbsp;e o fim da União Soviética, o legado
+intelectual de Karl Marx e Friedrich Engels ainda pode ajudar a compreender as
+transformações do mundo contemporâneo?&nbsp;<b>A crise financeira deflagrada em
+2008 escancarou as fragilidades estruturais do capitalismo e ratificou diversos
+postulados dos autores do&nbsp;</b></i><b>Manifesto do Partido <span
+class=GramE>Comunista<i>&nbsp;.</i></span><i>&nbsp;<u>Desde então, o grande
+número de reedições dos livros basilares do marxismo em todo o mundo atesta que
+o estudo das contradições inerentes à reprodução do capital tem se renovado e
+ampliado.</u></i></b><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><i><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><span style='mso-spacerun:yes'> </span>“<b>Análise
+militante da luta de classes,&nbsp;</b></span></i><b><span style='font-size:
+12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'>denúncia dos mecanismos de perpetuação
+da opressão,<i>&nbsp;este que é um dos&nbsp;<u>textos políticos mais influentes
+da história moderna</u>&nbsp;retorna com o selo <span class=SpellE>Penguin</span>-Companhia
+das Letras para seguir provocando polêmicas e paixões. Com tradução direta do
+alemão por Sergio <span class=SpellE>Tellaroli</span> e posfácio do filósofo
+marxista Marshall <span class=SpellE>Berman</span>, além de prefácios de Marx e
+Engels&nbsp;<u>para edições em vários países, o Manifesto recupera a força
+explosiva da prosa original.&nbsp;</u>Como afirma <span class=SpellE>Berman</span>,
+o autor de O <span class=GramE>capital ,</span> “</i>ateu fazendo as vezes de
+profeta bíblico, ainda te m muito a dizer”.</span></b><span style='font-size:
+12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'>&nbsp;</span></b><b><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:#1F497D;mso-fareast-language:PT-BR'>-------------------------------------------</span></b><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><b><i><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'>Portanto, não se iludam</span></i></b><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black;mso-fareast-language:PT-BR'>&nbsp;os&nbsp;<i>neoliberais</i>&nbsp;–
+os seguidores de&nbsp;<i>Ludwig</i>&nbsp;<span class=GramE><i>von</i></span><i>
+<span class=SpellE>Mises</span>, Friedrich Hayek, Milton Friedman, Margaret
+Thatcher, Ronald Reagan, Bush pai e Bush filho&nbsp;</i>(nos EUA e no Reino
+Unido);&nbsp;<i>general Augusto Pinochet</i>&nbsp;(no Chile);&nbsp;<i>Armínio
+Fraga, FHC, Serra&nbsp;</i>e tantos outros<i>&nbsp;</i>(no Brasil) – que
+defenderam e praticaram o&nbsp;<i>Consenso de Washington&nbsp;</i>e os
+princípios<i>&nbsp;da Escola Austríaca e da Escola de Chicago.&nbsp;</i>Estes
+praticaram as privatizações indiscriminadas, inclusive de setores estratégicos;
+reduziram os impostos para os ricos e aumentaram os impostos para os
+pobres;&nbsp;<b>desprestigiaram</b>&nbsp;a saúde e a educação públicas, em
+benefício de empresários particulares que só pensam no lucro, na vantagem e na
+propriedade .<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black;mso-fareast-language:PT-BR'>As ideias de&nbsp;<i>fraternidade</i>,
+de&nbsp;<i>justiça social</i>, de&nbsp;<i>redução das desigualdades</i>,
+de&nbsp;<i>solidariedade,&nbsp;</i>de<i>&nbsp;paz</i>&nbsp;não morreram e não
+morrerão – elas são a única forma de permitir a continuidade da espécie humana
+no Planeta.</span><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:#1F497D;mso-fareast-language:
+PT-BR'>&nbsp;</span><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:black;mso-fareast-language:
+PT-BR'>Tudo o que contrariar tais ideais supremos está fadado ao fracasso –
+cedo ou tarde. Quem acredita em Deus e na Justiça não pode acreditar que
+o&nbsp;<i>egoísmo</i>&nbsp;e o&nbsp;<i>individualismo</i>&nbsp;prevalecerão.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span class=SpellE><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black;mso-fareast-language:PT-BR'>Arialdo</span></span><span
+style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black;mso-fareast-language:PT-BR'> <span class=SpellE>Pacello</span><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

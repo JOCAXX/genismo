@@ -1,0 +1,248 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head> <title>Genismo - Lógica</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<table width="751" height="1216" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="751" height="1216" valign="top"> 
+      <blockquote> 
+        <p align="center"><img src="titutogenismo.gif" width="691" height="55"><font color="#0000FF" size="5" face="Arial, Helvetica, sans-serif"> 
+          <br>
+          A Lógica e os Problemas da Vida Sentimental<br>
+        </font><font face="Arial" size="3"><em><span>Por: Eduardo Chaves</span></em></font> </p>
+        <p align="left"><font face="Arial" size="3"><b><span><br>
+        </span></b><span><br>
+        <br>
+        &nbsp;“A lógica, como a anatomia, sempre exercerá atração sobre
+        muitas mentes simplesmente porque, em um universo onde tanta coisa é
+        incerta, ela produz certeza de que algumas formas de raciocínio são tão
+        inadmissíveis quanto alguns usos do corpo”&nbsp;&nbsp; - Ralph
+        Harper, &quot;Significance of Existence and Recognition for Education&quot;<br>
+        <br>
+        Muitas pessoas têm receio da lógica, da mesma forma que têm medo da<br>
+        matemática. A lógica não tem uma boa reputação, exceto, talvez,
+        entre<br>
+        filósofos (mesmo assim apenas entre alguns), e, certamente, entre lógicos<br>
+        profissionais.<br>
+        <br>
+        Contudo, todos nós usamos a lógica. O tempo todo. Usamos a lógica
+        quando argumentamos, e argumentamos quando tentamos convencer os outros
+        de algo ou quando tentamos nos defender de alguma acusação que nos é
+        feita. Por isso, argumentos são coisa que aparece principalmente na
+        vida sentimental.<br>
+        <br>
+        [Argumento A1]<br>
+        <br>
+        1. &quot;Você não me ama&quot;, diz ela.<br>
+        2. &quot;Por quê?&quot;, pergunta ele, surpreso.<br>
+        3. &quot;Porque, se você me amasse, você não teria me deixado aqui
+        sozinha ontem à noite&quot;, explica ela.<br>
+        <br>
+        Situação comum, essa ou alguma parecida. O argumento usado é, no
+        tocante à sua forma, tão comum, que ela certamente ficaria
+        surpreendida se ele – um filósofo de boa estirpe -- lhe disse, para
+        encerrar a discussão: -- &quot;Ah, não me venha com um 'modus tollens'
+        desses!” ·<br>
+        Argumentos como o apresentado por ela é tão comum que &quot;modus
+        tollens&quot; é o nome latino dado a argumentos que têm essa forma:<br>
+        <br>
+        [Forma do Argumento Válido Modus Tollens - Negação do Conseqüente]<br>
+        <br>
+        Se p, então q (premissa maior)<br>
+        não-q&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (premissa menor)<br>
+        Logo, não-p (conclusão)<br>
+        <br>
+        Colocando &quot;recheio&quot; na forma do argumento, temos: <O>
+        </O>
+        </span></font> </p>
+        <p class="MsoNormal"><span><font face="Arial" size="3"><br>
+        [Argumento A2]<br>
+        <br>
+        4. Se você me amasse (p), você não teria me deixada aqui sozinha
+        ontem à noite (q)<br>
+        5. Você me deixou aqui sozinha ontem à noite (não-q)<br>
+        6. Logo, você não me ama (não-p).<br>
+        <br>
+        Esse argumento, e todos os que possuem a mesma forma, é um argumento válido.<br>
+        O raciocínio dela é correto. Resta saber se as premissas que ela usa,<br>
+        especialmente a maior (a primeira), são verdadeiras. Se forem, a
+        conclusão é, necessariamente, verdadeira. Se não forem, ou se pelo
+        menos uma delas não for, a conclusão não precisa ser verdadeira,
+        mesmo que o argumento seja válido, como este.<br>
+        <br>
+        Mas imaginemos uma outra situação. Ela está feliz -- e o diálogo é<br>
+        diferente.<br>
+        <br>
+        [Argumento B1]<br>
+        <br>
+        7. &quot;Ah, que bom que você me ama&quot;, diz ela.<br>
+        8. &quot;Por que você está dizendo isso?&quot;, pergunta ele,
+        interessado.<br>
+        9. &quot;Porque eu lhe disse ontem que, se você me amasse, você não
+        iria àquela festa, e você não foi&quot;, explica ela.<br>
+        <br>
+        Ele -- o mesmo filósofo de boa estirpe -- fica quieto. Por que estragar
+        o<br>
+        bom humor dela apontando uma falácia em seu raciocínio?<br>
+        <br>
+        Neste segundo caso, o argumento, parecido com o primeiro, é inválido.
+        O<br>
+        argumento, reconstruído, é o seguinte:<br>
+        <br>
+        [Argumento B2]<br>
+        <br>
+        10. Se você me ama (p), você não vai à festa (q)<br>
+        11. Você não foi à festa (q)<br>
+        12. Logo, você me ama (p).<br>
+        <br>
+        A forma desse argumento é a seguinte:<br>
+        <br>
+        [Forma do Argumento Inválido (Falácia) de Afirmação do Conseqüente]<br>
+        <br>
+        Se p, então q (premissa maior)<br>
+        q&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        (premissa menor)<br>
+        Logo, p&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (conclusão)<br>
+        <br>
+        Todos os argumentos que têm essa forma são inválidos. Mesmo que as
+        premissas sejam verdadeiras, a conclusão pode ser falsa. Vejamos
+        rapidamente porquê, usando um argumento semelhante em que as premissas
+        são claramente verdadeiras e a conclusão não é necessariamente
+        verdadeira. &quot;Quem ama, não trai&quot;, diz o slogan. <O>
+        </O>
+        </font></span></p>
+        <p class="MsoNormal"><span><font face="Arial" size="3">&nbsp;<O>
+        </O>
+        </font></span></p>
+        <span><font face="Arial" size="3">Construamos um argumento.<br>
+        [Argumento B3]<br>
+        <br>
+        13. Se você me ama (p), você não me trai (q)<br>
+        14. Você não me trai (q)<br>
+        15. Logo, você me ama (p).<br>
+        <br>
+        Este argumento, que tem a mesma forma do anterior, não convence muita
+        gente.<br>
+        As duas premissas podem ser claramente verdadeiras, e, contudo, a
+        conclusão ser falsa. Você pode aceitar a premissa que &quot;quem ama,
+        não trai&quot; (&quot;Se você me ama, você não me trai&quot;), e
+        admitir que você não traiu, sem aceitar a conclusão. Isso porque, por
+        exemplo, você pode não ter traído porque não acredita que deva trair
+        ninguém, nem mesmo as pessoas que você detesta. Ou porque você, mesmo
+        não amando, não tem coragem suficiente para trair, ou a oportunidade
+        de trair.<br>
+        <br>
+        Para que o argumento anterior se torne válido, é necessário que a
+        premissa maior seja alterada de &quot;Quem ama, não trai&quot; para
+        &quot;Quem não trai, ama&quot; premissa altamente questionável, para
+        dizer o mínimo. Contudo, mesmo com uma premissa altamente duvidosa,
+        este argumento é formalmente válido, porque, se as premissas forem
+        verdadeiras, a conclusão, agora, tem que ser verdadeira:<br>
+        <br>
+        [Argumento C]<br>
+        16. Se você não me trai (p), você me ama (q)<br>
+        17. Você não me trai (p)<br>
+        18. Logo, você me ama (q).<br>
+        <br>
+        Este argumento, válido, tem a seguinte forma, chamada em latim de
+        &quot;modus ponens”:<br>
+        [Forma do Argumento Válido Modus Ponens - Afirmação do Antecendente]<br>
+        <br>
+        Se p, então q (premissa maior)<br>
+        p&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        (premissa menor)<br>
+        Logo, q&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (conclusão)<br>
+        <br>
+        Consideremos, agora, este argumento:<br>
+        <br>
+        [Argumento D]<br>
+        <br>
+        19. Se você me trai (p), então você não me ama (q)<br>
+        20. Você não me trai (não-p)<br>
+        21. Logo, você me ama (não-q)<br>
+        <br>
+        Este argumento, invalidérrimo, provavelmente não convence ninguém.
+        Sua forma é a seguinte:<br>
+        <br>
+        [Forma do Argumento Inválido (Falácia) de Negação do Antecedente]<br>
+        <br>
+        Se p, então q (premissa maior)<br>
+        não-p&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (premissa menor)<br>
+        Logo, não-q (conclusão)<br>
+        <br>
+        Por fim, considere estes dois argumentos:<br>
+        <br>
+        [Argumento E1]<br>
+        <br>
+        22. Ou você faz o que eu quero (p), ou você não me ama (q)<br>
+        23. Você não faz o que eu quero (não-p)<br>
+        24. Logo, você não me ama (q)<br>
+        <br>
+        [Argumento F1]<br>
+        <br>
+        25. Ou você faz o que eu quero (p), ou você não me ama (q)<br>
+        26. Você faz o que eu quero (p)<br>
+        27. Logo, você me ama (não-q)<br>
+        <br>
+        O primeiro desses argumentos é válido, o segundo inválido. A forma
+        deles é, respectivamente:<br>
+        <br>
+        [Forma do Argumento Disjuntivo - Válido: Negação de um Disjunto]<br>
+        <br>
+        Ou p, ou q&nbsp;&nbsp;&nbsp; (premissa maior)<br>
+        Não-p&nbsp;&nbsp;&nbsp; (premissa menor)<br>
+        Logo, q&nbsp;&nbsp;&nbsp; (conclusão)<br>
+        <br>
+        [Forma de um Argumento Inválido (Falácia) Parecido com o Disjuntivo:<br>
+        Afirmação de um Disjunto]<br>
+        <br>
+        Ou p, ou q&nbsp;&nbsp;&nbsp; (premissa maior)<br>
+        p&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        (premissa menor)<br>
+        Logo, não-q (conclusão)<br>
+        <br>
+        O primeiro desses dois argumentos é válido, o segundo inválido.<br>
+        <br>
+        É fácil ver porquê.<br>
+        <br>
+        [Argumento E2]<br>
+        <br>
+        22. Ou este ar condicionado está quebrado (p), ou está fazendo muito
+        calor lá fora (q)<br>
+        23. Este ar condicionado não está quebrado (não-p)<br>
+        24. Logo, está fazendo muito calor lá fora(q)<br>
+        <br>
+        Neste caso, se as duas premissas são verdadeiras, não há como a
+        conclusão possa ser falsa.<br>
+        <br>
+        [Argumento F2]<br>
+        <br>
+        25. Ou este ar condicionado está quebrado (p), ou está fazendo muito
+        calor lá fora (q)<br>
+        26. Este ar condicionado está quebrado (p)<br>
+        27. Logo, não está fazendo muito calor lá fora (não-q)<br>
+        <br>
+        Neste caso, mesmo que as duas premissas sejam verdadeiras, a conclusão
+        pode ser falsa. A premissa maior pode ser verdadeira, o ar condicionado
+        pode estar quebrado, e pode estar fazendo muito calor lá fora.<br>
+        &nbsp;<br>
+        Bastam esses exemplos para mostrar que todos argumentam, ou que todos têm
+        que lidar com argumentos quase o tempo todo. Lidam-se com argumentos,
+        lidam com a lógica, quer queiram, quer não. É melhor que o façam de
+        maneira consciente e com conhecimento de causa. Caso contrário, podem
+        usar, ou (o que pode ser pior) ser persuadidos a aceitar, argumentos inválidos,&nbsp;
+        vendendo, ou comprando, gato por lebre.<br>
+        </font><br>
+        </span>
+        <p align="right"><a href="javascript:history.back();"><img src="spacer.gif" width="50" height="22" border="0"></a> 
+        </p>
+      </blockquote>
+    </td>
+  </tr>
+<TR><td height="19" colspan="7"> <div align="right"><em><font size="2" face="Arial, Helvetica, sans-serif"> <strong><a href="index.htm">home</a> : : <a href="javascript:history.back();">voltar</a></strong></font> </em></div> </td></TR></table>
+<center><div id="google_translate_element"></div><script type="text/javascript">function googleTranslateElementInit() {  new google.translate.TranslateElement({pageLanguage: 'pt', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');}</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></center>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<TITLE>Genismo - Logica</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title></title>
+</head>
+
+<body>
+<table width="751" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="751" valign="top"> 
+      <blockquote> 
+        <p align="center" class="MsoNormal"><img src="titutogenismo.gif" width="691" height="55"><font color="#0000FF" size="5" face="Arial, Helvetica, sans-serif"> 
+          <br>
+          Kurt G&ouml;del: Os Limites da Raz&atilde;o <br>
+          </font><span lang="EN-US" style="mso-ansi-language: EN-US"><font size="3" face="Arial">Scientific American </font></span></p>
+
+		
+		<div align="justify">
+		<font size="3" face="Arial"><br>
+        
+		<p>O que &eacute; a prova de G&ouml;del?</p>
+		</font>
+		<p>O teorema da incompletude de G&ouml;del demonstra que a matem&aacute;tica cont&eacute;m proposi&ccedil;&otilde;es verdadeiras que n&atilde;o podem ser provadas. Ele consegue fazer isso por meio da constru&ccedil;&atilde;o de proposi&ccedil;&otilde;es matem&aacute;ticas paradoxais. Para entender como a prova funciona, comecemos por considerar o paradoxo do mentiroso: &quot;Esta afirma&ccedil;&atilde;o &eacute; falsa&quot;. Tal frase &eacute; verdadeira apenas se for falsa, e portanto n&atilde;o &eacute; nem verdadeira nem falsa.</p>
+		<p>Considere agora a proposi&ccedil;&atilde;o &quot;Esta afirma&ccedil;&atilde;o n&atilde;o pode ser provada&quot;. Se ela puder ser provada, ent&atilde;o estamos provando uma falsidade - o que n&atilde;o deve ocorrer. A &uacute;nica possibilidade restante &eacute; a de que a proposi&ccedil;&atilde;o n&atilde;o pode ser provada. Assim, ela &eacute; verdadeira, embora n&atilde;o possa ser provada. Nosso sistema de dedu&ccedil;&atilde;o &eacute; incompleto, pois algumas verdades n&atilde;o podem ser provadas.</p>
+		<p>A prova de G&ouml;del associa a cada proposi&ccedil;&atilde;o matem&aacute;tica um n&uacute;mero, chamado &quot;n&uacute;mero de G&ouml;del&quot;. Esses n&uacute;meros fornecem uma maneira de falar a respeito das propriedades das proposi&ccedil;&otilde;es por meio de afirma&ccedil;&otilde;es acerca das proprieddes num&eacute;ricas de n&uacute;meros inteiros (normalmente muito grandes). G&ouml;del utilizou esse m&eacute;todo para construir proposi&ccedil;&otilde;es auto-referentes an&aacute;logas &agrave;quela expressa, em portugu&ecirc;s, pela frase &quot;Esta afirma&ccedil;&atilde;o n&atilde;o pode ser provada&quot;.</p>
+		<p>Rigorosamente falando, sua prova n&atilde;o mostra que a matem&aacute;tica seja incompleta. Ela mostra que teorias matem&aacute;ticas formais (axiomatizadas) espec&iacute;ficas n&atilde;o conseguem provar a proposi&ccedil;&atilde;o num&eacute;rica verdadeira &quot;Esta afirma&ccedil;&atilde;o n&atilde;o pode ser provada&quot;. Tais teorias, portanto, n&atilde;o podem ser &quot;teorias de tudo&quot; para a matem&aacute;tica.</p>
+		<p>A quest&atilde;o-chave que G&ouml;del deixou sem resposta &eacute;: Seria esse um fen&ocirc;meno isolado, ou existem muitas verdades matem&aacute;ticas importantes que n&atilde;o podem ser demonstradas?<br>
+		  </p>
+		<p>Por que o problema da parada de Turing n&atilde;o admite solu&ccedil;&atilde;o?</p>
+		<p>Um passo importante para mostrar que a incompletude &eacute; natural, e que est&aacute; por toda parte, foi dado por Alan M. Turing em 1936. Ele demonstrou que n&atilde;o pode existir nenhum procedimento geral para decidir se um programa autocontido de computador, uma vez inicializado, chegar&aacute; a parar em algum momento.</p>
+		<p>Para demonstrar esse resultado, comecemos por supor que seu oposto &eacute; verdadeiro. Mais especificamente, vamos supor que exista um procedimento geral H capaz de dizer se um programa dado de computador, qualquer que seja, vai parar. Dessa suposi&ccedil;&atilde;o, derivaremos uma contradi&ccedil;&atilde;o. Isso &eacute; o que se chama de prova por redu&ccedil;&atilde;o ao absurdo.</p>
+		<p>Se supusermos a exist&ecirc;ncia de H, poderemos construir um programa P que usa H como uma sub-rotina. Tal programa P conhece seu pr&oacute;prio tamanho em bits (N) - h&aacute; em P, certamente, espa&ccedil;o para conter N. Pela utiliza&ccedil;&atilde;o de H, que est&aacute; contido em P, P examina todos os programas com o tamanho de at&eacute; 100 vezes N bits e determina, assim, quais param e quais n&atilde;o param. Ent&atilde;o, P executa todos aqueles que param e registra o resultado que cada um deles produz. Esse &eacute; precisamente o conjunto de todos os objetos digitais com complexidade de at&eacute; 100 vezes N. Finalmente, nosso programa P produz o menor n&uacute;mero inteiro positivo que n&atilde;o est&aacute; no conjunto - e ent&atilde;o ele mesmo p&aacute;ra.</p>
+		<p>Dessa maneira, P p&aacute;ra, o tamanho de P &eacute; estabelecido como de N bits, e o resultado gerado por P &eacute; um n&uacute;mero inteiro que n&atilde;o pode ser gerado por nenhum programa cujo tamanho seja igual ou menor a 100 vezes N bits. Mas P acaba de gerar esse n&uacute;mero inteiro como resultado, e &eacute; muito pequeno para poder fazer isso, j&aacute; que seu tamanho &eacute; de apenas N bits, ou seja, muito menor do que 100 vezes N bits. Contradi&ccedil;&atilde;o! Portanto, n&atilde;o pode existir um procedimento geral para decidir se um programa qualquer deve parar - se tal procedimento existisse, ent&atilde;o seria poss&iacute;vel construir, com sua ajuda, o programa paradoxal P.</p>
+		<p>Finalmente, Turing chamou a aten&ccedil;&atilde;o para o fato de que, se houvesse uma teoria de tudo, que permitisse sempre provar que um determinado programa p&aacute;ra (ou que n&atilde;o p&aacute;ra, dependendo do caso), ent&atilde;o seria poss&iacute;vel, pelo exame sistem&aacute;tico de todas as provas, decidir se qualquer programa espec&iacute;fico p&aacute;ra ou n&atilde;o. Em outras palaras, seria poss&iacute;vel usar essa teoria para construir H. Mas H, como acabamos de mostrar, n&atilde;o pode existir. Portanto, n&atilde;o h&aacute; uma teoria de tudo capaz de abranger o problema da parada.</p>
+		<p>Racioc&iacute;nio similar serve para mostrar que nenhum programa com comprimento substancialmente menor do que N bits &eacute; capaz de solucionar o problema da parada de Turing para todos os programas com at&eacute; N bits de comprimento.</p>
+		<p>-----------<br>
+		  http://www2.uol.com.br/sciam/<br>
+		  </p>
+		</div>
+		
+    </blockquote>
+    </td>
+  </tr>
+<TR><td height="19" colspan="7"> <div align="right"><em><font size="2" face="Arial, Helvetica, sans-serif"> <strong><a href="index.htm">home</a> : : <a href="javascript:history.back();">voltar</a></strong></font> </em></div> </td></TR></table>
+<center><div id="google_translate_element"></div><script type="text/javascript">function googleTranslateElementInit() {  new google.translate.TranslateElement({pageLanguage: 'pt', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');}</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></center>
+</body>
+</html>

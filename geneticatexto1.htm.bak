@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head> <title>Genismo - Genética</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<table width="751" height="" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="751" height="" valign="top"> 
+      <blockquote> 
+        <p align="center"><img src="titutogenismo.gif" width="691" height="55"></p>
+        <p align="center"><font color="#0000FF" size="5" face="Arial, Helvetica, sans-serif">Quantos 
+          Genes Partilhamos?</font><br>
+          Por: Jocax, GLIV: Ap&ecirc;ndice B</p>
+        <p align="justify"> Fiz um c&aacute;lculo *estimado* de quantos genes 
+          funcionalmente id&ecirc;nticos, em m&eacute;dia, compartilham 2 seres 
+          humanos quaisquer.</p>
+        <p align="justify">Consideremos alguns dados do projeto Genoma-Humano 
+          :</p>
+        <p align="justify"> [1]- Tamanho do genoma em pares de base = TGH = 3,2E9 
+          = 3.200.000.000 ( 3 bilh&otilde;es e duzentos milh&otilde;es )</p>
+        <p align="justify"> Esta informa&ccedil;&atilde;o inclui todo o material 
+          gen&eacute;tico inclusive seq&uuml;&ecirc;ncias de DNA que n&atilde;o 
+          codificam prote&iacute;nas ( isto &eacute;, n&atilde;o fazem parte de 
+          nenhum gene e que s&atilde;o conhecidas como Junk-DNA ou DNA-Lixo ) 
+          e refere-se apenas ao<br>
+          segmento hapl&oacute;ide do nosso material gen&eacute;tico ( fornecido 
+          por apenas um de nossos pais ).</p>
+        <p align="justify">[2]- N&uacute;mero de SNPs = SNP = 3E6 = 3.000.000 
+          ( 3 milh&otilde;es )</p>
+        <p align="justify"> Um SNP ( pronuncia-se &quot;isnipi&quot; ) ou muta&ccedil;&atilde;o 
+          puntiforme &eacute; igual a uma troca de par de base em rela&ccedil;&atilde;o 
+          a um genoma fixo de compara&ccedil;&atilde;o. A quantidade de SNPs no 
+          genoma fornece o grau da variabilidade da esp&eacute;cie humana. Assim, 
+          se a quantidade de SNPs fosse Zero n&atilde;o ter&iacute;amos variabilidade 
+          e todos ser&iacute;amos clones. Podemos dizer que os SNIPs s&atilde;o 
+          muta&ccedil;&otilde;es que se apresentam na popula&ccedil;&atilde;o 
+          em taxas maiores ou iguais a 1%.</p>
+        <p align="justify">[3]- N&uacute;mero de Genes = NG = 3,5E4 = ( 35 mil 
+          )</p>
+        <p align="justify"> Os Genes, aqui considerados, s&atilde;o formados por 
+          uma seq&uuml;&ecirc;ncia cont&iacute;nua de material gen&eacute;tico. 
+          Sabemos hoje que algumas prote&iacute;nas, material produzido pelos 
+          genes, s&atilde;o geradas utilizando-se de partes n&atilde;o cont&iacute;nuas 
+          do DNA de modo que o n&uacute;mero de genes pode ser, na verdade, muito 
+          maior que os relatados 40 mil.</p>
+        <p align="justify">[4]- Junk-DNA ( Dna lixo ) = Jdna = 95% do Genoma</p>
+        <p align="justify"> O DNA-Lixo &eacute; a parte do DNA que n&atilde;o 
+          participa da forma&ccedil;&atilde;o de prote&iacute;nas e tem uma fun&ccedil;&atilde;o 
+          desconhecida. Acredita-se que o DNA-Lixo relaciona-se a muta&ccedil;&otilde;es 
+          in&oacute;cuas ou partes de v&iacute;rus que tenham se incorporado ao 
+          genoma.</p>
+        <p align="justify">[5]- N&uacute;mero de amino&aacute;cidos = 20</p>
+        <p align="justify"> Os amino&aacute;cidos s&atilde;o compostos org&acirc;nicos 
+          que formam as prote&iacute;nas. Existem 20 tipos diferentes de amino&aacute;cidos. 
+          A cada seq&uuml;&ecirc;ncia de tr&ecirc;s pares de base do gene um amino&aacute;cido 
+          &eacute; gerado. Assim, se um gene cont&eacute;m 1 mil pares de base 
+          este gene ir&aacute; gerar uma prote&iacute;na formada por 333 amino&aacute;cidos 
+          ( 1mil / 3 ). Devemos lembrar que tr&ecirc;s pares de base podem formar 
+          64 ( 4*4*4 ) combina&ccedil;&otilde;es diferentes, mas como s&oacute; 
+          existem 20 tipos diferentes de amino&aacute;cidos isso implica que algumas 
+          combina&ccedil;&otilde;es de letras formaram o mesmo amino&aacute;cido 
+          ou seja, existe uma redund&acirc;ncia na seq&uuml;&ecirc;ncia formadora 
+          do amino&aacute;cido e isto, de certo modo, pode ser considerado uma 
+          prote&ccedil;&atilde;o natural contra muta&ccedil;&otilde;es j&aacute; 
+          que uma a cada 3,2 ( 64/20 ) muta&ccedil;&otilde;es ir&atilde;o gerar 
+          o mesmo amino&aacute;cido.</p>
+        <p align="justify">De posse destes dados podemos fazer o c&aacute;lculo 
+          estimado:</p>
+        <p align="justify">De (1) e (4) achamos uma estimativa para o n&uacute;mero 
+          de pares de base (pb) da parte do genoma que cont&eacute;m genes ( o 
+          genoma n&atilde;o lixo) :</p>
+        <p align="justify">Parte do genoma contendo genes = TGU = 3,2E9*(1-95%) 
+          = 1,6E8 [6]</p>
+        <p align="justify">de (3) e (6) calculamos o n&uacute;mero m&eacute;dio 
+          de pares de base por gene :</p>
+        <p align="justify">Tamanho m&eacute;dio do gene = LG = 1,6E8/3,5E4 = 4,5E3 
+          = 4500 pb por gene [7]</p>
+        <p align="justify">Considerando que a cada trinca de pb um dos 20 amino&aacute;cidos 
+          s&atilde;o poss&iacute;veis e considerando que uma trinca permite 64 
+          combina&ccedil;&otilde;es, teremos uma redund&acirc;ncia ou &quot;barreira 
+          anti-muta&ccedil;&atilde;o&quot; com uma taxa de 20/64. Podemos<br>
+          ent&atilde;o corrigir a freq&uuml;&ecirc;ncia efetiva de SNPs:SNPs corrigidos 
+          = SNPc = 3E6 / ( 64/20 ) = 9,3E5 [8]</p>
+        <p align="justify">Podemos agora corrigir a freq&uuml;&ecirc;ncia m&eacute;dia 
+          de pb que efetivamente mudam o amino&aacute;cido. De (1) e (8) Podemos 
+          calcular a &quot;freq&uuml;&ecirc;ncia&quot; m&eacute;dia de SNPs :</p>
+        <p align="justify">Freq&uuml;&ecirc;ncia = SNPf = 3,2E9 / 9,3E5 = 3,4E3 
+          [9]</p>
+        <p align="justify">Uma altera&ccedil;&atilde;o a cada 3,4 mil pb. Isso 
+          significa que, em m&eacute;dia, a cada 3,4 mil pb teremos uma mudan&ccedil;a 
+          efetiva no genoma, que gerar&aacute; um amino&aacute;cido distinto.</p>
+        <p align="justify"> De (7) e (9) poderemos estimar o n&uacute;mero m&eacute;dio 
+          de muta&ccedil;&otilde;es por gene :</p>
+        <p align="justify">N&uacute;mero de muta&ccedil;&otilde;es por gene = 
+          MG = 4,5E3 / 3,4E3 = 1,3 [10]</p>
+        <p align="justify">Devemos notar que uma muta&ccedil;&atilde;o &eacute; 
+          uma altera&ccedil;&atilde;o relativo a um genoma de compara&ccedil;&atilde;o, 
+          assim, se ainda supusermos que cada SNP est&aacute; em um alelo diferente, 
+          poderemos de (10) calcular o n&uacute;mero m&eacute;dio de alelos por 
+          gene. Para isto, basta considerar o gene padr&atilde;o como sendo um 
+          dos alelos :</p>
+        <p align="justify">N&uacute;mero m&eacute;dio de alelos = NA = 1,3 + 1 
+          = 2,3 [ 11 ]</p>
+        <p align="justify">Podemos agora, simplificando os c&aacute;lculos, montar 
+          uma f&oacute;rmula para o n&uacute;mero m&eacute;dio de alelos ( NA 
+          ) em fun&ccedil;&atilde;o da fra&ccedil;&atilde;o de DNA-Lixo ( Jdna 
+          ) do n&uacute;mero de SNPs ( SNP ) e do n&uacute;mero m&eacute;dio de 
+          genes ( NG ) : </p>
+        <p align="justify">NA = 1 + ( 1- Jdna ) * SNP / ( 3,2 * NG )</p>
+        <p align="justify">Teremos, em m&eacute;dia, 2,3 alelos por gene e com 
+          isto poderemos estimar o n&uacute;mero de alelos que compartilhamos. 
+          A rigor, para determinar o n&uacute;mero m&eacute;dio de alelos que 
+          dois seres humanos quaisquer compartilham, dever&iacute;amos ter a freq&uuml;&ecirc;ncia 
+          de cada alelo na popula&ccedil;&atilde;o, para cada um dos nossos 35 
+          mil genes o que n&atilde;o &eacute; tarefa f&aacute;cil. Mas apenas 
+          para fazermos uma estimativa, consideraremos que cada alelo tenha igual 
+          freq&uuml;&ecirc;ncia, implicando que a probabilidade de 2 alelos serem 
+          iguais ser&aacute; :</p>
+        <p align="justify"> PA = 1/ 2,3 = 43% [ 12 ]</p>
+        <p align="justify"> Vale notar que ao assumirmos que os alelos tem a mesma 
+          freq&uuml;&ecirc;ncia estaremos minimizando a probabilidade de dois 
+          alelos quaisquer serem iguais em pessoas diferentes, isto quer dizer 
+          que, na verdade, estaremos calculando uma estimativa m&iacute;nima para 
+          o compartilhamento gen&eacute;tico humano.</p>
+        <p align="justify"> Com esta assun&ccedil;&atilde;o em mente, teremos 
+          ent&atilde;o 43% de chances, em m&eacute;dia, de compartilharmos um 
+          dado alelo de nossa linhagem paterna ( ou materna ) com a linhagem paterna 
+          ( ou materna ) de uma outra pessoa qualquer (que<br>
+          n&atilde;o seja nosso parente), pois nossos c&aacute;lculos foram baseados 
+          no material gen&eacute;tico hapl&oacute;ide que &eacute; fornecido pelo 
+          projeto Genoma Humano.</p>
+        <p align="justify"> Nosso material gen&eacute;tico, a menos de nossos 
+          gametas, &eacute; dipl&oacute;ide, isto &eacute;, herdamos 23 cromossomos 
+          de nosso pai e 23 cromossomos de nossa m&atilde;e. Como vimos, cada 
+          um destes 23 cromossomos, de cada linhagem, possuem uma identidade de 
+          43% tanto com o cromossomo paterno como o materno de uma outra pessoa.</p>
+        <p align="justify"> Podemos agora calcular quantos alelos de nossa linhagem 
+          materna &eacute; compartilhada com uma outra pessoa ( o c&aacute;lculo 
+          da nossa linhagem paterna &eacute; an&aacute;logo):</p>
+        <p align="justify"> Se 43% de nossos alelos maternos s&atilde;o iguais 
+          a 43% da linhagem materna da outra pessoa ent&atilde;o teremos cerca 
+          de 15 mil alelos id&ecirc;nticos. Chamemos este conjunto de 15mil alelos 
+          de MM. Tamb&eacute;m teremos 15 mil alelos de semelhan&ccedil;a entre 
+          nossa linhagem materna e a linhagem paterna do outro, o que nos forneceria 
+          mais cerca de 15 mil alelos. Chamemos estes 15 mil alelos de MP.</p>
+        <p align="justify"> Se todos estes alelos fossem diferentes ter&iacute;amos 
+          MM+ MP = 30mil alelos de semelhan&ccedil;a apenas da nossa linhagem 
+          materna, compartilhadas com esta outra pessoa. Mas devemos lembrar que 
+          a linhagem materna e paterna da outra pessoa tamb&eacute;m compartilham 
+          43% de alelos em comum. Isto implica que, em m&eacute;dia, teremos 43% 
+          de alelos repetidos entre MM e MP que representa a intersec&ccedil;&atilde;o 
+          de MM e MP. Assim, retirando-se estas repeti&ccedil;&otilde;es teremos 
+          : </p>
+        <p align="justify">Fra&ccedil;&atilde;o correspondente &agrave; linhagem 
+          materna = FM = 43% + 43% - 43%*43% = 68%</p>
+        <p align="justify"> O c&aacute;lculo do compartilhamento de nossa linhagem 
+          paterna &eacute; id&ecirc;ntico e teremos tamb&eacute;m 68% de compartilhamento. 
+          Ent&atilde;o podemos concluir que a fra&ccedil;&atilde;o total de compartilhamento 
+          de alelos entre dois seres humanos ser&aacute; de pelo menos 68%.</p>
+        <p align="justify">Compartilhamento de alelos entre dois seres humanos 
+          CA = 68%</p>
+        <p align="right"><a href="javascript:history.back();"><img src="spacer.gif" width="50" height="22" border="0"></a> 
+        </p>
+        </blockquote></td>
+  </tr>
+<TR><td height="19" colspan="7"> <div align="right"><em><font size="2" face="Arial, Helvetica, sans-serif"> <strong><a href="index.htm">home</a> : : <a href="javascript:history.back();">voltar</a></strong></font> </em></div> </td></TR></table>
+
+<center><div id="google_translate_element"></div><script type="text/javascript">function googleTranslateElementInit() {  new google.translate.TranslateElement({pageLanguage: 'pt', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');}</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></center>
+</body>
+</html>

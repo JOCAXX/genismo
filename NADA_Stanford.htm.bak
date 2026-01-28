@@ -1,0 +1,2953 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List href="NADA_Stanford_arquivos/filelist.xml">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>João Carlos Holland de Barcellos</o:Author>
+  <o:LastAuthor>João Carlos Holland de Barcellos</o:LastAuthor>
+  <o:Revision>4</o:Revision>
+  <o:TotalTime>7</o:TotalTime>
+  <o:Created>2018-04-02T17:07:00Z</o:Created>
+  <o:LastSaved>2018-04-02T17:14:00Z</o:LastSaved>
+  <o:Pages>22</o:Pages>
+  <o:Words>13989</o:Words>
+  <o:Characters>75543</o:Characters>
+  <o:Lines>629</o:Lines>
+  <o:Paragraphs>178</o:Paragraphs>
+  <o:CharactersWithSpaces>89354</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="NADA_Stanford_arquivos/themedata.thmx">
+<link rel=colorSchemeMapping
+href="NADA_Stanford_arquivos/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>PT-BR</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabela normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-fareast-language:EN-US;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=PT-BR style='tab-interval:35.4pt'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Stanford Encyclopedia of Philosophy (*)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>(Via <span class=SpellE>Tradutor</span> do <span
+class=GramE>Google</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:28.0pt;line-height:115%'>Nada<br>
+</span></b><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='font-size:16.0pt;line-height:115%;mso-ansi-language:EN-US'>Roy Sorensen</span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:28.0pt;line-height:
+115%'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Publicado
+pela primeira vez em 28 de agosto de 2003; revisão substantiva <span
+class=SpellE>Thu</span> <span class=SpellE>Aug</span> 31, <span class=GramE>2017</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Como a
+metafísica é o estudo do que existe, pode-se esperar que os metafísicos <span
+class=GramE>tenham</span> pouco a dizer sobre o caso limite em que nada existe.
+Mas desde Parmênides, no quinto século AEC, houve um rico comentário sobre se
+um mundo vazio é possível, se há vácuos e sobre a natureza das privações e da
+negação.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Esta
+pesquisa começa com o nada em escala global e depois explora os bolsos locais
+do nada. Vamos começar com uma pergunta que Martin Heidegger caracterizou como
+a questão mais fundamental da filosofia.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>1. Por que
+há algo em vez de nada?<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>2. Existe no
+máximo um mundo vazio?<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>3. Pode
+haver um quadro explicativo para a questão?<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>4. A
+restrição a entidades concretas<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>5. O dilema
+da contingência<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>6. O primado
+intuitivo das verdades positivas<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>7. O
+argumento de subtração<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>8.
+Neutralidade ontológica<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>9. <span
+class=GramE>O problema de múltiplos nadas</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>10. Existe
+algum nada?<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>11. Aspectos
+fenomenológicos do nada<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>12. Cognição
+Animal de Faltas<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Bibliografia<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Ferramentas
+acadêmicas<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Outros
+recursos da Internet<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Entradas
+Relacionadas<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;line-height:115%;color:red'>1. Por que há algo em vez
+de nada?<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Bem, porque
+não? Por que esperar nada em vez de algo? Nenhum experimento poderia apoiar a
+hipótese &quot;Não há nada&quot; porque qualquer observação obviamente implica
+a existência de um observador.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Existe algum
+apoio a priori para &quot;Não há nada&quot;? Pode-se responder com um princípio
+metodológico que impulsiona o mundo vazio para o topo da agenda. Por exemplo,
+muitos acham que quem quer que afirme a existência de algo tem o ônus da prova.
+Se um astrônomo diz que há água no <span class=SpellE>pólo</span> sul da Lua,
+então cabe a ele fornecer dados em apoio à água lunar. Se não precisássemos ter
+provas para sustentar nossas reivindicações existenciais, então um teórico que
+explicou completamente os fenômenos com um conjunto de coisas poderia adicionar
+gratuitamente uma entidade extra, digamos, uma pedra fora do nosso cone de luz.
+Nós recuamos de tais complementos. Para evitar a intrusão de entidades
+supérfluas, pode-se exigir que os metafísicos <span class=GramE>comecem</span>
+com o mundo vazio e admitam apenas as entidades que possuem credenciais. Este é
+o requisito de entrada imposto por René Descartes. Ele limpa tudo e só deixa de
+volta o que pode ser provado que existe.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Santo
+Agostinho tinha um conselho mais conservador: não devemos começar no começo nem
+no fim, mas onde estamos no meio. Chegamos a um veredicto sobre a existência de
+coisas controversas, avaliando <span class=GramE>o quão bem essas</span>
+entidades se harmonizariam com a existência de coisas melhor estabelecidas. Se
+partirmos do nada, não temos os rolamentos necessários para navegar para
+frente. Conservadores, <span class=SpellE>coerentistas</span> e gradualistas
+científicos lançam um olhar desconfiado sobre &quot;Por que há algo em vez de
+nada?&quot;.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A maioria
+dos filósofos contemporâneos se sente no direito de postular quaisquer
+entidades que sejam <span class=GramE>indispensáveis ?</span>?<span
+class=GramE>para</span> suas melhores explicações de fenômenos bem aceitos.
+Eles sentem que a presunção de <span class=GramE>não-existência</span> é apenas
+plausível para reivindicações de existência particular. Como a presunção só se
+aplica caso a caso, não há grande preferência metodológica por um mundo vazio.
+Além disso, não há ônus da prova quando todos concordam com a proposição em
+discussão. Até mesmo um <span class=SpellE>solipsista</span> concorda que há
+pelo menos uma coisa!<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Uma maneira
+mais popular de construir uma presunção em favor do nada é associar o nada à
+simplicidade e à simplicidade com probabilidade. A primeira parte dessa
+justificativa é plausível. &quot;Nada existe&quot; é simples no sentido de ser
+uma generalização fácil de lembrar. Considere um teste cujas perguntas têm a
+forma &quot;x existe?&quot;. A regra &quot;Sempre responda não!&quot; É
+insuperavelmente curta e abrangente.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Em <span
+class=SpellE>Les</span> <span class=SpellE>Misérables</span>, Victor Hugo
+contrasta a negação universal com a afirmação universal:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Todas as
+estradas estão bloqueadas para uma filosofia que reduz tudo à palavra
+&quot;não&quot;. &quot;Não&quot; há apenas uma resposta e isso é
+&quot;sim&quot;. O niilismo não tem substância. Não existe nada como nada, e
+zero não existe. Tudo é alguma coisa. Nada é nada. O homem vive mais por afirmação
+do que por pão. (1862, <span class=SpellE><span class=GramE>pt</span></span>.
+2, <span class=SpellE>bk</span>. 7, cap. 6).<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>No que diz
+respeito à simplicidade, há um laço entre a regra niilista &quot;Sempre
+responda não!&quot; E a regra inflacionária &quot;Sempre responda sim!&quot;.
+Nenhuma regra faz para metafísica séria.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Mesmo que
+&quot;Nada exista&quot; fosse <span class=GramE>a</span> única possibilidade
+mais simples (medida pela memorização), por que deveríamos esperar que essa
+possibilidade fosse real? Em uma loteria justa, atribuímos <span class=GramE>a</span>
+mesma probabilidade de ganhar ao ingresso, sem distinção, 4.169.681 como o
+ingresso memoravelmente rotulado 1.111.111.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>De fato, a
+analogia com uma loteria parece reverter dramaticamente a presunção de <span
+class=GramE>não-existência</span>. Se existe apenas um mundo vazio e muitos
+mundos povoados, então uma seleção aleatória nos levaria a esperar um mundo
+povoado.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Peter van <span
+class=SpellE>Inwagen</span> (1996) alimentou esse argumento estatístico. Em uma
+loteria infinita, a chance de um determinado bilhete ser o vencedor é <span
+class=GramE>0</span>. Van <span class=SpellE>Inwagen</span> raciocina que, como
+há infinitos mundos populosos, a probabilidade de um mundo povoado é igual a <span
+class=GramE>1</span>. Embora o mundo vazio não seja impossível, é tão
+improvável quanto qualquer coisa pode ser!<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Por uma
+questão de relato equilibrado, van <span class=SpellE>Inwagen</span> deveria
+reconhecer que, pelo seu raciocínio, o mundo real é tão improvável quanto
+qualquer coisa pode ser. O que realmente conta aqui é a probabilidade de
+&quot;Existe algo&quot; em oposição a &quot;Não há nada&quot;.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Esta
+explicação estatística é científica? <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os
+cientistas <span class=SpellE>estereotipicamente</span> oferecem explicações
+causais. Estes não são viáveis, dada <span class=GramE>a</span> leitura
+abrangente de &quot;Por que há algo em vez de nada?&quot;. No entanto, Elliott <span
+class=SpellE>Sober</span> (1983) argumenta que os cientistas também aceitam
+&quot;explicações de equilíbrio&quot;. Estes explicam a situação real como o
+resultado da maioria ou de todos os possíveis estados iniciais. Não há nenhuma
+tentativa de traçar o caminho pelo qual o estado inicial atual se desenvolveu
+na situação atual. Basta que o resultado seja invariante. Por que tenho
+oxigênio suficiente para respirar, embora todas as moléculas de oxigênio possam
+ter se reunido em um canto do meu quarto? O físico explica que, embora esse
+arranjo específico seja tão provável quanto qualquer outro, a esmagadora
+maioria dos arranjos não segrega oxigênio.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>-------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;line-height:115%;color:red'>2. Existe no máximo um
+mundo vazio?<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A maioria
+dos filósofos concede a premissa de Peter van <span class=SpellE>Inwagen</span>
+de que não há mais do que um mundo vazio. Eles foram treinados para modelar o
+mundo vazio no set vazio. Como um conjunto é definido em termos de seus
+membros, pode haver no máximo um conjunto vazio.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>No entanto,
+os filósofos medievais diferenciavam os mundos vazios pelo poder dos lugares
+dentro desses mundos (Grant, 1981). A Condenação de 1277 forçou filósofos
+aristotélicos a reconhecer a possibilidade de um vazio (respeitar a onipotência
+de Deus e a doutrina cristã da criação do nada). A maioria dos pensadores
+manteve a suposição de Aristóteles de que havia um centro único do universo. Se
+as rochas fossem introduzidas em tal mundo, elas iriam todas para a sua
+localização natural no centro do universo. (Aristóteles usa esse ponto para fornecer
+uma explicação espetacular de por que não há duas terras; elas teriam
+colidido!) No entanto, Nicole <span class=SpellE>Oresme</span> imaginou um
+mundo sem centro algum. Ele previu que as rochas se dirigiriam uma para a
+outra. Como o ar, o fogo, a terra e a água tinham seus próprios lugares na
+física de Aristóteles, os filósofos do século XIV podiam imaginar mundos
+diferentes em relação a qual desses lugares <span class=GramE>reter</span>. O
+vazio raramente era retratado como homogêneo.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>O mundo de
+Aristóteles era autogovernado. Objetos têm poderes que explicam coletivamente a
+ordem do universo. Os pensadores da tradição <span class=SpellE>abraâmica</span>
+substituíram a explicação da mão invisível de Aristóteles pela mão oculta de
+Deus. Deus ditou leis da natureza às quais Ele fez ajustes periódicos (como
+relojoeiros que regularmente serviam suas criações, corrigindo os erros
+acumulados). A reflexão sobre a perfeição de Deus acabou fazendo com que essas
+intervenções divinas parecessem um ligeiro ímpio contra a presciência de Deus.
+Depois que os milagres foram rescindidos, o próprio Deus foi aposentado. O que
+restou foram as leis da natureza. Como não havia mais nenhuma restrição sobre o
+que as leis deviam <span class=GramE>ser,</span> o mundo atual parece altamente
+contingente. À primeira vista, isso justifica o argumento probabilístico de van
+<span class=SpellE>Inwagen</span>. Mas a contingência das leis também levanta a
+possibilidade de individuação dos mundos vazios por suas leis (Carroll 1994,
+64). Por exemplo, a primeira lei do movimento de Isaac Newton diz que um objeto
+não perturbado continuará em movimento em linha reta. Alguns físicos anteriores
+sugeriram que tal objeto diminuiria a velocidade e tenderia a viajar em
+círculo. Esse mundo vazio difere do mundo vazio newtoniano porque diferentes
+afirmações <span class=SpellE>contrafactuais</span> são verdadeiras a respeito
+dele.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Se a
+variação nos mundos vazios puder ser sustentada por diferenças nas leis que se
+aplicam a eles, haverá infinitos mundos vazios. A constante gravitacional de um
+mundo vazio pode ser igual a qualquer número real entre <span class=GramE>0</span>
+e 1, então há mais do que muitos mundos vazios. De fato, qualquer ordem de <span
+class=SpellE>infinitude</span> alcançada pelo conjunto de mundos possíveis
+povoados será igualada ao conjunto de mundos vazios.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>John <span
+class=SpellE>Heil</span> (2013) está confuso com esta Guerra dos Mundos Possíveis.
+Tendo desistido do Criador de Leis, devemos desistir das leis. Quando voltarmos
+a um mundo <span class=SpellE><span class=GramE>auto-governado</span></span>,
+não haverá tentação de ver o mundo como um acidente de sorte. Afinal, não vemos
+literalmente os estados de coisas como contingentes. Contingência, ao contrário
+da cor ou da forma, não é perceptível. Tampouco há qualquer presunção para
+considerar os estados de coisas como contingentes. De acordo com <span
+class=SpellE>Heil</span>, &quot;Por que há algo em vez de nada?&quot;, Deve sua
+urgência a uma teoria de fundo partidária, não a um árbitro neutro, como a
+percepção ou a metodologia.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Embora os
+mundos possíveis tenham se tornado intensamente populares entre os filósofos
+analíticos após os avanços revolucionários da lógica modal nos anos 60, eles
+recebem pouca atenção dos existencialistas. Sua discussão de objetos está mais
+de acordo com a ontologia dos poderes defendida por <span class=SpellE>Heil</span>.
+De fato, alguns existencialistas retratam o nada como um tipo de força que
+impede a existência de cada objeto. Uma vez que existe algo em vez de nada,
+qualquer força <span class=SpellE>niiladora</span> não pode ter sido realmente
+desmarcada. O que poderia ter bloqueado isso? Robert <span class=SpellE>Nozick</span>
+(1981, 123) brinquedos com uma interpretação de Heidegger em que esta força <span
+class=SpellE>nihilating</span> é autodestrutiva. Esse tipo de negação dupla é
+retratado no filme <span class=SpellE>Yellow</span> <span class=SpellE>Submarine</span>
+dos Beatles. Há uma criatura que se aproxima como um aspirador de pó,
+esvaziando tudo em seu caminho. Quando essa ameaça finalmente se volta, surge
+um mundo ricamente povoado.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Algumas
+culturas têm mitos de criação reminiscentes do Submarino Amarelo. Heidegger os
+descartaria como impropriamente históricos. &quot;Por que existe algo em vez de
+nada?&quot; Não é sobre a origem do mundo. Aumentar a respeitabilidade
+científica da história da criação (como na hipótese do Big <span class=SpellE>Bang</span>)
+ainda deixaria Heidegger objetando que a questão errada está sendo abordada.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>---------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;line-height:115%;color:red'>3. Pode haver um quadro
+explicativo para a questão?<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Alguns
+discordam da suposição de van <span class=SpellE>Inwagen</span> de que cada
+mundo possível é tão provável quanto qualquer outro (<span class=SpellE>Kotzen</span>
+2013). Existem sistemas metafísicos que favorecem mundos menos povoados.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>De fato, o
+fornecedor original de mundos possíveis, <span class=SpellE>Gottfried</span>
+Leibniz, imaginou coisas possíveis como competindo para se tornarem reais.
+Quanto mais uma coisa compete com outras coisas, maior a probabilidade de haver
+algo que impeça que ela se torne real. Os vencedores da luta pela existência de
+Leibniz são cooperativos. Eles se encaixam perfeitamente no nicho formado por
+outras coisas. Esse buraco-chave na existência transmite implicitamente
+informações sobre tudo. O pouco que não <span class=GramE>é,</span> nos fala
+sobre tudo o que existe.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Por um lado,
+esse viés metafísico em favor da simplicidade é encorajador porque sugere que o
+mundo atual não é muito complexo para a compreensão humana. Os cientistas
+penetraram profundamente no mundo físico com princípios que enfatizam a
+parcimônia e a uniformidade: a navalha de <span class=SpellE>Ockham</span>, o
+princípio do menor esforço, o princípio antrópico etc.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Por outro
+lado, Leibniz temia que o viés metafísico da simplicidade, quando conduzido a
+sua conclusão lógica, produzisse a previsão embaraçosa de que não há nada.
+Afinal de contas, um mundo vazio estaria livre de objetos tentando se
+acotovelar. É o mundo que exige o mínimo esforço para produzir (não faça nada<span
+class=GramE>!) E</span> sustente (continue fazendo nada!). Então, por que há
+algo em vez de nada?<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A
+preocupação de Leibniz exige um limbo entre ser e não ser. Se as coisas neste
+estado de limbo não existem realmente, como elas poderiam impedir que qualquer
+outra coisa existisse?<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>O limbo de Leibniz
+ilustra uma armadilha explicativa. Para explicar por que algo existe,
+normalmente apelamos para a existência de outra coisa. Existem cadeias de
+montanhas na Terra porque existem placas em sua superfície que colidem e se
+colidem umas com as outras. Há anéis ao redor de Saturno porque há uma imensa
+quantidade de escombros orbitando aquele planeta. Este padrão de explicação não
+é possível para &quot;Por que há algo em vez de nada&quot;. Por exemplo, se
+respondermos &quot;Existe algo porque o Desenhista Universal queria que
+houvesse algo&quot;, então nossa explicação pressupõe a existência do Criador
+Universal. Alguém que coloca a questão de forma abrangente não irá conceder a
+existência do Universal Designer como ponto de partida.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Se a
+explicação não pode começar com alguma entidade, então é difícil ver como
+qualquer explicação é viável. Alguns filósofos concluem: &quot;Por que existe
+algo em vez de nada?&quot; É incontestável. Eles acham que a questão nos impede
+de impor uma exigência explicativa impossível, a saber, deduzir a existência de
+algo sem usar qualquer premissa existencial. Os lógicos não devem sentir mais
+vergonha de sua incapacidade de realizar essa dedução do que os geômetras devem
+se sentir envergonhados por não conseguirem enquadrar o círculo.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>David Hume
+oferece um prêmio de consolação: podemos ainda ser capazes de explicar a
+existência de cada evento, mesmo que seja impossível explicar tudo em conjunto.
+Suponha que o universo seja preenchido com uma linha infinita de dominós. A
+queda de cada dominó pode ser explicada pela queda de seu predecessor.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Mas o que é
+responsável pelo arranjo para começar? Por que há algo em nosso domínio do
+discurso? Há uma tradição de negar que esse tipo de questionamento abrangente
+seja coerente. Princípios que se aplicam dentro de um sistema não precisam ser <span
+class=GramE>aplicáveis ?</span>?<span class=GramE>ao</span> próprio sistema.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Existe um
+mundo? Os mundos podem ser contados da maneira pressuposta pela metafísica
+modal? Dúvidas sobre a generalidade absoluta podem decair da teorização lógica
+sobre a quantificação (<span class=SpellE>Rayo</span> 2013). Eles também podem
+brigar por suspeitas sobre abstração (<span class=SpellE>Maitzen</span> 2012).
+Um tipo como o GATINHO nos diz a natureza de uma coisa, fornecendo critérios
+para contagem e persistência. COISA é uma espécie <span class=SpellE>dummy</span>.
+Quantas coisas você tem quando tem uma caneta tampada? A pergunta não pode ser
+respondida <span class=GramE>porque</span> você não recebeu critérios para
+determinar se o limite e a caneta contam como objetos separados. Todas as
+questões sobre a existência devem ser relativizadas a tipos. Consequentemente,
+a questão de por que há algo em vez de nada é incompleta. Uma vez que
+remediarmos a incompletude com uma espécie, a questão será respondida pela
+ciência.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Empiristas
+como Hume negam que a existência de qualquer coisa pudesse ser provada apenas
+pela razão. Os racionalistas foram mais otimistas. Muitos ofereceram provas a
+priori da existência de Deus. Tal prova dobraria como explicação do motivo de
+haver algo. Se Deus existe, então algo existe. Afinal, Deus é alguma coisa.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Mas Deus
+seria o tipo certo de algo? <span class=GramE>Se estamos</span> apenas buscando
+uma prova a priori de algo (qualquer coisa!), Então por que não ficar
+satisfeito com uma demonstração matemática de que existe um número inteiro
+entre um quadrado e um cubo? Deve existir um inteiro tal porque 25 é um
+quadrado e 27 é um cubo e apenas um inteiro pode estar entre 25 e 27. Portanto,
+algo existe. Por que isso parece uma piada matemática?<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>-----------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;line-height:115%;color:red'>4. A restrição a entidades
+concretas<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A resposta
+de Van <span class=SpellE>Inwagen</span> é que estamos realmente <span
+class=GramE>interessados ?</span>?<span class=GramE>em</span> coisas concretas.
+Um grão de areia, um camelo e um oásis são entidades concretas. Eles são parte
+da ordem causal. Em contraste, entidades abstratas (números, conjuntos, mundos
+possíveis) não causam nada. Aqueles que adotam o princípio de que apenas as
+causas são reais se tornarão nominalistas; tudo é concreto.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Uma segunda
+caracterização das entidades concretas é em termos de <span class=SpellE>locatabilidade</span>;
+uma entidade concreta tem uma posição no espaço ou no tempo. Como as entidades
+concretas estão situadas, elas têm limites com seu ambiente. (A única exceção
+seria uma entidade que ocupasse todo o espaço ou todo o tempo, digamos a
+natureza.<span class=GramE>)</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Evidentemente,
+os pontos no espaço e no tempo têm localizações. Mas entidades concretas são
+apenas acidentalmente onde e quando estão. Todas as entidades concretas têm
+propriedades intrínsecas (que tornam seus limites naturais e não convencionais,
+dizem <span class=SpellE>Efird</span> e <span class=SpellE>Stoneham</span>
+(2005, 314)). Suas naturezas não são esgotadas por seus relacionamentos com
+outras coisas. Max Black imagina esferas de ferro gêmeas em um universo vazio.
+As esferas são distintas, mas possuem os mesmos relacionamentos e as mesmas
+propriedades intrínsecas.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Todas as
+coisas materiais são concretas, mas algumas coisas concretas podem ser
+imateriais. Sombras e buracos têm localizações e durações, mas não são feitos
+de nada material. Há luz estranha nas sombras e matéria estranha em buracos;
+mas estes são contaminantes e não constituintes. Rachaduras podem se espalhar, <span
+class=GramE>ser</span> contadas e ocultadas. Uma vez que reconhecemos a
+existência de rachaduras, obtemos uma inesperada explicação transcendental de
+por que há algo: se não há nada, então há uma ausência de qualquer coisa.
+Portanto, existe algo (seja uma entidade concreta positiva ou uma ausência).<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os
+pluralistas ontológicos não descartam essa prova como sofisma. <span
+class=SpellE>Kris</span> <span class=SpellE>McDaniel</span> (2013, 277) acha
+que a prova é trivialmente correta. Para tratar de uma questão mais
+interessante, <span class=SpellE>McDaniel</span> segue o princípio de
+Aristóteles de que existem muitas maneiras de ser. Da perspectiva do
+pluralista, o debate sobre se buracos existem é equívoco. Os amigos das
+ausências usam um sentido amplo de ser. Os inimigos dos buracos falam de um elo
+mais alto na cadeia do ser. A partir desta altitude, os buracos dependem dos
+seus anfitriões e por isso não podem ser tão reais. A conversa de subsistência
+de <span class=SpellE>Alexius</span> <span class=SpellE>Meinong</span> alude ao
+nível mais baixo de ser. “Por que algo subsiste?” É uma pergunta perfeitamente
+legítima, segundo <span class=SpellE>McDaniel</span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Se houver
+almas ou mentes cartesianas, elas também se qualificarão como entidades
+imateriais e concretas. Embora não ocupem espaço, ocupam tempo. Um idealista
+como George Berkeley poderia perguntar &quot;Por que há algo em vez de
+nada?&quot;, Embora ele estivesse convencido de que as coisas materiais não são
+possíveis.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>William
+James negou que sua defesa da parapsicologia fornecesse um recurso para
+responder: &quot;Como é que o mundo está aqui de todo, em vez da <span
+class=GramE>não-entidade</span> que poderia ser imaginada em seu lugar?&quot; A
+filosofia, seja natural ou sobrenatural, não pode progresso nesta questão “do
+nada ao ser não há ponte lógica” (1911, 40). James conclui: “A questão de ser é
+a mais escura de todas as filosofias. Todos nós somos mendigos aqui, e nenhuma
+escola pode falar com desdém de outro ou dar-se ares superiores ”(<span
+class=GramE>1911, 46</span>).<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Embora todas
+as coisas concretas estejam no espaço ou no tempo, nem o espaço nem o tempo são
+coisas concretas. Onde seria o espaço? Quando o tempo ocorreria? Essas questões
+só podem ser respondidas se o espaço estiver contido em outro espaço superior.
+O tempo seria datado em outro momento. Uma vez que as mesmas questões podem ser
+colocadas para o espaço de maior ordem e maior tempo de ordem, enfrentaríamos
+uma regressão infinita.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Não há
+tradição de se perguntar &quot;Por que há espaço e tempo?&quot;. Uma razão é
+que o espaço e o tempo parecem um quadro para que haja qualquer coisa contingente.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Absolutistas
+pensam que o framework existe independentemente do que ele molda. Por exemplo,
+Newton caracterizou o espaço como um recipiente tridimensional, eterno,
+homogêneo, de extensão infinita. Ele acreditava que o mundo estava vazio de
+objetos por um período infinito antes da criação (deixando de lado um Deus
+onipresente). Um mundo vazio seria meramente uma continuação do que a criação
+interrompeu.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Outros acham
+que o framework depende do que ele molda. Como Leibniz, Albert Einstein
+retratou o espaço como uma abstração das relações entre os objetos.
+Consequentemente, o espaço pode ser descrito com as mesmas metáforas que usamos
+para as árvores genealógicas. Talvez o espaço cresça mais. Talvez o espaço seja
+curvado ou deformado ou tenha buracos. Há muito espaço para se perguntar por
+que o espaço tem as propriedades que ele possui. Mas como o espaço é uma
+abstração de objetos, as respostas a quaisquer enigmas sobre o espaço
+reduzem-se a questões sobre objetos. Pode-se perguntar por que há espaço. Mas
+isso é apenas para perguntar por que existem objetos.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>-------------------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;line-height:115%;color:red'>5. O dilema da contingência<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Todas as
+coisas concretas parecem ser seres contingentes. Por exemplo, o planeta Terra
+não teria existido se a matéria que agora constitui o nosso sistema solar
+formado, como de costume, duas estrelas em vez de um. Se nenhuma coisa concreta
+é um ser necessário, então nenhuma coisa concreta pode explicar a existência de
+coisas concretas.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Mesmo que
+Deus não seja concreto, a prova de Sua existência aumentaria a esperança de
+explicar a existência de coisas concretas. Por exemplo, a história da criação
+de Gênesis sugere que Deus fez tudo sem confiar em quaisquer ingredientes
+antecedentes. A história também sugere que Deus tinha um motivo para criar. Se
+esta conta pudesse ser corroborada, teríamos uma explicação de por que há
+algumas coisas concretas.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Essa
+explicação divina ameaça explicar os dados em excesso. Dado que Deus é um ser
+necessário e que a existência de Deus necessita da existência da Terra, então a
+Terra seria um ser necessário e não um ser contingente.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>O dilema foi
+generalizado por William <span class=SpellE>Rowe</span> (1975). Considere todas
+as verdades contingentes. A conjunção de todas essas verdades é em si uma
+verdade contingente. Por um lado, essa conjunção não pode ser explicada por
+qualquer verdade contingente, porque a conjunção já contém todas as verdades
+contingentes; a explicação seria circular. Por outro lado, essa conjunção não
+pode ser explicada por uma verdade necessária, porque uma verdade necessária só
+pode implicar outras verdades necessárias. Esse dilema sugere que &quot;Por que
+existem seres contingentes?&quot; É impossível responder.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span style='font-size:14.0pt;line-height:
+115%'>Rowe</span></span><span style='font-size:14.0pt;line-height:115%'>
+pressupõe que uma resposta teria que ser uma explicação dedutiva. Se há
+&quot;inferências para a melhor explicação&quot; ou explicações indutivas,
+então pode haver uma maneira de superar os dilemas do dilema de <span
+class=SpellE>Rowe</span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Também resta
+a esperança de que o dilema de <span class=SpellE>Rowe</span> possa ser
+contornado, mostrando que o mundo vazio não é uma possibilidade genuína. Então
+a réplica a &quot;Por que existe algo em vez de nada?&quot; É &quot;Não há
+alternativa a haver algo!&quot;.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>&quot;Pode
+não haver nada&quot; é falso quando lido <span class=SpellE>epistemicamente</span>.
+(Grosso modo, uma proposição é <span class=SpellE>epistemicamente</span>
+possível se for consistente com tudo o que é conhecido.) Pois sabemos que algo
+realmente existe e o conhecimento da atualidade exclui todas as possibilidades
+epistêmicas rivais. Mas quando lida metafisicamente, &quot;<span class=GramE>pode
+?</span>?não haver nada&quot; parece ser verdade. Então, &quot;Por que há algo
+em vez de nada?&quot; É, até agora, uma questão viva.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A questão
+não é prejudicada pelo status a priori de conhecimento de que algo existe. (Eu
+sei a priori que algo existe porque eu sei a priori que eu existo e sei que
+isso implica &quot;Algo existe&quot;.) O conhecimento, mesmo a priori, de que
+algo é realmente verdade é compatível com a ignorância de como isso poderia ser
+verdade.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Curiosidade
+residual é possível mesmo quando a proposição é conhecida como uma verdade
+necessária. Uma prova de <span class=SpellE>reductio</span> ad <span
+class=SpellE>absurdum</span> que <span class=GramE>1</span> - 1/3 + 1/5 - 1/7
++… converge para p / 4 pode convencer alguém de que não há alternativa sem
+esclarecer como isso poderia ser verdade. Para este estilo bruto de prova não
+explica como p vagou na solução. (<span class=SpellE>Reductio</span> ad <span
+class=SpellE>absurdum</span> mostra apenas uma contradição se a conclusão não
+fosse verdadeira.) Isso levanta a possibilidade de que mesmo uma demonstração
+lógica da necessidade metafísica de &quot;Algo existe&quot; ainda pode nos
+deixar perguntando por que há algo em vez de nada (embora não haveria mais a
+maravilha sobre a acidentalidade de haver algo). Isso leva Andrew Brenner
+(2016) a negar que &quot;Por que existe algo em vez de nada?&quot; É restrito a
+entidades contingentes. Brenner argumenta que a questão é altamente ambígua. Na
+melhor das hipóteses, há apenas uma semelhança familiar entre as questões em discussão.
+O que parece ser discordância é muitas vezes uma disputa verbal.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>-----------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;line-height:115%;color:red'>6. O primado intuitivo das
+verdades positivas<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Henri <span
+class=SpellE>Bergson</span> afirmou que o nada é impedido pela natureza
+positiva da realidade. A ausência de uma papa do sexo feminino não é um fato
+bruto. &quot;Não existe papa feminino&quot; é verdade por um fato positivo,
+como o regulamento da Igreja Católica de que todos os padres são homens e a
+prática de tirar papas do sacerdócio. Uma vez que tenhamos os fatos positivos e
+a noção de negação, podemos derivar todos os fatos negativos. &quot;Não há
+nada&quot; seria um fato contingente e negativo. Mas então teria que ser fundamentado
+em alguma realidade positiva. Essa realidade positiva garantiria que existe
+algo em vez de nada.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os seres
+humanos têm uma forte intuição de que verdades positivas, como &quot;Elefantes
+são enormes&quot;, são mais fundamentais do que verdades negativas, como
+&quot;Elefantes não saltam&quot;. A robustez dessa tendência torna as coisas
+negativas objetos de diversão. Considere a observação do professor durante seu
+banquete frio em <span class=SpellE>Sylvie</span> e Bruno Concluído, de Lewis
+Carroll.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span style='font-size:14.0pt;line-height:
+115%'>“Espero que você aproveite o jantar - por assim dizer; e que você não se
+importe com o calor - tal como não é.</span></span><span style='font-size:14.0pt;
+line-height:115%'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A frase soou
+bem, mas de alguma forma eu não conseguia entender <span class=GramE>isso ...</span>
+(capítulo 22)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Como podemos
+perceber as ausências? Eles parecem causalmente inertes e não o tipo de coisa
+que podemos verificar empiricamente. Verdades negativas parecem redundantes;
+não há mais verdades do que aquelas relacionadas à conjunção de todas as
+verdades positivas. As verdades negativas parecem psicológicas; só afirmamos
+verdades negativas para expressar uma expectativa frustrada. Quando Jean Paul
+Sartre (1969, 41) chega atrasado para sua nomeação com Pierre no café, ele vê a
+ausência de Pierre, mas não a ausência do Duque de Wellington.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os filósofos
+tiveram muita dificuldade em reivindicar qualquer dessas intuições. Bertrand
+Russell (1985) trabalhou arduamente para reduzir as verdades negativas às
+verdades positivas. Russell tentou parafrasear &quot;O gato não está no
+chão&quot;, como &quot;Há um estado de coisas incompatível com o gato <span
+class=GramE>estar</span> no tapete&quot;. Mas essa paráfrase é secretamente negativa;
+ele usa &quot;incompatível&quot;, o que significa que não é compatível. Ele
+tentou modelar &quot;<span class=SpellE>Not</span> p&quot; como uma expressão
+de descrença que p. Mas &quot;descrença&quot; significa acreditar que algo não
+é o caso. Está claro que as ausências são causalmente inertes? Mineiros presos
+são mortos pela falta de oxigênio. No final, Russell entregou sua intuição de
+que a realidade é positiva. Em uma famosa palestra em Harvard, Russell concluiu
+que existem fatos irredutivelmente negativos. Ele relata isso quase causou um
+motim.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Se não fosse
+pela ameaça à ordem social, pode-se suportar a intuição: as verdades negativas
+são mais fundamentais do que as verdades positivas. Do ponto de vista lógico,
+há uma promessa maior na redução de verdades positivas para verdades negativas.
+As verdades positivas podem ser analisadas como negações de verdades negativas
+ou talvez como descrença frustrada. As verdades positivas seriam, então, os
+itens redundantes, mantidos em circulação por nossa dificuldade bem documentada
+de lidar com informações negativas. Pense em negativos fotográficos. Eles
+parecem menos informativos do que impressões positivas. Mas como as impressões
+são fabricadas a partir dos negativos, os negativos devem ser apenas mais
+difíceis de processar.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Por mais
+difícil que seja a psicologia, é mais fácil trabalhar com ela do que as
+alternativas sugeridas por Henry <span class=SpellE>Sheffer</span>. Em 1913,
+ele demonstrou que todos os conectivos lógicos podem ser definidos em termos do
+dual de conjunção, agora conhecido como NAND (abreviação de NOT AND). <span
+class=SpellE>Sheffer</span> traduz &quot;p NAND q&quot; como &quot;não p ou não
+q&quot;. &quot;Não p&quot; é definido como &quot;p NAND p&quot;. <span
+class=SpellE>Sheffer</span> observa que o dual de disjunção, NOR (abreviação de
+NOT OR), também pode definir todos os conectivos. <span class=SpellE>Sheffer</span>
+traduz &quot;p NOR q&quot; como &quot;nem p nem q&quot;. Do ponto de vista
+lógico, a negação é dispensável. Isso levanta a esperança de que todos os
+paradoxos da negação possam ser traduzidos para longe.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Bertrand
+Russell incorporou rapidamente o NAND ao Principia <span class=SpellE>Mathematica</span>.
+As funções de <span class=SpellE>Sheffer</span> também têm sido uma grande
+economia para a manipulação de computadores na linha de montagem (como foi
+testemunhado pela popularidade das portas NAND e dos portões NOR). No entanto,
+os seres humanos têm dificuldade em atingir a fluência com os conectivos de <span
+class=SpellE>Sheffer</span>. Até o <span class=SpellE>Sheffer</span> as traduz
+negativamente. Psicologicamente, as frases &quot;não p ou não q&quot; e
+&quot;nem p nem q&quot; são ouvidas como uma dose dupla de negação, e sim como
+uma alternativa à negação.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Mas
+poderíamos deixar os computadores fazerem nossa metafísica da mesma maneira que
+permitimos que eles façam nossos impostos. A única objeção séria é que os
+problemas da negação não desaparecem quando traduzimos em linguagens
+artificiais. Por exemplo, o desafio colocado por sentenças existenciais
+negativas como &quot;<span class=SpellE>Pegasus</span> não existe&quot;
+persiste quando traduzido como &quot;<span class=SpellE>Pegasus</span> existe
+NAND Pégaso existe&quot;. Qualquer desejo de fazer &quot;<span class=SpellE>Pegasus</span>
+não existe&quot; sair verdade garante o desejo de fazer &quot;<span
+class=SpellE>Pegasus</span> existe NAND <span class=SpellE>Pegasus</span>
+existe&quot; se tornar realidade. (Como a lógica clássica não permite nomes
+vazios, a NAND <span class=GramE>existencial</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>(Como a
+lógica clássica não permite nomes vazios, a sentença existencial da NAND não
+será verdadeira.<span class=GramE>)</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A
+preocupação mais geral é que os problemas que são naturalmente expressos em
+termos de negação persistem quando são traduzidos para um vocabulário lógico
+diferente. Dado que a tradução preserva o significado do enigma filosófico,
+também preservará sua dificuldade.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Nós nos
+envolvemos em pensamentos negativos para evitar pensamentos positivos altamente
+complicados. Qual é a probabilidade de obter pelo menos uma cabeça em dez
+lançamentos de uma moeda? Em vez de calcular diretamente a probabilidade desse
+evento positivo altamente disjuntivo, mudamos para uma perspectiva negativa.
+Primeiro calculamos a probabilidade de uma ausência total de cabeças e então exploramos
+a regra do complemento: Probabilidade (pelo menos uma cabeça) = 1 -
+Probabilidade (sem cabeça). Um anagrama apto do NEGATIVISMO é TIMESAVING.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Alguns
+mundos possíveis são mais fáceis de contemplar negativamente. Thales disse que
+tudo é água. Suponha que ele estivesse quase certo, exceto pela existência de
+duas bolhas. Estas duas ausências de água se tornam os jogadores interessantes
+(assim como duas gotas de água em um espaço vazio tornam-se jogadores
+interessantes no dual deste universo). Como essas bolhas se relacionam entre
+si? As bolhas se repeliriam? As bolhas seriam mutuamente não afetadas? O
+pensamento profundo sobre a gravidade produz a conclusão de que as bolhas se
+atrairiam mutuamente! (Epstein 1983, 138-9)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>O risco de
+extrair conclusões metafísicas das preferências psicológicas torna-se
+especialmente vívido pelas caricaturas. Sabemos que as caricaturas são
+representações exageradas. Apesar da distorção flagrante (e, na verdade, por
+causa disso), reconhecemos mais facilmente as pessoas de caricaturas do que de
+retratos fiéis.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Para fins de
+navegação, preferimos mapas de metrô esquemáticos sobre aqueles que fazem
+justiça aos comprimentos e curvas das linhas de pista. Mas isso não é uma base
+para inferir que a realidade é correspondentemente esquemática.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Nossa
+predileção pelo pensamento positivo poderia refletir uma característica
+objetiva do nosso mundo (em vez de ser uma mera projeção antropocêntrica de um
+estilo de pensamento). Mas se essa positividade objetiva é contingente, ela não
+explica por que há algo em vez de nada. Para que a explicação de <span
+class=SpellE>Bergson</span> seja bem-sucedida, a natureza positiva da realidade
+precisa ser um recurso metafisicamente necessário.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>------------------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;line-height:115%;color:red'>7. O argumento de subtração<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Thomas
+Baldwin (1996) reforça a possibilidade de um mundo vazio refinando o seguinte
+experimento mental: Imagine um mundo no qual há apenas objetos finitos. Suponha
+que cada objeto desapareça em <span class=SpellE>seqüência</span>.
+Eventualmente você corre para três objetos, dois objetos, um objeto e depois <span
+class=SpellE>Poof</span>! Existe o seu mundo vazio<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>O que pode
+ser feito temporariamente pode ser feito de forma modal. Há apenas uma pequena
+diferença entre um mundo possível com cem objetos e um mundo possível com
+apenas noventa e nove, e de lá… bem, faça <span class=GramE>a</span>
+aritmética!<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A subtração
+pode ser completada se houver necessariamente infinitas coisas? <span
+class=SpellE>Penelope</span> <span class=SpellE>Maddy</span> (1990) afirma que
+conjuntos de unidades são entidades concretas, compartilhando a localização de
+seus membros. A existência de uma entidade concreta garantiria a existência de
+infinitamente muitos. Consequentemente, não haveria mundos finitos.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Baldwin
+evita esse problema com uma definição diferente. Entidades concretas são
+violadoras do princípio da identidade dos indiscerníveis de Leibniz. Coisas
+concretas podem ter duplicatas exatas. Por exemplo, Cameron <span class=SpellE>Winklevoss</span>
+poderia ter um gêmeo que PERFEITAMENTE se assemelhe a ele (ao contrário de seu
+gêmeo homozigoto Tyler <span class=SpellE>Winklevoss</span>). Em contraste, o
+conjunto de unidades composto por Cameron <span class=SpellE>Winklevoss</span>
+não pode ter um gêmeo perfeito. Todos os conjuntos obedecem ao princípio de
+Leibniz da identidade dos indiscerníveis e Baldwin os considera entidades
+abstratas.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span style='font-size:14.0pt;line-height:
+115%'>Geraldine</span></span><span style='font-size:14.0pt;line-height:115%'> <span
+class=SpellE>Coggins</span> (2010, capítulo 4) afirma que a definição de
+concretude de Baldwin é inferior à definição espaço-temporal costumeira. Ela
+considera a distinção entre propriedades intrínsecas e extrínsecas como muito
+problemática para fundamentar a distinção entre objetos concretos e abstratos.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Outra
+preocupação é que a proliferação infinita pode ser precipitada pela relação de
+constituição. Suponha que cada parte de uma entidade concreta seja concreta.
+Suponha também que entidades concretas são infinitamente divisíveis (como
+parece natural, dado que o espaço é denso). Um objeto infinitamente complexo
+não pode ser mordido com qualquer número de mordidas finitas.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Gonzalo
+Rodriguez-<span class=SpellE>Pereyra</span> (2013) sugere que, em vez disso,
+tomamos grandes mordidas infinitas. Em vez de subtrair entidade por entidade,
+subtraia pelo pedaço (de entidades infinitamente compostas).<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Nossos
+cálculos metafísicos são subliminarmente influenciados por como imaginamos
+mundos possíveis (<span class=SpellE>Coggins</span> 2010, capítulo 3). Se
+mundos possíveis são considerados contêineres, então eles podem ser
+completamente esvaziados. Da mesma forma, se os mundos possíveis são retratados
+como histórias (digamos, formas maximamente consistentes, as coisas poderiam
+ter sido), então nossa biblioteca conterá um conto sem nenhuma entidade
+concreta como personagem. Mas, se mundos possíveis são retratados de forma <span
+class=SpellE>mereológica</span>, como gigantescos conglomerados de objetos
+concretos (Lewis, 1986), nossa subtração falha antes que cheguemos ao zero. Da
+mesma forma, se os mundos possíveis requerem uma construção ativa (digamos, o
+imaginário de Ludwig Wittgenstein de rearranjos de objetos retirados do mundo
+atual), então o próprio processo de construção assegura que existam alguns
+objetos concretos em todos os mundos possíveis.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Algum tipo
+de teoria de fundo dos mundos possíveis é <span class=GramE>necessária</span>.
+Pois sem essa orientação substantiva, o argumento da subtração parece inválido.
+Mais especificamente, de uma perspectiva metafisicamente neutra, o fato de ser
+possível que cada objeto não exista parece compatível com o fato de ser
+necessário que pelo menos um objeto exista.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>O fundador
+da lógica modal, Aristóteles, tem uma razão especial para negar que
+&quot;Necessariamente (p ou q)&quot; implica &quot;Necessariamente p ou
+necessariamente q&quot;. Aristóteles acreditava que todas as entidades
+abstratas dependem de entidades concretas para sua existência. No entanto, ele
+também acreditava que existem verdades necessárias. A existência de qualquer
+indivíduo em particular é contingente, mas é necessário que existam alguns
+indivíduos.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os livros
+didáticos de ciências estão repletos de entidades abstratas contingentes: o
+equador, o centro de gravidade de Júpiter, o orçamento espacial da NASA, etc. A
+matemática do século XX torna os conjuntos centrais. Conjuntos são definidos em
+termos de seus membros. Portanto, qualquer conjunto que contenha uma entidade
+contingente é em si uma entidade contingente. Qualquer conjunto que contenha
+Cameron <span class=SpellE>Winklevoss</span> é uma entidade abstrata que não
+tem peso, cor ou carga elétrica. Mas ainda depende da existência da <span
+class=SpellE>Winklevoss</span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A matemática
+pode ser reconstruída em termos de conjuntos, considerando-se a suposição de
+que algo existe. De Cameron <span class=SpellE>Winklevoss</span>, os teóricos
+dos conjuntos podem derivar o conjunto que o contém, o conjunto contendo esse
+conjunto, o conjunto contendo o conjunto maior e assim por diante. Através da
+astúcia <span class=SpellE>aracnofílica</span>, toda a matemática pode ser
+reconstruída a partir de conjuntos. Mas fundar toda a matemática em Cameron <span
+class=SpellE>Winklevoss</span> deixaria de refletir o status necessário da
+verdade matemática. Fundar a matemática em um ser necessário como Deus
+alienaria os ateus. Assim, os teóricos ecumênicos do cenário, ao contrário,
+giram esta estrutura surpreendente apenas do conjunto que não depende da
+existência de qualquer coisa: o conjunto vazio. Este é o matemático mais
+próximo da criação do nada!<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Isso não
+evita toda controvérsia. Os primeiros teóricos do conjunto e uma matriz de
+metafísicos contemporâneos rejeitam o conjunto vazio. No entanto, a beleza da
+construção torna muitos de seus colegas receptivos ao argumento ontológico de
+Wesley <span class=SpellE>Salmon</span>: “O tolo diz em seu coração que não
+existe um cenário vazio. Mas se fosse assim, então o conjunto de todos esses
+conjuntos estaria vazio e, portanto, seria o conjunto vazio<span class=GramE> ”</span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>E. J. <span
+class=SpellE>Lowe</span> (2013, 192) argumenta em nome do tolo: Dois conjuntos
+são idênticos exatamente se tiverem os mesmos membros. Assim, a identidade de
+um conjunto baseia-se nas condições de identidade de seus membros. Na ausência
+de membros, o conjunto é mal definido. Os matemáticos podem usá-lo como uma
+ficção útil. Mas a utilidade não deve ser confundida com a verdade. Como
+afirmações matemáticas como &quot;O primeiro número primo depois de 1.000.000 é
+1.000,003&quot; são verdades necessárias e só podem ser consideradas
+verdadeiras pela existência de um ser contingente, como Cameron <span
+class=SpellE>Winklevoss</span>, <span class=SpellE>Lowe</span> conclui que
+existe necessariamente pelo menos um ser contingente. Consequentemente, o mundo
+vazio é impossível mesmo se não houver seres necessários.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Existem
+outros sistemas metafísicos que tornam necessária a existência de algumas
+entidades concretas sem implicar que existem quaisquer coisas concretas
+necessariamente existentes. Em sua fase <span class=SpellE>Tractatus</span>,
+Ludwig Wittgenstein leva um mundo a ser uma totalidade de fatos. Um fato
+consiste em um ou mais objetos relacionados entre si de uma determinada
+maneira. Por um ato de atenção seletiva, nos concentramos apenas nos objetos ou
+apenas nas relações. Mas objetos e relações estão sempre inextricavelmente
+ligados uns aos outros. Como todo fato requer pelo menos um objeto, um mundo
+sem objetos seria um mundo sem fatos. Mas um mundo sem fatos é uma contradição
+em termos. Portanto, o mundo vazio é impossível.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>No entanto,
+a capacidade de persuasão do argumento da subtração não é inteiramente refém de
+teorias de fundo sobre a natureza dos mundos possíveis. Mesmo aqueles com
+sistemas metafísicos que garantem a existência de algumas entidades concretas
+sentem pressão para revisar esses sistemas para acomodar o mundo vazio, ou pelo
+menos para procurar alguma lacuna que torne seu sistema compatível com o
+experimento mental de Baldwin.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Considere o <span
+class=SpellE>combinatorialista</span> David Armstrong. Ele finalmente concordou
+com o mundo vazio, relaxando sua conta de verdadeiros. Um <span class=SpellE>truthmaker</span>
+é um pedaço da realidade que faz uma afirmação verdadeira. Armstrong acredita
+que todas as verdades contingentes são feitas verdadeiras por um criador de
+verdades e manejou o princípio vigorosamente contra behavioristas analíticos, <span
+class=SpellE>fenomenalistas</span>, nominalistas e <span class=SpellE>presentistas</span>.
+Como não pode haver um fabricante de verdade para um mundo vazio, Armstrong
+parece ter uma segunda objeção ao mundo vazio (complementando a objeção com
+base em sua concepção combinatória de um mundo possível). No entanto, Armstrong
+(2004, p. 91) afirma que o mundo vazio poderia emprestar verdadeiros do mundo
+real. Sua <span class=SpellE>idéia</span> é que os verdadeiros criadores de
+possibilidades são objetos reais e que esses objetos reais poderiam servir como
+os verdadeiros criadores do mundo vazio. David <span class=SpellE>Efird</span>
+e Tom <span class=SpellE>Stoneham</span> (2009) argumentam que os verificadores
+de mundo entre os países seriam igualmente úteis para os behavioristas
+analíticos, <span class=SpellE>fenomenalistas</span> e seus semelhantes.
+Independentemente de Armstrong ter ou não se contradito, ele ilustrou a
+capacidade de persuasão do argumento da subtração.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>--------------------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;line-height:115%;color:red'>8. Neutralidade ontológica<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Aristóteles
+supõe que as generalizações universais têm importância existencial; &quot;Todos
+os deuses são imortais&quot; implica que existem deuses. Os lógicos
+contemporâneos concordam que os quantificadores universais têm importância
+existencial: o panteísmo, &quot;Tudo é deus&quot;, implica o teísmo,
+&quot;existe um deus&quot;. No entanto, os lógicos contemporâneos diferem de
+Aristóteles ao analisar as generalizações universais como condicionais. Eles
+pensam que &quot;Todos os deuses são imortais&quot; tem a forma &quot;Para cada
+coisa, se é um deus, então é imortal&quot;. Então, se não há deuses, a
+condicional é vaga. Isso explica por que o ateu pode consistentemente
+argumentar: Todos os deuses são imortais. A imortalidade é impossível.
+Portanto, não há deuses.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os lógicos
+contemporâneos também estão impressionados com a equivalência intuitiva entre
+&quot;Todos os homens são mortais&quot; e sua contraposição &quot;Todos os
+imortais são <span class=GramE>não-homens</span>&quot;. Essa equivalência é
+prevista pela hipótese de que generalizações universais são condicionais.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A tolerância
+de generalizações vazias de verdade não impede que a lógica clássica
+contemporânea impeça um mundo vazio. Como seu quantificador universal tem
+importância existencial, cada uma de suas leis lógicas implica que algo existe.
+Por exemplo, o princípio da identidade, Tudo é idêntico a si mesmo, implica
+Existe algo que é idêntico a si mesmo. Todos os tipos de inferências atraentes
+são ameaçados pelo mundo vazio.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os lógicos
+não tratam sua intolerância do mundo vazio como um recurso para os metafísicos.
+Eles não querem se envolver em disputas metafísicas. Eles sentem que a lógica
+deve ser neutra em relação à existência de qualquer coisa. Eles anseiam por
+corrigir esse “defeito na pureza lógica” (Russell 1919, 203).<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>O ideal da
+neutralidade ontológica levou alguns filósofos a rejeitar a lógica clássica.
+Uma resposta direta seria desafiar a importância existencial dos
+quantificadores clássicos.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os
+proponentes da “lógica livre” preferem desafiar o pressuposto existencial de
+termos singulares (Lambert 2003, 124). Na lógica clássica, os nomes devem ter
+portadores. A lógica livre não tem essa restrição e, portanto, os nomes vazios
+são como &quot;Sherlock Holmes é um detetive&quot; e existenciais negativos,
+como &quot;<span class=SpellE>Pegasus</span> não existe&quot;. Os proponentes
+da lógica livre sugerem que esses desvios são uma condição necessária para não
+implicar trivialmente uma proposição existencial. Jan <span class=SpellE>Heylen</span>
+(2017) concorda, mas afirma que a livre lógica implica trivialmente outras
+sentenças existenciais. Ele conclui que qualquer resposta dedutiva para a
+pergunta vai começar com a pergunta. A lógica de fundo será sempre intrusiva.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>De qualquer
+modo, as mudanças recomendadas por lógicos livres certamente minariam o
+critério popular de W. V. Quine (1953a) para o compromisso ontológico. Quine
+diz que podemos ler a nossa ontologia a partir das declarações existencialmente
+quantificadas que constituem as nossas teorias bem aceitas. Por exemplo, se a
+teoria da evolução diz que existem algumas espécies que evoluíram de outras
+espécies, e se não temos como parafrasear essa afirmação, então os biólogos
+estão comprometidos com a existência de espécies. Como os filósofos não podem
+melhorar as credenciais de um compromisso científico, os metafísicos também
+seriam obrigados a aceitar espécies.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Então, como
+Quine defende seu critério de compromisso ontológico a partir da ameaça que
+surge do domínio vazio? Por compromisso. Normalmente, pensa-se em um teorema
+lógico como uma proposição que se mantém em todos os domínios. Quine (1953b,
+162) sugere que enfraquecemos a exigência de manter todos os domínios não
+vazios. Nas raras circunstâncias em que o universo vazio deve ser considerado,
+há uma maneira fácil de testar quais teoremas serão aplicados: conte todas as
+quantificações universais como verdadeiras, e todas as quantificações
+existenciais como falsas, e depois compute para os teoremas restantes.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Quine está
+sendo ad hoc? Talvez. Mas as exceções são comuns para noções da mesma família
+que o domínio vazio. Por exemplo, os instrutores interrompem o padrão natural
+de pensamento dos alunos sobre a divisão para evitar o desastre que resulta da
+divisão por zero. Se os números fossem palavras, zero seria um verbo irregular.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>------------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;line-height:115%;color:red'>9. <span class=GramE>O
+problema de múltiplos nadas</span><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Muitos dos
+princípios <span class=GramE>usados ?</span>?<span class=GramE>para</span>
+descartar o vazio total também impedem pequenos bolsões de vazio. Leibniz diz
+que o mundo atual deve ter algo em vez de nada, porque o mundo real deve ser o
+melhor de todos os mundos possíveis, e algo é melhor que nada. Mas pelo mesmo
+raciocínio, Leibniz conclui que não há vazios no mundo atual: mais é melhor que
+menos.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Leibniz
+também tem como alvo a possibilidade de haver mais de um vazio. Se pudesse
+haver mais de um vazio, poderia haver dois vazios com exatamente a mesma forma
+e tamanho. Esses dois vazios seriam gêmeos perfeitos; tudo o que é verdadeiro
+de um vazio seria verdadeiro do outro. Isso é impedido pelo princípio da
+identidade dos indiscerníveis: se tudo verdadeiro de x for verdadeiro de y,
+então x será idêntico a y.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Um segundo
+problema com múltiplos vazios surge dos esforços para parafraseá-los. Desde o
+tempo de <span class=SpellE>Melissus</span>, tem havido argumentos contra a
+possibilidade de um vazio existente da maneira que um objeto existe: &quot;Nem
+há qualquer vazio, pois vazio é nada, e nada pode ser&quot; (<span
+class=SpellE>Guthrie</span> 1965, 104). <span class=GramE>você</span> diz que
+há um vácuo no frasco, então você está afirmando a existência de algo no frasco
+- o vácuo. Mas como vácuo significa ausência de algo, você também está negando
+que há algo no frasco. Portanto, &quot;Há um vácuo no frasco&quot; é uma
+contradição.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Alguns
+reagem ao argumento de <span class=SpellE>Melissus</span> analisando os vazios
+como propriedades das coisas, e não das coisas por direito próprio. De acordo
+com C. J. Williams (1984, p. 383), &quot;Há um vácuo no frasco&quot; deve ser
+traduzido como &quot;O frasco não é&quot;. Ele faz isso com o mesmo espírito
+que ele faz: &quot;Há neblina em Winchester&quot;, como &quot;Winchester está
+nebulosa&quot; e &quot;Há um cheiro no porão&quot;, como &quot;O porão
+cheira&quot;.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Se esta
+estratégia parafraseada funcionar para os aspiradores, deve funcionar para o
+caso mais prosaico de buracos. Pode um materialista acreditar que existem
+buracos em seu queijo suíço? Os buracos são onde a matéria não está. Então
+admitir a existência de buracos é admitir a existência de objetos imateriais!<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Uma resposta
+é parafrasear &quot;Há um buraco no queijo&quot; como &quot;Os buracos de
+queijo&quot; ou, para ser um pouco mais fácil na orelha, como &quot;O queijo é
+perfurado&quot;. O que parecia ser uma reivindicação existencial selvagem foi
+domesticado em um comentário sobre a forma do queijo.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Mas como
+distinguiremos o queijo de dois buracos em vez de um? (Lewis e Lewis 1983, 4)
+Bem, um pouco de queijo é perfurado individualmente, um pouco de queijo é
+duplamente perfurado, mas outro queijo é n-perfurado onde n é igual ao número
+de furos no queijo.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Uau! Devemos
+ter cuidado para não definir &quot;n-perfuração&quot; em termos de buracos; que
+iria reintroduzir os buracos que definimos para evitar.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os buracos
+podem ser evitados confinando-nos ao processo de perfuração? Perfuradores de
+furo único diferem dos perfuradores de furo triplo pela forma como agem; em vez
+de triplamente.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A
+dificuldade com esta proposta orientada para o processo é que o produto, um
+buraco, é necessário para distinguir entre perfuração bem sucedida e meramente
+tentada. Além disso, a paráfrase é incompleta porque não se estende a buracos
+que surgem de processos como o <span class=SpellE>looping</span>. Se o universo
+surgiu há cinco minutos, a maioria dos buracos se formou sem nenhum processo.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Podemos
+simplesmente deixar expressões da forma &quot;n-perfurada&quot; como predicados
+de forma primitivos e não analisados? David e Stephanie Lewis (1983) observam
+que isso nos dá uma lista infinita de termos primitivos. Essa lista nunca
+poderia ter sido memorizada. Os <span class=SpellE>Lewises</span> não <span
+class=SpellE>vêem</span> como o 'n-perfurado' pode ser definido recursivamente
+sem aludir a buracos.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>As
+perspectivas paráfrases parecem igualmente sombrias por <span class=GramE>serem</span>
+&quot;n-aspiradas&quot;. Grandes meteoritos atravessam a atmosfera em cerca de
+um segundo, deixando um buraco na atmosfera - um vácuo no “ar rarefeito”. O ar
+não pode apressar-se rapidamente o suficiente para preencher a lacuna. Isso
+explica por que o vapor de rocha do impacto dispara de volta para a atmosfera e
+depois chove amplamente na superfície. Durante uma chuva de meteorito, a
+atmosfera é aspirada de forma múltipla. Mas isso é apenas para dizer que há
+muitos vazios na atmosfera.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>---------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;line-height:115%;color:red'>10. Existe algum nada?<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>O problema
+de sustentar vários vazios pode nos levar à resposta mais extrema a &quot;Por
+que há algo em vez de nada?&quot;, A saber, &quot;Não deve haver apenas algo,
+mas não deve haver nenhum vazio de jeito nenhum!&quot;.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Parmênides
+afirmou que é contraproducente dizer que algo não existe. A interpretação <span
+class=SpellE>lingüística</span> desse insight é o problema dos existenciais
+negativos: &quot;Atlântida não existe&quot; é sobre a Atlântida. Uma declaração
+pode ser sobre algo somente se essa coisa existe. Nenhuma relação sem relata!
+Portanto, &quot;Atlântida não existe&quot; não pode ser verdade. Parmênides e
+seus discípulos elaboraram dificuldades conceituais com a negação em um
+monólito metafísico incrível.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os <span
+class=SpellE>parmenidianos</span> foram opostos pelos atomistas. Os atomistas
+disseram que o mundo é constituído por coisas simples e indivisíveis que se
+movem no espaço vazio. Eles <span class=SpellE>autoconscientemente</span>
+endossaram o vazio para explicar fenômenos empíricos como movimento, compressão
+e absorção.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>O discípulo
+de Parmênides, Zenão de Eléia, já havia acumulado uma incrível bateria de
+argumentos para mostrar que o movimento é impossível. Uma vez que estes
+implicam que a compressão e a absorção são também impossíveis, Zeno rejeita os
+dados dos atomistas assim como os físicos rejeitam os dados dos parapsicólogos.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Opositores
+menos radicais de vazios, como Aristóteles, <span class=SpellE><span
+class=GramE>re-explicaram</span></span> os dados dentro de um quadro de
+plenitude: embora o universo esteja cheio, os objetos podem se mover porque
+outros objetos saem do caminho. A compressão e a absorção podem ser acomodadas
+quando as coisas são empurradas para fora quando outras coisas entram em ação.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>No <span
+class=SpellE>Timeu</span>, o professor de Aristóteles, Platão, tentou combinar
+o atomismo com o <span class=SpellE>plenismo</span> como uma “história
+provável”. Os átomos são os sólidos platônicos (poliedros regulares e
+convexos), cada um tendo um papel distintivo na composição dos objetos. Como um
+menino de escola irreverentemente inteligente, Aristóteles objetou que os
+sólidos platônicos não podem preencher o espaço. Todo arranjo de sólidos
+platônicos produz o tipo de lacunas que se pode predizer mais prontamente em um
+universo composto apenas de átomos esféricos.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Aristóteles
+concorda que os átomos poderiam preencher o espaço se fossem todos cubos.
+Pressionando sua sorte, Aristóteles afirma que o tetraedro também pode
+completar o espaço. É um testemunho da autoridade <span class=SpellE>subseqüente</span>
+de Aristóteles que essa afirmação foi aceita por mil e setecentos anos - apesar
+de ser facilmente refutável por qualquer um que tentasse combinar confortavelmente
+os blocos tetraédricos. Quase todas as formas de escolha garantem o vácuo
+intersticial. Essa pressão geométrica para o minúsculo vácuo cria um precedente
+para o vazio cósmico (que circunda o cosmo material) e os espaços vazios
+intermediários que fornecem uma explicação promissora de como o movimento é
+possível.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>No entanto,
+Aristóteles negou que o vazio possa explicar como as coisas se movem. O
+movimento requer um movimento que está empurrando ou puxando o objeto. Um
+objeto em um vácuo não está em contato com qualquer outra coisa. Se o objeto se
+movesse, não haveria nada que impedisse seu movimento. Portanto, qualquer
+movimento no vácuo seria a uma velocidade ilimitada. Isso entra em conflito com
+o princípio de que nenhum objeto pode estar em dois lugares separados ao mesmo
+tempo.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A refutação
+de Aristóteles do vazio persuadiu a maioria dos comentaristas para os próximos
+1500 anos. Havia dois dissidentes limitados em sua tese de que os vazios são
+impossíveis. Os <span class=SpellE>estóicos</span> concordaram que os
+aspiradores terrestres são impossíveis, mas acreditavam que deveria haver um
+vazio em torno do cosmos. Herói de Alexandria concordou que não há vazios
+naturais, mas acredita que eles podem ser formados artificialmente. Ele cita
+bombas e sifões como prova de que vazios podem ser criados. O herói acreditava
+que os corpos têm um horror natural de vazios e lutam para impedir sua
+formação. Você pode sentir a antipatia tentando abrir um fole que tenha seu
+orifício de ar obstruído. Por mais que você tente, você não pode separar os
+lados. No entanto, ao contrário de Aristóteles, Herói pensava que se você e o
+fole fossem tremendamente fortes, você poderia separar os lados e criar um
+vácuo.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>As opiniões
+de <span class=SpellE>Hero</span> se tornaram mais discutidas após a condenação
+<span class=SpellE><span class=GramE>anti-aristotélica</span></span> da Igreja
+em 1277, que exigia que os estudiosos cristãos permitissem a possibilidade de
+um vácuo. O motivo imediato foi preservar a onipotência de Deus. Deus poderia
+ter escolhido criar o mundo em um local diferente. Ele poderia ter feito isso
+maior ou menor. Deus também poderia ter escolhido transformar o universo em uma
+forma diferente. Essas possibilidades implicam a possibilidade de um vácuo.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Uma segunda
+motivação é uma leitura literal de Gênesis 1: 1. Esta passagem de abertura da
+Bíblia descreve Deus como criando o mundo do nada. Tal construção parece
+logicamente impossível. O compromisso com um milagre ilógico comprometeu o
+compromisso abrangente do cristão de evitar a irracionalidade total. Se a
+criação a partir do nada fosse de fato uma impossibilidade demonstrável, então
+a fé seria forçada a anular uma resposta dada pela razão, em vez de
+simplesmente responder a uma pergunta sobre qual razão é omissa.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Toda
+filosofia grega pressupunha que a criação era de algo mais primitivo, não nada.
+Consistentemente, os gregos assumiram que a destruição foi desmontada em
+unidades mais básicas. (Se a destruição no nada fosse possível, o processo
+poderia ser revertido para obter a criação do nada.) Os cristãos estavam
+sozinhos quando tentavam entender a criação a partir do nada. (Os filósofos
+chineses antigos às vezes são traduzidos como crentes paralelos na criação a
+partir do nada. <span class=SpellE><span class=GramE>JeeLoo</span></span> Liu
+(2014) adverte que tanto os <span class=SpellE>taoistas</span> quanto os
+confucionistas estão falando sobre a ausência de forma em vez de nada.)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A criação do
+nada pressupõe a possibilidade do nada total. Isso, por sua vez, implica que
+pode haver algum nada. Assim, os cristãos tinham um motivo para primeiro
+estabelecer a possibilidade de um pouco de nada. Sua estratégia era começar
+pequena e ampliar.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Assim, os
+estudiosos que escreveram no rescaldo da condenação de 1277 propuseram várias
+receitas para a criação de vácuos (Schmitt, 1967). Um esquema era congelar uma
+esfera cheia de água. Depois que a água se contraiu no gelo, um vácuo se
+formaria no topo.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os
+aristotélicos responderam que a esfera se dobraria em seu ponto mais fraco.
+Quando os <span class=SpellE>vacuistas</span> estipularam que a esfera estava
+perfeita, a resposta era que isso simplesmente impediria que a água se
+transformasse em gelo.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Nenhum dos
+lados parece ter experimentado a receita. Se qualquer um tivesse, então eles
+teriam descoberto que a água congelada se expande ao invés de contratos.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Para os pensadores
+contemporâneos, essa escassez de testes empíricos é bizarra. O enigma é
+intensificado pelo fato de que os medievais testaram empiricamente muitas
+hipóteses, especialmente em óptica.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Herói acabou
+por ser refutado por experimentos realizados por Evangelista Torricelli e <span
+class=SpellE>Blaise</span> Pascal. Com efeito, criaram um barômetro que
+consiste em um tubo parcialmente submerso, de cabeça para baixo, em uma tigela
+de mercúrio. O que mantém o mercúrio suspenso no tubo? Existe um vácuo não
+natural que faz com que o vidro ao redor puxe o líquido para cima? Ou não há
+vácuo algum, mas sim alguma matéria rarefeita e invisível no “espaço vazio”?
+Pascal respondeu que realmente não havia nada segurando o mercúrio. O mercúrio
+aumenta e diminui devido a variações no peso da atmosfera. O mercúrio está
+sendo empurrado para cima do tubo, não puxado por nada.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Quando
+Pascal ofereceu essa explicação, Descartes escreveu a Christian Huygens (<span
+class=GramE>8</span> de dezembro de 1647) que o jovem apressado tinha o vácuo
+em demasia em sua mente. (Uma tradução mais divertida da carta é que Descartes
+se queixa de que Pascal tinha muito vácuo em sua cabeça; infelizmente, a
+escrita de Descartes perde algo no original.) Descartes identificou corpos com
+extensão e, portanto, não tinha espaço para vazios. Se não houvesse nada entre
+dois objetos, eles se tocariam. E se eles estão se tocando, não há diferença
+entre eles.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Bem, talvez
+a aparente falha seja meramente uma região pouco ocupada do espaço. Nesse
+modelo de distribuição, não existe um “objeto vazio” intermediário que separe
+os dois objetos. Há apenas matéria distribuída de forma desigual. Esse modelo é
+muito bom para eliminar os vazios no sentido de objetos vazios. No entanto,
+também é bom em eliminar objetos comuns. O que chamamos de objetos seriam
+apenas depósitos de matéria relativamente espessos. Haveria apenas um objeto
+natural: o universo inteiro. Esse pode ter sido o ponto do ataque de Spinoza
+aos aspiradores (Bennett, 1980). (Os filósofos indianos associam o nada à falta
+de diferenciação. Eles podem preferir descrever o mundo de Spinoza como um
+reino do nada dominado por uma única unidade global.<span class=GramE>)</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Descartes
+fazia parte de uma tradição que negava a ação à distância. Essa ortodoxia
+incluía Galileu. Ele estava angustiado com a hipótese de <span class=SpellE>Johannes</span>
+Kepler de que a lua influencia as marés porque a hipótese parece exigir cadeias
+causais no espaço vazio. Como o grande Kepler poderia acreditar em algo tão
+bobo? Depois que Isaac Newton ressuscitou a hipótese de Kepler, ele
+eventualmente capitulou para a ortodoxia e encheu o espaço entre a lua e a
+Terra com éter.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>De fato, a
+universalidade da lei da gravitação de Newton parece exigir que todo o universo
+seja preenchido com uma substância sutil. De que outra forma o universo poderia
+ser unido por cadeias causais? A fome pelo éter se intensificou <span
+class=GramE>à</span> medida que as feições de luz parecidas com ondas se
+estabeleceram. É tautológico que uma onda tenha um meio.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Ou é? À
+medida que os papéis teóricos do éter proliferavam, os físicos começaram a
+duvidar de que poderia haver algo que realizasse proezas tão diversas. Essas
+dúvidas sobre a existência do éter foram intensificadas pelo surgimento da
+teoria da relatividade de Einstein. Ele apresentou sua teoria como uma
+explicação relacional do espaço; se não houvesse objetos, não haveria espaço. O
+espaço é meramente uma abstração útil.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Mesmo
+aqueles físicos que desejavam reter o espaço substancial romperam com a
+tradição atomista de não atribuir virtualmente nenhuma propriedade ao vazio.
+Eles <span class=SpellE>reatribuem</span> grande parte das responsabilidades do
+éter ao próprio espaço. Em vez de ter forças gravitacionais sendo propagadas
+pelo éter, elas sugerem que o espaço é dobrado em massa. Para explicar como o
+espaço pode ser finito e ainda assim ilimitado, eles caracterizam o espaço como
+esférico. Quando Edwin Hubble descobriu que corpos celestes estão se afastando
+uns dos outros (como formigas descansando em um balão em expansão), os <span
+class=SpellE>cosmologistas</span> foram rápidos em sugerir que o espaço pode
+estar se expandindo. &quot;Expandindo o quê?&quot;, Perguntavam leigos
+desnorteados: &quot;Como o espaço pode se curvar?&quot;, &quot;Como o espaço
+pode ter uma forma?<span class=GramE>&quot;</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os
+historiadores da ciência se perguntam se o éter que foi empurrado para fora
+pela porta da frente da física está silenciosamente retornando pela porta dos
+fundos sob o disfarce de &quot;espaço&quot;. A teoria quântica de campos
+fornece um terreno particularmente fértil para tal especulação. As partículas
+são criadas com a ajuda da energia presente nos “vácuos”. Dizer que os vácuos
+têm energia e energia é conversível em massa, é negar que os vazios estão
+vazios. Muitos físicos se divertem com a descoberta de que os aspiradores estão
+longe de vazios.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Frank
+Wilczek (1980), Stephen Hawking e Leonard <span class=SpellE>Mlodinow</span>
+(2010, 180) bem como Lawrence <span class=SpellE>Krauss</span> (2012) afirmam
+explicitamente que isso responde à questão de por que há algo em vez de nada. A
+<span class=SpellE>idéia</span> básica remonta a uma questão levantada pela
+simetria da matéria e da <span class=SpellE>antimatéria</span>. Dado que a
+simetria implica igualdade, matéria e <span class=SpellE>antimatéria</span>
+deveriam ter se aniquilado mutuamente. A criação deveria ter sido abortada. Por
+que existe AGORA alguma coisa (partículas) em vez de nada (mera energia em um
+campo quântico)? Esta questão foi respondida por cálculos sugerindo que havia
+cerca de um bilionésimo a mais de matéria do que a <span class=SpellE>antimatéria</span>.
+Embora ainda seja possível que o universo esteja sem partículas, o ligeiro
+desequilíbrio numérico distorce o universo em direção a estados em que há
+muitas partículas. Uma pequena mudança aleatória pode desencadear uma transição
+de fase análoga à transformação de cerveja líquida muito fria em cerveja sólida
+quando a tampa da garrafa é estourada (reduzindo de repente a pressão na garrafa).<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Um físico
+orgulhoso é naturalmente tentado a anunciar essas <span class=SpellE>idéias</span>
+através do megafone da metafísica. Mas os filósofos <span class=GramE>interessados
+?</span>?<span class=GramE>na</span> lógica das perguntas chamarão a atenção
+para o papel da ênfase na estruturação de solicitações de explicações. &quot;Por
+que Eva comeu a maçã?&quot;, &quot;Por que Eva comeu a maçã?&quot;, E &quot;Por
+que Eva comeu a maçã?&quot; São perguntas diferentes porque especificam classes
+de contraste diferentes (van <span class=SpellE>Fraassen</span> 1980, 127-130).
+Os filósofos leram &quot;Por que há algo em vez de nada?&quot;, Como &quot;Por
+que p é um número irracional?&quot;. Os filósofos também <span class=SpellE>lêem</span>
+&quot;algo&quot; como um quantificador que abrange qualquer entidade concreta.
+O vácuo quântico é uma entidade concreta (no sentido descrito nas seções 4 e 7)
+e, portanto, está no domínio do discurso do filósofo. Mas, por efeito retórico,
+os físicos anacronicamente retrocederam seu domínio do discurso para as coisas
+da física do século XIX. Assim, os físicos acabam se dirigindo &quot;Por que há
+alguma coisa em vez de nada?&quot;.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Filósofos se
+queixam de publicidade enganosa. Eles fizeram uma pergunta e os físicos
+orgulhosos responderam a uma pergunta diferente. Lawrence <span class=SpellE>Krauss</span>
+defende a mudança como uma melhoria. Muitas vezes os cientistas progridem
+alterando o significado dos termos-chave. Por que ficar com uma questão
+intratável (e possivelmente sem sentido)? Devemos nos libertar da mão morta do
+passado e rejuvenescer nossa curiosidade com o vocabulário da cosmologia
+contemporânea.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>O físico
+transformado em filósofo, Rudolf <span class=SpellE>Carnap</span> (1950),
+lembra como os <span class=SpellE>termodinamicistas</span> explicaram o “calor”
+nos conceitos mais precisos de temperatura, energia térmica e transferência de
+calor. Embora os novos termos não sejam sinônimos dos antigos, eles possuem
+similaridade suficiente para desarmar a objeção de que os físicos estão meramente
+mudando de assunto. Nossas perguntas<span class=GramE>, como nossos filhos,
+podem</span> amadurecer sem perder sua identidade ao longo do tempo. (A ideia
+de haver duas perguntas diferentes sendo feitas é buscada em Carroll 2012,
+Outros Recursos da Internet.<span class=GramE>)</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>David Albert
+está aberto à possibilidade de que questões antigas sejam aprimoradas por novos
+interesses e descobertas. No entanto, ele nega que a mudança particular de
+significado de Lawrence <span class=SpellE>Krauss</span> constitua uma melhoria
+(<span class=GramE>2012, Outros</span> Recursos da Internet):<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os estados de
+vácuo teórico-campo-quântico relativista - não menos que girafas ou
+refrigeradores ou sistemas solares - são arranjos particulares de elementos
+físicos elementares. O verdadeiro equivalente
+relativista-campo-quântico-teórico para não haver qualquer coisa física em
+absoluto não é este ou aquele arranjo particular dos campos - o que é
+(obviamente, e inelutavelmente, e ao contrário) é a simples ausência de os
+campos! O fato de que alguns arranjos de campos coincidem com a existência de
+partículas e <span class=GramE>outros não é</span> nem um pouco mais misterioso
+do que o fato de que alguns arranjos possíveis dos meus dedos correspondem à
+existência de um punho e alguns t. E o fato de as partículas poderem entrar e
+sair da existência, com o tempo, à medida que esses campos se rearranjam, não é
+nem um pouco mais misterioso do que o fato de os punhos poderem surgir e
+desaparecer ao longo do tempo, enquanto meus dedos se rearranjam. E nenhum
+desses estalos - se você olhar para eles corretamente - chega a qualquer coisa,
+mesmo remotamente, na vizinhança de uma criação a partir do nada.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>-------------------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;line-height:115%;color:red'>11. Aspectos
+fenomenológicos do nada<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Depois de
+uma experiência mística em 1654, o interesse de <span class=SpellE>Blaise</span>
+Pascal pelo nada passou de sua importância para a ciência, para o significado
+do nada para a condição humana. Pascal acha que os seres humanos têm uma
+perspectiva única sobre sua finitude. Seu <span class=SpellE>Pensées</span> é
+um passeio de montanha russa que inspeciona o lote humano. Pascal eleva-nos ao
+nível dos anjos, exaltando-nos ao infinito e depois nos conduz abaixo das feras
+para escolher o mal sobre o bem. Deste vale da depravação, Pascal nos leva de
+novo maravilhando-se com a forma como os seres humanos se elevam sobre o reino
+microscópico, apenas para nos mergulhar na insignificância, fazendo-nos habitar
+na vastidão do espaço e na imensidão da eternidade.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Aquele que
+se considera a esta luz terá medo de si mesmo, e observando-se sustentado no
+corpo que lhe foi dado pela natureza entre esses dois <span class=GramE>abismos
+do Infinito e Nada, vai tremer</span> à vista dessas maravilhas; e penso que, à
+medida que sua curiosidade se transforma em admiração, ele estará mais disposto
+a contemplá-las em silêncio do que examiná-las com presunção.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Pois, de
+fato, o que é o homem na natureza? Um Nada em comparação com o Infinito, um
+Tudo em comparação com o Nada, um meio entre o nada e tudo. Desde que ele é
+infinitamente removido de compreender os extremos, o fim das coisas e seu
+começo são irremediavelmente escondidos dele em um segredo impenetrável; ele é
+igualmente incapaz de ver o Nada do qual ele foi feito, e o Infinito no qual
+ele é engolido. (<span class=SpellE>Pensées</span>, seção II, 72)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A associação
+de Pascal do nada com insignificância e insignificância foi amplificada pelos
+românticos. Sua poesia não enfatizou a salvação, procurando imergir o leitor em
+uma compreensão crua da natureza, não mediada pela razão. Kant ainda obscureceu
+Deus ao colocá-lo no abismo <span class=SpellE>numenal</span>, disponível
+apenas através da fé prática e não da razão teórica.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Como entre
+os primeiros ateus francos, Arthur <span class=SpellE>Schopenhauer</span>
+enfrentou toda a força de &quot;Por que há algo em vez de nada?&quot;. Segundo <span
+class=SpellE>Schopenhauer</span>, a religião e o racionalismo visam nos
+assegurar de que o universo tem um design. Nosso assombro de que há algo que
+trai a consciência de que tudo é um acidente sem sentido.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os leitores
+de <span class=SpellE>Schopenhauer</span> foram apresentados com a
+impressionante contingência como uma realidade e não como uma possibilidade
+terrível. A experiência chamou a atenção de William James (que experimentou o
+óxido nitroso para entender a filosofia oceânica de Georg Hegel e, em 1882,
+publicou a investigação fenomenológica em <span class=SpellE>Mind</span>).
+James fornece uma receita simples para provocar a emoção:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Basta
+fechar-se em um armário e começar a pensar no fato de alguém estar ali, na
+forma estranha de corpo na <span class=GramE>escuridão ...</span> <span
+class=GramE>no</span> caráter fantástico de alguém e em tudo, para que a
+maravilha roube tanto os detalhes quanto o geral fato de ser, e ver que é
+apenas familiaridade que o embota. Não só isso deve ser qualquer coisa, mas que
+esta mesma coisa deveria ser, é misteriosa! (1911, 39)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Outro leitor
+atento de <span class=SpellE>Schopenhauer</span>, Ludwig Wittgenstein,
+caracteriza a fenomenologia como esgotadora do impulso do enigma da existência.
+Em vez de expressar uma pergunta bem formada, &quot;Por que há algo em vez de
+nada?&quot; É uma expressão da maravilha <span class=GramE>mística</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>6.44 Não <span
+class=GramE>é</span> como as coisas são no mundo que são místicas, mas que
+existem.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>6.45 Ver o
+mundo sub <span class=SpellE>specie</span> <span class=SpellE>aeterni</span> é
+vê-lo como um todo - como um todo limitado. Sentir o mundo como um todo
+limitado - é isso que é místico.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>6.5 Quando
+uma resposta não pode ser colocada em palavras, <span class=GramE>a</span>
+pergunta também não pode - o enigma não existe. (De <span class=SpellE>Tractatus</span>
+Logico-<span class=SpellE>Philosophicus</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Essa
+caracterização emocional persiste na filosofia posterior de Wittgenstein. Em <span
+class=SpellE>Lectures</span> <span class=SpellE>on</span> <span class=SpellE>Ethics</span>,
+Wittgenstein usa a linguagem do <span class=SpellE>ver-as</span>. &quot;Por que
+há algo em vez de nada?&quot; É um aviso para ver o mundo como um milagre. Essa
+mudança de <span class=SpellE>gestalt</span> não é um erro. Nem é uma visão.
+Até mesmo os positivistas lógicos estavam dispostos a admitir que a questão <span
+class=GramE>tem</span> um significado emotivo (apenas significado não
+cognitivo).<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A
+fenomenologia característica da questão também foi sugerida como um recurso
+para explicar por que deixamos de reconhecer a <span class=SpellE>ambigüidade</span>
+radical da questão. Andrew Brenner (2016, 1319) conjectura que a multiplicidade
+de interpretações é mascarada pela unidade emocional.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os
+pensadores da tradição da fenomenologia mantiveram a convicção de <span
+class=SpellE>Schopenhauer</span> de que a emoção abriga um insight metafísico.
+Em vez de jogar a questão na cesta de lixo <span class=SpellE>emotivista</span>,
+como os positivistas lógicos, ou cair no quietismo, como Wittgenstein, os
+existencialistas fornecem tratamentos detalhados do temor expresso pela questão
+final. Eles construíram sobre a abordagem literária de <span class=SpellE>Schopenhauer</span>
+para a filosofia, retratando a emoção em peças e romances como Náusea de Sartre.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Em O
+Conceito do Medo, <span class=SpellE>Søren</span> <span class=SpellE>Kierkegaard</span>
+(1844) afirma que o nada surge em nossa consciência através de estados de ânimo
+e emoções. Emoções são <span class=GramE>estados</span> intencionais; eles são
+direcionados para algo. Se irritado, estou com raiva de alguma coisa. Se divertido,
+há algo que eu acho divertido. Ansiedade flutuante livre é frequentemente
+citada como um contraexemplo. Mas <span class=SpellE>Kierkegaard</span> diz que
+neste caso a emoção é direcionada ao nada.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>De acordo
+com Heidegger, temos vários motivos para fugir do significado de nossos
+encontros emocionais com o nada. São premonições do nada da morte. Eles ecoam a
+falta de fundamento da existência humana.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Alguns
+esperavam que nosso reconhecimento de nossa falta de raízes pudesse resgatar o
+significado do caos do nada. Mas Heidegger nos nega tal consolo.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Heidegger
+acha que a liberdade está enraizada no nada. Ele também diz que nós derivamos
+nosso conceito de negação lógica a partir dessa experiência do nada. Isso
+sugere uma perspectiva privilegiada para os seres humanos. Nós diferimos dos
+animais em relação a nada.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>-------------------------------------------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;line-height:115%;color:red'>12. Cognição Animal de
+Faltas<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Como
+Heidegger pensa que os animais não experimentam nada, ele está comprometido com
+o ceticismo sobre o raciocínio animal envolvendo negação. Considere o exemplo <span
+class=SpellE>estóico</span> de um cão que segue uma trilha. O cão alcança uma
+bifurcação na estrada, fareja uma estrada e depois, sem mais farejar, desce a
+única estrada restante. Os <span class=SpellE>estóicos</span> tomaram isso como
+prova de que o cão realizou um silogismo disjuntivo: “Ou minha presa desceu
+nessa estrada ou naquela estrada. <span class=SpellE>Sniff</span> - ele não
+desceu por essa estrada. Portanto, ele seguiu esse caminho. <span class=GramE>”Heidegger
+deve descartar isso como antropomorfismo.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Muitos
+biólogos e psicólogos estão do lado da ênfase do <span class=SpellE>estóico</span>
+em nossa continuidade com os animais. Eles negam que os seres humanos tenham o
+monopólio do nada. Uma anomalia clássica para o behaviorista estímulo-resposta
+foi o rato de laboratório que responde à ausência de um estímulo:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Uma classe
+bastante intrigante de situações que provocam medo são aquelas que consistem em
+falta de estímulo. Alguns membros dessa classe podem ser instâncias especiais
+de novidade. Um chimpanzé anestesiado poderia ser descrito como um chimpanzé
+normal com a novidade acrescentada de &quot;nenhum movimento&quot;; a solidão
+poderia ser a novidade de &quot;não companheiros&quot;. Isso não é simplesmente
+discutir com palavras; pois há evidências muito boas (veja o Capítulo 13) de
+que a falha de um estímulo em ocorrer em um momento ou espaço em que
+normalmente ocorre age como qualquer outro tipo de estímulo novo. No entanto, a
+intensidade do medo evocado pela visão de um corpo morto ou mutilado é muito
+maior do que a evocada por formas mais comuns de novidade que talvez devêssemos
+buscar uma explicação alternativa dos efeitos desse estímulo. O medo do escuro
+também é difícil de explicar em termos de novidade, uma vez que, quando esse
+medo amadurece, a escuridão não é menos familiar que a luz. (Gray 1987, 22)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Essas
+anomalias para o behaviorismo preenchem os racionalistas com emoções
+contraditórias. Por um lado, os experimentos refutam o princípio empirista de
+que tudo é aprendido com a experiência. Por outro lado, os experimentos também
+constituem uma precaução contra as ausências de excesso de <span class=SpellE>intelectualização</span>.
+Uma explicação correta do envolvimento emocional com as ausências deve ser mais
+geral e cognitivamente menos exigente do que os racionalistas tendem a
+pressupor. Até as larvas de mosquito veem sombras. Dúvidas sobre se eles têm
+consciência não nos fazem duvidar que eles <span class=SpellE>vêem</span>
+sombras. Assim, a percepção das ausências não pode depender da consciência ou
+de qualquer outro estado mental avançado. Talvez a primeira forma de visão
+tenha sido dessas ausências de luz. Então, ao invés de ser um pináculo de
+sofisticação intelectual, a cognição das ausências pode ser primordial.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os
+existencialistas tendem a endossar os altos padrões assumidos pelos
+racionalistas. Sua discordância com os racionalistas é sobre se os padrões são
+cumpridos. Os existencialistas estão impressionados com o contraste entre
+nossas expectativas de como a realidade deveria se comportar e como ela de fato
+se comporta.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Esse senso
+de absurdo faz com que os existencialistas aceitem mais os paradoxos. Enquanto
+os racionalistas encaram os paradoxos nervosamente como um desafio à autoridade
+da razão, os existencialistas os acolhem como oportunidades para corrigir
+esperanças irrealistas. Os existencialistas gostam de ironias e não se afastam
+reflexivamente da dor da contradição. Eles fazem uma introspecção da
+inconsistência na esperança de alcançar uma resolução que faça justiça à
+tridimensionalidade de problemas filosóficos profundos. Por exemplo, Heidegger
+é sensível aos perigos de dizer que nada existe. Como um eletricista que deve
+torcer e dobrar um fio para fazê-lo viajar através de um buraco intrincado, o
+metafísico deve torcer e dobrar uma frase para investigar profundamente a
+natureza do ser.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Rudolf <span
+class=SpellE>Carnap</span> acha que as frases contorcidas de Heidegger não
+funcionam bem. Para ilustrar, <span class=SpellE>Carnap</span> cita trechos de
+O que é metafísica de <span class=GramE>Heidegger ?</span>:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>O que deve
+ser investigado é ser apenas e - nada mais; estar sozinho e mais longe - nada;
+unicamente ser e além de ser-nada. Que tal isso nada? … O Nada existe apenas
+porque o Não, ou seja, a Negação<span class=GramE>, existe</span>? Ou é o
+contrário? A Negação e o Não existem apenas porque o Nada existe? … Nós
+afirmamos: o Nada é anterior ao Não e à Negação<span class=GramE>….</span> Onde
+procuramos o Nada? Como encontramos o Nada? Nós sabemos o <span class=GramE>nada
+...</span>. Ansiedade revela o <span class=GramE>nada ...</span>. Aquilo pelo
+qual e por causa do qual estávamos ansiosos era &quot;realmente&quot; - nada.
+De fato: o nada em si - como tal - estava presente. Que tal este Nada? O Nada
+em si nada. (Heidegger, citado por <span class=SpellE>Carnap</span>, 1932, 69<span
+class=GramE>)</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Este
+parágrafo, especialmente a última frase, tornou-se notório como um espécime de
+absurdo metafísico.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A confusão
+causada pelas contorções <span class=SpellE>lingüísticas</span> de Heidegger é
+exacerbada por separá-los de seu texto original e reuni-los em uma caneta
+lotada. Há uma diferença entre uma falha em entender e uma compreensão do
+fracasso. O verdadeiro teste para saber se as sentenças de Heidegger são
+insignificantes é ver o que pode ser feito delas em ação, aplicado às perguntas
+que foram projetadas para responder.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span style='font-size:14.0pt;line-height:
+115%'>Carnap</span></span><span style='font-size:14.0pt;line-height:115%'>
+também precisa considerar a possibilidade de que as frases de Heidegger estejam
+esclarecendo bobagens. Afinal de contas, <span class=SpellE>Carnap</span> era
+paciente com o enigmático Wittgenstein. No <span class=SpellE>Tractatus</span>,
+Wittgenstein fala como um oráculo. Ele até caracterizou suas frases
+cuidadosamente enumeradas como degraus em uma escada que deve ser descartada
+depois de termos feito a ascensão e alcançado uma percepção inefável. E
+Wittgenstein quis dizer isso, abandonando a filosofia para servir como um
+humilde professor de escola numa aldeia rural.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Outros
+críticos negam que o que é metafísica? <span class=GramE>sofre</span> de uma
+ausência de significado. Apenas o contrário: eles acham que as passagens de
+Heidegger sobre nada envolvem muitos significados. Quando Heidegger conecta a
+negação com o nada e a morte, esses lógicos se lembram de um epitáfio que
+brinca com o princípio do terceiro excluído: a Sra. <span class=SpellE>Nott</span>
+era <span class=SpellE>Nott</span> <span class=SpellE>Alive</span> e é <span
+class=SpellE>Nott</span> <span class=SpellE>Dead</span>. De acordo com esses
+críticos, os escritos de Heidegger só podem ser entendidos da maneira como
+entendemos a solução para enigmas ambíguos:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>O que um
+homem ama mais que a vida?<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Odeio mais
+que a morte ou conflitos mortais?<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Aquilo que
+contente os homens desejam,<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Os pobres
+têm, os ricos exigem,<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>O avarento
+passa, o perdulário salva,<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>E todos os
+homens levam para as suas sepulturas?<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>(<span
+class=SpellE>Leeming</span>, 1953, 201)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>A resposta,
+Nada, só pode ser vista através de um caleidoscópio de equívocos.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Algumas das
+tentativas de responder &quot;Por que há algo em vez de nada?&quot;
+Equivocam-se ou caem na falta de sentido. O efeito cômico de tais erros é
+ampliado pela <span class=SpellE>fundamentalidade</span> da questão. Erro aqui
+sai como erro pretensioso.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Aqueles que
+fazem a pergunta &quot;Por que há algo em vez de nada?&quot; Comumente se
+confundem. Mas a questão em si parece sobreviver aos testes por ser apenas uma
+confusão verbal.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>Em qualquer
+caso, a pergunta (ou <span class=SpellE><span class=GramE>pseudo-pergunta</span></span>)
+ajudou a aprimorar as ferramentas de diagnóstico que foram aplicadas a ela. À
+medida que a questão é moldada e reformulada pelos avanços em nossa compreensão
+dos padrões &quot;<span class=SpellE>is</span>&quot;, quantificação e
+explicativos, torna-se evidente que o valor dessas ferramentas de diagnóstico
+não é exaurido por seu serviço na exposição de <span class=SpellE><span
+class=GramE>pseudo-questões</span></span>. Pois as questões genuínas tornam-se
+mais bem compreendidas quando podemos discriminá-las de seus espúrios sósias.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>---------------------------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='font-size:20.0pt;line-height:115%;color:red;mso-ansi-language:EN-US'>Bibliography<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Armstrong, David, 1989, <span class=GramE>A</span>
+Combinatorial Theory of Possibility, Cambridge: Cambridge University Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>–––, 2004, Truth and <span class=SpellE>Truthmakers</span>,
+Cambridge: Cambridge University Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Baldwin, Thomas, 1996, “There might be nothing”,
+Analysis, 56: 231–38.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Beebee</span></span><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>, Helen,
+2004, “Causing and Nothingness”, in Causation and Counterfactuals, John
+Collins, Ned Hall, and L. A. Paul (eds.), Cambridge: MIT Press, 291–308.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Bennett, Jonathan, 1980, “Spinoza’s Vacuum Argument”,
+Midwest Studies in Philosophy (Volume 5), Minneapolis: University of Minnesota
+Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Bergson, Henri, 1944, Creative Evolution, trans. A.
+Mitchell, New York: The Modern Library.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Brenner, Andrew, 2016, “What do we mean when we ask
+‘Why is there something rather than nothing?’ ”, <span class=SpellE>Erkenntnis</span>,
+81: 1305–1322.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Carlson, Erik and Erik J. Olsson,
+2001, “The Presumption of Nothingness”, Ratio, 14: 203–221.</span></span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Carnap</span></span><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>, Rudolf,
+1932, “The Elimination of Metaphysics <span class=GramE>Through</span> Logical
+Analysis of Language,” trans. Arthur Pap, in A. J. Ayer (ed.), Logical
+Positivism, New York: The Free Press, 60–81. <span class=GramE>Originally
+published in German in <span class=SpellE>Erkenntnis</span>, Volume 2.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>–––, 1950, Logical Foundations of Probability,
+Chicago: University of Chicago Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Carroll, John W., 1994, Laws of Nature, Cambridge:
+Cambridge University Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Chen, Ellen Marie, 1969, “Nothingness
+and the mother principle in early Chinese Taoism”, International Philosophical
+Quarterly, 9: 391–405.</span></span><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Coggins, Geraldine, 2010, Could There Have Been
+Nothing? Against Metaphysical Nihilism, London: Palgrave Macmillan.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Dallmayr</span></span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>,
+Fred, 1992, “Nothingness and ‘<span class=SpellE>Suuyataa</span>’: A Comparison
+of Heidegger and <span class=SpellE>Nishitani</span>”, Philosophy East and
+West, 42/1: 37–48. [Preprint available online]<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span class=GramE><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>Efird</span></span></span><span
+class=GramE><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>, D. and Stoneham, T., 2005, “The Subtraction Argument
+for Metaphysical Nihilism”, Journal of Philosophy, 102: 303–325.</span></span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>–––, 2009, “Is Metaphysical Nihilism Interesting?<span
+class=GramE>”,</span> Pacific Philosophical Quarterly, 90(2): 210–231.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Epstein, Lewis C., 1983, <span class=GramE>Thinking</span>
+Physics is <span class=SpellE>Gedanken</span> Physics, San Francisco: Insight
+Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Gale, Richard, 1976, Negation and
+Non-Being, American Philosophical Quarterly (Monograph Series No. 10).</span></span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Grant, E., 1981, Much ado about
+Nothing.</span></span><span lang=EN-US style='font-size:14.0pt;line-height:
+115%;mso-ansi-language:EN-US'> Theories of Space and Vacuum from the <span
+class=GramE>Middle</span> Ages to the Scientific Revolution, Cambridge: Cambridge
+University Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Gray, Jeffrey Allan, 1987, <span class=GramE>The</span>
+Psychology of Fear and Stress, Cambridge: Cambridge University Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Grossman, Reinhardt, 1992, <span class=GramE>The</span>
+Existence of the World, London: Routledge.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Guthrie, W. K. C., 1965, <span class=GramE>A</span>
+History of Greek Philosophy (Volume 2), Cambridge: Cambridge University Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Hawking, Stephen and Leonard <span class=SpellE>Mlodinow</span>,
+2010, <span class=GramE>The</span> Grand Design, New York: Bantam Books.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Heidegger, Martin, 1959, Introduction to Metaphysics,
+Trans. R. Manheim. New Haven: Yale University Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>–––, 1962, Being and Time, trans. J. <span
+class=SpellE>Macquarrie</span> and E. Robinson, New York: Harper &amp; Row.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Heil</span></span><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>, John, 2013,
+“Contingency”, in <span class=GramE>The</span> Puzzle of Existence, Tyron
+Goldschmidt (ed.), New York: Routledge, 167–181.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Heylen</span></span><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>, Jan, 2017,
+“Why is there something rather than nothing? A logical investigation”, <span
+class=SpellE>Erkenntnis</span>, 82: 531–559.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Hugo, Victor, 1862, Les <span class=SpellE>Misérables</span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>James, William 1882, “On Some <span
+class=SpellE>Hegelianisms</span>”, Mind, 7: 186–208.</span></span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>–––, 1911, Some Problems of Philosophy New York: Longmans,
+Green and Co.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Kotzen</span></span><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>, Matthew,
+2013, “The Probabilistic Explanation of Why There is Something Rather Than
+Nothing”, in The Puzzle of Existence, Tyron Goldschmidt (ed.), New York:
+Routledge, 215–234.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Krauss, Lawrence M., 2012, <span class=GramE>A</span>
+Universe from Nothing, New York: Free Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Lambert, Karel, 2003, Free Logic, New
+York: Cambridge University Press.</span></span><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Leeming</span></span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>,
+Joseph, 1953, Riddles, Riddles, Riddles, New York: Franklin Watts, Inc.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Leslie, John and Robert Lawrence Kuhn, 2013, <span
+class=GramE>The</span> Mystery of Existence, Oxford: Wiley &amp; Sons.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Lewis, David, 2004, “Void and Object”, in Causation
+and Counterfactuals, John Collins, Ned Hall, and L. A. Paul (eds.), Cambridge,
+MA: MIT Press, 277–290.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>–––, 1986, On the Plurality of
+Worlds, Oxford: Blackwell.</span></span><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Lewis, David and Stephanie Lewis, 1983, “Holes”, in
+David Lewis, Philosophical Papers, Oxford: Oxford University Press, 3–9.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Liu, <span class=SpellE>JeeLoo</span>, 2014, “Was
+There Something in <span class=SpellE>Nothingness<span class=GramE>?The</span></span>
+Debate on the Primordial State between Daoism and Neo-Confucianism”, in
+Nothingness in Asian Philosophy, <span class=SpellE>JeeLoo</span> Liu and
+Douglas Berger (eds.), London: Routledge Press, 181–196.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Lowe, E. J., 1996, “Why is There Anything at All?<span
+class=GramE>”,</span> Proceedings of the Aristotelian Society, 70: 111–120.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>–––, 2013, “Metaphysical Nihilism Revisited”, in The
+Puzzle of Existence, Tyron Goldschmidt (ed.), <span class=GramE>New</span>
+York: Routledge, 182–196.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>–––, 2002, “Metaphysical nihilism and
+the subtraction argument”, Analysis, 62: 62–73.</span></span><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Maddy</span></span><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>, Penelope,
+1990, Realism in Mathematics, Oxford: Clarendon Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Maitzen</span></span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>,
+Stephen, 2012, “Stop Asking Why There’s <span class=GramE>Anything</span>’ ”, <span
+class=SpellE>Erkenntnis</span>, 77: 51–63.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Martin, Richard M., 1965, “Of Time and the Null
+Individual”, Journal of Philosophy, 62(24): 723–736.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>McDaniel, Kris, 2013, “Ontological Pluralism, the
+Gradation of Being, and the Question “Why is there Something <span class=GramE>Rather</span>
+Than Nothing?””, in The Puzzle of Existence, Tyron Goldschmidt (ed.), New York:
+Routledge, 182–196.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Munitz</span></span><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>, M. K.,
+1965, <span class=GramE>The</span> Mystery of Existence, New York:
+Appleton-Century-Crofts.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Nozick</span></span><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>, Robert,
+1981, Philosophical Explanations Cambridge: Harvard University Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Parfit</span></span><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>, Derek,
+1998, “The Puzzle of Reality: Why does the Universe Exist?<span class=GramE>”,</span>
+in Metaphysics: The Big Questions, ed. Peter Van <span class=SpellE>Inwagen</span>
+and D. W. Zimmerman, Malden, Massachusetts: Blackwell, 418–426.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Parsons, Terence, 1980, Nonexistent Objects, New
+Haven: Yale University Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Pascal, Blaise, 1669, <span class=SpellE>Pensées</span>,
+trans. W. F. Trotter, <span class=GramE>The</span> Harvard Classics, Volume
+XCVIII, Part 1, New York: P. F. Collier &amp; Sons, 1909–14.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Paseau</span></span><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>, Alexander,
+2003, “Why the subtraction argument does not add up”, Analysis, 62: 73–75.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Quine, W. V., 1953a, “On What There Is”, From a
+Logical Point of View, New York: Harper &amp; Row.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>–––, 1953b, “Meaning and Existential Inference”, From
+a Logical Point of View, New York: Harper &amp; Row.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>–––, 1954, “Quantification and the Empty Domain”, <span
+class=GramE>The</span> Journal of Symbolic Logic, 19(3): 177–179.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>–––, 1959, Methods of Logic, New York: Holt, Rinehart
+and Winston.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Rayo</span></span><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>, A., 2013, <span
+class=GramE>The</span> Construction of Logical Space, Oxford: Oxford University
+Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Rodriguez-<span class=SpellE>Pereyra</span>, Gonzalo,
+1997, “There might be nothing: the subtraction argument improved”, Analysis,
+57(3): 159–166.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>–––, 2013, “The Subtraction Arguments for Metaphysical
+Nihilism: Compared and Defended”, in The Puzzle of Existence, Tyron Goldschmidt
+(ed.), New York: Routledge, 182–196.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Rowe, William, 1975, <span class=GramE>The</span>
+Cosmological Argument, Princeton: Princeton University Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Rundle, Bede, 2004, Why is There Something Rather than
+Nothing<span class=GramE>?,</span> Oxford: Oxford University Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Russell, Bertrand, 1919, Introduction to Mathematical
+Philosophy, London: George Allen and Unwin.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>–––, 1985, <span class=GramE>The</span> Philosophy of
+Logical Atomism, La Salle, Illinois: Open Court.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Sartre, Jean Paul, 1969, Being and Nothingness, trans.
+H. E. Barnes, New York: Washington Square Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Schmitt, Charles, 1967, “Experimental Evidence for and
+Against a Void: the Sixteenth-Century Arguments”, Isis, 58: 352–366.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Schopenhauer, Arthur, 1819, <span class=GramE>The</span>
+World as Will and Representation (Volume 2), E. F. J. Payne (trans.), Colorado:
+The Falcon Wing Press, 1958.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Sober, Elliott, 1983, “Equilibrium Explanation”,
+Philosophical Studies, 43: 201–210.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Sorensen, Roy, 2008, Seeing Dark Things: The
+Philosophy of Shadows, New York: Oxford University Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>–––, 2005, “The Ethics of Empty Worlds”, Australasian
+Journal of Philosophy, 83(3): 349–358.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Van <span class=SpellE>Fraassen</span>, Bas, 1980, <span
+class=GramE>The</span> Scientific Image, Oxford: Clarendon Press.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Van <span class=SpellE>Inwagen</span>, Peter, 1996,
+“Why Is There Anything at All?<span class=GramE>”,</span> Proceedings of the
+Aristotelian Society, 70: 95–110.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Wilczek</span></span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>,
+Frank, 1980, “The Cosmic Asymmetry <span class=GramE>Between</span> Matter and
+Antimatter” Scientific American, 243(6): 82–90.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Williams, C. J. F., 1984, “The
+Ontological Disproof of the Vacuum”, Philosophy, 59: 382–384.</span></span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Wittgenstein, Ludwig, 1921, <span class=SpellE>Tractatus</span>
+<span class=SpellE>Logico-Philosophicus</span>, D. F. Pears and B. F.
+McGuinness (trans.), New York: Humanities <span class=GramE>Press,</span>
+originally published in 1961.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Academic Tools<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span class=GramE><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>sep</span></span></span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>
+man icon<span style='mso-tab-count:1'>           </span>How to cite this entry.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span class=GramE><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>sep</span></span></span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>
+man icon<span style='mso-tab-count:1'>           </span>Preview the PDF version
+of this entry at the Friends of the SEP Society.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span class=GramE><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>inpho</span></span></span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>
+icon<span style='mso-tab-count:1'>    </span>Look up this entry topic at the
+Indiana Philosophy Ontology Project (<span class=SpellE>InPhO</span>).<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span class=GramE><span lang=EN-US
+style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>phil</span></span></span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>
+papers icon<span style='mso-tab-count:1'>      </span>Enhanced bibliography for
+this entry at <span class=SpellE>PhilPapers</span>, with links to its database.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Other Internet Resources<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Albert, David, 2012, “On the Origin of Everything,
+review of L. Krauss, A Universe from Nothing, in New York Times, March 23.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Carroll, Sean, 2012, “A Universe from Nothing<span
+class=GramE>?,</span> Cosmic Variance blog post, Discover Magazine, April 28.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Fielding, Henry, On Nothing, from the University of
+Oxford Text Archive.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Holt, Jim, Nothing Ventured from Harper’s Magazine,
+November 1994.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>Heidegger on Nothingness (from
+Philosophy Pages by Garth <span class=SpellE>Kemerling</span>, a site which
+“offers helpful information for students of Western philosophical tradition.”)</span></span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>John Wilmot’s poem Upon Nothing<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Parmenides<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'>Related Entries<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='font-size:14.0pt;
+line-height:115%;mso-ansi-language:EN-US'>abstract</span></span><span
+lang=EN-US style='font-size:14.0pt;line-height:115%;mso-ansi-language:EN-US'>
+objects | condemnation of 1277 | existence | existentialism | holes | Japanese
+Philosophy: Kyoto School | nonexistent objects | Parmenides | Zeno of Elea:
+Zeno's paradoxes<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='font-size:24.0pt;line-height:115%;color:red;mso-ansi-language:EN-US'>Copyright
+© 2017 by <o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='font-size:24.0pt;line-height:115%;color:red;mso-ansi-language:EN-US'>Roy
+Sorensen &lt;sorensen@wustl.edu&gt;<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='font-size:24.0pt;line-height:115%;color:red;mso-ansi-language:EN-US'>https://plato.stanford.edu/entries/nothingness/<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;line-height:115%;
+mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>============================================<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%'>(*<span
+class=GramE>)FONTE</span> : https://plato.stanford.edu/entries/nothingness/<o:p></o:p></span></p>
+
+</div>
+
+<div align="right"><em><font size="2" face="Arial, Helvetica, sans-serif"> <strong><a href="index.htm">home</a> : : <a href="javascript:history.back();">voltar</a></strong></font> </em></div> 
+<center><div id="google_translate_element"></div><script type="text/javascript">function googleTranslateElementInit() {  new google.translate.TranslateElement({pageLanguage: 'pt', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');}</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></center>
+
+
+</body>
+
+</html>
