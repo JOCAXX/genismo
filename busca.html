@@ -87,12 +87,17 @@ function loadIndex(){
   if(SEARCH) return Promise.resolve(SEARCH);
   if(!loading){
     document.getElementById('status').textContent='Carregando índice de busca…';
-    loading = fetch('search-index.json').then(r=>r.json()).then(idx=>{
+    loading = fetch('search-index.json').then(r=>{if(!r.ok)throw 0;return r.json();}).then(idx=>{
       idx.forEach(e=>{e.nt=norm(e.text||'');e.ntitle=norm(e.title);CATS.add(e.cat);});
       SEARCH=idx; renderFilters();
       document.getElementById('status').textContent =
         idx.length+' documentos indexados. Digite para buscar.';
       return idx;
+    }).catch(()=>{
+      loading = null;
+      document.getElementById('status').textContent =
+        'ERRO: não foi possível baixar o índice. Se abriu o arquivo localmente (file:///), teste no site publicado.';
+      throw 0;
     });
   }
   return loading;

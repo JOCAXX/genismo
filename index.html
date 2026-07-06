@@ -112,7 +112,7 @@ footer a{color:var(--cream)}
     </g>
   </svg>
   <div class="wrap">
-    <h1>Genismo <span class="ver">v1.0</span></h1>
+    <h1>Genismo <span class="ver">v1.0.1</span></h1>
     <p class="tag">Filosofia ateísta baseada em psicologia evolutiva — por João Carlos Holland de Barcellos (Jocax)</p>
     <p class="quote">“Nossos genes são nosso bem mais precioso.” <span>— Jocax</span></p>
   </div>
@@ -151,17 +151,28 @@ footer a{color:var(--cream)}
 /* ============================= dados ================================== */
 let ITEMS = null, SEARCH = null, searchLoading = null;
 
-fetch('items.json').then(r=>r.json()).then(d=>{ITEMS=d;renderCats(d);});
+fetch('items.json').then(r=>{if(!r.ok)throw 0;return r.json();}).then(d=>{ITEMS=d;renderCats(d);})
+  .catch(()=>{document.getElementById('catgrid').innerHTML=
+    '<p style="grid-column:1/-1;background:#fff3f3;border:1px solid #e8b4b4;border-radius:14px;padding:16px">'+
+    '<strong>Não foi possível carregar a lista de artigos.</strong><br>'+
+    'Se você abriu este arquivo direto do seu computador (endereço file:///), '+
+    'isso é normal: o navegador bloqueia o carregamento local dos dados. '+
+    'Teste no site publicado: <a href="https://jocaxx.github.io/genismo/">jocaxx.github.io/genismo</a></p>';});
 
 function loadSearchIndex(){
   if (SEARCH) return Promise.resolve(SEARCH);
   if (!searchLoading){
     document.getElementById('smeta').textContent = 'Carregando índice de busca…';
-    searchLoading = fetch('search-index.json').then(r=>r.json()).then(idx=>{
+    searchLoading = fetch('search-index.json').then(r=>{if(!r.ok)throw 0;return r.json();}).then(idx=>{
       idx.forEach(e=>{ e.nt = norm(e.text||''); e.ntitle = norm(e.title); });
       SEARCH = idx;
       document.getElementById('smeta').textContent = '';
       return idx;
+    }).catch(()=>{
+      searchLoading = null;
+      document.getElementById('smeta').textContent =
+        'ERRO: não foi possível baixar o índice de busca. Se abriu o arquivo localmente (file:///), teste no site publicado.';
+      throw 0;
     });
   }
   return searchLoading;
@@ -230,6 +241,8 @@ function doSearch(){
   const grid = document.getElementById('catgrid');
   const chips = document.getElementById('chips');
   if (q.length < 2){ box.style.display='none'; grid.style.display=''; chips.style.display=''; return; }
+  box.innerHTML = '<p>Buscando… (na primeira busca o índice de 3,7 MB é baixado; pode levar alguns segundos)</p>';
+  box.style.display=''; grid.style.display='none'; chips.style.display='none';
   loadSearchIndex().then(idx=>{
     const terms = q.split(/\s+/).filter(t=>t.length>1);
     const hits = [];
