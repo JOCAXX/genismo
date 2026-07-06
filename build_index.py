@@ -1,196 +1,177 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-build_index.py — Genismo site indexer  (v1.0)
-=============================================
-Gera items.json e search-index.json a partir dos artigos HTML e PDFs do
-repositório Genismo. Rode sempre que adicionar/alterar artigos — sem
-precisar de IA.
+build_index.py — Gerador do índice de busca do site Genismo
+=============================================================
+Adaptado do fluxo do DUniverse para o Genismo (jocaxx.github.io/genismo).
 
-USO (na raiz do repositório, onde está o index.html):
+O que ele faz:
+  1. Lê o items.json (a lista oficial de artigos, títulos e categorias).
+  2. Para cada item, abre o arquivo local (.htm/.html ou .pdf) e extrai o texto.
+  3. Gera o search-index.json no formato que o index.html espera:
+       [ { "href": ..., "title": ..., "cat": <nome da categoria>, "text": ... } ]
 
-    pip install pypdf            (apenas uma vez, para indexar os PDFs)
-    python build_index.py                -> gera tudo
-    python build_index.py --no-pdf      -> pula os PDFs (mais rápido)
+Como usar:
+  1. Coloque este arquivo na RAIZ do repositório genismo (junto do items.json).
+  2. Abra o terminal (cmd) nessa pasta e rode:
+        python build_index.py
+  3. Ele cria/atualiza o search-index.json na mesma pasta.
+  4. Commit + push pelo GitHub Desktop, como de costume.
 
-Depois faça commit & push de:  items.json  e  search-index.json
+Requisito para PDFs (só na primeira vez):
+        pip install pypdf
+  (Se o pypdf não estiver instalado, os .htm são indexados normalmente
+   e os PDFs são apenas pulados, com aviso.)
 """
 
 import json
+import os
 import re
 import sys
-import html
-import argparse
-import unicodedata
-from pathlib import Path
+from html.parser import HTMLParser
 
-REPO_ROOT = Path(__file__).resolve().parent
-ITEMS_JSON = REPO_ROOT / "items.json"
-INDEX_JSON = REPO_ROOT / "search-index.json"
+# ----------------------------- configurações -----------------------------
 
-# Máximo de caracteres de texto guardados por artigo no índice de busca
-MAX_TEXT = 18000
+ITEMS_FILE  = "items.json"          # entrada: lista de artigos
+OUTPUT_FILE = "search-index.json"   # saída: índice de busca
+MAX_TEXT    = 18000                 # nº máximo de caracteres de texto por artigo
 
-# ------------------------------------------------------------- categorias ---
-# página de listagem -> (id, nome exibido)
-CATEGORIES = [
-    ("genismo2.htm",     "genismo",    "Genismo"),
-    ("genetica2.htm",    "genetica",   "Genética e Evolução"),
-    ("psicologia2.htm",  "psicologia", "Psicologia Evolutiva"),
-    ("memetica2.htm",    "memetica",   "Memética"),
-    ("logica2.htm",      "logica",     "Lógica e Método Científico"),
-    ("filosofia2.htm",   "metaetica",  "Meta-Ética-Científica"),
-    ("religioes2.htm",   "religiao",   "Religiões e Ateísmo"),
-    ("englishtexts.htm", "english",    "English Texts"),
-]
+# Tags de HTML cujo conteúdo NÃO deve entrar no índice
+SKIP_TAGS = {"script", "style", "head", "title", "noscript"}
 
-# PDFs na raiz: arquivo -> título exibido (edite à vontade)
-PDFS = {
-    "A Navalha de Jocax.pdf":  "A Navalha de Jocax",
-    "GLIV.pdf":                "GLIV — Livro do Genismo",
-    "JesusNunca.pdf":          "Jesus Nunca Existiu",
-    "JesusNunca2.pdf":         "Jesus Nunca Existiu (v2)",
-    "Jocax.pdf":               "Textos de Jocax",
-    "Princ_Pub_Jocax.pdf":     "Principais Publicações de Jocax",
-    "jocaxianArticles_2.pdf":  "Jocaxian Articles (English)",
-    "Hubble.pdf":              "Hubble",
-    "HU_DOC08.pdf":            "HU DOC 08",
-    "Amazon_River.pdf":        "Amazon River",
-}
+# ------------------------- extração de texto: HTML -----------------------
 
-# hrefs/títulos de navegação que NÃO são artigos
-SKIP_TITLES = re.compile(r"^(voltar|anterior|pr[óo]ximo|textos?\b|>>|\.\.)", re.I)
+class TextExtractor(HTMLParser):
+    """Extrai apenas o texto visível de um arquivo HTML."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.parts = []
+        self._skip_depth = 0
 
+    def handle_starttag(self, tag, attrs):
+        if tag in SKIP_TAGS:
+            self._skip_depth += 1
 
-# ---------------------------------------------------------------- helpers ---
+    def handle_endtag(self, tag):
+        if tag in SKIP_TAGS and self._skip_depth > 0:
+            self._skip_depth -= 1
 
-def read_latin(path: Path) -> str:
-    """Lê arquivos antigos (latin-1 / cp1252) sem quebrar."""
-    raw = path.read_bytes()
+    def handle_data(self, data):
+        if self._skip_depth == 0:
+            self.parts.append(data)
+
+def read_html_text(path):
+    """Lê um .htm tentando UTF-8 e caindo para Windows-1252 (sites antigos)."""
+    raw = open(path, "rb").read()
     for enc in ("utf-8", "cp1252", "latin-1"):
         try:
-            return raw.decode(enc)
+            html = raw.decode(enc)
+            break
         except UnicodeDecodeError:
             continue
-    return raw.decode("latin-1", errors="replace")
+    else:
+        html = raw.decode("utf-8", errors="replace")
+    p = TextExtractor()
+    try:
+        p.feed(html)
+    except Exception:
+        pass  # HTML malformado: usa o que conseguiu extrair até aqui
+    return " ".join(p.parts)
 
+# ------------------------- extração de texto: PDF ------------------------
 
-def strip_html(text: str) -> str:
-    text = re.sub(r"<script.*?</script>", " ", text, flags=re.S | re.I)
-    text = re.sub(r"<style.*?</style>", " ", text, flags=re.S | re.I)
-    text = re.sub(r"<[^>]+>", " ", text)
-    text = html.unescape(text)
-    text = re.sub(r"\s+", " ", text)
-    return text.strip()
+def read_pdf_text(path):
+    """Extrai texto de um PDF usando pypdf. Retorna None se pypdf faltar."""
+    try:
+        from pypdf import PdfReader
+    except ImportError:
+        return None
+    try:
+        reader = PdfReader(path)
+        pages = []
+        total = 0
+        for page in reader.pages:
+            t = page.extract_text() or ""
+            pages.append(t)
+            total += len(t)
+            if total >= MAX_TEXT:      # já temos texto suficiente
+                break
+        return " ".join(pages)
+    except Exception as e:
+        print(f"    AVISO: falha ao ler PDF ({e})")
+        return ""
 
+# ------------------------------ utilidades -------------------------------
 
-def norm(text: str) -> str:
-    """minúsculas + sem acentos (busca insensível a acentos)."""
-    text = unicodedata.normalize("NFD", text)
-    text = "".join(c for c in text if unicodedata.category(c) != "Mn")
-    return text.lower()
+def clean(text):
+    """Normaliza espaços em branco e trunca no limite."""
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:MAX_TEXT]
 
+# --------------------------------- main ----------------------------------
 
-def human_size(nbytes: int) -> str:
-    kb = nbytes / 1024
-    if kb < 1000:
-        return f"{round(kb)} KB"
-    return f"{kb / 1024:.1f} MB"
+def main():
+    if not os.path.exists(ITEMS_FILE):
+        sys.exit(f"ERRO: {ITEMS_FILE} não encontrado. "
+                 f"Rode este script na raiz do repositório genismo.")
 
+    data = json.load(open(ITEMS_FILE, encoding="utf-8"))
+    cat_names = {c["id"]: c["name"] for c in data["categories"]}
+    items = data["items"]
 
-# ------------------------------------------------------------- extração -----
+    index = []
+    pulados, sem_pypdf = [], []
 
-def parse_listing(page: Path):
-    """Extrai (href, título) da página de listagem de uma categoria."""
-    data = read_latin(page)
-    out, seen = [], set()
-    for href, txt in re.findall(
-            r'<a\s+[^>]*href="([^"]+\.html?)"[^>]*>(.*?)</a>', data, re.I | re.S):
-        title = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", txt))).strip()
-        href = href.strip()
-        if len(title) < 4 or SKIP_TITLES.search(title):
+    print(f"Indexando {len(items)} artigos...\n")
+
+    for i, item in enumerate(items, 1):
+        href = item["href"]
+        # nome da categoria: usa catName se existir, senão resolve pelo id
+        cat = item.get("catName") or cat_names.get(item.get("cat", ""), item.get("cat", ""))
+        # caminho local (remove âncoras/query e decodifica %20 etc.)
+        from urllib.parse import unquote
+        path = unquote(href.split("#")[0].split("?")[0])
+
+        if not os.path.exists(path):
+            pulados.append(href)
+            print(f"[{i:3}/{len(items)}] PULADO (arquivo não existe): {href}")
             continue
-        if "://" in href or href.startswith("mailto"):
+
+        ext = os.path.splitext(path)[1].lower()
+        if ext in (".htm", ".html"):
+            text = read_html_text(path)
+        elif ext == ".pdf":
+            text = read_pdf_text(path)
+            if text is None:
+                sem_pypdf.append(href)
+                print(f"[{i:3}/{len(items)}] PULADO (instale pypdf): {href}")
+                continue
+        else:
+            pulados.append(href)
+            print(f"[{i:3}/{len(items)}] PULADO (tipo não suportado): {href}")
             continue
-        if href in seen:
-            continue
-        seen.add(href)
-        out.append((href, title))
-    return out
 
+        index.append({
+            "href": href,
+            "title": item["title"],
+            "cat": cat,
+            "text": clean(text),
+        })
+        print(f"[{i:3}/{len(items)}] OK: {item['title'][:60]}")
 
-def build():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--no-pdf", action="store_true", help="não indexa PDFs")
-    args = ap.parse_args()
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(index, f, ensure_ascii=False, separators=(",", ":"))
 
-    # mapa case-insensitive -> nome real do arquivo (GitHub Pages diferencia
-    # maiúsculas/minúsculas; links antigos às vezes estão em minúsculas)
-    real_names = {p.name.lower(): p.name for p in REPO_ROOT.iterdir() if p.is_file()}
-
-    items, index = [], []
-    total_articles = 0
-
-    for listing, cat_id, cat_name in CATEGORIES:
-        page = REPO_ROOT / listing
-        if not page.exists():
-            print(f"  AVISO: {listing} não encontrado — categoria pulada")
-            continue
-        arts = parse_listing(page)
-        print(f"[{cat_name}] {len(arts)} artigos")
-        for href, title in arts:
-            href = real_names.get(href.lower(), href)   # corrige o case
-            f = REPO_ROOT / href
-            entry = {"href": href, "title": title, "cat": cat_id, "catName": cat_name}
-            if f.exists():
-                text = strip_html(read_latin(f))[:MAX_TEXT]
-                index.append({"href": href, "title": title, "cat": cat_name,
-                              "text": text})
-            else:
-                print(f"    aviso: {href} listado mas ausente no repositório")
-            items.append(entry)
-            total_articles += 1
-
-    # ------------------------------------------------------------- PDFs -----
-    pdf_items = []
-    if not args.no_pdf:
-        try:
-            from pypdf import PdfReader
-        except ImportError:
-            print("AVISO: pypdf não instalado (pip install pypdf) — PDFs pulados")
-            PdfReader = None
-        if PdfReader:
-            for fname, title in PDFS.items():
-                f = REPO_ROOT / fname
-                if not f.exists():
-                    print(f"  aviso: {fname} não encontrado")
-                    continue
-                try:
-                    reader = PdfReader(str(f))
-                    text = " ".join((p.extract_text() or "") for p in reader.pages)
-                    text = re.sub(r"\s+", " ", text).strip()[:MAX_TEXT]
-                except Exception as e:
-                    print(f"  erro lendo {fname}: {e}")
-                    text = ""
-                pdf_items.append({"href": fname, "title": title, "cat": "pdf",
-                                  "catName": "PDFs", "size": human_size(f.stat().st_size)})
-                index.append({"href": fname, "title": title, "cat": "PDFs",
-                              "text": text})
-            print(f"[PDFs] {len(pdf_items)} arquivos")
-
-    # ----------------------------------------------------------- gravação ---
-    payload = {"generated": True, "categories":
-               [{"id": c, "name": n} for _, c, n in CATEGORIES] +
-               ([{"id": "pdf", "name": "PDFs"}] if pdf_items else []),
-               "items": items + pdf_items}
-    ITEMS_JSON.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
-    INDEX_JSON.write_text(json.dumps(index, ensure_ascii=False), encoding="utf-8")
-
-    print(f"\nOK: {total_articles} artigos + {len(pdf_items)} PDFs")
-    print(f"  -> {ITEMS_JSON.name}  ({human_size(ITEMS_JSON.stat().st_size)})")
-    print(f"  -> {INDEX_JSON.name}  ({human_size(INDEX_JSON.stat().st_size)})")
-    print("\nAgora faça commit & push de items.json e search-index.json")
-
+    tamanho_mb = os.path.getsize(OUTPUT_FILE) / 1e6
+    print(f"\n{'='*60}")
+    print(f"Concluído! {len(index)} artigos indexados em {OUTPUT_FILE} "
+          f"({tamanho_mb:.1f} MB)")
+    if pulados:
+        print(f"Pulados ({len(pulados)}): " + ", ".join(pulados[:10])
+              + (" ..." if len(pulados) > 10 else ""))
+    if sem_pypdf:
+        print(f"PDFs pulados por falta do pypdf ({len(sem_pypdf)}). "
+              f"Instale com:  pip install pypdf   e rode de novo.")
 
 if __name__ == "__main__":
-    build()
+    main()
