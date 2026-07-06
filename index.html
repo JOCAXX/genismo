@@ -112,7 +112,7 @@ footer a{color:var(--cream)}
     </g>
   </svg>
   <div class="wrap">
-    <h1>Genismo <span class="ver">v1.0.2</span></h1>
+    <h1>Genismo <span class="ver">v1.0.3</span></h1>
     <p class="tag">Filosofia ateísta baseada em psicologia evolutiva — por João Carlos Holland de Barcellos (Jocax)</p>
     <p class="quote">“Nossos genes são nosso bem mais precioso.” <span>— Jocax</span></p>
   </div>
@@ -151,7 +151,7 @@ footer a{color:var(--cream)}
 /* ============================= dados ================================== */
 let ITEMS = null, SEARCH = null, searchLoading = null;
 
-fetch('items.json?v=102').then(r=>{if(!r.ok)throw 0;return r.json();}).then(d=>{ITEMS=d;renderCats(d);})
+fetch('items.json?v=103').then(r=>{if(!r.ok)throw 0;return r.json();}).then(d=>{ITEMS=d;renderCats(d);})
   .catch(()=>{document.getElementById('catgrid').innerHTML=
     '<p style="grid-column:1/-1;background:#fff3f3;border:1px solid #e8b4b4;border-radius:14px;padding:16px">'+
     '<strong>Não foi possível carregar a lista de artigos.</strong><br>'+
@@ -163,7 +163,7 @@ function loadSearchIndex(){
   if (SEARCH) return Promise.resolve(SEARCH);
   if (!searchLoading){
     document.getElementById('smeta').textContent = 'Carregando índice de busca…';
-    searchLoading = fetch('search-index.json?v=102')
+    searchLoading = fetch('search-index.json?v=103')
       .then(r=>{
         if(!r.ok) throw new Error('HTTP '+r.status+' ao baixar search-index.json');
         return r.json();
@@ -250,7 +250,7 @@ function doSearch(){
   const chips = document.getElementById('chips');
   if (q.length < 2){ box.style.display='none'; grid.style.display=''; chips.style.display=''; return; }
   box.innerHTML = '<p>Buscando… (na primeira busca o índice de 3,7 MB é baixado; pode levar alguns segundos)</p>';
-  box.style.display=''; grid.style.display='none'; chips.style.display='none';
+  box.style.display='block'; grid.style.display='none'; chips.style.display='none';
   loadSearchIndex().then(idx=>{
     const terms = q.split(/\s+/).filter(t=>t.length>1);
     const hits = [];
@@ -281,14 +281,14 @@ function doSearch(){
           <h3><a href="${encodeURI(h.e.href)}">${esc(h.e.title)}</a></h3>
           ${snip?`<p>${snip}</p>`:''}</div>`;
       }).join('');
-    box.style.display=''; grid.style.display='none'; chips.style.display='none';
+    box.style.display='block'; grid.style.display='none'; chips.style.display='none';
   }).catch(err=>{
     box.innerHTML = '<p style="background:#fff3f3;border:1px solid #e8b4b4;'+
       'border-radius:14px;padding:16px;color:#7a1f1f"><strong>Erro na busca:</strong> '+
       esc(err && err.message ? err.message : 'não foi possível carregar o índice de busca.')+
       '<br>Tente recarregar a página (Ctrl+F5). Se persistir, verifique se '+
       '<a href="search-index.json">search-index.json</a> abre no navegador.</p>';
-    box.style.display='';
+    box.style.display='block';
   });
 }
 
