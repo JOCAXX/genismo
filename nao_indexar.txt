@@ -1,29 +1,15 @@
 # Arquivos que NÃO devem ser indexados na busca
 # (páginas do site, menus, versões antigas).
 # Uma linha por arquivo. Linhas com # são comentários.
-A Elite Não Tem Pátria.htm
-ACKALAM.htm
-ARIALDO_PACELLO.htm
-A_FF_Aspec_Tec.htm
 BABA.htm
 Copy of index.htm
-Desabafo de um Ateu.htm
-Despopular Para Dominar.htm
 INFO_IC.htm
 NADA_Stanford.htm
 Orig.htm
 PICXXX.htm
 POSICXXX.htm
 PUP_PIF.htm
-Perguntas_Crentes.htm
 ProdJ.htm
-TB_ memeticatexto.htm
-TB_Psicologia.htm
-TB_Religiao.htm
-TB_geneticatexto.htm
-TB_genismotexto.htm
-TB_logicatexto.htm
-TB_metatexto.htm
 Voltar.htm
 anonimo.htm
 autores.htm
@@ -37,7 +23,6 @@ autorestexto6.htm
 autorestexto7.htm
 autorestexto8.htm
 busca.html
-depoimento_ateu.htm
 destaque1.htm
 destaque1B.htm
 destaque1D.htm
@@ -70,21 +55,11 @@ filosofia2.htm
 genetica.htm
 genetica1.htm
 genetica2.htm
-geneticatexto31.htm
 geneticatexto__.htm
 genismo.htm
 genismo1.htm
 genismo2.htm
-genismotexto27.htm
-genismotexto31.htm
 genismotexto33Old.htm
-genismotexto46.htm
-genismotexto47.htm
-genismotexto48.htm
-genismotexto49.htm
-genismotexto50.htm
-genismotexto57.htm
-genismotexto58.htm
 genismotexto__.htm
 hello.htm
 index.html
@@ -108,17 +83,11 @@ lista1.htm
 logica.htm
 logica1.htm
 logica2.htm
-logicatexto25B.htm
-logicatexto30.htm
 logicatexto__.htm
 memetica.htm
 memetica1.htm
 memetica2.htm
-memeticatexto25.htm
-memeticatexto26.htm
 memeticatexto__.htm
-metatexto38.htm
-metatexto8.htm
 metatexto__.htm
 noindex.html
 noticia.htm
@@ -154,10 +123,5 @@ psicologia.htm
 psicologia1.htm
 psicologia2.htm
 psicologiatexto__.htm
-religiaotexto26.htm
-religiaotexto53.htm
-religiaotexto58.htm
 religiaotexto__.htm
 religioes.htm
-religioes1.htm
-religioes2.htm
