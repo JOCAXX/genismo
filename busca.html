@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Busca — Genismo</title>
+<meta name="description" content="Busca em texto completo, insensível a acentos, em todos os artigos e PDFs do site Genismo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --brand:#6699FF;--deep:#1c3a75;--deep2:#2a52a8;--bg:#f3f7ff;--card:#fff;
+  --ink:#1a2740;--muted:#5a6b8c;--cream:#FFF3C4;--line:#d9e4f7;--radius:14px;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.6 "Segoe UI",system-ui,-apple-system,Arial,sans-serif}
+a{color:var(--deep2);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:linear-gradient(150deg,var(--deep),var(--deep2) 60%,var(--brand) 140%);
+  color:#fff;padding:30px 20px 24px}
+.wrap{max-width:860px;margin:0 auto}
+h1{font-family:"Spectral",Georgia,serif;font-size:1.7rem;margin:0}
+h1 a{color:var(--cream)}
+.searchbar{display:flex;gap:10px;margin-top:16px}
+.searchbar input{flex:1;font-size:1.05rem;padding:13px 18px;border:0;
+  border-radius:var(--radius);outline:3px solid transparent}
+.searchbar input:focus{outline-color:var(--cream)}
+.searchbar button{background:var(--cream);color:var(--deep);border:0;font-weight:700;
+  padding:0 22px;border-radius:var(--radius);cursor:pointer;font-size:1rem}
+.filters{margin-top:12px;display:flex;flex-wrap:wrap;gap:7px}
+.chip{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);
+  color:#fff;border-radius:999px;padding:5px 13px;font-size:.83rem;cursor:pointer}
+.chip.active{background:var(--cream);color:var(--deep);border-color:var(--cream)}
+main{max-width:860px;margin:24px auto 50px;padding:0 20px}
+#status{color:var(--muted);font-size:.9rem;margin-bottom:14px}
+.result{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--brand);
+  border-radius:var(--radius);padding:14px 18px;margin-bottom:12px}
+.result h3{margin:0 0 4px;font-size:1.05rem}
+.result .cat{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.6px}
+.result p{margin:6px 0 0;font-size:.92rem}
+mark{background:var(--cream);border-radius:3px;padding:0 2px}
+footer{text-align:center;color:var(--muted);font-size:.85rem;padding:20px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Busca no <a href="index.html">Genismo</a></h1>
+    <form class="searchbar" id="sform" onsubmit="return false">
+      <input id="q" type="search" placeholder="Digite sua busca… (insensível a acentos)"
+             autocomplete="off" autofocus aria-label="Pesquisar">
+      <button type="submit">Pesquisar</button>
+    </form>
+    <div class="filters" id="filters"></div>
+  </div>
+</header>
+<main>
+  <div id="status">Digite ao menos 2 caracteres para buscar em todos os artigos e PDFs.</div>
+  <div id="results" aria-live="polite"></div>
+</main>
+<footer>Genismo © 2005–2026 · Jocax · <a href="index.html">← voltar ao portal</a></footer>
+
+<script>
+let SEARCH=null, loading=null, activeCat='*';
+const CATS = new Set();
+
+function norm(s){return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();}
+function esc(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function highlight(raw, terms){
+  const n = norm(raw), marks=[];
+  for (const t of terms){
+    let i=0;
+    while((i=n.indexOf(t,i))>=0){marks.push([i,i+t.length]);i+=t.length;}
+  }
+  if(!marks.length) return esc(raw);
+  marks.sort((a,b)=>a[0]-b[0]);
+  let out='',cur=0;
+  for(const [a,b] of marks){
+    if(a<cur)continue;
+    out+=esc(raw.slice(cur,a))+'<mark>'+esc(raw.slice(a,b))+'</mark>';cur=b;
+  }
+  return out+esc(raw.slice(cur));
+}
+
+function loadIndex(){
+  if(SEARCH) return Promise.resolve(SEARCH);
+  if(!loading){
+    document.getElementById('status').textContent='Carregando índice de busca…';
+    loading = fetch('search-index.json').then(r=>r.json()).then(idx=>{
+      idx.forEach(e=>{e.nt=norm(e.text||'');e.ntitle=norm(e.title);CATS.add(e.cat);});
+      SEARCH=idx; renderFilters();
+      document.getElementById('status').textContent =
+        idx.length+' documentos indexados. Digite para buscar.';
+      return idx;
+    });
+  }
+  return loading;
+}
+loadIndex();
+
+function renderFilters(){
+  const f=document.getElementById('filters');
+  f.innerHTML='<button class="chip active" data-c="*">Todas</button>'+
+    [...CATS].map(c=>`<button class="chip" data-c="${esc(c)}">${esc(c)}</button>`).join('');
+  f.onclick=e=>{
+    const b=e.target.closest('.chip');if(!b)return;
+    f.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');activeCat=b.dataset.c;doSearch();
+  };
+}
+
+const qEl=document.getElementById('q');
+let timer;
+qEl.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(doSearch,280);});
+document.getElementById('sform').addEventListener('submit',doSearch);
+
+function doSearch(){
+  const q=norm(qEl.value.trim());
+  const box=document.getElementById('results'), st=document.getElementById('status');
+  if(q.length<2){box.innerHTML='';st.textContent='Digite ao menos 2 caracteres.';return;}
+  loadIndex().then(idx=>{
+    const terms=q.split(/\s+/).filter(t=>t.length>1);
+    const hits=[];
+    for(const e of idx){
+      if(activeCat!=='*'&&e.cat!==activeCat)continue;
+      let score=0,pos=-1,ok=true;
+      for(const t of terms){
+        const it=e.ntitle.indexOf(t), ix=e.nt.indexOf(t);
+        if(it<0&&ix<0){ok=false;break;}
+        if(it>=0)score+=10;
+        if(ix>=0){score+=1;if(pos<0)pos=ix;}
+      }
+      if(ok)hits.push({e,score,pos});
+    }
+    hits.sort((a,b)=>b.score-a.score);
+    st.textContent=hits.length+' resultado(s)';
+    box.innerHTML=hits.slice(0,80).map(h=>{
+      let snip='';
+      if(h.pos>=0&&h.e.text){
+        const start=Math.max(0,h.pos-90);
+        snip=(start>0?'…':'')+highlight(h.e.text.slice(start,h.pos+170),terms)+'…';
+      }
+      return `<div class="result">
+        <div class="cat">${esc(h.e.cat)}</div>
+        <h3><a href="${encodeURI(h.e.href)}">${esc(h.e.title)}</a></h3>
+        ${snip?`<p>${snip}</p>`:''}</div>`;
+    }).join('');
+  });
+}
+</script>
+</body>
+</html>

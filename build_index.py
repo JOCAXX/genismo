@@ -1,203 +1,196 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-build_index.py — DUniverse site indexer
-========================================
-Regenerates site/search-index.json AND the ITEMS list inside site/index.html,
-scanning the repository folders for PDFs. Run it whenever you add, remove or
-replace PDFs — no AI assistance needed.
+build_index.py — Genismo site indexer  (v1.0)
+=============================================
+Gera items.json e search-index.json a partir dos artigos HTML e PDFs do
+repositório Genismo. Rode sempre que adicionar/alterar artigos — sem
+precisar de IA.
 
-USAGE (from the repository root, where Articles.pdf lives):
+USO (na raiz do repositório, onde está o index.html):
 
-    pip install pypdf          (only once)
-    python build_index.py              -> incremental: only new/changed PDFs are extracted
-    python build_index.py --force      -> re-extract everything from scratch
+    pip install pypdf            (apenas uma vez, para indexar os PDFs)
+    python build_index.py                -> gera tudo
+    python build_index.py --no-pdf      -> pula os PDFs (mais rápido)
 
-Then commit & push:  site/search-index.json, site/items.json and site/index.html
+Depois faça commit & push de:  items.json  e  search-index.json
 """
 
 import json
 import re
 import sys
+import html
 import argparse
+import unicodedata
 from pathlib import Path
 
-try:
-    from pypdf import PdfReader
-except ImportError:
-    print("ERROR: the 'pypdf' library is not installed.")
-    print("Run:  pip install pypdf")
-    sys.exit(1)
-
-# ---------------------------------------------------------------- config ----
-
 REPO_ROOT = Path(__file__).resolve().parent
-SITE_DIR = REPO_ROOT / "site"
-INDEX_JSON = SITE_DIR / "search-index.json"
-INDEX_HTML = SITE_DIR / "index.html"
-ITEMS_JSON = SITE_DIR / "items.json"
+ITEMS_JSON = REPO_ROOT / "items.json"
+INDEX_JSON = REPO_ROOT / "search-index.json"
 
-# folder -> label shown on the site ("" = repository root)
-FOLDERS = {
-    "": "Main Article",
-    "Todos": "Full Archive",
-    "Novos": "Recent Articles",
-    "Shorts": "Short Texts & AI Reviews",
-    "Abstract": "Abstracts",
-    "Entrevistas": "Interviews",
+# Máximo de caracteres de texto guardados por artigo no índice de busca
+MAX_TEXT = 18000
+
+# ------------------------------------------------------------- categorias ---
+# página de listagem -> (id, nome exibido)
+CATEGORIES = [
+    ("genismo2.htm",     "genismo",    "Genismo"),
+    ("genetica2.htm",    "genetica",   "Genética e Evolução"),
+    ("psicologia2.htm",  "psicologia", "Psicologia Evolutiva"),
+    ("memetica2.htm",    "memetica",   "Memética"),
+    ("logica2.htm",      "logica",     "Lógica e Método Científico"),
+    ("filosofia2.htm",   "metaetica",  "Meta-Ética-Científica"),
+    ("religioes2.htm",   "religiao",   "Religiões e Ateísmo"),
+    ("englishtexts.htm", "english",    "English Texts"),
+]
+
+# PDFs na raiz: arquivo -> título exibido (edite à vontade)
+PDFS = {
+    "A Navalha de Jocax.pdf":  "A Navalha de Jocax",
+    "GLIV.pdf":                "GLIV — Livro do Genismo",
+    "JesusNunca.pdf":          "Jesus Nunca Existiu",
+    "JesusNunca2.pdf":         "Jesus Nunca Existiu (v2)",
+    "Jocax.pdf":               "Textos de Jocax",
+    "Princ_Pub_Jocax.pdf":     "Principais Publicações de Jocax",
+    "jocaxianArticles_2.pdf":  "Jocaxian Articles (English)",
+    "Hubble.pdf":              "Hubble",
+    "HU_DOC08.pdf":            "HU DOC 08",
+    "Amazon_River.pdf":        "Amazon River",
 }
 
-# files at repo root that should appear as featured
-FEATURED = {"Articles.pdf"}
+# hrefs/títulos de navegação que NÃO são artigos
+SKIP_TITLES = re.compile(r"^(voltar|anterior|pr[óo]ximo|textos?\b|>>|\.\.)", re.I)
+
 
 # ---------------------------------------------------------------- helpers ---
 
+def read_latin(path: Path) -> str:
+    """Lê arquivos antigos (latin-1 / cp1252) sem quebrar."""
+    raw = path.read_bytes()
+    for enc in ("utf-8", "cp1252", "latin-1"):
+        try:
+            return raw.decode(enc)
+        except UnicodeDecodeError:
+            continue
+    return raw.decode("latin-1", errors="replace")
+
+
+def strip_html(text: str) -> str:
+    text = re.sub(r"<script.*?</script>", " ", text, flags=re.S | re.I)
+    text = re.sub(r"<style.*?</style>", " ", text, flags=re.S | re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def norm(text: str) -> str:
+    """minúsculas + sem acentos (busca insensível a acentos)."""
+    text = unicodedata.normalize("NFD", text)
+    text = "".join(c for c in text if unicodedata.category(c) != "Mn")
+    return text.lower()
+
+
 def human_size(nbytes: int) -> str:
-    """299 KB / 1.8 MB — same style used by the site."""
     kb = nbytes / 1024
     if kb < 1000:
         return f"{round(kb)} KB"
-    mb = kb / 1024
-    return f"{mb:.1f} MB"
+    return f"{kb / 1024:.1f} MB"
 
 
-def title_from_filename(stem: str) -> str:
-    """DUT_AI_1_ENG -> 'DUT AI 1 ENG'; jocaxians-train -> 'Jocaxians Train'."""
-    s = re.sub(r"[_\-]+", " ", stem)
-    s = re.sub(r"\s+", " ", s).strip()
-    words = []
-    for w in s.split(" "):
-        # keep acronyms / codes as-is; capitalize normal lowercase words
-        words.append(w if any(c.isupper() for c in w) or w.isdigit() else w.capitalize())
-    return " ".join(words)
+# ------------------------------------------------------------- extração -----
 
-
-def extract_text(pdf_path: Path) -> str:
-    """Extract and normalize the full text of a PDF."""
-    reader = PdfReader(str(pdf_path))
-    parts = []
-    for page in reader.pages:
-        try:
-            parts.append(page.extract_text() or "")
-        except Exception:
-            pass  # skip unreadable pages, keep going
-    text = " ".join(parts)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
-
-
-def scan_pdfs():
-    """Yield (rel_path_posix, Path, folder, label) for every PDF in FOLDERS."""
-    for folder, label in FOLDERS.items():
-        base = REPO_ROOT / folder if folder else REPO_ROOT
-        if not base.is_dir():
+def parse_listing(page: Path):
+    """Extrai (href, título) da página de listagem de uma categoria."""
+    data = read_latin(page)
+    out, seen = [], set()
+    for href, txt in re.findall(
+            r'<a\s+[^>]*href="([^"]+\.html?)"[^>]*>(.*?)</a>', data, re.I | re.S):
+        title = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", txt))).strip()
+        href = href.strip()
+        if len(title) < 4 or SKIP_TITLES.search(title):
             continue
-        for pdf in sorted(base.glob("*.pdf"), key=lambda p: p.name.lower()):
-            rel = f"{folder}/{pdf.name}" if folder else pdf.name
-            yield rel, pdf, folder, label
+        if "://" in href or href.startswith("mailto"):
+            continue
+        if href in seen:
+            continue
+        seen.add(href)
+        out.append((href, title))
+    return out
 
 
-# ---------------------------------------------------------------- main ------
-
-def main():
+def build():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--force", action="store_true",
-                    help="re-extract text of ALL PDFs (default: only new ones)")
+    ap.add_argument("--no-pdf", action="store_true", help="não indexa PDFs")
     args = ap.parse_args()
 
-    if not INDEX_HTML.is_file():
-        print(f"ERROR: {INDEX_HTML} not found. Run this script from the repo root.")
-        sys.exit(1)
+    # mapa case-insensitive -> nome real do arquivo (GitHub Pages diferencia
+    # maiúsculas/minúsculas; links antigos às vezes estão em minúsculas)
+    real_names = {p.name.lower(): p.name for p in REPO_ROOT.iterdir() if p.is_file()}
 
-    # ---- load existing data (to preserve custom titles + skip re-extraction)
-    old_index = {}
-    if INDEX_JSON.is_file() and not args.force:
+    items, index = [], []
+    total_articles = 0
+
+    for listing, cat_id, cat_name in CATEGORIES:
+        page = REPO_ROOT / listing
+        if not page.exists():
+            print(f"  AVISO: {listing} não encontrado — categoria pulada")
+            continue
+        arts = parse_listing(page)
+        print(f"[{cat_name}] {len(arts)} artigos")
+        for href, title in arts:
+            href = real_names.get(href.lower(), href)   # corrige o case
+            f = REPO_ROOT / href
+            entry = {"href": href, "title": title, "cat": cat_id, "catName": cat_name}
+            if f.exists():
+                text = strip_html(read_latin(f))[:MAX_TEXT]
+                index.append({"href": href, "title": title, "cat": cat_name,
+                              "text": text})
+            else:
+                print(f"    aviso: {href} listado mas ausente no repositório")
+            items.append(entry)
+            total_articles += 1
+
+    # ------------------------------------------------------------- PDFs -----
+    pdf_items = []
+    if not args.no_pdf:
         try:
-            old_index = json.loads(INDEX_JSON.read_text(encoding="utf-8"))
-        except Exception:
-            print("WARNING: could not read existing search-index.json; rebuilding all.")
+            from pypdf import PdfReader
+        except ImportError:
+            print("AVISO: pypdf não instalado (pip install pypdf) — PDFs pulados")
+            PdfReader = None
+        if PdfReader:
+            for fname, title in PDFS.items():
+                f = REPO_ROOT / fname
+                if not f.exists():
+                    print(f"  aviso: {fname} não encontrado")
+                    continue
+                try:
+                    reader = PdfReader(str(f))
+                    text = " ".join((p.extract_text() or "") for p in reader.pages)
+                    text = re.sub(r"\s+", " ", text).strip()[:MAX_TEXT]
+                except Exception as e:
+                    print(f"  erro lendo {fname}: {e}")
+                    text = ""
+                pdf_items.append({"href": fname, "title": title, "cat": "pdf",
+                                  "catName": "PDFs", "size": human_size(f.stat().st_size)})
+                index.append({"href": fname, "title": title, "cat": "PDFs",
+                              "text": text})
+            print(f"[PDFs] {len(pdf_items)} arquivos")
 
-    html = INDEX_HTML.read_text(encoding="utf-8")
-    m = re.search(r"const ITEMS = (\[.*?\]);", html, flags=re.DOTALL)
-    if not m:
-        print("ERROR: could not find 'const ITEMS = [...];' inside site/index.html")
-        sys.exit(1)
-    old_items = {it["path"]: it for it in json.loads(m.group(1))}
+    # ----------------------------------------------------------- gravação ---
+    payload = {"generated": True, "categories":
+               [{"id": c, "name": n} for _, c, n in CATEGORIES] +
+               ([{"id": "pdf", "name": "PDFs"}] if pdf_items else []),
+               "items": items + pdf_items}
+    ITEMS_JSON.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+    INDEX_JSON.write_text(json.dumps(index, ensure_ascii=False), encoding="utf-8")
 
-    # ---- scan folders
-    new_index = {}
-    new_items = []
-    added, kept, failed = [], [], []
-
-    for rel, pdf, folder, label in scan_pdfs():
-        # ITEMS entry (preserve custom title if it already existed)
-        prev = old_items.get(rel)
-        title = prev["title"] if prev else title_from_filename(pdf.stem)
-        new_items.append({
-            "path": rel,
-            "folder": folder,
-            "folder_label": label,
-            "title": title,
-            "size": human_size(pdf.stat().st_size),
-            "featured": rel in FEATURED,
-        })
-
-        # text index (incremental unless --force)
-        if rel in old_index:
-            new_index[rel] = old_index[rel]
-            kept.append(rel)
-        else:
-            print(f"  extracting: {rel} ...")
-            try:
-                text = extract_text(pdf)
-                if not text:
-                    print(f"    WARNING: no text extracted (scanned image PDF?): {rel}")
-                new_index[rel] = text
-                added.append(rel)
-            except Exception as e:
-                print(f"    ERROR extracting {rel}: {e}")
-                new_index[rel] = ""
-                failed.append(rel)
-
-    removed = [p for p in old_items if p not in {it["path"] for it in new_items}]
-
-    # ---- write search-index.json
-    INDEX_JSON.write_text(
-        json.dumps(new_index, ensure_ascii=False),
-        encoding="utf-8",
-    )
-
-    # ---- write items.json (used by search.html)
-    ITEMS_JSON.write_text(
-        json.dumps(new_items, ensure_ascii=False),
-        encoding="utf-8",
-    )
-
-    # ---- rewrite ITEMS inside index.html
-    items_js = json.dumps(new_items, ensure_ascii=False)
-    html = html[:m.start(1)] + items_js + html[m.end(1):]
-    INDEX_HTML.write_text(html, encoding="utf-8")
-
-    # ---- summary
-    print()
-    print("=" * 60)
-    print(f"Documents listed .......... {len(new_items)}")
-    print(f"New PDFs indexed .......... {len(added)}")
-    for p in added:
-        print(f"    + {p}")
-    if removed:
-        print(f"Removed (file deleted) .... {len(removed)}")
-        for p in removed:
-            print(f"    - {p}")
-    if failed:
-        print(f"FAILED extraction ......... {len(failed)}  (indexed with empty text)")
-        for p in failed:
-            print(f"    ! {p}")
-    print(f"Reused from old index ..... {len(kept)}")
-    print("=" * 60)
-    print("Updated: site/search-index.json, site/items.json and site/index.html")
-    print("Now commit & push these two files.")
+    print(f"\nOK: {total_articles} artigos + {len(pdf_items)} PDFs")
+    print(f"  -> {ITEMS_JSON.name}  ({human_size(ITEMS_JSON.stat().st_size)})")
+    print(f"  -> {INDEX_JSON.name}  ({human_size(INDEX_JSON.stat().st_size)})")
+    print("\nAgora faça commit & push de items.json e search-index.json")
 
 
 if __name__ == "__main__":
-    main()
+    build()

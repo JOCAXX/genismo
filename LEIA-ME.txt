@@ -1,0 +1,43 @@
+GENISMO — NOVO PORTAL v1.0
+===========================
+
+ARQUIVOS DESTE PACOTE (copie TODOS para a raiz do repositório genismo):
+
+  index.html         -> novo portal (SUBSTITUI o antigo index.html)
+  index_classico.htm -> cópia do site antigo de 2005 (o link "site clássico"
+                        no rodapé aponta para ele)
+  busca.html         -> página de busca independente
+  build_index.py     -> gerador do índice (novo, adaptado ao Genismo)
+  items.json         -> lista de artigos por categoria (gerado)
+  search-index.json  -> índice de busca em texto completo (gerado, ~3,7 MB)
+
+COMO PUBLICAR (GitHub Desktop):
+  1. Copie os 6 arquivos para a pasta do repositório genismo
+     (o index.html antigo será substituído — a cópia dele já está
+     preservada em index_classico.htm)
+  2. Commit -> Push
+  3. Aguarde 1-2 minutos e abra https://jocaxx.github.io/genismo/
+  4. Confirme o badge "v1.0" no topo (confirmação de deploy, como no DUniverse)
+
+QUANDO ADICIONAR/ALTERAR ARTIGOS:
+  1. Adicione o artigo .htm no repositório e o link dele na página de
+     listagem da categoria (genismo2.htm, genetica2.htm, psicologia2.htm,
+     memetica2.htm, logica2.htm, filosofia2.htm, religioes2.htm,
+     englishtexts.htm)
+  2. Rode:  python build_index.py
+     (na primeira vez: pip install pypdf)
+  3. Commit & push de items.json e search-index.json
+
+PARA ADICIONAR UM PDF NOVO:
+  Edite o dicionário PDFS dentro de build_index.py (arquivo -> título)
+  e rode o script novamente.
+
+RECURSOS:
+  - Busca em texto completo nos 360 artigos + 10 PDFs
+  - Insensível a acentos (ex.: "memetica" encontra "memética")
+  - Filtro por categoria (chips no topo)
+  - Tema azul (#6699FF) do site original de 2005, modernizado
+  - Citação "Nossos genes são nosso bem mais precioso" no cabeçalho
+  - Badge de versão v1.0
+  - Contador de visitas (hits.sh)
+  - Google Translate no rodapé
