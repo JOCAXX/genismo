@@ -1,0 +1,7 @@
+pip install pypdf        (só na primeira vez)
+python build_index.py
+
+--------------------------
+Se algum dia quiser re-extrair tudo do zero (ex.: substituiu o conteúdo de um PDF mantendo o mesmo nome), 
+use python build_index.py --force 
+— ou apague só a entrada daquele arquivo no JSON.

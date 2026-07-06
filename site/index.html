@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V5ZEWXG061"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-V5ZEWXG061');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DUniverse — Jocaxian Archive</title>
+<meta name="description" content="Artigos, resumos e textos sobre a Teoria do Universo Decrescente (Decreasing Universe Theory) de Jocax.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #0a0d18;
+    --bg-panel: #11162a;
+    --bg-panel-alt: #171d38;
+    --amber: #e8a33d;
+    --amber-dim: #a9782f;
+    --blue: #6c8eeb;
+    --text: #edeef4;
+    --text-muted: #8890a8;
+    --border: rgba(232,163,61,0.14);
+    --border-soft: rgba(237,238,244,0.08);
+    --radius: 10px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    overflow-x:hidden;
+  }
+  ::selection{ background: var(--amber); color:#0a0d18; }
+
+  a{ color: inherit; }
+
+  /* ---------- background field ---------- */
+  #starfield{
+    position: fixed; inset: 0; z-index: 0; pointer-events:none;
+    background:
+      radial-gradient(ellipse 90% 60% at 50% -10%, rgba(108,142,235,0.16), transparent 60%),
+      radial-gradient(ellipse 70% 50% at 85% 15%, rgba(232,163,61,0.10), transparent 55%),
+      var(--bg);
+  }
+  #stars-canvas{ position:absolute; inset:0; width:100%; height:100%; }
+
+  /* ---------- hero ---------- */
+  .hero{
+    position: relative;
+    z-index: 1;
+    min-height: 78vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding: 6rem 1.5rem 4rem;
+  }
+  .rings-wrap{
+    position:absolute;
+    top:50%; left:50%;
+    width:min(900px, 130vw);
+    height:min(900px, 130vw);
+    transform:translate(-50%,-50%);
+    z-index:0;
+    opacity:0.55;
+  }
+  .rings-wrap svg{ width:100%; height:100%; display:block; }
+  .ring{
+    fill:none;
+    stroke-width:1;
+    transform-origin:center;
+    animation: contract 7s cubic-bezier(.45,0,.4,1) infinite;
+  }
+  .ring.amber{ stroke: var(--amber); }
+  .ring.blue{ stroke: var(--blue); }
+  .ring:nth-child(1){ animation-delay: 0s; }
+  .ring:nth-child(2){ animation-delay: 1.4s; }
+  .ring:nth-child(3){ animation-delay: 2.8s; }
+  .ring:nth-child(4){ animation-delay: 4.2s; }
+  .ring:nth-child(5){ animation-delay: 5.6s; }
+  @keyframes contract{
+    0%{ r:46%; opacity:0; stroke-width:0.5; }
+    12%{ opacity:0.9; }
+    100%{ r:2%; opacity:0; stroke-width:1.6; }
+  }
+  @media (prefers-reduced-motion: reduce){
+    .ring{ animation:none; opacity:0.25; }
+  }
+
+  .eyebrow{
+    position:relative; z-index:2;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 1.4rem;
+  }
+  .eyebrow::before{ content:"● "; color: var(--blue); }
+
+  h1{
+    position:relative; z-index:2;
+    font-family:'Spectral', serif;
+    font-weight:500;
+    font-size: clamp(2.4rem, 6vw, 4.4rem);
+    letter-spacing:-0.01em;
+    line-height:1.05;
+    max-width: 16ch;
+  }
+  h1 em{
+    font-style: italic;
+    font-weight:400;
+    background: linear-gradient(100deg, var(--amber), var(--blue));
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+  }
+
+  .hero-sub{
+    position:relative; z-index:2;
+    max-width: 46ch;
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    margin-top: 1.4rem;
+  }
+
+  .featured-cta{
+    position:relative; z-index:2;
+    display:inline-flex; align-items:center; gap:0.6rem;
+    margin-top: 2rem;
+    padding: 0.75rem 1.4rem;
+    border-radius: 999px;
+    border: 1px solid var(--amber-dim);
+    background: linear-gradient(100deg, rgba(232,163,61,0.14), rgba(108,142,235,0.08));
+    color: var(--text);
+    text-decoration:none;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    letter-spacing: 0.02em;
+    transition: border-color 0.18s, transform 0.18s, background 0.18s;
+  }
+  .featured-cta:hover{
+    border-color: var(--amber);
+    background: linear-gradient(100deg, rgba(232,163,61,0.24), rgba(108,142,235,0.14));
+    transform: translateY(-1px);
+  }
+  .featured-dot{
+    width:7px; height:7px; border-radius:50%;
+    background: var(--amber);
+    box-shadow: 0 0 8px var(--amber);
+    flex-shrink:0;
+  }
+
+  .hero-meta{
+    position:relative; z-index:2;
+    display:flex; gap:2.2rem; flex-wrap:wrap; justify-content:center;
+    margin-top: 2rem;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+  .hero-meta b{ color: var(--text); font-weight:500; display:block; font-size:1.3rem; font-family:'Spectral', serif; }
+
+  /* search bar inside the hero (visible without scrolling) */
+  .hero-search{
+    position:relative; z-index:2;
+    margin-top: 2.2rem;
+    width: min(560px, 92%);
+    display:flex; align-items:center; gap:0.7rem;
+    text-align:left;
+  }
+  .hero-search .search-label{
+    font-family:'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--amber);
+    flex-shrink:0;
+  }
+  .hero-search .search-box{ flex:1; }
+  .search-open-btn{
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.72rem; letter-spacing:0.04em;
+    padding: 0.62rem 0.95rem;
+    border-radius: 999px;
+    border:1px solid var(--amber-dim);
+    background: linear-gradient(100deg, rgba(232,163,61,0.14), rgba(108,142,235,0.08));
+    color: var(--text);
+    text-decoration:none;
+    white-space:nowrap;
+    flex-shrink:0;
+    transition: border-color 0.18s, background 0.18s;
+  }
+  .search-open-btn:hover{
+    border-color: var(--amber);
+    background: linear-gradient(100deg, rgba(232,163,61,0.24), rgba(108,142,235,0.14));
+  }
+  @media (max-width: 560px){
+    .hero-search{ flex-direction:column; align-items:stretch; gap:0.4rem; }
+  }
+
+  .visit-counter{
+    position:relative; z-index:2;
+    margin-top: 1.1rem;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+  }
+  .visit-counter #visit-count{ color: var(--amber); font-weight:500; }
+
+  /* ---------- controls ---------- */
+  .controls{
+    position: sticky; top:0; z-index: 10;
+    background: rgba(10,13,24,0.86);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border-soft);
+    padding: 1rem 1.5rem;
+  }
+  .controls-inner{
+    max-width: 1080px; margin:0 auto;
+    display:flex; gap:1rem; align-items:center; flex-wrap:wrap;
+  }
+  .search-box{
+    flex: 1 1 240px;
+    position:relative;
+  }
+  .search-box input{
+    width:100%;
+    background: var(--bg-panel);
+    border: 1px solid var(--border-soft);
+    border-radius: var(--radius);
+    padding: 0.65rem 0.9rem 0.65rem 2.2rem;
+    color: var(--text);
+    font-family:'Inter', sans-serif;
+    font-size: 0.92rem;
+    outline:none;
+    transition: border-color 0.2s;
+  }
+  .search-box input:focus{ border-color: var(--amber-dim); }
+  .search-box::before{
+    content:"⌕";
+    position:absolute; left:0.75rem; top:50%; transform:translateY(-50%);
+    color: var(--text-muted);
+    font-size:1.05rem;
+  }
+  .tabs{
+    display:flex; gap:0.4rem; flex-wrap:wrap;
+  }
+  .tab{
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.72rem;
+    letter-spacing:0.03em;
+    padding: 0.5rem 0.85rem;
+    border-radius: 999px;
+    border: 1px solid var(--border-soft);
+    background: transparent;
+    color: var(--text-muted);
+    cursor:pointer;
+    transition: all 0.15s;
+    white-space:nowrap;
+  }
+  .tab:hover{ border-color: var(--amber-dim); color: var(--text); }
+  .tab.active{ background: var(--amber); border-color: var(--amber); color: #17140a; font-weight:600; }
+
+  /* ---------- grid ---------- */
+  main{
+    position:relative; z-index:1;
+    max-width: 1080px; margin: 0 auto;
+    padding: 2.4rem 1.5rem 6rem;
+  }
+  .section-label{
+    font-family:'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing:0.15em;
+    text-transform:uppercase;
+    color: var(--text-muted);
+    margin: 2.6rem 0 1rem;
+    display:flex; align-items:center; gap:0.7rem;
+  }
+  .section-label::after{
+    content:""; flex:1; height:1px; background: var(--border-soft);
+  }
+  .section-label span.count{ color: var(--amber); }
+
+  .grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 0.85rem;
+  }
+  .card{
+    background: var(--bg-panel);
+    border: 1px solid var(--border-soft);
+    border-radius: var(--radius);
+    padding: 1.1rem 1.1rem 1rem;
+    text-decoration:none;
+    display:flex; flex-direction:column; gap:0.6rem;
+    transition: border-color 0.18s, transform 0.18s, background 0.18s;
+    position:relative;
+    overflow:hidden;
+  }
+  .card::before{
+    content:"";
+    position:absolute; top:0; left:0; width:2px; height:100%;
+    background: var(--blue);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.25s;
+  }
+  .card:hover{
+    border-color: var(--amber-dim);
+    background: var(--bg-panel-alt);
+    transform: translateY(-2px);
+  }
+  .card:hover::before{ transform: scaleY(1); background: var(--amber); }
+  .card-title{
+    font-family:'Spectral', serif;
+    font-size: 1.02rem;
+    font-weight:500;
+    line-height:1.3;
+    color: var(--text);
+  }
+  .card-foot{
+    display:flex; align-items:center; flex-wrap:wrap;
+    gap: 0.5rem;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    margin-top:auto;
+    padding-top:0.3rem;
+  }
+  .card-foot .tag{
+    color: var(--blue);
+  }
+  .card-foot .tag-content{
+    color: var(--amber-dim);
+    border: 1px solid var(--border-soft);
+    border-radius: 999px;
+    padding: 0.1rem 0.5rem;
+  }
+  .card-foot .open{
+    color: var(--amber-dim);
+    transition: color 0.15s;
+    margin-left: auto;
+  }
+  .card:hover .open{ color: var(--amber); }
+
+  #version-badge{
+    position: fixed; right: 12px; bottom: 12px; z-index: 50;
+    font-family: 'JetBrains Mono', monospace; font-size: 0.72rem;
+    color: var(--text-muted);
+    background: var(--bg-panel); border: 1px solid var(--border-soft);
+    padding: 3px 9px; border-radius: 999px; opacity: 0.85;
+    pointer-events: none;
+  }
+
+  .search-status{
+    position:absolute;
+    top: 100%;
+    left: 2.2rem;
+    margin-top: 0.35rem;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--text-muted);
+  }
+
+  .empty-state{
+    text-align:center;
+    color: var(--text-muted);
+    padding: 3rem 1rem;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+  }
+
+  footer{
+    position:relative; z-index:1;
+    text-align:center;
+    padding: 2.4rem 1.5rem 3rem;
+    color: var(--text-muted);
+    font-family:'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    border-top: 1px solid var(--border-soft);
+  }
+  footer a{ color: var(--amber-dim); text-decoration:none; }
+  footer a:hover{ color: var(--amber); }
+
+  @media (max-width: 560px){
+    .hero{ padding: 4.5rem 1.2rem 3rem; }
+    .hero-meta{ gap:1.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<div id="starfield"><canvas id="stars-canvas"></canvas></div>
+
+<header class="hero">
+  <div class="rings-wrap" aria-hidden="true">
+    <svg viewBox="0 0 100 100">
+      <circle class="ring amber" cx="50" cy="50" r="46"/>
+      <circle class="ring blue" cx="50" cy="50" r="46"/>
+      <circle class="ring amber" cx="50" cy="50" r="46"/>
+      <circle class="ring blue" cx="50" cy="50" r="46"/>
+      <circle class="ring amber" cx="50" cy="50" r="46"/>
+    </svg>
+  </div>
+  <p class="eyebrow">Decreasing Universe Theory</p>
+  <h1>The gravitational field contracts<br><em>Everything, slowly and continuously.</em></h1>
+  <p class="hero-sub">A collection of articles, abstracts, and writings by Jocax on the Decreasing Universe Theory (D.U.T.), the Jocaxian Nothingness, and related topics in cosmology and philosophy.</p>
+  <a class="featured-cta" href="../Articles.pdf" target="_blank" rel="noopener">
+    <span class="featured-dot"></span> Read the main article — Articles.pdf
+  </a>
+  <div class="hero-search">
+    <span class="search-label">Search:</span>
+    <div class="search-box">
+      <input type="text" id="search" placeholder="Search by title, keyword, or PDF content…" autocomplete="off">
+      <div id="search-status" class="search-status"></div>
+    </div>
+    <a id="open-search-page" class="search-open-btn" href="search.html" target="_blank" rel="noopener" title="Open keyword search in a new tab">Search page ↗</a>
+  </div>
+  <div class="hero-meta" id="hero-meta"></div>
+  <div class="visit-counter" id="visit-counter" style="display:none;">
+    <span id="visit-count">–</span> visits
+  </div>
+</header>
+
+<div class="controls">
+  <div class="controls-inner">
+    <div class="tabs" id="tabs"></div>
+  </div>
+</div>
+
+<div id="version-badge" title="Site version">v1.10</div>
+
+<main>
+  <div id="results"></div>
+  <div class="empty-state" id="empty" style="display:none;">No documents found.</div>
+</main>
+
+<footer>
+  <p>DUniverse — Jocax's independent research archive · <a href="https://jocaxx.github.io/DUniverse/" target="_blank" rel="noopener">jocaxx.github.io/DUniverse</a> · v1.10</p>
+</footer>
+
+<script>
+const ITEMS = [{"path": "Articles.pdf", "folder": "", "folder_label": "Main Article", "title": "Articles", "size": "299 KB", "featured": true}, {"path": "Todos/1311-Article Text-2420-1-10-20180103.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "1311 Article Text 2420 1 10 20180103", "size": "887 KB", "featured": false}, {"path": "Todos/1311-ArticleText-2420-1-10-20180103.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "1311 ArticleText 2420 1 10 20180103", "size": "887 KB", "featured": false}, {"path": "Todos/503_Jocaxian-Protection-for-Database-Passwords.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "503 Jocaxian Protection For Database Passwords", "size": "307 KB", "featured": false}, {"path": "Todos/AHOAJ-06-00239.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "AHOAJ 06 00239", "size": "438 KB", "featured": false}, {"path": "Todos/Amazon2_eng.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Amazon2 Eng", "size": "269 KB", "featured": false}, {"path": "Todos/analysis-of-mass-redshift-correlation-in-velocity-matched-subgroups-a-rigorous-test-for-the-decreasing-universe-theory.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Analysis Of Mass Redshift Correlation In Velocity Matched Subgroups A Rigorous Test For The Decreasing Universe Theory", "size": "327 KB", "featured": false}, {"path": "Todos/CICMR.MS.ID.000524.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "CICMR.MS.ID.000524", "size": "332 KB", "featured": false}, {"path": "Todos/CICMR.MS.ID.000527 .pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "CICMR.MS.ID.000527", "size": "291 KB", "featured": false}, {"path": "Todos/Claude.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Claude", "size": "139 KB", "featured": false}, {"path": "Todos/Claude_Eng.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Claude Eng", "size": "146 KB", "featured": false}, {"path": "Todos/DEUX_Pub.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "DEUX Pub", "size": "101 KB", "featured": false}, {"path": "Todos/DU_AGE.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "DU AGE", "size": "215 KB", "featured": false}, {"path": "Todos/DU_MASS.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "DU MASS", "size": "173 KB", "featured": false}, {"path": "Todos/DUT_AI_1_ENG.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "DUT AI 1 ENG", "size": "185 KB", "featured": false}, {"path": "Todos/DUT_AI_1_POR.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "DUT AI 1 POR", "size": "80 KB", "featured": false}, {"path": "Todos/DUT_AI_2_ENG.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "DUT AI 2 ENG", "size": "190 KB", "featured": false}, {"path": "Todos/DUT_AI_2_POR.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "DUT AI 2 POR", "size": "101 KB", "featured": false}, {"path": "Todos/DUT_AI_ENG.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "DUT AI ENG", "size": "185 KB", "featured": false}, {"path": "Todos/DUT_GAL_Eng.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "DUT GAL Eng", "size": "279 KB", "featured": false}, {"path": "Todos/DUT_GAL_POR.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "DUT GAL POR", "size": "249 KB", "featured": false}, {"path": "Todos/DUT_SN1.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "DUT SN1", "size": "522 KB", "featured": false}, {"path": "Todos/decreasing-universe-redshifts-and-distance-data-refute-the-lcdm-model.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Decreasing Universe: Redshifts and Distance Data Refute the LCDM Model", "size": "400 KB", "featured": false}, {"path": "Todos/G1703016264.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Decreasing Universe: The CMB and the Age of the Universe", "size": "236 KB", "featured": false}, {"path": "Todos/decreasing-universe-the-dark-matter-effect.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Decreasing Universe: The Dark Matter Effect", "size": "831 KB", "featured": false}, {"path": "Todos/AAOAJ-09-00220.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Decreasing Universe: the distance as a function of redshift", "size": "590 KB", "featured": false}, {"path": "Todos/OAJMTP-02-00049.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Derivation of Hubble's Law and its relation to dark energy and dark matter", "size": "498 KB", "featured": false}, {"path": "Todos/DevilJ.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "DevilJ", "size": "190 KB", "featured": false}, {"path": "Todos/DiabinhoJ.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "DiabinhoJ", "size": "208 KB", "featured": false}, {"path": "Todos/FAQ_DUT_ENG.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "FAQ DUT ENG", "size": "208 KB", "featured": false}, {"path": "Todos/FAQ_DUT_POR.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "FAQ DUT POR", "size": "189 KB", "featured": false}, {"path": "Todos/felicitax-the-construction-of-godx-deux.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Felicitax The Construction Of Godx Deux", "size": "298 KB", "featured": false}, {"path": "Todos/Frases_jocax.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Frases Jocax", "size": "114 KB", "featured": false}, {"path": "Todos/Frases_jocax_Eng.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Frases Jocax Eng", "size": "114 KB", "featured": false}, {"path": "Todos/Gemini_JN.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Gemini JN", "size": "174 KB", "featured": false}, {"path": "Todos/Gemini_JN_EN.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Gemini JN EN", "size": "232 KB", "featured": false}, {"path": "Todos/HOLTDE_1.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "HOLTDE 1", "size": "155 KB", "featured": false}, {"path": "Todos/HOLTDE.1.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "HOLTDE.1", "size": "155 KB", "featured": false}, {"path": "Todos/IJRDO.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "IJRDO", "size": "887 KB", "featured": false}, {"path": "Todos/Jocax.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Jocax", "size": "157 KB", "featured": false}, {"path": "Todos/Jocax_Claude_Eng.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Jocax Claude Eng", "size": "146 KB", "featured": false}, {"path": "Todos/Jocax_Eng.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Jocax Eng", "size": "108 KB", "featured": false}, {"path": "Todos/PAIJ-09-00387.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Jocaxian's Theorems", "size": "443 KB", "featured": false}, {"path": "Todos/AAOAJ-07-00165.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Jocaxian's Time Definition", "size": "434 KB", "featured": false}, {"path": "Todos/jocaxians-train-2476-2296-1000154.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Jocaxian's Train", "size": "305 KB", "featured": false}, {"path": "Todos/jocaxians-democracy-the-best-democracy.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Jocaxians Democracy The Best Democracy", "size": "193 KB", "featured": false}, {"path": "Todos/Manus_Aval_Eng.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Manus Aval Eng", "size": "206 KB", "featured": false}, {"path": "Todos/Manus_Avaliacao.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Manus Avaliacao", "size": "163 KB", "featured": false}, {"path": "Todos/NODUT_Pub.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "NODUT Pub", "size": "139 KB", "featured": false}, {"path": "Todos/OAJMTP-01-00033.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "OAJMTP 01 00033", "size": "497 KB", "featured": false}, {"path": "Todos/OAJS-05-00167.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "OAJS 05 00167", "size": "658 KB", "featured": false}, {"path": "Todos/PAIJ-09-00384.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "PAIJ 09 00384", "size": "476 KB", "featured": false}, {"path": "Todos/PAIJ-10-00406.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "PAIJ 10 00406", "size": "458 KB", "featured": false}, {"path": "Todos/Princ_Pub_Jocax.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Princ Pub Jocax", "size": "218 KB", "featured": false}, {"path": "Todos/Pub_Abstract.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Pub Abstract", "size": "149 KB", "featured": false}, {"path": "Todos/SIJ-09-00414.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "SIJ 09 00414", "size": "468 KB", "featured": false}, {"path": "Todos/SN1A.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "SN1A", "size": "428 KB", "featured": false}, {"path": "Todos/SN1A_ENG.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "SN1A ENG", "size": "380 KB", "featured": false}, {"path": "Todos/SN1A_POR.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "SN1A POR", "size": "428 KB", "featured": false}, {"path": "Todos/TPsicoGen_Eng.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "TPsicoGen Eng", "size": "201 KB", "featured": false}, {"path": "Todos/PAIJ-09-00378.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "The Decreasing Universe model: an alternative perspective to accelerated expansion", "size": "492 KB", "featured": false}, {"path": "Todos/the-destropic-principle.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "The Destropic Principle", "size": "269 KB", "featured": false}, {"path": "Todos/The END Of The DARK ENERGY - Astronomy Net General Forum MessageB.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "The END Of The DARK ENERGY Astronomy Net General Forum MessageB", "size": "247 KB", "featured": false}, {"path": "Todos/C0701011314.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "The Equivalence Principle and the End of the Dark Energy", "size": "261 KB", "featured": false}, {"path": "Todos/AAOAJ-08-00211.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "The Jocaxian's Nothingness", "size": "479 KB", "featured": false}, {"path": "Todos/the-prized-son-theory-a-neodarwinian-explanation-for-sex-and-aging.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "The Prized Son Theory A Neodarwinian Explanation For Sex And Aging", "size": "375 KB", "featured": false}, {"path": "Todos/the-universe-according-to-jocax.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "The Universe, According to Jocax", "size": "443 KB", "featured": false}, {"path": "Todos/Trem_Jocaxiano.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "Trem Jocaxiano", "size": "238 KB", "featured": false}, {"path": "Todos/TullyF.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "TullyF", "size": "566 KB", "featured": false}, {"path": "Todos/TullyF_Eng.pdf", "folder": "Todos", "folder_label": "Full Archive", "title": "TullyF Eng", "size": "349 KB", "featured": false}, {"path": "Novos/Amazon2_eng.pdf", "folder": "Novos", "folder_label": "Recent Articles", "title": "Amazon2 Eng", "size": "269 KB", "featured": false}, {"path": "Novos/DU_AGE.pdf", "folder": "Novos", "folder_label": "Recent Articles", "title": "DU AGE", "size": "215 KB", "featured": false}, {"path": "Novos/DU_MASS.pdf", "folder": "Novos", "folder_label": "Recent Articles", "title": "DU MASS", "size": "173 KB", "featured": false}, {"path": "Novos/Pub_Abstract.pdf", "folder": "Novos", "folder_label": "Recent Articles", "title": "Pub Abstract", "size": "149 KB", "featured": false}, {"path": "Novos/TPsicoGen_Eng.pdf", "folder": "Novos", "folder_label": "Recent Articles", "title": "TPsicoGen Eng", "size": "201 KB", "featured": false}, {"path": "Shorts/ChatGPT_DUT_Eng.pdf", "folder": "Shorts", "folder_label": "Short Texts & AI Reviews", "title": "ChatGPT DUT Eng", "size": "211 KB", "featured": false}, {"path": "Shorts/DUT_AI_1_ENG.pdf", "folder": "Shorts", "folder_label": "Short Texts & AI Reviews", "title": "DUT AI 1 ENG", "size": "185 KB", "featured": false}, {"path": "Shorts/DUT_AI_2_ENG.pdf", "folder": "Shorts", "folder_label": "Short Texts & AI Reviews", "title": "DUT AI 2 ENG", "size": "190 KB", "featured": false}, {"path": "Shorts/DeepSeek_DUT_Eng.pdf", "folder": "Shorts", "folder_label": "Short Texts & AI Reviews", "title": "DeepSeek DUT Eng", "size": "147 KB", "featured": false}, {"path": "Shorts/Gemini_DUT_Eng.pdf", "folder": "Shorts", "folder_label": "Short Texts & AI Reviews", "title": "Gemini DUT Eng", "size": "182 KB", "featured": false}, {"path": "Shorts/KIMI_DUT_ENG.pdf", "folder": "Shorts", "folder_label": "Short Texts & AI Reviews", "title": "KIMI DUT ENG", "size": "123 KB", "featured": false}, {"path": "Shorts/Manus_Aval_Eng.pdf", "folder": "Shorts", "folder_label": "Short Texts & AI Reviews", "title": "Manus Aval Eng", "size": "206 KB", "featured": false}, {"path": "Shorts/Qwen_DUT_Eng.pdf", "folder": "Shorts", "folder_label": "Short Texts & AI Reviews", "title": "Qwen DUT Eng", "size": "123 KB", "featured": false}, {"path": "Shorts/Shorts_AI.pdf", "folder": "Shorts", "folder_label": "Short Texts & AI Reviews", "title": "Shorts AI", "size": "206 KB", "featured": false}, {"path": "Abstract/Pub_Abstract.pdf", "folder": "Abstract", "folder_label": "Abstracts", "title": "Pub Abstract", "size": "240 KB", "featured": false}, {"path": "Entrevistas/entrevistas.pdf", "folder": "Entrevistas", "folder_label": "Interviews", "title": "Entrevistas", "size": "89 KB", "featured": false}, {"path": "Entrevistas/Orkut_entrev.pdf", "folder": "Entrevistas", "folder_label": "Interviews", "title": "Orkut Entrev", "size": "1.8 MB", "featured": false}];
+
+const FOLDER_ORDER = ["Todos", "Novos", "Shorts", "Abstract", "Entrevistas"];
+
+// Normalize text for accent-insensitive search:
+// lowercase + remove diacritics (ç→c, ã→a, é→e…) + collapse whitespace
+function normText(s){
+  return s.toLowerCase()
+          .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+          .replace(/\s+/g, ' ');
+}
+
+// Full-text search index: { "path/to.pdf": "lowercased extracted text" }
+// Loaded asynchronously so the page works instantly even before it's ready.
+let CONTENT_INDEX = null;
+let CONTENT_INDEX_LOADING = true;
+fetch('search-index.json')
+  .then(r => { if(!r.ok) throw new Error('index not found'); return r.json(); })
+  .then(data => {
+    CONTENT_INDEX = {};
+    for(const k in data) CONTENT_INDEX[k] = normText(data[k]);
+    CONTENT_INDEX_LOADING = false;
+    render();
+  })
+  .catch(() => {
+    CONTENT_INDEX = null;
+    CONTENT_INDEX_LOADING = false;
+    render();
+  });
+
+function relHref(path){
+  // site/index.html sits one level below repo root
+  return "../" + path.split("/").map(encodeURIComponent).join("/");
+}
+
+function folderCounts(){
+  const counts = {};
+  ITEMS.forEach(it => { counts[it.folder] = (counts[it.folder]||0) + 1; });
+  return counts;
+}
+
+function buildTabs(){
+  const counts = folderCounts();
+  const tabsEl = document.getElementById('tabs');
+  const allBtn = document.createElement('button');
+  allBtn.className = 'tab active';
+  allBtn.dataset.folder = '__all__';
+  allBtn.textContent = `All · ${ITEMS.length}`;
+  tabsEl.appendChild(allBtn);
+
+  FOLDER_ORDER.forEach(f => {
+    if(!(f in counts)) return;
+    const label = ITEMS.find(it => it.folder === f).folder_label;
+    const btn = document.createElement('button');
+    btn.className = 'tab';
+    btn.dataset.folder = f;
+    btn.textContent = `${label} · ${counts[f]}`;
+    tabsEl.appendChild(btn);
+  });
+
+  tabsEl.addEventListener('click', e => {
+    const btn = e.target.closest('.tab');
+    if(!btn) return;
+    tabsEl.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    btn.classList.add('active');
+    render();
+  });
+}
+
+function activeFolder(){
+  const active = document.querySelector('.tab.active');
+  return active ? active.dataset.folder : '__all__';
+}
+
+// Split a query into search terms:
+//  - each whitespace-separated word is one term (combined with AND)
+//  - words inside "double quotes" form a single exact-phrase term
+function parseTerms(raw){
+  const s = normText(raw.trim());
+  const out = [];
+  const rx = /"([^"]+)"|(\S+)/g;
+  let m;
+  while((m = rx.exec(s))) out.push(m[1] || m[2]);
+  return out.filter(Boolean);
+}
+
+function render(){
+  const terms = parseTerms(document.getElementById('search').value);
+  const q = terms.length > 0;
+  const folder = activeFolder();
+
+  let filtered = ITEMS.filter(it => {
+    const matchesFolder = folder === '__all__' || it.folder === folder;
+    if(!matchesFolder) return false;
+    if(!q) return true;
+    // AND logic: every term must appear in the title/path OR in the PDF content
+    const t = normText(it.title) + ' ' + normText(it.path);
+    const c = (CONTENT_INDEX && CONTENT_INDEX[it.path]) ? CONTENT_INDEX[it.path] : '';
+    let allInTitle = true;
+    for(const term of terms){
+      const inTitle = t.includes(term);
+      if(!inTitle) allInTitle = false;
+      if(!inTitle && !c.includes(term)) return false;
+    }
+    it._contentOnlyMatch = !allInTitle; // used by renderGrid for the badge
+    return true;
+  });
+
+  const resultsEl = document.getElementById('results');
+  const emptyEl = document.getElementById('empty');
+  const statusEl = document.getElementById('search-status');
+  resultsEl.innerHTML = '';
+
+  if(statusEl){
+    statusEl.textContent = (q && CONTENT_INDEX_LOADING)
+      ? 'Loading PDF content index…'
+      : '';
+  }
+
+  if(filtered.length === 0){
+    emptyEl.style.display = 'block';
+    return;
+  }
+  emptyEl.style.display = 'none';
+
+  if(folder !== '__all__'){
+    resultsEl.appendChild(renderGrid(filtered));
+    return;
+  }
+
+  // grouped by folder when showing "all"
+  // Root-level files (folder === "") are not in FOLDER_ORDER, so render them first
+  const rootGroup = filtered.filter(it => it.folder === "");
+  if(rootGroup.length > 0){
+    const label = document.createElement('div');
+    label.className = 'section-label';
+    label.innerHTML = `${escapeHtml(rootGroup[0].folder_label)} <span class="count">${rootGroup.length}</span>`;
+    resultsEl.appendChild(label);
+    resultsEl.appendChild(renderGrid(rootGroup));
+  }
+
+  FOLDER_ORDER.forEach(f => {
+    const group = filtered.filter(it => it.folder === f);
+    if(group.length === 0) return;
+    const label = document.createElement('div');
+    label.className = 'section-label';
+    label.innerHTML = `${group[0].folder_label} <span class="count">${group.length}</span>`;
+    resultsEl.appendChild(label);
+    resultsEl.appendChild(renderGrid(group));
+  });
+}
+
+function renderGrid(items){
+  const grid = document.createElement('div');
+  grid.className = 'grid';
+  items.forEach(it => {
+    const a = document.createElement('a');
+    a.className = 'card';
+    a.href = relHref(it.path);
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.innerHTML = `
+      <div class="card-title">${escapeHtml(it.title)}</div>
+      <div class="card-foot">
+        <span class="tag">PDF · ${it.size}</span>
+        ${it._contentOnlyMatch ? '<span class="tag tag-content">found in content</span>' : ''}
+        <span class="open">open ↗</span>
+      </div>`;
+    grid.appendChild(a);
+  });
+  return grid;
+}
+
+function escapeHtml(s){
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function renderHeroMeta(){
+  const counts = folderCounts();
+  const el = document.getElementById('hero-meta');
+  el.innerHTML = `
+    <div><b>${ITEMS.length}</b>documents</div>
+    <div><b>${Object.keys(counts).length}</b>collections</div>
+    <div><b>PDF</b>format</div>
+  `;
+}
+
+document.getElementById('search').addEventListener('input', render);
+
+// Keep the "Search page ↗" button pointing to search.html with the current keyword
+(function(){
+  const input = document.getElementById('search');
+  const btn = document.getElementById('open-search-page');
+  function sync(){
+    const q = input.value.trim();
+    btn.href = q ? 'search.html?q=' + encodeURIComponent(q) : 'search.html';
+  }
+  input.addEventListener('input', sync);
+  sync();
+})();
+
+// ---- Visit counter (CounterAPI, free service) ----
+// Increments only once per browser session; on later loads it just reads
+// the current value. If the service is unreachable, the counter stays hidden.
+(function(){
+  const NS = 'jocaxx-duniverse';       // public namespace
+  const KEY = 'site-index';            // counter name
+  const already = sessionStorage.getItem('du_counted');
+  const url = 'https://api.counterapi.dev/v1/' + NS + '/' + KEY + (already ? '' : '/up');
+  fetch(url)
+    .then(r => { if(!r.ok) throw 0; return r.json(); })
+    .then(d => {
+      const n = d && (d.count ?? d.value);
+      if(typeof n !== 'number') throw 0;
+      sessionStorage.setItem('du_counted', '1');
+      document.getElementById('visit-count').textContent = n.toLocaleString('en-US');
+      document.getElementById('visit-counter').style.display = 'block';
+    })
+    .catch(() => { /* service unavailable: keep the counter hidden */ });
+})();
+
+buildTabs();
+renderHeroMeta();
+render();
+
+/* ---- lightweight starfield canvas ---- */
+(function(){
+  const canvas = document.getElementById('stars-canvas');
+  const ctx = canvas.getContext('2d');
+  let stars = [];
+  let w, h;
+
+  function resize(){
+    w = canvas.width = window.innerWidth;
+    h = canvas.height = Math.max(window.innerHeight, document.body.scrollHeight);
+    const count = Math.min(180, Math.floor((w*h)/9000));
+    stars = Array.from({length: count}, () => ({
+      x: Math.random()*w,
+      y: Math.random()*h,
+      r: Math.random()*1.2 + 0.2,
+      a: Math.random()*0.6 + 0.15,
+      tw: Math.random()*0.015 + 0.004,
+      dir: Math.random() > 0.5 ? 1 : -1
+    }));
+  }
+
+  function tick(){
+    ctx.clearRect(0,0,w,h);
+    stars.forEach(s => {
+      s.a += s.tw * s.dir;
+      if(s.a > 0.85 || s.a < 0.1) s.dir *= -1;
+      ctx.beginPath();
+      ctx.fillStyle = `rgba(237,238,244,${s.a})`;
+      ctx.arc(s.x, s.y, s.r, 0, Math.PI*2);
+      ctx.fill();
+    });
+    requestAnimationFrame(tick);
+  }
+
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  resize();
+  window.addEventListener('resize', resize);
+  if(!reduceMotion){ tick(); }
+  else {
+    ctx.clearRect(0,0,w,h);
+    stars.forEach(s => {
+      ctx.beginPath();
+      ctx.fillStyle = `rgba(237,238,244,${s.a})`;
+      ctx.arc(s.x, s.y, s.r, 0, Math.PI*2);
+      ctx.fill();
+    });
+  }
+})();
+</script>
+</body>
+</html>

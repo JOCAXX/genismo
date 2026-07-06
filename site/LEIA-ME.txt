@@ -1,0 +1,53 @@
+COMO INSTALAR O SITE NO SEU REPOSITÓRIO (GitHub Desktop)
+==========================================================
+
+1. Abra a pasta do repositório no seu PC:
+   C:\Users\jocax\Documents\GitHub\DUniverse
+
+2. Copie o arquivo "index.html" desta entrega para dentro de uma NOVA
+   pasta chamada "site" dentro do repositório, assim:
+
+   C:\Users\jocax\Documents\GitHub\DUniverse\site\index.html
+
+   (Crie a pasta "site" se ela ainda não existir. O arquivo LEIA-ME.txt
+   não precisa ser copiado, é só para referência.)
+
+3. Abra o GitHub Desktop, veja a mudança "site/index.html" adicionada,
+   escreva uma mensagem de commit (ex: "Adiciona site de navegação dos PDFs")
+   e clique em "Commit to main".
+
+4. Clique em "Push origin" para subir para a nuvem.
+
+5. Para o site ficar acessível pela internet (GitHub Pages), vá em:
+   Settings > Pages (no repositório, no site do GitHub)
+   e configure "Deploy from a branch" apontando para a branch "main" e
+   pasta "/ (root)" — como o repositório já usa GitHub Pages (o link
+   jocaxx.github.io/DUniverse já existe), isso provavelmente já está
+   configurado, então o site novo ficará disponível em:
+
+   https://jocaxx.github.io/DUniverse/site/
+
+IMPORTANTE
+----------
+O arquivo index.html usa caminhos relativos (../Todos/arquivo.pdf, etc)
+para apontar aos PDFs que já estão nas pastas Abstract, Entrevistas,
+Novos, Old, Shorts e Todos, além dos arquivos na raiz. Por isso ele
+PRECISA ficar dentro de uma pasta "site" na raiz do repositório — não
+mova os PDFs de lugar, e não renomeie a pasta "site".
+
+O que o site faz
+-----------------
+- Destaca "Articles.pdf" (raiz do repositório) como o artigo principal,
+  com um botão de acesso direto logo no topo da página.
+- Lista os demais 86 PDFs do repositório, organizados por coleção
+  (pastas: Abstract, Entrevistas, Novos, Shorts, Todos). A pasta "Old"
+  foi propositalmente deixada de fora, a pedido do Jocax.
+- Campo de busca por título ou nome de arquivo.
+- Abas para filtrar por coleção.
+- Fundo animado de estrelas + anéis que se contraem (referência visual
+  à Teoria do Universo Decrescente), tudo feito em CSS/SVG/Canvas puro
+  — não depende de nenhuma imagem externa, então funciona offline e
+  carrega rápido no GitHub Pages.
+
+Se você adicionar ou remover PDFs no futuro, me avise que eu regenero
+a lista atualizada do index.html.
