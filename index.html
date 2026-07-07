@@ -118,7 +118,7 @@ footer a{color:var(--cream)}
     </g>
   </svg>
   <div class="wrap">
-    <h1>Genismo <span class="ver">v1.0.4</span></h1>
+    <h1>Genismo <span class="ver">v1.0.5</span></h1>
     <a class="dutbtn" href="https://jocaxx.github.io/DUniverse/site/" target="_blank" rel="noopener"
        title="Teoria do Universo Decrescente — arquivo de artigos">Artigos sobre DUT&nbsp;→</a>
     <p class="tag">Filosofia ateísta baseada em psicologia evolutiva — por João Carlos Holland de Barcellos (Jocax)</p>
@@ -236,7 +236,15 @@ function renderCats(data){
     });
   };
   grid.innerHTML = data.categories.map(c=>{
-    const arts = data.items.filter(i=>i.cat===c.id);
+    let arts = data.items.filter(i=>i.cat===c.id);
+    /* Artigos fixados no início da categoria Genismo */
+    const PINNED = ['genismotexto1.htm','genismotexto2.htm','genismotexto3.htm'];
+    if (c.id === 'genismo'){
+      arts = [
+        ...PINNED.map(p=>arts.find(a=>a.href===p)).filter(Boolean),
+        ...arts.filter(a=>!PINNED.includes(a.href))
+      ];
+    }
     if(!arts.length) return '';
     return `<section class="catcard" data-cat="${c.id}">
       <h2>${c.name}<small>${arts.length}</small></h2>
