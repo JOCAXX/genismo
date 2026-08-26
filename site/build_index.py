@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-build_index.py — DUniverse/Genismo site indexer
+build_index.py — Genismo/DUniverse site indexer (PDF + HTML edition)
 ========================================
 Regenerates site/search-index.json AND the ITEMS list inside site/index.html,
-scanning the repository folders for PDFs. Run it whenever you add, remove or
-replace PDFs — no AI assistance needed.
+scanning the repository folders for PDFs *and* HTML/HTM articles. Run it
+whenever you add, remove or replace documents — no AI assistance needed.
 
-USAGE (from the repository root, where Articles.pdf lives):
+USAGE (from the repository root, where Articles.pdf / your .htm files live):
 
-    pip install pypdf          (only once)
-    python build_index.py              -> incremental: only new/changed PDFs are extracted
+    pip install pypdf          (only once, needed for PDF text extraction)
+    python build_index.py              -> incremental: only new/changed files are extracted
     python build_index.py --force      -> re-extract everything from scratch
 
 Then commit & push:  site/search-index.json  and  site/index.html
@@ -21,6 +21,7 @@ import re
 import sys
 import argparse
 from pathlib import Path
+from html.parser import HTMLParser
 
 try:
     from pypdf import PdfReader
@@ -31,11 +32,8 @@ except ImportError:
 
 # ---------------------------------------------------------------- config ----
 
-# FIX: this script lives INSIDE the "site" folder for this repo
-# (genismo/site/build_index.py), so the repository root is one level UP
-# from the script's own location, not the same folder.
-# Original DUniverse version used just ".parent" because that copy of the
-# script lived at the repo root instead of inside site/.
+# This script lives INSIDE the "site" folder (genismo/site/build_index.py),
+# so the repository root is one level UP from the script's own location.
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DIR = REPO_ROOT / "site"
 INDEX_JSON = SITE_DIR / "search-index.json"
@@ -51,8 +49,17 @@ FOLDERS = {
     "Entrevistas": "Interviews",
 }
 
+# File extensions to index, in addition to PDF
+HTML_EXTENSIONS = (".htm", ".html")
+
 # files at repo root that should appear as featured
 FEATURED = {"Articles.pdf"}
+
+# Files to always skip when scanning for HTML (site infrastructure,
+# not articles) — extend this list if the scanner picks up pages it shouldn't.
+HTML_SKIP_NAMES = {
+    "index.html", "search.html",
+}
 
 # ---------------------------------------------------------------- helpers ---
 
@@ -90,15 +97,87 @@ def extract_text(pdf_path: Path) -> str:
     return text
 
 
-def scan_pdfs():
-    """Yield (rel_path_posix, Path, folder, label) for every PDF in FOLDERS."""
+class _HTMLTextExtractor(HTMLParser):
+    """Minimal HTML-to-text extractor using only the Python standard library.
+
+    Strips <script> and <style> content entirely, keeps everything else as
+    plain text, and separately captures the <title> tag if present.
+    """
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self._skip_depth = 0
+        self._in_title = False
+        self.title = ""
+        self._chunks = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag in ("script", "style"):
+            self._skip_depth += 1
+        elif tag == "title":
+            self._in_title = True
+
+    def handle_endtag(self, tag):
+        if tag in ("script", "style") and self._skip_depth > 0:
+            self._skip_depth -= 1
+        elif tag == "title":
+            self._in_title = False
+
+    def handle_data(self, data):
+        if self._skip_depth:
+            return
+        if self._in_title:
+            self.title += data
+        else:
+            self._chunks.append(data)
+
+    def get_text(self) -> str:
+        text = " ".join(self._chunks)
+        text = re.sub(r"\s+", " ", text).strip()
+        return text
+
+
+def extract_html(html_path: Path):
+    """Return (title_or_None, full_text) for an .htm/.html file.
+
+    Tries a few common encodings since many of these files were produced by
+    older tools; falls back to permissive decoding rather than crashing.
+    """
+    raw_bytes = html_path.read_bytes()
+    text_content = None
+    for enc in ("utf-8", "cp1252", "latin-1"):
+        try:
+            text_content = raw_bytes.decode(enc)
+            break
+        except UnicodeDecodeError:
+            continue
+    if text_content is None:
+        text_content = raw_bytes.decode("utf-8", errors="replace")
+
+    parser = _HTMLTextExtractor()
+    parser.feed(text_content)
+    parser.close()
+    title = parser.title.strip()
+    return (title or None), parser.get_text()
+
+
+def scan_documents():
+    """Yield (rel_path_posix, Path, folder, label, kind) for every PDF and
+    HTML/HTM article found in FOLDERS. kind is 'pdf' or 'html'."""
     for folder, label in FOLDERS.items():
         base = REPO_ROOT / folder if folder else REPO_ROOT
         if not base.is_dir():
             continue
+
         for pdf in sorted(base.glob("*.pdf"), key=lambda p: p.name.lower()):
             rel = f"{folder}/{pdf.name}" if folder else pdf.name
-            yield rel, pdf, folder, label
+            yield rel, pdf, folder, label, "pdf"
+
+        for ext in HTML_EXTENSIONS:
+            for page in sorted(base.glob(f"*{ext}"), key=lambda p: p.name.lower()):
+                if page.name.lower() in HTML_SKIP_NAMES:
+                    continue
+                rel = f"{folder}/{page.name}" if folder else page.name
+                yield rel, page, folder, label, "html"
 
 
 # ---------------------------------------------------------------- main ------
@@ -106,7 +185,7 @@ def scan_pdfs():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true",
-                    help="re-extract text of ALL PDFs (default: only new ones)")
+                    help="re-extract text of ALL documents (default: only new ones)")
     args = ap.parse_args()
 
     if not INDEX_HTML.is_file():
@@ -133,35 +212,52 @@ def main():
     new_items = []
     added, kept, failed = [], [], []
 
-    for rel, pdf, folder, label in scan_pdfs():
-        # ITEMS entry (preserve custom title if it already existed)
+    for rel, doc, folder, label, kind in scan_documents():
         prev = old_items.get(rel)
-        title = prev["title"] if prev else title_from_filename(pdf.stem)
+
+        # text index (incremental unless --force)
+        if rel in old_index and not args.force:
+            new_index[rel] = old_index[rel]
+            kept.append(rel)
+            title = prev["title"] if prev else title_from_filename(doc.stem)
+        else:
+            print(f"  extracting ({kind}): {rel} ...")
+            try:
+                if kind == "pdf":
+                    text = extract_text(doc)
+                    html_title = None
+                else:
+                    html_title = None
+                    detected_title, text = extract_html(doc)
+                    if detected_title:
+                        html_title = detected_title
+                if not text:
+                    print(f"    WARNING: no text extracted: {rel}")
+                new_index[rel] = text
+                added.append(rel)
+                # Prefer an existing custom title, then the <title> tag (HTML
+                # only), then a title derived from the filename.
+                if prev:
+                    title = prev["title"]
+                elif html_title:
+                    title = html_title
+                else:
+                    title = title_from_filename(doc.stem)
+            except Exception as e:
+                print(f"    ERROR extracting {rel}: {e}")
+                new_index[rel] = ""
+                failed.append(rel)
+                title = prev["title"] if prev else title_from_filename(doc.stem)
+
         new_items.append({
             "path": rel,
             "folder": folder,
             "folder_label": label,
             "title": title,
-            "size": human_size(pdf.stat().st_size),
+            "size": human_size(doc.stat().st_size),
             "featured": rel in FEATURED,
+            "kind": kind,
         })
-
-        # text index (incremental unless --force)
-        if rel in old_index:
-            new_index[rel] = old_index[rel]
-            kept.append(rel)
-        else:
-            print(f"  extracting: {rel} ...")
-            try:
-                text = extract_text(pdf)
-                if not text:
-                    print(f"    WARNING: no text extracted (scanned image PDF?): {rel}")
-                new_index[rel] = text
-                added.append(rel)
-            except Exception as e:
-                print(f"    ERROR extracting {rel}: {e}")
-                new_index[rel] = ""
-                failed.append(rel)
 
     removed = [p for p in old_items if p not in {it["path"] for it in new_items}]
 
@@ -177,10 +273,12 @@ def main():
     INDEX_HTML.write_text(html, encoding="utf-8")
 
     # ---- summary
+    n_pdf = sum(1 for it in new_items if it["kind"] == "pdf")
+    n_html = sum(1 for it in new_items if it["kind"] == "html")
     print()
     print("=" * 60)
-    print(f"Documents listed .......... {len(new_items)}")
-    print(f"New PDFs indexed .......... {len(added)}")
+    print(f"Documents listed .......... {len(new_items)}  ({n_pdf} PDF, {n_html} HTML)")
+    print(f"New files indexed ......... {len(added)}")
     for p in added:
         print(f"    + {p}")
     if removed:
