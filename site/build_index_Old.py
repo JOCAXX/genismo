@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-build_index.py — DUniverse/Genismo site indexer
+build_index.py — DUniverse site indexer
 ========================================
 Regenerates site/search-index.json AND the ITEMS list inside site/index.html,
 scanning the repository folders for PDFs. Run it whenever you add, remove or
@@ -31,12 +31,7 @@ except ImportError:
 
 # ---------------------------------------------------------------- config ----
 
-# FIX: this script lives INSIDE the "site" folder for this repo
-# (genismo/site/build_index.py), so the repository root is one level UP
-# from the script's own location, not the same folder.
-# Original DUniverse version used just ".parent" because that copy of the
-# script lived at the repo root instead of inside site/.
-REPO_ROOT = Path(__file__).resolve().parent.parent
+REPO_ROOT = Path(__file__).resolve().parent
 SITE_DIR = REPO_ROOT / "site"
 INDEX_JSON = SITE_DIR / "search-index.json"
 INDEX_HTML = SITE_DIR / "index.html"
