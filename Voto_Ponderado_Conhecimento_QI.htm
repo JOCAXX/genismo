@@ -16,17 +16,17 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>João Carlos Holland de Barcellos (Jocax)</o:Author>
   <o:LastAuthor>joao carlos holland de barcellos</o:LastAuthor>
   <o:Revision>2</o:Revision>
-  <o:TotalTime>12</o:TotalTime>
-  <o:LastPrinted>2026-10-30T01:38:00Z</o:LastPrinted>
-  <o:Created>2026-10-30T01:40:00Z</o:Created>
-  <o:LastSaved>2026-10-30T01:40:00Z</o:LastSaved>
+  <o:TotalTime>21</o:TotalTime>
+  <o:LastPrinted>2026-10-30T21:36:00Z</o:LastPrinted>
+  <o:Created>2026-10-30T21:37:00Z</o:Created>
+  <o:LastSaved>2026-10-30T21:37:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>1333</o:Words>
-  <o:Characters>7202</o:Characters>
+  <o:Words>1722</o:Words>
+  <o:Characters>9302</o:Characters>
   <o:Paragraphs>pt-BR</o:Paragraphs>
-  <o:Lines>60</o:Lines>
-  <o:Paragraphs>17</o:Paragraphs>
-  <o:CharactersWithSpaces>8518</o:CharactersWithSpaces>
+  <o:Lines>77</o:Lines>
+  <o:Paragraphs>22</o:Paragraphs>
+  <o:CharactersWithSpaces>11002</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -1394,6 +1394,9 @@ span.NormalTok
 	font-family:"Consolas",serif;
 	mso-ascii-font-family:Consolas;
 	mso-hansi-font-family:Consolas;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -1432,7 +1435,7 @@ div.WordSection1
  /* List Definitions */
  @list l0
 	{mso-list-id:43408;
-	mso-list-template-ids:1475256376;}
+	mso-list-template-ids:-274849510;}
 @list l0:level1
 	{mso-level-start-at:0;
 	mso-level-number-format:bullet;
@@ -1498,7 +1501,7 @@ div.WordSection1
 	text-indent:-24.0pt;}
 @list l1
 	{mso-list-id:43409;
-	mso-list-template-ids:1214315288;}
+	mso-list-template-ids:-1820850092;}
 @list l1:level1
 	{mso-level-start-at:0;
 	mso-level-number-format:bullet;
@@ -1564,7 +1567,7 @@ div.WordSection1
 	text-indent:-24.0pt;}
 @list l2
 	{mso-list-id:11113489;
-	mso-list-template-ids:902881262;}
+	mso-list-template-ids:-372061108;}
 @list l2:level1
 	{mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -1730,7 +1733,7 @@ style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 </span></span></span><![endif]><b>Peso padrão.</b> Quem não optar por fazer o
 teste mantém um voto de peso padrão fixo. Ninguém perde o direito de votar, e o
 peso individual do voto de quem não faz o teste não é reduzido, embora a sua
-influência relativa possa diminuir (seção 2.2).</span></p>
+influência relativa possa diminuir (seção 2.3).</span></p>
 
 <p class=Compact style='margin-left:36.0pt;text-indent:-24.0pt;mso-list:l2 level1 lfo2'><span
 style='mso-bookmark:o-modelo'><![if !supportLists]><span style='mso-bidi-font-family:
@@ -1745,24 +1748,71 @@ voto padrão.</span></p>
 Exemplo ilustrativo</a></span></h2>
 
 <p class=FirstParagraph><span style='mso-bookmark:o-modelo'><span
-style='mso-bookmark:exemplo-ilustrativo'>Seja P a pontuação composta de uma
-pessoa, normalizada entre 0 e 1, combinando conhecimento geral e inteligência.
-Uma forma simples de calcular o peso do voto é:</span></span></p>
+style='mso-bookmark:exemplo-ilustrativo'>Sejam C a pontuação de conhecimento
+geral e I a pontuação de inteligência de uma pessoa, ambas normalizadas entre 0
+e 1. A pontuação composta é P = a × C + b × I, com a + b = 1, e o princípio do
+modelo é que a inteligência pese mais do que o conhecimento, isto é, b &gt; a
+(seção 2.2). O peso do voto cresce linearmente com P. Como exemplo, com a = 0,2
+e b = 0,8:</span></span></p>
+
+<p class=MsoBodyText><span style='mso-bookmark:o-modelo'><span
+style='mso-bookmark:exemplo-ilustrativo'><b>P = 0,2 × C + 0,8 × I</b></span></span></p>
 
 <p class=MsoBodyText><span style='mso-bookmark:o-modelo'><span
 style='mso-bookmark:exemplo-ilustrativo'><b>peso = 1 + 49 × P</b></span></span></p>
 
 <p class=MsoBodyText><span style='mso-bookmark:o-modelo'><span
 style='mso-bookmark:exemplo-ilustrativo'>Assim, quem não faz o teste ou não usa
-a pontuação tem peso 1; quem obtém P = 0,5 tem peso 25,5; e quem obtém P = 1
-tem o peso máximo, 50. A fórmula acima é apenas um exemplo: a função exata, o
-limite máximo e a proporção entre conhecimento e inteligência na pontuação
-composta são parâmetros a serem definidos.</span></span></p>
+a pontuação tem peso 1; quem obtém C = 0,5 e I = 0,5 tem P = 0,5 e peso 25,5; e
+quem obtém C = 1 e I = 1 tem o peso máximo, 50. A diferença de ponderação
+aparece ao comparar duas pessoas: com conhecimento máximo e inteligência
+mediana (C = 1, I = 0,5), P = 0,6 e o peso é 30,4; com conhecimento mediano e
+inteligência máxima (C = 0,5, I = 1), P = 0,9 e o peso é 45,1. As fórmulas
+acima são apenas um exemplo: a função exata, as proporções de 0,2 e 0,8 e o
+limite máximo são parâmetros a serem definidos. O limite de 50 vezes é só uma
+referência, e outros limites são possíveis, como mostra a seção 2.3.</span></span></p>
 
 <span style='mso-bookmark:exemplo-ilustrativo'></span>
 
 <h2><span style='mso-bookmark:o-modelo'><a
-name=efeito-sobre-a-distribuição-do-poder>2.2. Efeito sobre a distribuição do
+name=Xf11a315e561c3fe162f1209dafee968327bda5f>2.2. Por que mais peso à
+inteligência do que ao conhecimento</a></span></h2>
+
+<p class=FirstParagraph><span style='mso-bookmark:o-modelo'><span
+style='mso-bookmark:Xf11a315e561c3fe162f1209dafee968327bda5f'>A pontuação
+composta atribui peso maior à inteligência do que ao conhecimento (80% contra
+20%, no exemplo) por duas razões.</span></span></p>
+
+<p class=MsoBodyText><span style='mso-bookmark:o-modelo'><span
+style='mso-bookmark:Xf11a315e561c3fe162f1209dafee968327bda5f'>A primeira é a
+desigualdade de acesso. O conhecimento geral é adquirido e depende de
+escolaridade, de acesso a livros e a bons professores e de tempo livre para
+estudar, fatores que acompanham a renda. Um peso grande sobre o conhecimento
+tenderia a transferir poder político para as classes mais ricas. A
+inteligência, medida por testes de raciocínio abstrato que não exigem conteúdo
+escolar, tende a depender menos desses fatores. Ela não é independente deles,
+porque também se correlaciona com renda e escolaridade. A ponderação, portanto,
+reduz o problema, mas não o elimina.</span></span></p>
+
+<p class=MsoBodyText><span style='mso-bookmark:o-modelo'><span
+style='mso-bookmark:Xf11a315e561c3fe162f1209dafee968327bda5f'>A segunda razão é
+que o conhecimento não deve ser descartado. O principal argumento a favor de
+dar mais peso a certos eleitores é que eleitores mais bem informados escolhem
+melhor os meios para os fins que eles próprios têm (seção 4). Por isso o
+conhecimento permanece na fórmula, com peso menor, em vez de ser eliminado.</span></span></p>
+
+<p class=MsoBodyText><span style='mso-bookmark:o-modelo'><span
+style='mso-bookmark:Xf11a315e561c3fe162f1209dafee968327bda5f'>O que o modelo
+defende é o princípio de que a inteligência tenha peso maior do que o
+conhecimento. Os valores 0,2 e 0,8 são apenas um exemplo, e outras proporções,
+como 0,3 e 0,7 ou 0,4 e 0,6, respeitam o mesmo princípio. A proporção adequada
+deve ser calibrada empiricamente, considerando a relação da pontuação com a
+qualidade da informação do eleitor e a sua correlação com a renda.</span></span></p>
+
+<span style='mso-bookmark:Xf11a315e561c3fe162f1209dafee968327bda5f'></span>
+
+<h2><span style='mso-bookmark:o-modelo'><a
+name=efeito-sobre-a-distribuição-do-poder>2.3. Efeito sobre a distribuição do
 poder</a></span></h2>
 
 <p class=FirstParagraph><span style='mso-bookmark:o-modelo'><span
@@ -1812,7 +1862,11 @@ voto ponderado pode ser combinado com a Democracia Jocaxiana (Barcellos, 2025).
 Naquele modelo, cada pessoa começa com uma unidade de representatividade, que é
 transferida a quem recebe o seu voto. Na combinação, cada pessoa começaria com
 o seu peso individual em vez de 1, e a transferência de representatividade ao
-longo dos níveis (bloco, distrito, cidade, estado e país) permaneceria a mesma.</span></p>
+longo dos níveis (bloco, distrito, cidade, estado e país) permaneceria a mesma.[</span><a
+href="https://www.wecmelive.com/open-access/jocaxians-democracy-the-best-democracy.pdf"><span
+style='mso-bookmark:X79c9c51e533d446df05e776e01c6bf6ee6c55be'>01</span><span
+style='mso-bookmark:X79c9c51e533d446df05e776e01c6bf6ee6c55be'></span></a><span
+style='mso-bookmark:X79c9c51e533d446df05e776e01c6bf6ee6c55be'>]</span></p>
 
 <span style='mso-bookmark:X79c9c51e533d446df05e776e01c6bf6ee6c55be'></span>
 
@@ -1824,7 +1878,7 @@ si, e não um meio: cada cidadão é afetado pelas decisões políticas e, por i
 teria o mesmo direito de influenciá-las. <i>Resposta do modelo:</i> o peso
 padrão é preservado, ninguém é excluído, e a ponderação maior é uma escolha
 voluntária de quem se submete ao teste. Ainda assim, a influência relativa de
-quem não participa pode diminuir (seção 2.2), o que torna o limite máximo de
+quem não participa pode diminuir (seção 2.3), o que torna o limite máximo de
 peso um parâmetro central do modelo.</span></p>
 
 <p class=MsoBodyText><span style='mso-bookmark:objeções-e-respostas-do-modelo'><b>Histórico
@@ -1836,7 +1890,9 @@ acrescentar peso.</span></p>
 <p class=MsoBodyText><span style='mso-bookmark:objeções-e-respostas-do-modelo'><b>Viés
 do teste.</b> Testes de conhecimento e de QI podem refletir diferenças de
 escolaridade, de renda e de cultura, e não apenas capacidade. <i>Resposta do
-modelo:</i> o limite máximo de peso reduz o efeito de eventuais distorções, e o
+modelo:</i> o limite máximo de peso reduz o efeito de eventuais distorções, e a
+ponderação maior da inteligência do que do conhecimento (seção 2.2) reduz, sem
+eliminar, a vantagem das classes com mais acesso à educação. Além disso, o
 teste deve ser público, gratuito, auditável e validado para a população
 eleitoral. A construção desse teste é condição necessária do modelo e uma
 questão em aberto.</span></p>
@@ -1883,18 +1939,20 @@ por Conhecimento e QI é uma modalidade de democracia para quem entende que o
 peso do voto pode refletir, de forma voluntária e transparente, o conhecimento
 e a inteligência do eleitor. Os seus pontos centrais são a adesão opcional, o
 peso padrão garantido para quem não participa e um limite máximo para o peso
-ampliado, que controla a concentração de poder. Os pontos que dependem de
-estudo adicional são a construção e a validação do teste, a função de
-ponderação, o efeito da autosseleção e a proteção dos dados; a proposta é um
-modelo teórico, ainda sem avaliação empírica.</span></p>
+ampliado, que controla a concentração de poder, e uma pontuação que pesa mais a
+inteligência do que o conhecimento, para reduzir a vantagem das classes mais
+ricas. Os pontos que dependem de estudo adicional são a construção e a
+validação do teste, a função de ponderação, o efeito da autosseleção e a
+proteção dos dados; a proposta é um modelo teórico, ainda sem avaliação
+empírica.</span></p>
 
 <span style='mso-bookmark:conclusão'></span>
 
 <h1><a name=X6e5363a2ea64c40705be1be4ad3b57716cacb0d><span style='font-size:
-9.0pt'>Declaração de uso de inteligência artificial<o:p></o:p></span></a></h1>
+10.0pt'>Declaração de uso de inteligência artificial<o:p></o:p></span></a></h1>
 
 <p class=FirstParagraph><span style='mso-bookmark:X6e5363a2ea64c40705be1be4ad3b57716cacb0d'><span
-style='font-size:9.0pt'>As ideias e o modelo apresentados neste artigo são do
+style='font-size:10.0pt'>As ideias e o modelo apresentados neste artigo são do
 autor. A redação do texto, a estruturação das seções e a seção de objeções e
 respostas, incluindo a análise do efeito sobre a distribuição de poder, foram
 elaboradas com o auxílio do assistente de inteligência artificial Claude
@@ -1909,9 +1967,12 @@ conteúdo.<o:p></o:p></span></span></p>
 style='mso-bookmark:referências'><![if !supportLists]><span style='mso-bidi-font-family:
 Cambria;mso-bidi-theme-font:minor-latin'><span style='mso-list:Ignore'>1.<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Barcellos, J. C. H. (2025). Jocaxian’s
-Democracy: The Best Democracy. <i>Archives of Humanities &amp; Social Sciences
-Research</i>, 2(3), 1-2.</span></p>
+</span></span></span><![endif]>Barcellos, J. C. H. (2025). </span><a
+href="https://www.wecmelive.com/open-access/jocaxians-democracy-the-best-democracy.pdf"><span
+style='mso-bookmark:referências'><span class=SpellE>Jocaxian’s</span> <span
+class=SpellE>Democracy</span>: The Best <span class=SpellE>Democracy</span></span><span
+style='mso-bookmark:referências'></span></a><span style='mso-bookmark:referências'>.
+<i>Archives of Humanities &amp; Social Sciences Research</i>, 2(3), 1-2.</span></p>
 
 <p class=Compact style='margin-left:36.0pt;text-indent:-24.0pt;mso-list:l2 level1 lfo4'><span
 style='mso-bookmark:referências'><![if !supportLists]><span style='mso-bidi-font-family:
