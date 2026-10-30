@@ -16,17 +16,17 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>João Carlos Holland de Barcellos (Jocax)</o:Author>
   <o:LastAuthor>joao carlos holland de barcellos</o:LastAuthor>
   <o:Revision>2</o:Revision>
-  <o:TotalTime>7</o:TotalTime>
-  <o:LastPrinted>2026-10-30T01:43:00Z</o:LastPrinted>
-  <o:Created>2026-10-30T01:43:00Z</o:Created>
-  <o:LastSaved>2026-10-30T01:43:00Z</o:LastSaved>
+  <o:TotalTime>16</o:TotalTime>
+  <o:LastPrinted>2026-10-30T22:00:00Z</o:LastPrinted>
+  <o:Created>2026-10-30T22:00:00Z</o:Created>
+  <o:LastSaved>2026-10-30T22:00:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>1371</o:Words>
-  <o:Characters>7404</o:Characters>
+  <o:Words>1766</o:Words>
+  <o:Characters>9537</o:Characters>
   <o:Paragraphs>en-US</o:Paragraphs>
-  <o:Lines>61</o:Lines>
-  <o:Paragraphs>17</o:Paragraphs>
-  <o:CharactersWithSpaces>8758</o:CharactersWithSpaces>
+  <o:Lines>79</o:Lines>
+  <o:Paragraphs>22</o:Paragraphs>
+  <o:CharactersWithSpaces>11281</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -1466,7 +1466,7 @@ div.WordSection1
  /* List Definitions */
  @list l0
 	{mso-list-id:43408;
-	mso-list-template-ids:378056020;}
+	mso-list-template-ids:-1442279528;}
 @list l0:level1
 	{mso-level-start-at:0;
 	mso-level-number-format:bullet;
@@ -1532,7 +1532,7 @@ div.WordSection1
 	text-indent:-24.0pt;}
 @list l1
 	{mso-list-id:43409;
-	mso-list-template-ids:1165531804;}
+	mso-list-template-ids:68326126;}
 @list l1:level1
 	{mso-level-start-at:0;
 	mso-level-number-format:bullet;
@@ -1598,7 +1598,7 @@ div.WordSection1
 	text-indent:-24.0pt;}
 @list l2
 	{mso-list-id:11113489;
-	mso-list-template-ids:-698214750;}
+	mso-list-template-ids:-159764910;}
 @list l2:level1
 	{mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -1769,7 +1769,7 @@ style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp
 lang=EN-US> Those who choose not to take the test keep a vote of fixed standard
 weight. No one loses the right to vote, and the individual weight of the vote
 of someone who does not take the test is not reduced, although their relative
-influence may decrease (section 2.2).</span></span></p>
+influence may decrease (section 2.3).</span></span></p>
 
 <p class=Compact style='margin-left:36.0pt;text-indent:-24.0pt;mso-list:l2 level1 lfo2'><span
 style='mso-bookmark:the-model'><![if !supportLists]><span lang=EN-US
@@ -1784,9 +1784,16 @@ limit, for example 50 times the weight of the standard vote.</span></span></p>
 lang=EN-US>2.1. Illustrative example</span></a></span></h2>
 
 <p class=FirstParagraph><span style='mso-bookmark:the-model'><span
-style='mso-bookmark:illustrative-example'><span lang=EN-US>Let P be a person’s
-composite score, normalized between 0 and 1, combining general knowledge and
-intelligence. A simple way to compute the weight of the vote is:</span></span></span></p>
+style='mso-bookmark:illustrative-example'><span lang=EN-US>Let C be a person’s
+general knowledge score and I their intelligence score, both normalized between
+0 and 1. The composite score is P = a × C + b × I, with a + b = 1, and the
+principle of the model is that intelligence weighs more than knowledge, that is,
+b &gt; a (section 2.2). The weight of the vote grows linearly with P. As an
+example, with a = 0.2 and b = 0.8:</span></span></span></p>
+
+<p class=MsoBodyText><span style='mso-bookmark:the-model'><span
+style='mso-bookmark:illustrative-example'><b><span lang=EN-US>P = 0.2 × C + 0.8
+× I</span></b></span></span></p>
 
 <p class=MsoBodyText><span style='mso-bookmark:the-model'><span
 style='mso-bookmark:illustrative-example'><b><span lang=EN-US>weight = 1 + 49 ×
@@ -1795,15 +1802,58 @@ P</span></b></span></span></p>
 <p class=MsoBodyText><span style='mso-bookmark:the-model'><span
 style='mso-bookmark:illustrative-example'><span lang=EN-US>Thus, someone who
 does not take the test or does not use their score has weight 1; someone who
-obtains P = 0.5 has weight 25.5; and someone who obtains P = 1 has the maximum
-weight, 50. The formula above is only an example: the exact function, the
-maximum limit, and the proportion of knowledge and intelligence in the
-composite score are parameters yet to be defined.</span></span></span></p>
+obtains C = 0.5 and I = 0.5 has P = 0.5 and weight 25.5; and someone who
+obtains C = 1 and I = 1 has the maximum weight, 50. The difference in weighting
+shows when comparing two people: with maximum knowledge and median intelligence
+(C = 1, I = 0.5), P = 0.6 and the weight is 30.4; with median knowledge and
+maximum intelligence (C = 0.5, I = 1), P = 0.9 and the weight is 45.1. <b><i><span
+style='color:#002060'>The formulas above are only an example: the exact
+function, the proportions of 0.2 and 0.8, and the maximum limit are parameters
+yet to be defined. The limit of 50 times is only a reference</span></i></b>,
+and other limits are possible, as section 2.3 shows.</span></span></span></p>
 
 <span style='mso-bookmark:illustrative-example'></span>
 
 <h2><span style='mso-bookmark:the-model'><a
-name=effect-on-the-distribution-of-power><span lang=EN-US>2.2. Effect on the
+name=Xde9304e97e88cd80fb8ba0271d4a46874e3bc5b><span lang=EN-US>2.2. Why more
+weight on intelligence than on knowledge</span></a></span></h2>
+
+<p class=FirstParagraph><span style='mso-bookmark:the-model'><span
+style='mso-bookmark:Xde9304e97e88cd80fb8ba0271d4a46874e3bc5b'><span lang=EN-US>The
+composite score gives greater weight to intelligence than to knowledge (80%
+versus 20% in the example) for two reasons.</span></span></span></p>
+
+<p class=MsoBodyText><span style='mso-bookmark:the-model'><span
+style='mso-bookmark:Xde9304e97e88cd80fb8ba0271d4a46874e3bc5b'><span lang=EN-US>The
+first is unequal access. General knowledge is acquired and depends on
+schooling, access to books and good teachers, and free time to study, factors
+that go along with income. A large weight on knowledge would tend to transfer
+political power to wealthier classes. Intelligence, measured by abstract
+reasoning tests that do not require school content, tends to depend less on
+these factors. It is not independent of them, because it also correlates with
+income and schooling. The weighting therefore reduces the problem but does not
+eliminate it.</span></span></span></p>
+
+<p class=MsoBodyText><span style='mso-bookmark:the-model'><span
+style='mso-bookmark:Xde9304e97e88cd80fb8ba0271d4a46874e3bc5b'><span lang=EN-US>The
+second reason is that knowledge should not be discarded. The main argument for
+giving more weight to certain voters is that better-informed voters choose
+better means for the ends they themselves hold (section 4). Knowledge therefore
+remains in the formula, with a lower weight, instead of being eliminated.</span></span></span></p>
+
+<p class=MsoBodyText><span style='mso-bookmark:the-model'><span
+style='mso-bookmark:Xde9304e97e88cd80fb8ba0271d4a46874e3bc5b'><span lang=EN-US>What
+the model defends is the principle that intelligence should carry more weight
+than knowledge. The values 0.2 and 0.8 are only an example, and other
+proportions, such as 0.3 and 0.7 or 0.4 and 0.6, respect the same principle.
+The appropriate proportion should be calibrated empirically, considering the
+relation of the score to the quality of the voter’s information and its
+correlation with income.</span></span></span></p>
+
+<span style='mso-bookmark:Xde9304e97e88cd80fb8ba0271d4a46874e3bc5b'></span>
+
+<h2><span style='mso-bookmark:the-model'><a
+name=effect-on-the-distribution-of-power><span lang=EN-US>2.3. Effect on the
 distribution of power</span></a></span></h2>
 
 <p class=FirstParagraph><span style='mso-bookmark:the-model'><span
@@ -1854,7 +1904,11 @@ lang=EN-US>Weighted voting can be combined with the Jocaxian Democracy
 representativeness, which is transferred to whoever receives their vote. In the
 combination, each person would start with their individual weight instead of 1,
 and the transfer of representativeness across the levels (block, district,
-city, state, and country) would remain the same.</span></span></p>
+city, state, and country) would remain the <span class=GramE>same.[</span></span></span><a
+href="https://www.wecmelive.com/open-access/jocaxians-democracy-the-best-democracy.pdf"><span
+style='mso-bookmark:X5c7e15883ed3ba28ca7e2e5270149f531cfc2bd'><span lang=EN-US>01</span></span><span
+style='mso-bookmark:X5c7e15883ed3ba28ca7e2e5270149f531cfc2bd'></span></a><span
+style='mso-bookmark:X5c7e15883ed3ba28ca7e2e5270149f531cfc2bd'><span lang=EN-US>]</span></span></p>
 
 <span style='mso-bookmark:X5c7e15883ed3ba28ca7e2e5270149f531cfc2bd'></span>
 
@@ -1868,7 +1922,7 @@ citizen is affected by political decisions and therefore has an equal right to
 influence them. <i>Response of the model:</i> the standard weight is preserved,
 no one is excluded, and the greater weighting is a voluntary choice of those
 who take the test. Even so, the relative influence of those who do not
-participate may decrease (section 2.2), which makes the maximum weight limit a
+participate may decrease (section 2.3), which makes the maximum weight limit a
 central parameter of the model.</span></span></p>
 
 <p class=MsoBodyText><span style='mso-bookmark:objections-and-the-models-responses'><b><span
@@ -1881,8 +1935,10 @@ never eliminates anyone’s vote; it can only add weight.</span></span></p>
 lang=EN-US>Test bias.</span></b><span lang=EN-US> Knowledge and IQ tests may
 reflect differences in schooling, income, and culture, and not only ability. <i>Response
 of the model:</i> the maximum weight limit reduces the effect of possible
-distortions, and the test must be public, free of charge, auditable, and
-validated for the electoral population. Building such a test is a necessary
+distortions, and weighting intelligence more heavily than knowledge (section
+2.2) reduces, without eliminating, the advantage of classes with greater access
+to education. In addition, the test must be public, free of charge, auditable,
+and validated for the electoral population. Building such a test is a necessary
 condition of the model and an open question.</span></span></p>
 
 <p class=MsoBodyText><span style='mso-bookmark:objections-and-the-models-responses'><b><span
@@ -1930,18 +1986,19 @@ that the weight of a vote can reflect, voluntarily and transparently, the
 voter’s knowledge and intelligence. Its central points are optional
 participation, a guaranteed standard weight for those who do not take part, and
 a maximum limit on the increased weight, which controls the concentration of
-power. The points that require further study are the construction and
-validation of the test, the weighting function, the effect of self-selection,
-and data protection; the proposal is a theoretical model, still without
-empirical evaluation.</span></span></p>
+power, and a score that weights intelligence more than knowledge, to reduce the
+advantage of wealthier classes. The points that require further study are the
+construction and validation of the test, the weighting function, the effect of
+self-selection, and data protection; the proposal is a theoretical model, still
+without empirical evaluation.</span></span></p>
 
 <span style='mso-bookmark:conclusion'></span>
 
 <h1><a name=X507bb04cb522fa269998c40db0ea440f0591a53><span lang=EN-US
-style='font-size:10.0pt'>Statement on the use of artificial intelligence<o:p></o:p></span></a></h1>
+style='font-size:11.0pt'>Statement on the use of artificial intelligence<o:p></o:p></span></a></h1>
 
 <p class=FirstParagraph><span style='mso-bookmark:X507bb04cb522fa269998c40db0ea440f0591a53'><span
-lang=EN-US style='font-size:10.0pt'>The ideas and the model presented in this
+lang=EN-US style='font-size:11.0pt'>The ideas and the model presented in this
 article are the <span class=GramE>author’s</span>. The drafting of the text,
 the structuring of the sections, and the section on objections and responses,
 including the analysis of the effect on the distribution of power, were
@@ -1957,9 +2014,12 @@ content.<o:p></o:p></span></span></p>
 style='mso-bookmark:references'><![if !supportLists]><span lang=EN-US
 style='mso-bidi-font-family:Cambria;mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span lang=EN-US>Barcellos, J. C. H. (2025).
-Jocaxian’s Democracy: The Best Democracy. <i>Archives of Humanities &amp;
-Social Sciences Research</i>, 2(3), 1-2.</span></span></p>
+</span></span></span><![endif]><span lang=EN-US>Barcellos, J. C. H. (2025). </span></span><a
+href="https://www.wecmelive.com/open-access/jocaxians-democracy-the-best-democracy.pdf"><span
+style='mso-bookmark:references'><span lang=EN-US>Jocaxian’s Democracy: The Best
+Democracy.</span></span><span style='mso-bookmark:references'></span></a><span
+style='mso-bookmark:references'><span lang=EN-US> <i>Archives of Humanities
+&amp; Social Sciences Research</i>, 2(3), 1-2.</span></span></p>
 
 <p class=Compact style='margin-left:36.0pt;text-indent:-24.0pt;mso-list:l2 level1 lfo4'><span
 style='mso-bookmark:references'><![if !supportLists]><span lang=EN-US
@@ -2011,7 +2071,17 @@ style='mso-bookmark:references'><![if !supportLists]><span lang=EN-US
 style='mso-bidi-font-family:Cambria;mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span lang=EN-US>Anthropic. (2026). Claude
-Sonnet 5.5 [large language model]. https://www.anthropic.com</span></span></p>
+Sonnet 5.5 [large language model]. </span></span><a
+href="https://www.anthropic.com"><span style='mso-bookmark:references'><span
+lang=EN-US>https://www.anthropic.com</span></span><span style='mso-bookmark:
+references'></span></a><span style='mso-bookmark:references'></span></p>
+
+<span style='mso-bookmark:references'></span>
+
+<p class=Compact style='margin-left:36.0pt;text-indent:-24.0pt;mso-list:l2 level1 lfo4'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:Cambria;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
 
 </div>
 
