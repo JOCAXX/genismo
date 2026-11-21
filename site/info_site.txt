@@ -1,0 +1,102 @@
+Três arquivos atualizados:
+root_index.html ? renomeie para index.html e substitua o da raiz do repositório. Em vez do iframe de 600px, ele redireciona instantaneamente para site/ — quem acessar https://jocaxx.github.io/DUniverse/ cai direto no site completo, em tela cheia, com a URL certa na barra (o que também faz o botão "Search page ?" e os links dos PDFs funcionarem sem as limitações do iframe).
+index_fixed.html (v1.7) ? substitua o site/index.html. Única mudança: o código do Google Analytics que estava na página antiga da raiz agora está aqui, então suas estatísticas de visita continuam funcionando — e melhor que antes, porque no esquema do iframe o GA só contava a "moldura", não a navegação real.
+search.html ? substitua o site/search.html. Também ganhou o GA, então cada busca em nova aba conta como pageview (dá até para ver no Analytics quais palavras as pessoas pesquisam, pelo parâmetro ?q= nas URLs).
+Depois do push, teste acessando https://jocaxx.github.io/DUniverse/ — deve pular para .../DUniverse/site/ sozinho, com o badge mostrando v1.7. Links antigos que apontavam para a raiz continuam funcionando, porque o redirecionamento os leva ao lugar certo.
+
+
+
+======================================
+1. index_fixed.html (v1.5) — as duas mudanças de UI:
+
+A barra de busca agora fica dentro do hero, logo abaixo do botão "Read the main article" e acima dos contadores de documentos — visível sem rolar a tela.
+
+Rótulo "Search:" em âmbar antes do campo (no celular ele fica acima do campo para não apertar).
+
+A barra fixa no topo agora contém só as abas (All, Full Archive, etc.).
+Versão v1.5 no badge e no rodapé.
+
+
+Para publicar: renomeie para index.html e substitua em site/.
+2. build_index.py — sua rotina de indexação independente. Coloque na raiz do repositório (ao lado de Articles.pdf). Uso:
+pip install pypdf        (só na primeira vez)
+python build_index.py
+O que ele faz: varre as pastas (raiz, Todos, Novos, Shorts, Abstract, Entrevistas), extrai o texto dos PDFs novos (os já indexados são reaproveitados, então roda em segundos), remove do índice os arquivos deletados, e atualiza automaticamente tanto o site/search-index.json quanto a lista ITEMS dentro do site/index.html — preservando os títulos customizados que já existem (como "Decreasing Universe: The CMB and the Age of the Universe"). PDFs novos ganham título derivado do nome do arquivo; se quiser um título bonito, é só editar direto no ITEMS do index.html que o script respeita nas próximas execuções. No final ele imprime um resumo do que foi adicionado/removido, e aí é só commitar e dar push pelo GitHub Desktop.
+Se algum dia quiser re-extrair tudo do zero (ex.: substituiu o conteúdo de um PDF mantendo o mesmo nome), use python build_index.py --force — ou apague só a entrada daquele arquivo no JSON.
+Sobre o "botão escondido": não daria para fazer no próprio site, porque o GitHub Pages é estático — o navegador não consegue extrair texto de 87 PDFs e gravar arquivos no repositório. O script local é o caminho certo. Uma evolução possível, se quiser automatizar de vez: um GitHub Action que roda esse script sozinho a cada push, aí você só arrastaria o PDF novo e commitaria, sem rodar nada. Posso montar esse workflow depois se tiver interesse.
+
+--------------------
+Para publicar: coloque search.html e items.json na pasta site/, 
+substitua o index.html (renomeando o index_fixed.html), 
+e substitua o build_index.py na raiz. 
+Depois do deploy, confira o badge "v1.6" e teste clicando no botão.
+--------------------
+Então basta copiar os arquivos para as pastas certas e fazer commit/push:
+
+site/index.html (o index_fixed.html renomeado)
+site/search.html
+site/items.json
+build_index.py na raiz (só substituindo o antigo)
+
+O novo build_index.py só será necessário na próxima vez que você adicionar ou remover PDFs — aí ele atualiza os três arquivos (search-index.json, items.json e o ITEMS do index.html) de uma vez. Se quiser rodar agora por segurança, não tem problema nenhum: ele vai reaproveitar o índice existente e regravar tudo igual em poucos segundos.
+
+
+
+
+
+     
+consciousness
+==========
+COMO INSTALAR O SITE NO SEU REPOSITÓRIO (GitHub Desktop)
+==========================================================
+
+1. Abra a pasta do repositório no seu PC:
+   C:\Users\jocax\Documents\GitHub\DUniverse
+
+2. Copie o arquivo "index.html" desta entrega para dentro de uma NOVA
+   pasta chamada "site" dentro do repositório, assim:
+
+   C:\Users\jocax\Documents\GitHub\DUniverse\site\index.html
+
+   (Crie a pasta "site" se ela ainda não existir. O arquivo LEIA-ME.txt
+   não precisa ser copiado, é só para referência.)
+
+3. Abra o GitHub Desktop, veja a mudança "site/index.html" adicionada,
+   escreva uma mensagem de commit (ex: "Adiciona site de navegação dos PDFs")
+   e clique em "Commit to main".
+
+4. Clique em "Push origin" para subir para a nuvem.
+
+5. Para o site ficar acessível pela internet (GitHub Pages), vá em:
+   Settings > Pages (no repositório, no site do GitHub)
+   e configure "Deploy from a branch" apontando para a branch "main" e
+   pasta "/ (root)" — como o repositório já usa GitHub Pages (o link
+   jocaxx.github.io/DUniverse já existe), isso provavelmente já está
+   configurado, então o site novo ficará disponível em:
+
+   https://jocaxx.github.io/DUniverse/site/
+
+IMPORTANTE
+----------
+O arquivo index.html usa caminhos relativos (../Todos/arquivo.pdf, etc)
+para apontar aos PDFs que já estão nas pastas Abstract, Entrevistas,
+Novos, Old, Shorts e Todos, além dos arquivos na raiz. Por isso ele
+PRECISA ficar dentro de uma pasta "site" na raiz do repositório — não
+mova os PDFs de lugar, e não renomeie a pasta "site".
+
+O que o site faz
+-----------------
+- Destaca "Articles.pdf" (raiz do repositório) como o artigo principal,
+  com um botão de acesso direto logo no topo da página.
+- Lista os demais 86 PDFs do repositório, organizados por coleção
+  (pastas: Abstract, Entrevistas, Novos, Shorts, Todos). A pasta "Old"
+  foi propositalmente deixada de fora, a pedido do Jocax.
+- Campo de busca por título ou nome de arquivo.
+- Abas para filtrar por coleção.
+- Fundo animado de estrelas + anéis que se contraem (referência visual
+  à Teoria do Universo Decrescente), tudo feito em CSS/SVG/Canvas puro
+  — não depende de nenhuma imagem externa, então funciona offline e
+  carrega rápido no GitHub Pages.
+
+Se você adicionar ou remover PDFs no futuro, me avise que eu regenero
+a lista atualizada do index.html.

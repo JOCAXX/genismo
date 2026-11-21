@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V5ZEWXG061"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-V5ZEWXG061');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DUT — Keyword search</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0d18;
+    --bg-panel:#111527;
+    --border-soft: rgba(140,160,220,0.14);
+    --text:#e8ebf5;
+    --text-muted:#8a93ad;
+    --amber:#e8a33d;
+    --amber-dim: rgba(232,163,61,0.5);
+    --blue:#6c8eeb;
+    --radius: 10px;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  body{
+    background:
+      radial-gradient(ellipse 90% 60% at 50% -10%, rgba(108,142,235,0.16), transparent 60%),
+      radial-gradient(ellipse 70% 50% at 85% 15%, rgba(232,163,61,0.10), transparent 55%),
+      var(--bg);
+    color:var(--text);
+    font-family:'Inter', sans-serif;
+    min-height:100vh;
+    padding: 2.2rem 1.2rem 4rem;
+  }
+  .wrap{ max-width: 860px; margin:0 auto; }
+
+  h1{
+    font-family:'Spectral', serif;
+    font-weight:500;
+    font-size: clamp(1.4rem, 3.6vw, 2.1rem);
+    margin-bottom: 1.4rem;
+    text-align:center;
+  }
+  h1 em{
+    font-style:italic; font-weight:400;
+    background: linear-gradient(100deg, var(--amber), var(--blue));
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+
+  form.searchline{
+    display:flex; align-items:center; gap:0.7rem;
+    margin-bottom: 0.5rem;
+  }
+  .search-label{
+    font-family:'JetBrains Mono', monospace;
+    font-size: 0.8rem; letter-spacing:0.08em; text-transform:uppercase;
+    color: var(--amber); flex-shrink:0;
+  }
+  .search-box{ flex:1; position:relative; }
+  .search-box input{
+    width:100%;
+    background: var(--bg-panel);
+    border:1px solid var(--border-soft);
+    border-radius: var(--radius);
+    padding: 0.7rem 0.9rem 0.7rem 2.2rem;
+    color: var(--text);
+    font-family:'Inter', sans-serif;
+    font-size: 0.95rem;
+    outline:none;
+    transition: border-color 0.2s;
+  }
+  .search-box input:focus{ border-color: var(--amber-dim); }
+  .search-box::before{
+    content:"⌕";
+    position:absolute; left:0.75rem; top:50%; transform:translateY(-50%);
+    color:var(--text-muted); font-size:1.05rem;
+  }
+  button.go{
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.78rem; letter-spacing:0.04em;
+    padding: 0.7rem 1.1rem;
+    border-radius: 999px;
+    border:1px solid var(--amber-dim);
+    background: linear-gradient(100deg, rgba(232,163,61,0.16), rgba(108,142,235,0.08));
+    color:var(--text); cursor:pointer;
+    transition: border-color 0.18s, background 0.18s;
+    flex-shrink:0;
+  }
+  button.go:hover{ border-color:var(--amber); background:linear-gradient(100deg, rgba(232,163,61,0.26), rgba(108,142,235,0.14)); }
+
+  .hint{
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.68rem; color:var(--text-muted);
+    margin-bottom: 1.8rem;
+    display:flex; justify-content:space-between; align-items:center;
+    gap:1rem; flex-wrap:wrap;
+  }
+  .translate-line{ display:flex; align-items:center; gap:0.45rem; flex-shrink:0; }
+  .translate-line label{ color: var(--amber); letter-spacing:0.05em; }
+  .translate-line select{
+    background: var(--bg-panel);
+    border:1px solid var(--border-soft);
+    border-radius: 6px;
+    color: var(--text);
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.7rem;
+    padding: 0.3rem 0.45rem;
+    outline:none; cursor:pointer;
+  }
+  .translate-line select:focus{ border-color: var(--amber-dim); }
+  #status{
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.78rem; color:var(--text-muted);
+    margin-bottom: 1.2rem;
+  }
+  #status b{ color: var(--amber); font-weight:500; }
+
+  .result{
+    display:block;
+    background: var(--bg-panel);
+    border:1px solid var(--border-soft);
+    border-radius: var(--radius);
+    padding: 0.95rem 1.1rem;
+    margin-bottom: 0.7rem;
+    text-decoration:none;
+    color: var(--text);
+    transition: border-color 0.18s, transform 0.18s;
+  }
+  .result:hover{ border-color: var(--amber-dim); transform: translateY(-1px); }
+  .r-title{ font-family:'Spectral', serif; font-size:1.05rem; margin-bottom:0.25rem; }
+  .r-meta{
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.68rem; color:var(--text-muted);
+    display:flex; gap:1rem; flex-wrap:wrap;
+    margin-bottom: 0.4rem;
+  }
+  .r-meta .fl{ color: var(--blue); }
+  .r-snippet{
+    font-size:0.83rem; color:var(--text-muted); line-height:1.45;
+  }
+  .r-snippet mark{
+    background: rgba(232,163,61,0.28);
+    color: var(--amber);
+    border-radius:3px; padding:0 2px;
+  }
+  .empty{
+    text-align:center; color:var(--text-muted);
+    font-family:'JetBrains Mono', monospace; font-size:0.85rem;
+    padding: 2.5rem 1rem;
+  }
+  footer{
+    margin-top:3rem; text-align:center;
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.68rem; color:var(--text-muted);
+  }
+  footer a{ color: var(--amber-dim); text-decoration:none; }
+  footer a:hover{ color: var(--amber); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Decreasing Universe Theory: <em>Keyword search</em></h1>
+
+  <!-- GET form with target=_blank: every new search opens in a NEW tab -->
+  <form class="searchline" action="search.html" method="get" target="_blank">
+    <span class="search-label">Search:</span>
+    <div class="search-box">
+      <input type="text" id="q" name="q" placeholder="Type one or more keywords and press Enter…" autocomplete="off" autofocus>
+    </div>
+    <button class="go" type="submit">Search ↗</button>
+  </form>
+  <p class="hint">
+    <span>Multiple words are combined with AND (all must appear in the document). Use "double quotes" for an exact phrase. Each search opens in a new browser tab.</span>
+    <span class="translate-line">
+      <label for="lang">Translate:</label>
+      <select id="lang">
+        <option value="">Original (English)</option>
+        <option value="pt">Português</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+        <option value="it">Italiano</option>
+        <option value="ru">Русский</option>
+        <option value="zh-CN">中文</option>
+        <option value="ja">日本語</option>
+        <option value="hi">हिन्दी</option>
+        <option value="ar">العربية</option>
+      </select>
+    </span>
+  </p>
+
+  <div id="status"></div>
+  <div id="results"></div>
+  <div class="empty" id="empty" style="display:none;">No documents found for this keyword.</div>
+
+  <footer>
+    <a href="index.html">← Back to the full DUniverse archive</a> · v1.10
+  </footer>
+</div>
+
+<script>
+function normText(s){
+  return s.toLowerCase()
+          .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+          .replace(/\s+/g, ' ');
+}
+function escapeHtml(s){
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function relHref(path){
+  return "../" + path.split("/").map(encodeURIComponent).join("/");
+}
+
+// Split a query into search terms:
+//  - each whitespace-separated word is one term (combined with AND)
+//  - words inside "double quotes" form a single exact-phrase term
+function parseTerms(raw){
+  const s = normText(raw.trim());
+  const out = [];
+  const rx = /"([^"]+)"|(\S+)/g;
+  let m;
+  while((m = rx.exec(s))) out.push(m[1] || m[2]);
+  return out.filter(Boolean);
+}
+
+// Build a highlighted snippet around the first match of any term inside raw text.
+function makeSnippet(raw, terms){
+  if(!raw || terms.length === 0) return '';
+  const lower = raw.toLowerCase();
+  let i = -1, hay = raw;
+  for(const t of terms){
+    i = lower.indexOf(t.toLowerCase());
+    if(i !== -1) break;
+  }
+  if(i === -1){
+    // accent-insensitive fallback: search inside normalized text
+    hay = normText(raw);
+    for(const t of terms){
+      i = hay.indexOf(t);
+      if(i !== -1) break;
+    }
+    if(i === -1) return '';
+  }
+  const R = 110; // context radius (chars)
+  const start = Math.max(0, i - R);
+  const end = Math.min(hay.length, i + R * 2);
+  let snip = (start > 0 ? '…' : '') + hay.slice(start, end) + (end < hay.length ? '…' : '');
+  snip = escapeHtml(snip);
+  // highlight every term (case/accent-insensitive on the escaped snippet)
+  const rx = new RegExp(
+    terms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|'), 'gi');
+  return snip.replace(rx, m => '<mark>' + m + '</mark>');
+}
+
+const params = new URLSearchParams(location.search);
+
+// ---- Translate: reopen this same page (same keyword) through Google's
+// translation proxy (translate.goog). Works on the published site.
+(function(){
+  const CANON = 'jocaxx.github.io';
+  const PROXY = 'jocaxx-github-io.translate.goog';
+  const sel = document.getElementById('lang');
+
+  // if we are already inside the proxy, preselect the current language
+  const curTl = params.get('_x_tr_tl');
+  if(location.host === PROXY && curTl){
+    for(const o of sel.options){ if(o.value === curTl){ sel.value = curTl; break; } }
+  }
+
+  sel.addEventListener('change', function(){
+    const tl = this.value;
+    const clean = new URLSearchParams(location.search);
+    ['_x_tr_sl','_x_tr_tl','_x_tr_hl','_x_tr_pto'].forEach(k => clean.delete(k));
+    if(!tl){
+      // back to the original site
+      location.href = 'https://' + CANON + location.pathname +
+                      (clean.toString() ? '?' + clean.toString() : '');
+      return;
+    }
+    clean.set('_x_tr_sl', 'auto');
+    clean.set('_x_tr_tl', tl);
+    clean.set('_x_tr_hl', tl);
+    location.href = 'https://' + PROXY + location.pathname + '?' + clean.toString();
+  });
+})();
+
+const rawQ = (params.get('q') || '').trim();
+document.getElementById('q').value = rawQ;
+if(rawQ) document.title = 'DUT search: ' + rawQ;
+
+const statusEl = document.getElementById('status');
+const resultsEl = document.getElementById('results');
+const emptyEl = document.getElementById('empty');
+
+if(!rawQ){
+  statusEl.textContent = 'Type a keyword above to search all PDFs (titles and full content).';
+}else{
+  statusEl.textContent = 'Loading PDF content index…';
+  Promise.all([
+    fetch('items.json').then(r => { if(!r.ok) throw 0; return r.json(); }),
+    fetch('search-index.json').then(r => { if(!r.ok) throw 0; return r.json(); })
+  ]).then(([items, index]) => {
+    const terms = parseTerms(rawQ);
+    const hits = [];
+    items.forEach(it => {
+      const raw = index[it.path] || '';
+      const t = normText(it.title) + ' ' + normText(it.path);
+      const c = raw ? normText(raw) : '';
+      // AND logic: every term must appear in the title/path OR in the PDF content
+      let allInTitle = true, ok = true;
+      for(const term of terms){
+        const inTitle = t.includes(term);
+        if(!inTitle) allInTitle = false;
+        if(!inTitle && !c.includes(term)){ ok = false; break; }
+      }
+      if(ok && terms.length > 0){
+        hits.push({ it, snippet: allInTitle ? '' : makeSnippet(raw, terms), titleHit: allInTitle });
+      }
+    });
+    // title matches first, then content-only
+    hits.sort((a,b) => (b.titleHit?1:0) - (a.titleHit?1:0));
+
+    statusEl.innerHTML = 'Results for <b>' + escapeHtml(rawQ) + '</b>: ' + hits.length +
+                         ' document' + (hits.length === 1 ? '' : 's');
+    if(hits.length === 0){
+      emptyEl.style.display = 'block';
+      return;
+    }
+    hits.forEach(h => {
+      const a = document.createElement('a');
+      a.className = 'result';
+      a.href = relHref(h.it.path);
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.innerHTML =
+        '<div class="r-title">' + escapeHtml(h.it.title) + '</div>' +
+        '<div class="r-meta"><span class="fl">' + escapeHtml(h.it.folder_label) + '</span>' +
+        '<span>' + escapeHtml(h.it.path) + '</span><span>' + escapeHtml(h.it.size) + '</span></div>' +
+        (h.snippet ? '<div class="r-snippet">' + h.snippet + '</div>' : '');
+      resultsEl.appendChild(a);
+    });
+  }).catch(() => {
+    statusEl.textContent = 'Could not load the search index (items.json / search-index.json).';
+  });
+}
+</script>
+</body>
+</html>
